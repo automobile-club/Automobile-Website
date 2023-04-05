@@ -1,32 +1,35 @@
-import Link from 'next/link'
-import styles from '../styles/navbar.module.css'
+import Button from "react-bootstrap/Button";
+import Nav from "react-bootstrap/Nav";
+import Image from "next/image";
+import styles from "@/styles/Navbar.module.css";
+import Link from "next/link";
 
-function Navbar() {
+function NavBar() {
   return (
-    <div className={styles.nav}>
-        <ul>
-            <li>
-                <Link href="/">Home</Link>
-            </li>
-            <li>
-                <Link href="/about">About Us</Link>
-            </li>
-            <li>
-                <Link href="/events">Events</Link>
-            </li>
-            <li>
-                <Link href="/blog">Blog</Link>
-            </li>
-            <li>
-                <Link href="/projects">Projects and Achievements</Link>
-            </li>
-            <li>
-                <Link href="/signin">Sign In</Link>
-            </li>
-        </ul>
-    </div>
-    
-  )
+    <>
+      <div className={styles.navbar}>
+        <Link href="/">
+          <Image src="/SAEVectorWhite.svg" alt="SAE" width={150} height={50} />
+        </Link>
+        <Nav.Link href="/" className={styles.links}>
+          Home
+        </Nav.Link>
+        <Nav.Link href="/about" className={styles.links}>
+          About
+        </Nav.Link>
+        <Nav.Link href="/events" className={styles.links}>
+          Events
+        </Nav.Link>
+        <Nav.Link href="/blog" className={styles.links}>
+          Blogs
+        </Nav.Link>
+        <Nav.Link href="/projects" className={styles.links}>
+          Projects
+        </Nav.Link>
+        <Button className={styles.button}>Sign In</Button>
+      </div>
+    </>
+  );
 }
 
-export default Navbar;
+export default NavBar;
