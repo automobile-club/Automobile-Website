@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.main {
+  margin: 0px;
+  padding: 0px;
+}
+
+.sae_intro {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  width: 100%;
+  height: 500px;
+}
+
+.sae_headings {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: center;
+  padding-top: 100px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.sae_name_text {
+  padding-right: 15px;
+}
+
+.sae_long_text {
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.social_media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.linkedIn_img {
+  width: 55px;
+  height: 37px;
+  padding-top: 2px;
+  padding-left: 25px;
+}
+.instagram_img {
+  width: 40px;
+  height: 40px;
+}
+.facebook_img {
+  width: 60px;
+  height: 40px;
+  padding-left: 25px;
+}
+.cards_saeintro {
+  padding-top: 5px;
+}
+.cards_img_saeintro {
+  height: 600px;
+  width: 600px;
+}
+.line {
+  border-top: 1px solid white;
+  margin: 0 auto;
+  width: 600px;
+}
+.sae_ourteams {
+  background-color: rgb(236, 236, 241);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  width: 100%;
+  height: 500px;
+} 
+
+
+.cards_ourteams{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.cardie, .cardie, .cardie, .cardie {
+  flex-basis: 50%;
+}
+.cardie{
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  width: 100px;
+
+}
+
+.cardie h2 {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.cardie p {
+  font-size: 12px;
+  line-height: 1.5;
+}
