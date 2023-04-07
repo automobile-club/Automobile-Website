@@ -97,28 +97,19 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}
+  padding-top: 30px;
 
-.card {
-  background-color: lightblue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  font-size: 12px;
-  font-weight: bold;
 }
-
-.cardie, .cardie, .cardie, .cardie {
-  flex-basis: 50%;
+.cardie {
+  flex-basis: 35%;
 }
 .cardie{
   background-color: #fff;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  padding: 20px;
+  padding: 10px;
   width: 100px;
-
+  height:auto;
 }
 
 .cardie h2 {
@@ -126,7 +117,40 @@
   margin-bottom: 10px;
 }
 
-.cardie p {
+.cardcontent_ourteams{
+  width: 130px;
   font-size: 12px;
   line-height: 1.5;
+}
+
+
+
+.heading_ourteams{
+  color: black;
+  padding-top: 100px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.text_longcontent_ourteams{
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: black;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+}
+.colored_div{
+  margin: 0 auto;
+  background-color: rgb(242,84,2); /* Replace "red" with your desired color */
+  width: 20px; /* Set the width and height to your desired size */
+  height: 20px;
 }

@@ -56,39 +56,50 @@ export default function About() {
         </div>
       </div>
       <div className={styles.sae_ourteams}>
-        <div className={styles.left_wrapper_ourteams}></div>
+        <div className={styles.left_wrapper_ourteams}>
+          <div className={styles.heading_ourteams}>
+            <h1 className={styles.heading_content_ourteams}>Our Teams </h1>
+          </div>
+          <div className={styles.long_content_ourteams}>
+            <p className={styles.text_longcontent_ourteams}>
+              Morem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
+              turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
+              nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum
+              tellus elit sed risus. Maecenas eget condimentum velit, sit
+            </p>
+          </div>
+          <div className={styles.colored_div}></div>
+        </div>
         <div className={styles.right_wrapper_ourteams}>
           <div className={styles.cards_ourteams}>
             <div className={styles.cardie}>
               <h2>Card Heading</h2>
-              <p className={styles.cardcontent_ourteams}>
+              <h1 className={styles.cardcontent_ourteams}>
                 Short content describing the card goes here. Lorem ipsum dolor
-                sit amet, consectetur adipiscing elit. Vestibulum rhoncus
-                blandit nibh, sed molestie nulla dapibus vel. Aliquam pharetra
-                ex in justo pulvinar, eu efficitur nisi bibendum.{" "}
-              </p>
+                sit amet, consectetur adipiscing elit.{" "}
+              </h1>
             </div>
-            <div className={styles.cardie}><h2>Card Heading</h2>
-              <p className={styles.cardcontent_ourteams}>
+            <div className={styles.cardie}>
+              <h2>Card Heading</h2>
+              <h1 className={styles.cardcontent_ourteams}>
                 Short content describing the card goes here. Lorem ipsum dolor
-                sit amet, consectetur adipiscing elit. Vestibulum rhoncus
-                blandit nibh, sed molestie nulla dapibus vel. Aliquam pharetra
-                ex in justo pulvinar, eu efficitur nisi bibendum.{" "}
-              </p></div>
-            <div className={styles.cardie}><h2>Card Heading</h2>
-              <p className={styles.cardcontent_ourteams}>
+                sit amet, consectetur adipiscing elit.{" "}
+              </h1>
+            </div>
+            <div className={styles.cardie}>
+              <h2>Card Heading</h2>
+              <h1 className={styles.cardcontent_ourteams}>
                 Short content describing the card goes here. Lorem ipsum dolor
-                sit amet, consectetur adipiscing elit. Vestibulum rhoncus
-                blandit nibh, sed molestie nulla dapibus vel. Aliquam pharetra
-                ex in justo pulvinar, eu efficitur nisi bibendum.{" "}
-              </p></div>
-            <div className={styles.cardie}><h2>Card Heading</h2>
-              <p className={styles.cardcontent_ourteams}>
+                sit amet, consectetur adipiscing elit. .{" "}
+              </h1>
+            </div>
+            <div className={styles.cardie}>
+              <h2>Card Heading</h2>
+              <h1 className={styles.cardcontent_ourteams}>
                 Short content describing the card goes here. Lorem ipsum dolor
-                sit amet, consectetur adipiscing elit. Vestibulum rhoncus
-                blandit nibh, sed molestie nulla dapibus vel. Aliquam pharetra
-                ex in justo pulvinar, eu efficitur nisi bibendum.{" "}
-              </p></div>
+                sit amet, consectetur adipiscing elit.{" "}
+              </h1>
+            </div>
           </div>
         </div>
       </div>
