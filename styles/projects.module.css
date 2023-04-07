@@ -1,0 +1,33 @@
+.navbar {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  background: #000000;
+  border-radius: 200px;
+  border: none;
+  height: 40px;
+  width: 100px;
+}
+
+.button:hover {
+  background: #000000;
+}
+
+.achievements {
+  margin-top: 1%;
+}
+
+.achievements h1{
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 113px;
+  color: #000000;
+}

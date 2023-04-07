@@ -45,12 +45,18 @@
     color : black;
     text-decoration: none;
 } */
-
-.navbar{
-    background-color: #000;
-    color: #fff;
-    padding: 10px;
+  
+  .links {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  
+  .linkContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+    width: 40%;
+  }
