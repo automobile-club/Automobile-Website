@@ -1,21 +1,13 @@
-import Button from "react-bootstrap/Button";
 import Nav from "react-bootstrap/Nav";
 import Image from "next/image";
 import styles from "@/styles/navbar.module.css";
 import Link from "next/link";
 
-type NavBarProps = {
-  buttonstyle: string;
-  srclogo: string;
-  navbarColor: string;
-};
-
-function NavBar({ srclogo, buttonstyle, navbarColor }: NavBarProps) {
+function NavBar(props: {BgColor: string}) {
   return (
-    <>
-      <div className={navbarColor}>
+      <div className={props.BgColor === "black" ? styles.navbarBlack : props.BgColor === "white" ? styles.navbarWhite: ""}>
         <Link href="/">
-          <Image src={srclogo} alt="SAE" width={150} height={50} />
+          <Image src={props.BgColor === "black" ? "/images/SAEVectorWhite.svg" : props.BgColor === "white" ? "/images/SAE.png" : ""} alt="SAE" width={150} height={50} />
         </Link>
         <div className={styles.linkContainer}>
           <Nav.Link href="/" className={styles.links}>
@@ -34,9 +26,8 @@ function NavBar({ srclogo, buttonstyle, navbarColor }: NavBarProps) {
             Projects
           </Nav.Link>
         </div>
-        <Button className={buttonstyle}>Sign In</Button>
+        <button className={styles.signInBtn}>Sign In</button>
       </div>
-    </>
   );
 }
 
