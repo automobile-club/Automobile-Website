@@ -1,55 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
-/* .nav{
-    margin:0px;
+.navbarBlack {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 100px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    font-family: 'Outfit';
-    background-color: #F4F4F4;
-    height: 64px;
-}
+  }
 
-.nav ul{
+  .navbarWhite{
+    background-color: #f4f4f4;
+    color: #000;
+    padding: 10px 100px;
     display: flex;
-    list-style: none;
-    column-gap: 5vw;
-}
+    justify-content: space-between;
+    align-items: center;
 
-.nav_elements_mid{
-    margin-top:12px;
-}
-
-.nav_elements_right{
-    margin-top:3px;
-}
-
-.logo{
-    margin-right:8vw;
-}
-.btn{
-    margin-left:10vw;
-}
-
-.btn button{
-    font-family: 'Outfit';
-    background-color: #F8691A;
-    border:none;
-    color : white;
-    width:90px;
-    border-radius: 20px;
-    height: 5vh;
-    font-size: 16px;
-}
-
-.a{
-    color : black;
-    text-decoration: none;
-} */
+  }
   
   .links {
     font-family: "Poppins";
     font-style: normal;
-    font-weight: 700;
     font-size: 15px;
     line-height: 20px;
   }
@@ -59,4 +31,13 @@
     justify-content: space-between;
     align-items: center;
     width: 40%;
+  }
+  .signInBtn{
+    background-color: #E25420;
+    color:white;
+    border:none;
+    border-radius: 20px;
+    width:100px;
+    height:36px;
+    padding-bottom:4px;
   }

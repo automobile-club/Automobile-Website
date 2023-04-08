@@ -2,14 +2,10 @@ import Navbar from "@/components/Navbar";
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 
-const srclogo = "/images/SAEVectorWhite.svg";
-const buttonstyle = styles.button;
-const navbarColor = styles.navbar;
-
 function Home() {
   return (
     <>
-      <Navbar srclogo={srclogo}  buttonstyle={buttonstyle} navbarColor={navbarColor}/>
+      <Navbar BgColor="black"/>
       <body className={styles.main}>
         <div className={styles.sae_intro}>
           <div className={styles.left_wrapper_saeintro}>

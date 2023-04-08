@@ -4,6 +4,7 @@ import ReactPlayer from 'react-player'
 export default function About() {
   return (
     <>
+    <Navbar BgColor="white"/>
     <div className={styles.first_section}>
       <div className={styles.about}>
         <h1>About Us..</h1>
@@ -16,7 +17,7 @@ export default function About() {
         <img src="/images/star.png"/>
       </div>
       <div className={styles.intro}>
-        <div className={styles.player}><ReactPlayer url='https://www.youtube.com/watch?v=Y-fVS9FSoXw' height={435} width={700}/></div>
+        <div className={styles.player}><ReactPlayer url='https://www.youtube.com/watch?v=Y-fVS9FSoXw' height={435} width={720}/></div>
         <div className={styles.intro_text}>Watch Our Intro <br/>Video<br/><button className={styles.youtube_btn}>Watch on &nbsp;<img src="/images/feYoutube2.png"/></button></div>
       </div>
     </div>
@@ -53,6 +54,15 @@ export default function About() {
             </div>
           </div>
     </div>
+    <div className={styles.fifth_section}>
+      <h1>Our Helm</h1>
+      <div className={styles.helm}>
+      <img src="/images/Helm1.png" alt="helm1"/>
+      <img src="/images/Helm2.png" alt="helm1"/>
+      <img src="/images/Helm3.png" alt="helm1"/>
+      </div>
+    </div>
+    
     </>
   )
 }
