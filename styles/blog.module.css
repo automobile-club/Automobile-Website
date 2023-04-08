@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+.navbar {
+  background-color: #1b1a1b;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main {
+  margin: 0px;
+  padding: 0px;
+}
+
+.blog_intro {
+  position: relative;
+  background-color: #1b1a1b;
+  display: flex;
+  font-family: "Outfit", sans-serif;
+  flex-direction: column;
+  height: 40vh;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 1vh;
+}
+.blog_title {
+  font-family: "Outfit", sans-serif;
+  font-size: 4.5vw;
+  margin-bottom: 1vw;
+  color: white;
+  text-align: center;
+}   
+.blog_intro p {
+    font-family: "Poppins";
+  font-size: 1.1vw;
+  color: #a4a3a4;
+  text-align: center;
+  width: 30vw;
+}
+.blog_type {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  height: 50px;
+  bottom: 13%;
+  border-radius: 10px;
+}
+.blog_type_button {
+    margin: 0 3vw;
+    color: white;
+    border: none;
+    background-color: transparent;
+    font-family: "Outfit", sans-serif;
+    cursor: pointer;
+    outline: none;
+  }
+  .blog_type_button:first-child {
+    margin-left: 8px;
+  }
+  .blog_type_button:last-child {
+    margin-right: 8px;
+  }
+.blog_selected_button{
+    background-color: #F25402;
+    height: 80%;
+    padding: 0 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 5px;
+}
+
+.blog_container {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  padding: 50px;
+  padding-top: 20px;
+}
+
+.blog_card {
+  margin-bottom: 20px;
+  width: 25vw; 
+  height: 45vh; 
+  background-color: #807F7F;
+  border-radius: 40px;
+}
