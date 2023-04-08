@@ -119,6 +119,34 @@
     padding-top:10vh;
 }
 
+.fifth_section{
+    background-color: #F4F4F4;
+    height: 70vh;
+    width:99.92;
+    padding-top:5vh;
+}
+
+.fifth_section h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size:60px;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+    margin:auto;   
+}
+
+.helm{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding:20px 100px 0px 250px;
+}
+
+.helm img{
+    width:230px;
+}
+
 .content{
     margin:20px;
     margin-top:60px;
