@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+.navbarBlack {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbarWhite{
+    background-color: #f4f4f4;
+    color: #000;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  .links {
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  
+  .linkContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+  }
+  .signInBtn{
+    background-color: #E25420;
+    color:white;
+    border:none;
+    border-radius: 20px;
+    width:100px;
+    height:36px;
+    padding-bottom:4px;
+  }
