@@ -3,10 +3,6 @@ import styles from "@/styles/Blog.module.css";
 import Image from "next/image";
 import { useState } from "react";
 
-const srclogo = "/images/SAEVectorWhite.svg";
-const buttonstyle = styles.button;
-const navbarColor = styles.navbar;
-
 function BlogType() {
   const [selectedButton, setSelectedButton] = useState<string>("View All");
 
@@ -73,7 +69,7 @@ function BlogType() {
 export default function Blog() {
   return (
     <>
-      <Navbar BgColor="black"/>
+      <Navbar BgColor="white" />
       <body className={styles.main}>
         <div className={styles.blog_intro}>
           <h1 className={styles.blog_title}>Blogs</h1>

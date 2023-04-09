@@ -19,15 +19,103 @@
   background: #000000;
 }
 
-.achievements {
-  margin-top: 1%;
+.body{
+  background-color: #f2f5f8;
+}
+
+.achievements{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .achievements h1{
   font-family: "Outfit";
   font-style: normal;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 45px;
   line-height: 113px;
   color: #000000;
+  display: flex;
+  justify-content: center;
+}
+
+.achievements span{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.achievements h2{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0% 1% 0% 1%;
+  color: #000000;
+  padding-bottom: 2%;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.6);
+  width: 50%;
+  text-align: center;
+}
+
+.timeline{
+  margin-top: 2%;
+  height: max-content;
+  margin-bottom: 1%;
+}
+
+.date{
+  color: black;
+}
+
+.teams{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column ;
+  margin-top: 1%;
+}
+
+.teams span{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 3%;
+}
+
+.teams h1{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 113px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+.teams h2{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0% 1% 0% 1%;
+  color: #000000;
+  padding-bottom: 2%;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.6);
+  width: 80%;
+  text-align: center;
+}
+
+.slider{
+  display: flex;
+  justify-content: center;
+}
+
+.image{
+  margin-left: 10%;
 }
