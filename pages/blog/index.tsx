@@ -73,11 +73,7 @@ function BlogType() {
 export default function Blog() {
   return (
     <>
-      <Navbar
-        srclogo={srclogo}
-        buttonstyle={buttonstyle}
-        navbarColor={navbarColor}
-      />
+      <Navbar BgColor="black"/>
       <body className={styles.main}>
         <div className={styles.blog_intro}>
           <h1 className={styles.blog_title}>Blogs</h1>
@@ -89,12 +85,12 @@ export default function Blog() {
           <BlogType />
         </div>
         <div className={styles.blog_container}>
-          <div className={styles.blog_card}></div>
-          <div className={styles.blog_card}></div>
-          <div className={styles.blog_card}></div>
-          <div className={styles.blog_card}></div>
-          <div className={styles.blog_card}></div>
-          <div className={styles.blog_card}></div>
+          <div className={styles.blog_card}><button>Read More</button></div>
+          <div className={styles.blog_card}><button>Read More</button></div>
+          <div className={styles.blog_card}><button>Read More</button></div>
+          <div className={styles.blog_card}><button>Read More</button></div>
+          <div className={styles.blog_card}><button>Read More</button></div>
+          <div className={styles.blog_card}><button>Read More</button></div>
         </div>
       </body>
     </>
