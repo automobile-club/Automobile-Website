@@ -108,33 +108,34 @@ export default function Projects() {
         </div>
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={30}
+          spaceBetween={0}
           slidesPerView={3}
           pagination={{ clickable: true }}
+          navigation={{ clickable: true }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
           className={styles.slider}
         >
           <SwiperSlide>
-            <Image src="/images/car.png" width={450} height={300} alt="" />
+            <Image src="/images/car.png" width={400} height={300} alt="" className={styles.image}/>
           </SwiperSlide>
           <SwiperSlide>
-            <Image src="/images/car.png" width={450} height={300} alt="" />
+            <Image src="/images/car.png" width={400} height={300} alt="" className={styles.image}/>
           </SwiperSlide>
           <SwiperSlide>
-            <Image src="/images/car.png" width={450} height={300} alt="" />
+            <Image src="/images/car.png" width={400} height={300} alt="" className={styles.image}/>
           </SwiperSlide>
           <SwiperSlide>
-            <Image src="/images/car.png" width={450} height={300} alt="" />
+            <Image src="/images/car.png" width={400} height={300} alt="" className={styles.image}/>
           </SwiperSlide>
           <SwiperSlide>
-            <Image src="/images/car.png" width={450} height={300} alt="" />
+            <Image src="/images/car.png" width={400} height={300} alt="" className={styles.image}/>
           </SwiperSlide>
           <SwiperSlide>
-            <Image src="/images/car.png" width={450} height={300} alt="" />
+            <Image src="/images/car.png" width={400} height={300} alt="" className={styles.image}/>
           </SwiperSlide>
           <SwiperSlide>
-            <Image src="/images/car.png" width={450} height={300} alt="" />
+            <Image src="/images/car.png" width={400} height={300} alt="" className={styles.image}/>
           </SwiperSlide>
         </Swiper>
         <div className={styles.teams}>

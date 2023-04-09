@@ -115,3 +115,7 @@ color: #000000;
   display: flex;
   justify-content: center;
 }
+
+.image{
+  margin-left: 10%;
+}
