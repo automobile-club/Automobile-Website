@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+
+.navbar {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .button {
+    background: #000000;
+    border-radius: 200px;
+    border: none;
+    height: 40px;
+    width: 100px;
+  }
+
+.top_img {
+  display: block;
+  margin: auto;
+  margin-top: 22px;
+}
+
+.top_btn {
+  width: 240px;
+  height: 60px;
+  background: #e94d00;
+  border-radius: 51.68px;
+  border: none;
+  z-index: 1;
+  margin-left: 670px;
+  margin-top: 150px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+.top_heading {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  color: #ffffff;
+  margin-top: -450px;
+  margin-left: 280px;
+}
+
+.top_desc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  margin-left: 280px;
+  margin-top: 40px;
+  padding-right: 900px;
+}
+
+.main_heading {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 93px;
+  color: #000000;
+}
+
+.all_events {
+  display: flex;
+  flex-direction: column;
+}
+
+.row_events {
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+  margin-left: 30px;
+  margin-bottom: 70px;
+}
+
+.event_img {
+  border-radius: 24px;
+  width: 446px;
+  height: 289px;
+}
+
+.row_events div a {
+  text-decoration: none;
+}
+
+.row_events div p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #6b7280;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.row_events div h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24.1167px;
+  color: #374151;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+
+.row_events a {
+  cursor: pointer;
+}
