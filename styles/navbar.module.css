@@ -1,43 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
 
 .navbarBlack {
-    background-color: #000;
-    color: #fff;
-    padding: 10px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  background-color: #000;
+  color: #fff;
+  padding: 10px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .navbarWhite{
-    background-color: #f4f4f4;
-    color: #000;
-    padding: 10px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navbarWhite {
+  background-color: #f4f4f4;
+  color: #000;
+  padding: 10px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  }
-  
-  .links {
-    font-family: "Poppins";
-    font-style: normal;
-    font-size: 15px;
-    line-height: 20px;
-  }
-  
+.links {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.linkContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+
+.signInBtn {
+  background-color: #e25420;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  height: 36px;
+  padding-bottom: 4px;
+}
+
+/* responsive */
+
+.linkshamburger {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 15px;
+  padding-top: 4px;
+  line-height: 20px;
+}
+.linkContainerhamburger {
+  display: none;
+}
+.linkContainerhamburgershow {
+  background-color: #e25420;
+  display: none;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 265px;
+
+  position: fixed;
+  top: 20px;
+  right: 10px;
+  margin: auto;
+  align-items: center;
+}
+
+.signInBtnhamburger {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 80px;
+  height: 26px;
+  text-align: center;
+  padding-bottom: 4px;
+}
+.hamburger {
+  display: none;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 25px;
+  height: 34px;
+  object-fit: contain;
+  z-index: 100;
+}
+
+@media screen and (max-width: 840px) {
   .linkContainer {
+    display: none;
+  }
+  .signInBtn {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .linkContainerhamburgershow {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 40%;
   }
-  .signInBtn{
-    background-color: #E25420;
-    color:white;
-    border:none;
-    border-radius: 20px;
-    width:100px;
-    height:36px;
-    padding-bottom:4px;
-  }
+}
