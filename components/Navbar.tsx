@@ -139,7 +139,7 @@ function NavBar(props: { BgColor: string }) {
           </Nav.Link>
         </motion.li>
         <motion.li
-          whileHover={{ scale: 1.1, originX: 0, color: "#f8e112 " }}
+          whileHover={{ scale: 1.1, originX: 0, color: "#f8e112" }}
           transition={{ type: "spring", stiffness: 280 }}
           className={styles.animate}
         >
