@@ -185,7 +185,6 @@ function Home() {
 
           <div className={styles.achievments_card1_sae}>
             <div className={styles.achievments_card1_img}>
-              {" "}
               <a href="#">
                 <Image
                   className={styles.Techniche_img}
@@ -205,7 +204,6 @@ function Home() {
 
           <div className={styles.achievments_card1_sae}>
             <div className={styles.achievments_card1_img}>
-              {" "}
               <a href="#">
                 <Image
                   className={styles.Technex_img}
@@ -223,7 +221,6 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className={styles.line2}></div>
       </div>
 
       {/* our mentors section */}

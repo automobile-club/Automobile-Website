@@ -117,25 +117,67 @@ export default function Projects() {
           className={styles.slider}
         >
           <SwiperSlide>
-            <Image src="/images/car.png" width={400} height={300} alt="" className={styles.image}/>
+            <Image
+              src="/images/car.png"
+              width={400}
+              height={300}
+              alt=""
+              className={styles.image}
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src="/images/car.png" width={400} height={300} alt="" className={styles.image}/>
+            <Image
+              src="/images/car.png"
+              width={400}
+              height={300}
+              alt=""
+              className={styles.image}
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src="/images/car.png" width={400} height={300} alt="" className={styles.image}/>
+            <Image
+              src="/images/car.png"
+              width={400}
+              height={300}
+              alt=""
+              className={styles.image}
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src="/images/car.png" width={400} height={300} alt="" className={styles.image}/>
+            <Image
+              src="/images/car.png"
+              width={400}
+              height={300}
+              alt=""
+              className={styles.image}
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src="/images/car.png" width={400} height={300} alt="" className={styles.image}/>
+            <Image
+              src="/images/car.png"
+              width={400}
+              height={300}
+              alt=""
+              className={styles.image}
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src="/images/car.png" width={400} height={300} alt="" className={styles.image}/>
+            <Image
+              src="/images/car.png"
+              width={400}
+              height={300}
+              alt=""
+              className={styles.image}
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src="/images/car.png" width={400} height={300} alt="" className={styles.image}/>
+            <Image
+              src="/images/car.png"
+              width={400}
+              height={300}
+              alt=""
+              className={styles.image}
+            />
           </SwiperSlide>
         </Swiper>
         <div className={styles.teams}>

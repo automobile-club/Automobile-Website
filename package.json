@@ -15,11 +15,18 @@
     "bootstrap": "^5.2.3",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
-    "next": "13.2.4",
+    "framer-motion": "^10.12.1",
+    "jquery": "^3.6.4",
+    "next": "^13.2.4",
+    "popper.js": "^1.16.1",
     "react": "18.2.0",
-    "react-bootstrap": "^2.7.2",
+    "react-animation-on-scroll": "^5.1.0",
+    "react-bootstrap": "^2.7.3",
     "react-dom": "18.2.0",
     "react-player": "^2.12.0",
+    "react-redux": "^8.0.5",
+    "react-vertical-timeline-component": "^3.6.0",
+    "swiper": "^9.2.2",
     "typescript": "5.0.2"
   }
 }

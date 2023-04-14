@@ -19,18 +19,18 @@
   background: #000000;
 }
 
-.body{
+.body {
   background-color: #f2f5f8;
 }
 
-.achievements{
+.achievements {
   display: flex;
   width: 100%;
   justify-content: center;
   flex-direction: column;
 }
 
-.achievements h1{
+.achievements h1 {
   font-family: "Outfit";
   font-style: normal;
   font-weight: 400;
@@ -41,13 +41,13 @@
   justify-content: center;
 }
 
-.achievements span{
+.achievements span {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-.achievements h2{
+.achievements h2 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -61,43 +61,43 @@
   text-align: center;
 }
 
-.timeline{
+.timeline {
   margin-top: 2%;
   height: max-content;
   margin-bottom: 1%;
 }
 
-.date{
+.date {
   color: black;
 }
 
-.teams{
+.teams {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column ;
+  flex-direction: column;
   margin-top: 1%;
 }
 
-.teams span{
+.teams span {
   display: flex;
   justify-content: center;
   width: 100%;
   margin-top: 3%;
 }
 
-.teams h1{
+.teams h1 {
   font-family: 'Outfit';
-font-style: normal;
-font-weight: 700;
-font-size: 45px;
-line-height: 113px;
-display: flex;
-align-items: center;
-color: #000000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 113px;
+  display: flex;
+  align-items: center;
+  color: #000000;
 }
 
-.teams h2{
+.teams h2 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -111,11 +111,11 @@ color: #000000;
   text-align: center;
 }
 
-.slider{
+.slider {
   display: flex;
   justify-content: center;
 }
 
-.image{
+.image {
   margin-left: 10%;
 }
