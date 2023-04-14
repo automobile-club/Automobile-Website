@@ -17,8 +17,11 @@
   justify-content: space-between;
   align-items: center;
 }
-
+.animate{
+  list-style-type: none;
+}
 .links {
+  
   font-family: "Poppins";
   font-style: normal;
   font-size: 15px;
@@ -50,6 +53,7 @@
   font-size: 15px;
   padding-top: 4px;
   line-height: 20px;
+  margin: 4px;
 }
 .linkContainerhamburger {
   display: none;
@@ -59,7 +63,7 @@
   display: none;
   flex-direction: column;
   border-radius: 20px;
-  width: 265px;
+  width: 200px;
 
   position: fixed;
   top: 20px;
