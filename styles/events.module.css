@@ -27,6 +27,14 @@
   margin-top: 22px;
 }
 
+.btn_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 150px;
+}
+
 .top_btn {
   width: 240px;
   height: 60px;
@@ -34,8 +42,6 @@
   border-radius: 51.68px;
   border: none;
   z-index: 1;
-  margin-left: 670px;
-  margin-top: 150px;
   font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
@@ -67,8 +73,7 @@
 
 .main_heading {
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 180px;
   font-family: "Fredoka";
   font-style: normal;
   font-weight: 600;
@@ -81,7 +86,7 @@
   display: flex;
   flex-direction: column;
   margin: 0 30px;
-  margin-top: 200px;
+  margin-top: 60px;
 }
 
 .row_events {
@@ -123,4 +128,54 @@
 
 .row_events a {
   cursor: pointer;
+}
+
+
+/* Media Queries */
+@media (max-width:414px) {
+  .top_img{
+    margin-left: 150px;
+  }
+  .top_heading{
+    width: max-content;
+    font-size: 60px;
+    margin-left: 210px;
+  }
+  .top_desc{
+    font-size: 23px;
+    padding-right: 0px;
+    width: 500px;
+    margin-left: 210px;
+  }
+  .top_btn{
+    
+  }
+  .main_heading{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    margin-left: 360px;
+    line-height: 60px;
+    width: 500px;
+  }
+  .all_events{
+    flex-direction: column;
+    justify-content: center;
+    margin-left:180px;
+  }
+  .row_events{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .event_img{
+    width: 800px;
+    height: 600px;
+  }
+  .row_events div p{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .row_events div h1{
+    width: 300px;
+    font-size: 30px;
+  }
 }

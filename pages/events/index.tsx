@@ -23,9 +23,11 @@ export default function Events() {
           libero voluptas quaerat fugiat, cumque esse animi et laboriosam
           tempore explicabo
         </p>
-        <Link href="">
-          <button className={styles.top_btn}>Explore event</button>
-        </Link>
+        <div className={styles.btn_container}>
+          <Link href="">
+            <button className={styles.top_btn}>Explore event</button>
+          </Link>
+        </div>
       </div>
 
       <h1 className={styles.main_heading}>EVENT SCHEDULE</h1>
