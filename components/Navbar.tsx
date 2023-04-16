@@ -34,7 +34,7 @@ function NavBar(props: { BgColor: string }) {
 
       <div className={styles.linkContainer}>
         <motion.li
-          whileHover={{ scale: 1.3, originX: 0, color: "#f8e200" }}
+          whileHover={{ scale: 1.3, originX: 0, color: "#e25420" }}
           transition={{ type: "spring", stiffness: 180 }}
           className={styles.animate}
         >
@@ -44,7 +44,7 @@ function NavBar(props: { BgColor: string }) {
           </Nav.Link>{" "}
         </motion.li>
         <motion.li
-          whileHover={{ scale: 1.3, originX: 0, color: "#f8e200" }}
+          whileHover={{ scale: 1.3, originX: 0, color: "#e25420" }}
           transition={{ type: "spring", stiffness: 180 }}
           className={styles.animate}
         >
@@ -54,7 +54,7 @@ function NavBar(props: { BgColor: string }) {
           </Nav.Link>{" "}
         </motion.li>
         <motion.li
-          whileHover={{ scale: 1.3, originX: 0, color: "#f8e200" }}
+          whileHover={{ scale: 1.3, originX: 0, color: "#e25420" }}
           transition={{ type: "spring", stiffness: 180 }}
           className={styles.animate}
         >
@@ -64,7 +64,7 @@ function NavBar(props: { BgColor: string }) {
           </Nav.Link>{" "}
         </motion.li>
         <motion.li
-          whileHover={{ scale: 1.3, originX: 0, color: "#f8e200" }}
+          whileHover={{ scale: 1.3, originX: 0, color: "#e25420" }}
           transition={{ type: "spring", stiffness: 180 }}
           className={styles.animate}
         >
@@ -74,7 +74,7 @@ function NavBar(props: { BgColor: string }) {
           </Nav.Link>{" "}
         </motion.li>
         <motion.li
-          whileHover={{ scale: 1.3, originX: 0, color: "#f8e200" }}
+          whileHover={{ scale: 1.3, originX: 0, color: "#e25420" }}
           transition={{ type: "spring", stiffness: 180 }}
           className={styles.animate}
         >
@@ -88,8 +88,8 @@ function NavBar(props: { BgColor: string }) {
       <motion.button
         whileHover={{
           scale: 1.1,
-          textShadow: "0px 0px 8px rgb(255,255,255)",
-          boxShadow: "0px 0px 8px rgb(255,255,255)",
+          textShadow: "0px 0px 8px rgb(255,255,255)"
+          
         }}
         className={styles.signInBtn}
       >
@@ -111,7 +111,7 @@ function NavBar(props: { BgColor: string }) {
         }`}
       >
         <motion.li
-          whileHover={{ scale: 1.1, originX: 0, color: "#f8e200" }}
+          whileHover={{ scale: 1.1, originX: 0, color: "#ffffff" }}
           transition={{ type: "spring", stiffness: 280 }}
           className={styles.animate}
         >
@@ -120,7 +120,7 @@ function NavBar(props: { BgColor: string }) {
           </Nav.Link>
         </motion.li>
         <motion.li
-          whileHover={{ scale: 1.1, originX: 0, color: "#f8e200" }}
+          whileHover={{ scale: 1.1, originX: 0, color: "#ffffff" }}
           transition={{ type: "spring", stiffness: 280 }}
           className={styles.animate}
         >
@@ -129,7 +129,7 @@ function NavBar(props: { BgColor: string }) {
           </Nav.Link>
         </motion.li>
         <motion.li
-          whileHover={{ scale: 1.1, originX: 0, color: "#f8e200" }}
+          whileHover={{ scale: 1.1, originX: 0, color: "#ffffff" }}
           transition={{ type: "spring", stiffness: 280 }}
           className={styles.animate}
         >
@@ -139,7 +139,7 @@ function NavBar(props: { BgColor: string }) {
           </Nav.Link>
         </motion.li>
         <motion.li
-          whileHover={{ scale: 1.1, originX: 0, color: "#f8e200" }}
+          whileHover={{ scale: 1.1, originX: 0, color: "#ffffff" }}
           transition={{ type: "spring", stiffness: 280 }}
           className={styles.animate}
         >
@@ -148,7 +148,7 @@ function NavBar(props: { BgColor: string }) {
           </Nav.Link>
         </motion.li>
         <motion.li
-          whileHover={{ scale: 1.1, originX: 0, color: "#f8e200" }}
+          whileHover={{ scale: 1.1, originX: 0, color: "#ffffff" }}
           transition={{ type: "spring", stiffness: 280 }}
           className={styles.animate}
         >
@@ -159,8 +159,7 @@ function NavBar(props: { BgColor: string }) {
         <motion.button
           whileHover={{
             scale: 1.1,
-            textShadow: "0px 0px 8px rgb(255,255,255)",
-            boxShadow: "0px 0px 8px rgb(255,255,255)",
+            textShadow: "0px 0px 8px rgb(255,255,255)"
           }}
           className={styles.signInBtnhamburger}
         >
@@ -170,7 +169,15 @@ function NavBar(props: { BgColor: string }) {
 
       <img
         className={styles.hamburger}
-        src={toggle ? "/close.svg" : "/menu.svg"}
+        src={
+          toggle
+            ? "/close.svg"
+            : props.BgColor === "black"
+            ? "/menu.svg"
+            : props.BgColor === "white"
+            ? "/menublack.svg"
+            : ""
+        }
         alt="menu"
         onClick={() => setToggle(!toggle)}
       ></img>
