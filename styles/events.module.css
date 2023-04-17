@@ -5,21 +5,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
 
 .navbar {
-    background-color: white;
-    color: black;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .button {
-    background: #000000;
-    border-radius: 200px;
-    border: none;
-    height: 40px;
-    width: 100px;
-  }
+  background-color: white;
+  color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  background: #000000;
+  border-radius: 200px;
+  border: none;
+  height: 40px;
+  width: 100px;
+}
 
 .top_img {
   display: block;
@@ -80,20 +80,21 @@
 .all_events {
   display: flex;
   flex-direction: column;
+  margin: 0 30px;
+  margin-top: 200px;
 }
 
 .row_events {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 100vw;
   flex-direction: row;
-  gap: 90px;
-  margin-left: 30px;
+  gap: 4vw;
   margin-bottom: 70px;
 }
 
 .event_img {
   border-radius: 24px;
-  width: 446px;
-  height: 289px;
 }
 
 .row_events div a {
