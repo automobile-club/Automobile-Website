@@ -200,7 +200,7 @@
 
 .achievments_cards_sae {
     padding-top: 40px;
-    grid-gap: 70px;
+    gap: 70px;
     display: flex;
     justify-content: center;
     width: 100%;
