@@ -34,9 +34,9 @@
   margin-bottom: 1vw;
   color: white;
   text-align: center;
-}   
+}
 .blog_intro p {
-    font-family: "Poppins";
+  font-family: "Poppins";
   font-size: 1.1vw;
   color: #a4a3a4;
   text-align: center;
@@ -52,27 +52,27 @@
   border-radius: 10px;
 }
 .blog_type_button {
-    margin: 0 3vw;
-    color: white;
-    border: none;
-    background-color: transparent;
-    font-family: "Outfit", sans-serif;
-    cursor: pointer;
-    outline: none;
-  }
-  .blog_type_button:first-child {
-    margin-left: 8px;
-  }
-  .blog_type_button:last-child {
-    margin-right: 8px;
-  }
-.blog_selected_button{
-    background-color: #F25402;
-    height: 80%;
-    padding: 0 20px;
-    margin-top: auto;
-    margin-bottom: auto;
-    border-radius: 5px;
+  margin: 0 3vw;
+  color: white;
+  border: none;
+  background-color: transparent;
+  font-family: "Outfit", sans-serif;
+  cursor: pointer;
+  outline: none;
+}
+.blog_type_button:first-child {
+  margin-left: 8px;
+}
+.blog_type_button:last-child {
+  margin-right: 8px;
+}
+.blog_selected_button {
+  background-color: #f25402;
+  height: 80%;
+  padding: 0 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 5px;
 }
 
 .blog_container {
@@ -88,9 +88,38 @@
 }
 
 .blog_card {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
   margin-bottom: 20px;
-  width: 25vw; 
-  height: 45vh; 
-  background-color: #807F7F;
+  width: 25vw;
+  height: 45vh;
+  background-color: #807f7f;
   border-radius: 40px;
+  transition: all 0.3s ease-in-out;
+}
+.blog_card button{
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+.blog_card:hover {
+  transform: translate(10px, -7px);
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 12px 50px 0 rgba(0, 0, 0, 0.1);
+  background-color: #cb3d15;
+}
+.blog_card:active {
+  transform: scale(0.95);
+  box-shadow: none;
+}
+.blog_card:hover button {
+  background-color: #f25402;
+}
+.blog_card:active button {
+  display: none;
 }
