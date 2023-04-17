@@ -111,9 +111,8 @@ export default function Projects() {
           spaceBetween={0}
           slidesPerView={3}
           pagination={{ clickable: true }}
-          navigation={{ clickable: true }}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
+          navigation
+          scrollbar={{ draggable: true }}
           className={styles.slider}
         >
           <SwiperSlide>
