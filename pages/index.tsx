@@ -166,7 +166,6 @@ function Home() {
         <div className={styles.achievments_cards_sae}>
           <div className={styles.achievments_card1_sae}>
             <div className={styles.achievments_card1_img}>
-              <a href="#">
                 <Image
                   className={styles.Techfest_img}
                   src="/images/Techfest_img.png"
@@ -174,19 +173,16 @@ function Home() {
                   width={100}
                   height={100}
                 />
-              </a>
             </div>
             <div className={styles.achievments_card1_content}>
-              <h1 className={styles.achievments_card1_text}>
-                Top 10 team IFT'18 Techfest'18 IIT Bombay
-              </h1>
+              <span className={styles.achievments_card1_text}>
+                Top 10 team IFT&apos;18 Techfest&apos;18 IIT Bombay
+              </span>
             </div>
           </div>
 
           <div className={styles.achievments_card1_sae}>
             <div className={styles.achievments_card1_img}>
-              {" "}
-              <a href="#">
                 <Image
                   className={styles.Techniche_img}
                   src="/images/Techniche_img.png"
@@ -194,19 +190,16 @@ function Home() {
                   width={100}
                   height={100}
                 />
-              </a>
             </div>
             <div className={styles.achievments_card1_content}>
               <h1 className={styles.achievments_card1_text}>
-                2nd Position Burnout'18 Techniche'19 IIT Guwahati
+                2nd Position Burnout&apos;18 Techniche&apos;19 IIT Guwahati
               </h1>
             </div>
           </div>
 
           <div className={styles.achievments_card1_sae}>
             <div className={styles.achievments_card1_img}>
-              {" "}
-              <a href="#">
                 <Image
                   className={styles.Technex_img}
                   src="/images/Technex_img.png"
@@ -214,16 +207,14 @@ function Home() {
                   width={100}
                   height={100}
                 />
-              </a>
             </div>
             <div className={styles.achievments_card1_content}>
               <h1 className={styles.achievments_card1_text}>
-                1st Position Axelerate'19 Technex'19 IIT BHU
+                1st Position Axelerate&apos;19 Technex&apos;19 IIT BHU
               </h1>
             </div>
           </div>
         </div>
-        <div className={styles.line2}></div>
       </div>
 
       {/* our mentors section */}

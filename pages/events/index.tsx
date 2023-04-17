@@ -8,7 +8,7 @@ import Navbar from "@/components/Navbar";
 export default function Events() {
   return (
     <div>
-      <Navbar BgColor="white"/>
+      <Navbar BgColor="white" />
       <div>
         <Image
           className={styles.top_img}
@@ -101,5 +101,5 @@ export default function Events() {
         </div>
       </div>
     </div>
-  )
+  );
 }
