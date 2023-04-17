@@ -1,11 +1,7 @@
 import Navbar from "@/components/Navbar";
-import styles from "@/styles/Blog.module.css";
+import styles from "@/styles/Blogs.module.css";
 import Image from "next/image";
 import { useState } from "react";
-
-const srclogo = "/images/SAEVectorWhite.svg";
-const buttonstyle = styles.button;
-const navbarColor = styles.navbar;
 
 function BlogType() {
   const [selectedButton, setSelectedButton] = useState<string>("View All");

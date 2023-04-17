@@ -28,5 +28,8 @@
     "react-vertical-timeline-component": "^3.6.0",
     "swiper": "^9.2.2",
     "typescript": "5.0.2"
+  },
+  "devDependencies": {
+    "@types/react-vertical-timeline-component": "^3.3.3"
   }
 }
