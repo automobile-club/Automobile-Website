@@ -8,13 +8,12 @@
 
 .sae_intro {
   padding-top: 1.56em;
-  padding-top: 1.56em;
   background-color: black;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   width: 100%;
-  height: 75vh;
+  height: 37vw;
 }
 
 .sae_headings {
@@ -22,65 +21,65 @@
   flex-direction: row;
   color: white;
   justify-content: center;
-  padding-top: 3em;
   font-family: "Outfit";
   font-style: normal;
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 30px;
   display: flex;
   align-items: center;
   text-align: center;
+  padding-top: 6vw;
+  font-weight: 700;
+  font-size: 2.5vw;
+  line-height: 1.6vw;
 }
 .sae_name_text {
-  padding-right: 0.3em;
+  padding-right: 2vw;
 }
 
 .sae_long_text {
   text-align: center;
-  padding-top: 10px;
-  padding-left: 1.56em;
-  padding-right: 1.56em;
   color: white;
   font-family: "Poppins";
   font-style: normal;
+  padding-top: 0.65vw;
+  padding-left: 1.62vw;
+  padding-right: 1.62vw;
   font-weight: 400;
-  font-size: 17px;
-  line-height: 30px;
+  font-size: 1.4vw;
+  line-height: 2vw;
 }
 .social_media {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 10px;
-  padding-bottom: 1.2em;
+  padding-top: 0.65vw;
+  padding-bottom: 1.25vw;
 }
 .linkedIn_img {
-  width: 55px;
-  height: 37px;
-  padding-top: 2px;
-  padding-left: 1.56em;
+  width: 4.2vw;
+  height: 2.9vw;
+  padding-top: 1.8px;
+  padding-left: 1.62vw;
 }
 .instagram_img {
-  width: 40px;
-  height: 40px;
+  width: 3.1vw;
+  height: 3.2vw;
 }
 .facebook_img {
-  width: 60px;
-  height: 40px;
-  padding-left: 1.56em;
+  width: 4.5vw;
+  height: 3.2vw;
+  padding-left: 1.62vw;
 }
 
 .cards_img_saeintro {
-  height: 37.5em;
-  width: 37.5em;
-  margin-left: 1.56em;
-  margin-top: 2.25em;
+  height: 42vw;
+  width: 40vw;
+  margin-left: 1.62vw;
+  margin-top: 1vw;
 }
 .line {
   border-top: 1px solid white;
   margin: 0 auto;
-  width: 37.5em;
+  width: 34.75vw;
 }
 /* ourteams section */
 /* ourteams section */
@@ -91,11 +90,11 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   width: 100%;
-  height: 80vh;
+  height: 40vw;
 }
 
 .left_wrapper_ourteams {
-  padding-top: 9em;
+  padding-top:9.375vw;
 }
 
 .cards_ourteams {
@@ -103,50 +102,50 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-top: 9em;
+  padding-top: 9.375vw;
 }
 
 .cards_wholecontent_ourteams {
-  padding: 10px;
+  padding: 0.6vw;
   background-color: #fff;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
-  margin: 20px;
-  height: 150px;
+  border-radius: 1.302vw;
+  margin: 1.302vw;
+  height: 11vw;
 }
 
 .cards_headings_ourteams {
   text-align: center;
-  font-size: 17px;
+  font-size: 1.4vw;
   font-family: "outfit";
   font-style: normal;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 0.6vw;
 }
 
 .cardcontent_ourteams {
   font-family: "poppins";
   font-style: normal;
-  width: 200px;
-  font-size: 14px;
-  line-height: 1.5;
+  width: 14vw;
+  font-size: 1.1vw;
+  line-height: 1.1vw;
 }
 
 .line1 {
-  margin-left: 285px;
-  margin-top: 115px;
+  margin-left: 18.55vw;
+  margin-top: 7.48vw;
   border-top: 4px solid rgb(242, 84, 2);
-  width: 40px;
+  width: 2.60vw;
 }
 
 .heading_ourteams {
-  margin-left: 5.5em;
+  margin-left: 16.14vw;
   color: black;
   font-family: "Outfit";
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
-  line-height: 30px;
+  font-size: 3.255vw;
+  line-height: 1.95;
   border-top: 5px solid transparent;
   border-image: linear-gradient(to right, rgb(242, 84, 2) 9%, transparent 9%) 1;
 }
@@ -154,24 +153,24 @@
 .text_longcontent_ourteams {
   text-align: center;
   padding-top: 10px;
-  padding-bottom: 40px;
-  padding-left: 190px;
-  padding-right: 190px;
+  padding-bottom: 4.2vw;
+  padding-left: 12.36vw;
+  padding-right:12.36vw;
   color: black;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 1.2vw;
+  line-height: 1.7vw;
 }
 .colored_div {
   margin: 0 auto;
   background-color: rgb(242, 84, 2);
   /* Replace "red" with your desired color */
-  width: 120px;
+  width: 9.11vw;
   /* Set the width and height to your desired size */
-  height: 40px;
-  border-radius: 20px;
+  height: 2.60vw;
+  border-radius: 1.30vw;
 }
 
 .ourachievments_sae {
@@ -370,331 +369,6 @@
   padding: 50px 0;
 }
 
-@media screen and (max-width: 1335px) and (min-width: 1100px) {
-  .sae_intro {
-    padding-top: 1.56em;
-    grid-gap: 6px;
-    height: 65vh;
-  }
-
-  .sae_headings {
-    padding-top: 2.75em;
-    font-weight: 700;
-    font-size: 37px;
-    line-height: 24px;
-  }
-
-  .sae_name_text {
-    padding-right: 0.4em;
-  }
-
-  .sae_long_text {
-    padding-top: 10px;
-    padding-left: 1.56em;
-    padding-right: 1.56em;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-  }
-
-  .social_media {
-    padding-top: 10px;
-    padding-bottom: 1em;
-  }
-
-  .linkedIn_img {
-    width: 55px;
-    height: 37px;
-    padding-top: 2px;
-    padding-left: 1.56em;
-  }
-
-  .instagram_img {
-    width: 40px;
-    height: 40px;
-  }
-
-  .facebook_img {
-    width: 60px;
-    height: 40px;
-    padding-left: 1.56em;
-  }
-
-  .cards_img_saeintro {
-    height: 32em;
-    width: 32em;
-    margin-left: 1.56em;
-    margin-top: 1.8em;
-  }
-
-  .line {
-    border-top: 1px solid white;
-    margin: 0 auto;
-    width: 33em;
-  }
-}
-
-@media screen and (max-width: 1100px) and (min-width: 1000px) {
-  .sae_intro {
-    padding-top: 1.56em;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
-    height: 65vh;
-  }
-
-  .sae_headings {
-    padding-top: 2.5em;
-    font-family: "Outfit";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 34px;
-    line-height: 24px;
-  }
-
-  .sae_name_text {
-    padding-right: 0.4em;
-  }
-
-  .sae_long_text {
-    padding-top: 12px;
-    padding-left: 1.56em;
-    padding-right: 1.56em;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 24px;
-  }
-
-  .social_media {
-    padding-top: 10px;
-    padding-bottom: 1em;
-  }
-
-  .linkedIn_img {
-    width: 55px;
-    height: 37px;
-    padding-top: 2px;
-    padding-left: 1.56em;
-  }
-
-  .instagram_img {
-    width: 40px;
-    height: 40px;
-  }
-
-  .facebook_img {
-    width: 60px;
-    height: 40px;
-    padding-left: 1.56em;
-  }
-
-  .cards_img_saeintro {
-    height: 29em;
-    width: 29em;
-    margin-left: 1.56em;
-    margin-top: 1.8em;
-  }
-
-  .line {
-    width: 30em;
-  }
-}
-
-@media screen and (max-width: 1000px) and (min-width: 900px) {
-  .sae_intro {
-    padding-top: 1.56em;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
-    height: 65vh;
-  }
-
-  .sae_headings {
-    padding-top: 2.5em;
-    font-weight: 700;
-    font-size: 33px;
-  }
-
-  .sae_name_text {
-    padding-right: 0.4em;
-  }
-
-  .sae_long_text {
-    padding-top: 12px;
-    padding-left: 1.56em;
-    padding-right: 1.56em;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 24px;
-  }
-
-  .social_media {
-    padding-top: 10px;
-    padding-bottom: 1em;
-  }
-
-  .linkedIn_img {
-    width: 55px;
-    height: 37px;
-    padding-top: 2px;
-    padding-left: 1.56em;
-  }
-
-  .instagram_img {
-    width: 40px;
-    height: 40px;
-  }
-
-  .facebook_img {
-    width: 60px;
-    height: 40px;
-    padding-left: 1.56em;
-  }
-
-  .cards_img_saeintro {
-    height: 29em;
-    width: 29em;
-    margin-left: 1em;
-    margin-top: 1.8em;
-  }
-
-  .line {
-    border-top: 1px solid white;
-    margin: 0 auto;
-    width: 40vw;
-  }
-}
-
-@media screen and (max-width: 900px) and (min-width: 800px) {
-  .sae_intro {
-    padding-top: 1.56em;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
-    width: 100%;
-    height: 65vh;
-  }
-
-  .sae_headings {
-    padding-top: 2.5em;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 22px;
-  }
-
-  .sae_name_text {
-    padding-right: 0.4em;
-  }
-
-  .sae_long_text {
-    padding-top: 12px;
-    padding-left: 1.56em;
-    padding-right: 1.56em;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 22px;
-  }
-
-  .social_media {
-    padding-top: 10px;
-    padding-bottom: 1em;
-  }
-
-  .linkedIn_img {
-    width: 55px;
-    height: 37px;
-    padding-top: 2px;
-    padding-left: 1.56em;
-  }
-
-  .instagram_img {
-    width: 40px;
-    height: 40px;
-  }
-
-  .facebook_img {
-    width: 60px;
-    height: 40px;
-    padding-left: 1.56em;
-  }
-
-  .cards_img_saeintro {
-    height: 29em;
-    width: 29em;
-    margin-left: 1.3em;
-    margin-top: 1.8em;
-  }
-
-  .line {
-    border-top: 1px solid white;
-    margin: 0 auto;
-    width: 35vw;
-  }
-}
-
-@media screen and (max-width: 800px) and (min-width: 700px) {
-  .sae_intro {
-    padding-top: 1.56em;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 3px;
-    width: 100%;
-    height: 65vh;
-  }
-
-  .sae_headings {
-    padding-top: 3.4em;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-  }
-
-  .sae_name_text {
-    padding-right: 0.4em;
-  }
-
-  .sae_long_text {
-    padding-top: 12px;
-    padding-left: 1em;
-    padding-right: 1em;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 20px;
-  }
-
-  .social_media {
-    padding-top: 10px;
-    padding-bottom: 1em;
-  }
-
-  .linkedIn_img {
-    width: 55px;
-    height: 37px;
-    padding-top: 2px;
-    padding-left: 1.56em;
-  }
-
-  .instagram_img {
-    width: 40px;
-    height: 40px;
-  }
-
-  .facebook_img {
-    width: 60px;
-    height: 40px;
-    padding-left: 1.56em;
-  }
-
-  .cards_img_saeintro {
-    height: 28.5em;
-    width: 28.5em;
-    margin-left: 1em;
-    margin-top: 1.8em;
-  }
-
-  .line {
-    border-top: 1px solid white;
-    margin: 0 auto;
-    width: 33vw;
-  }
-}
-
 .eventHeading {
   padding-left: 19em;
 }
@@ -781,10 +455,210 @@
   border: none;
 }
 
-.text_longcontent_ourteams {
-  display: none;
+@media screen and (max-width: 750px) and (min-width: 300px) {
+  .sae_intro {
+    padding-top: 0;
+    grid-template-columns: 1fr;
+    grid-gap: 3px;
+    width: 100%;
+    height: 60vh;
+  }
+
+  .sae_headings {
+    padding-top: 1em;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .sae_name_text {
+    padding-right: 0.4em;
+  }
+
+  .sae_long_text {
+    padding-top: 12px;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .social_media {
+    padding-top: 10px;
+    padding-bottom: 1em;
+  }
+  .linkedIn_img {
+    width: 65px;
+    height: 44px;
+    padding-top: 2px;
+    padding-left: 1.56em;
+  }
+  .instagram_img {
+    width: 47px;
+    height: 47px;
+  }
+  .facebook_img {
+    width: 75px;
+    height: 49px;
+    padding-left: 1.56em;
+  }
+  .cards_img_saeintro {
+    display: none;
+  }
+  .line {
+    width: 68vw;
+  }
+
+  /* our teams */
+  .sae_ourteams {
+    background-color: rgb(236, 236, 241);
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 80vh;
+  }
+
+  .left_wrapper_ourteams {
+    padding-top: 5em;
+  }
+
+  .cards_ourteams {
+    padding-top: 1em;
+  }
+
+  .cards_wholecontent_ourteams {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-left: 1.25em;
+    height: 7.5em;
+  }
+
+  .cards_headings_ourteams {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .cardcontent_ourteams {
+    width: 13em;
+    font-size: 13px;
+    line-height: 14px;
+  }
+
+  .heading_ourteams {
+    margin: 0 auto;
+    width: 300px;
+    font-size: 45px;
+    line-height: 28px;
+  }
+
+  .text_longcontent_ourteams {
+    display: none;
+  }
+  .colored_div {
+    display: none;
+  }
 }
 
-.colored_div {
-  display: none;
+@media screen and (max-width: 500px) and (min-width: 430px) {
+  /* our teams */
+  .sae_ourteams {
+    background-color: rgb(236, 236, 241);
+    display: grid;
+    grid-template-columns: 1fr;
+
+    width: 100%;
+    height: 80vh;
+  }
+
+  .left_wrapper_ourteams {
+    padding-top: 5em;
+  }
+
+  .cards_ourteams {
+    padding-top: 1em;
+  }
+
+  .cards_wholecontent_ourteams {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-left: 1.25em;
+    height: 7em;
+  }
+
+  .cards_headings_ourteams {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+
+  .cardcontent_ourteams {
+    width: 13em;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .heading_ourteams {
+    margin: 0 auto;
+    width: 300px;
+    font-size: 43px;
+    line-height: 28px;
+  }
+
+  .text_longcontent_ourteams {
+    display: none;
+  }
+  .colored_div {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 430px) and (min-width: 300px) {
+  /* our teams */
+  .sae_ourteams {
+    background-color: rgb(236, 236, 241);
+    display: grid;
+    grid-template-columns: 1fr;
+
+    width: 100%;
+    height: 80vh;
+  }
+
+  .left_wrapper_ourteams {
+    padding-top: 6em;
+  }
+
+  .cards_ourteams {
+    padding-top: 1em;
+  }
+
+  .cards_wholecontent_ourteams {
+    border-radius: 20px;
+    margin-left: 1em;
+    height: 7em;
+  }
+
+  .cards_headings_ourteams {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+
+  .cardcontent_ourteams {
+    width: 12em;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .heading_ourteams {
+    margin: 0 auto;
+    width: 300px;
+    font-size: 43px;
+    line-height: 28px;
+  }
+
+  .text_longcontent_ourteams {
+    display: none;
+  }
+  .colored_div {
+    display: none;
+  }
 }
