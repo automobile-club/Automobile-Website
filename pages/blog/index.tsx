@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar";
-import styles from "@/styles/Blog.module.css";
+import styles from "@/styles/Blogs.module.css";
 import Image from "next/image";
 import { useState } from "react";
 
