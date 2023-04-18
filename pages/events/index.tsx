@@ -2,6 +2,9 @@ import styles from "@/styles/events.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
+import img1 from "../../public/events-images/Rectangle 37.png";
+import img2 from "../../public/events-images/Rectangle 15.png";
+
 
 export default function Events() {
   return (
@@ -10,7 +13,7 @@ export default function Events() {
       <div className={styles.upper_content}>
         <Image
           className={styles.top_img}
-          src="/events-images/Rectangle 37.png"
+          src={img1 || "/events-images/Rectangle 37.png"}
           alt="#"
           width={1200}
           height={580} 
@@ -102,8 +105,6 @@ export default function Events() {
           </div>
         </div>
       </div>
-
-      <Image src="/events-images/Rectangle 19.png" alt="" width={440} height={290}></Image>
     </div>
   );
 }
