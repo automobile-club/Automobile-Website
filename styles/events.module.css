@@ -21,10 +21,47 @@
   width: 100px;
 }
 
+.upper_content{
+  height: 700px;
+}
+
 .top_img {
+  position: relative;
+  top:30px;
   display: block;
   margin: auto;
-  margin-top: 22px;
+  z-index: -1;
+}
+
+.top_content{
+  width: 400px;
+  position: relative;
+  bottom: 380px;
+  left: 250px;
+}
+
+.top_heading {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.top_desc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.btn_container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -205px;
 }
 
 .top_btn {
@@ -34,8 +71,6 @@
   border-radius: 51.68px;
   border: none;
   z-index: 1;
-  margin-left: 670px;
-  margin-top: 150px;
   font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
@@ -44,31 +79,8 @@
   color: #ffffff;
 }
 
-.top_heading {
-  font-family: "Outfit";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 60px;
-  color: #ffffff;
-  margin-top: -450px;
-  margin-left: 280px;
-}
-
-.top_desc {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  color: #ffffff;
-  margin-left: 280px;
-  margin-top: 40px;
-  padding-right: 900px;
-}
-
 .main_heading {
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 20px;
   font-family: "Fredoka";
   font-style: normal;
   font-weight: 600;
@@ -80,15 +92,16 @@
 .all_events {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   margin: 0 30px;
-  margin-top: 200px;
+  margin-top: 60px;
 }
 
 .row_events {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  max-width: 100vw;
+  display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100vw;
   gap: 4vw;
   margin-bottom: 70px;
 }
@@ -124,3 +137,63 @@
 .row_events a {
   cursor: pointer;
 }
+
+
+/* Media Queries */
+/* CSS for screens smaller than 768px */
+@media (max-width:768px) {
+  .upper_content{
+    width: 900px;
+    height: 600px;
+  }
+
+  .top_img{
+    width: 900px;
+    margin-left: 2px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 500px;
+  }
+
+  .top_content{
+    left: 80px;
+  }
+
+  .main_heading{
+    width: 900px;
+  }
+
+  .all_events {
+    margin: 0 3px;
+    margin-top: 60px;
+  }
+  
+  .row_events {
+    gap: 2vw;
+    margin-bottom: 50px;
+  }
+
+  .indivisual_event{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .row_events div h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .event_img{
+    width: 800px;
+    height: 550px;
+  }
+  
+  .row_events div p {
+    font-size: 25px;
+    margin-top: 18px;
+    text-align: center;
+  }
+}
+
+
