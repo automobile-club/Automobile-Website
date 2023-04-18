@@ -50,7 +50,7 @@ export default function About() {
               <img src="/images/TeamTrident.png" alt="team_trident"/>
             </div>
             <div className={styles.right}>
-            Team RC Car, which consists of engineering students from IIT BHU, is getting ready for a track racing competition. Their objective is to develop a quick and effective car that can navigate the track with precision. The team is using advanced software tools for designing and up-to-date manufacturing techniques for building the car's components. The team is confident in their abilities and eagerly anticipating the challenge of competing against other skilled engineering teams from around the country.            
+            Team RC Car, which consists of engineering students from IIT BHU, is getting ready for a track racing competition. Their objective is to develop a quick and effective car that can navigate the track with precision. The team is using advanced software tools for designing and up-to-date manufacturing techniques for building the car&apos;s components. The team is confident in their abilities and eagerly anticipating the challenge of competing against other skilled engineering teams from around the country.            
             </div>
           </div>
     </div>
