@@ -1,10 +1,7 @@
 import styles from "@/styles/events.module.css";
-import img1 from "/events-images/Rectangle 37.png";
-import img2 from "/events-images/Rectangle 15.png";
 import Image from "next/image";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
-import { useState, useLayoutEffect } from "react";
 
 export default function Events() {
   return (
