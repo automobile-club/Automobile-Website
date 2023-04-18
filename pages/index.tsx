@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import BlogContainer from "@/components/BlogContainer";
 
 function Home() {
   return (
@@ -134,20 +135,7 @@ function Home() {
         <div className={styles.blogHeading}>
           <h1>Our Blogs</h1>
         </div>
-        <div className={styles.blog_container}>
-          <div className={styles.blog_card}>
-            <button>Read More</button>
-          </div>
-          <div className={styles.blog_card}>
-            <button>Read More</button>
-          </div>
-          <div className={styles.blog_card}>
-            <button>Read More</button>
-          </div>
-          <div className={styles.blog_card}>
-            <button>Read More</button>
-          </div>
-        </div>
+        <BlogContainer numBlogCards={4} />
       </div>
 
       {/* orange section */}
@@ -217,19 +205,18 @@ function Home() {
 
       {/* our mentors section */}
       {/* our mentors section */}
-
-      <div className={styles.ourmentors_sae}>
-        <div className={styles.ourmentors_heading}>
-          <h1 className={styles.ourmentors_heading_text}> Our Mentors</h1>
+      <div className={styles.ourachievments_sae}>
+        <div className={styles.ourachievments_heading}>
+          <h1 className={styles.ourachievments_heading_text}>Our Mentors</h1>
         </div>
-        <div className={styles.ourmentors_cards_sae}>
-          <div className={styles.ourmentors_card1_sae}>
+        <div className={styles.achievments_cards_sae}>
+          <div className={styles.achievments_card1_sae}>
             <img
-              className={styles.ourmentors_img}
+              className={styles.Techfest_img}
               src="/images/mentors1.png"
-              alt="mentor"
+              alt="Techfest"
             />
-            <div className={styles.ourmentors_card1_content}>
+            <div className={styles.achievments_card1_text}>
               <h4 className={styles.ourmentors_card1_heading_text}>
                 Amit Kumar
               </h4>
@@ -240,16 +227,16 @@ function Home() {
             </div>
           </div>
 
-          <div className={styles.ourmentors_card1_sae}>
+          <div className={styles.achievments_card1_sae}>
             <img
-              className={styles.ourmentors_img}
+              className={styles.Techniche_img}
               src="/images/mentors1.png"
-              alt="mentor"
+              alt="Techniche"
             />
-            <div className={styles.ourmentors_card1_content}>
-              <h3 className={styles.ourmentors_card1_heading_text}>
+            <div className={styles.achievments_card1_text}>
+              <h4 className={styles.ourmentors_card1_heading_text}>
                 Amit Kumar
-              </h3>
+              </h4>
               <span className={styles.ourmentors_card1_text}>
                 Proud to be an SAE Club IIT BHU alumnus, where innovation and
                 teamwork fueled my passion for engineering excellence
@@ -257,16 +244,16 @@ function Home() {
             </div>
           </div>
 
-          <div className={styles.ourmentors_card1_sae}>
+          <div className={styles.achievments_card1_sae}>
             <img
-              className={styles.ourmentors_img}
+              className={styles.Technex_img}
               src="/images/mentors1.png"
-              alt="mentor"
+              alt="Technex"
             />
-            <div className={styles.ourmentors_card1_content}>
-              <h3 className={styles.ourmentors_card1_heading_text}>
+            <div className={styles.achievments_card1_text}>
+              <h4 className={styles.ourmentors_card1_heading_text}>
                 Amit Kumar
-              </h3>
+              </h4>
               <span className={styles.ourmentors_card1_text}>
                 Proud to be an SAE Club IIT BHU alumnus, where innovation and
                 teamwork fueled my passion for engineering excellence
