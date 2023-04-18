@@ -34,7 +34,7 @@ function NavBar(props: { BgColor: string }) {
 
       <div className={styles.linkContainer}>
         <motion.li
-          whileHover={{ scale: 1.3, originX: 0, color: "#ffffff" }}
+          whileHover={{ scale: 1.3, originX: 0, color: " " }}
           transition={{ type: "spring", stiffness: 180 }}
           className={styles.animate}
         >
@@ -44,7 +44,7 @@ function NavBar(props: { BgColor: string }) {
           </Nav.Link>{" "}
         </motion.li>
         <motion.li
-          whileHover={{ scale: 1.3, originX: 0, color: "#ffffff" }}
+          whileHover={{ scale: 1.3, originX: 0, color: " " }}
           transition={{ type: "spring", stiffness: 180 }}
           className={styles.animate}
         >
@@ -54,7 +54,7 @@ function NavBar(props: { BgColor: string }) {
           </Nav.Link>{" "}
         </motion.li>
         <motion.li
-          whileHover={{ scale: 1.3, originX: 0, color: "#ffffff" }}
+          whileHover={{ scale: 1.3, originX: 0, color: " " }}
           transition={{ type: "spring", stiffness: 180 }}
           className={styles.animate}
         >
@@ -64,7 +64,7 @@ function NavBar(props: { BgColor: string }) {
           </Nav.Link>{" "}
         </motion.li>
         <motion.li
-          whileHover={{ scale: 1.3, originX: 0, color: "#ffffff" }}
+          whileHover={{ scale: 1.3, originX: 0, color: " " }}
           transition={{ type: "spring", stiffness: 180 }}
           className={styles.animate}
         >
@@ -74,7 +74,7 @@ function NavBar(props: { BgColor: string }) {
           </Nav.Link>{" "}
         </motion.li>
         <motion.li
-          whileHover={{ scale: 1.3, originX: 0, color: "#ffffff" }}
+          whileHover={{ scale: 1.3, originX: 0, color: " " }}
           transition={{ type: "spring", stiffness: 180 }}
           className={styles.animate}
         >
