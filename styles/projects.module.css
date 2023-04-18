@@ -48,7 +48,7 @@
 }
 
 .achievements h2 {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -87,7 +87,7 @@
 }
 
 .teams h1 {
-  font-family: 'Outfit';
+  font-family: "Outfit";
   font-style: normal;
   font-weight: 700;
   font-size: 45px;
@@ -98,7 +98,7 @@
 }
 
 .teams h2 {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -118,4 +118,29 @@
 
 .image {
   margin-left: 10%;
+}
+
+@media screen and (max-width: 1451px) {
+  .image {
+    width: 80%;
+    height: 60%;
+    margin-top: 7%;
+  }
+}
+
+@media screen and (max-width: 1188px) {
+  .achievements h2 {
+    font-size: 15px;
+    width: 90%;
+  }
+  .achievements h1{
+    font-size: 30px;
+  }
+  .teams h1{
+    font-size: 30px;
+  }
+  .teams h2{
+    font-size: 15px;
+    width: 90%;
+  }
 }
