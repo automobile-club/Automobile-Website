@@ -10,6 +10,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import Link from 'next/link';
 
 const SingleEvent = () => {
 
@@ -99,6 +100,7 @@ const SingleEvent = () => {
       style={{'padding': '0 3rem'}}
     >
       <SwiperSlide className={styles.sliderMain}>
+        <Link href="/events/individual" className={styles.link}>
         <div className={styles.carBody}>
             <div className={styles.imgBack}>
                 <Image src='/images/Rectangle 19img.png' className={styles.carImg} width="125" height="125" alt='event_name' />
@@ -114,9 +116,10 @@ const SingleEvent = () => {
 
             </div>
         
-        </div>
+        </div></Link>
         </SwiperSlide>
         <SwiperSlide className={styles.sliderMain}>
+        <Link href="/events/individual" className={styles.link}>
         <div className={styles.carBody}>
             <div className={styles.imgBack}>
                 <Image src='/images/Rectangle 19img.png' className={styles.carImg} width="125" height="125" alt='event_name' />
@@ -133,8 +136,10 @@ const SingleEvent = () => {
             </div>
         
         </div>
+        </Link>
         </SwiperSlide>
         <SwiperSlide className={styles.sliderMain}>
+        <Link href="/events/individual" className={styles.link}>
         <div className={styles.carBody}>
             <div className={styles.imgBack}>
                 <Image src='/images/Rectangle 19img.png' className={styles.carImg} width="125" height="125" alt='event_name' />
@@ -151,8 +156,10 @@ const SingleEvent = () => {
             </div>
         
         </div>
+        </Link>
         </SwiperSlide>
         <SwiperSlide className={styles.sliderMain}>
+        <Link href="/events/individual" className={styles.link}>
         <div className={styles.carBody}>
             <div className={styles.imgBack}>
                 <Image src='/images/Rectangle 19img.png' className={styles.carImg} width="125" height="125" alt='event_name' />
@@ -169,6 +176,7 @@ const SingleEvent = () => {
             </div>
         
         </div>
+        </Link>
         </SwiperSlide>
     </Swiper>
                 </div>

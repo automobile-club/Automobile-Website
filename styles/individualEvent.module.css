@@ -169,6 +169,16 @@
     padding: 0rem 0.5rem;
 }
 
+.link{
+  color: #1B1A1B;
+  text-decoration: none;
+}
+
+.link:hover{
+  color: #1B1A1B;
+  text-decoration: none;
+}
+
 .svghw{
     height: 2rem;
     width: 2rem;
