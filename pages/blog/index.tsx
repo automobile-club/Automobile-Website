@@ -1,11 +1,8 @@
 import Navbar from "@/components/Navbar";
-import styles from "@/styles/Blog.module.css";
-import Image from "next/image";
+import BlogContainer from "@/components/BlogContainer";
+import styles from "@/styles/Blogs.module.css";
 import { useState } from "react";
-
-const srclogo = "/images/SAEVectorWhite.svg";
-const buttonstyle = styles.button;
-const navbarColor = styles.navbar;
+import Image from "next/image";
 
 function BlogType() {
   const [selectedButton, setSelectedButton] = useState<string>("View All");
@@ -28,43 +25,19 @@ function BlogType() {
       </button>
       <button
         className={`${styles.blog_type_button} ${
-          selectedButton === "Crypto" ? styles.blog_selected_button : ""
+          selectedButton === "Trident" ? styles.blog_selected_button : ""
         }`}
         onClick={handleButtonClick}
       >
-        Crypto
+        Trident
       </button>
       <button
         className={`${styles.blog_type_button} ${
-          selectedButton === "Announcements" ? styles.blog_selected_button : ""
+          selectedButton === "Rowboatics" ? styles.blog_selected_button : ""
         }`}
         onClick={handleButtonClick}
       >
-        Announcements
-      </button>
-      <button
-        className={`${styles.blog_type_button} ${
-          selectedButton === "People" ? styles.blog_selected_button : ""
-        }`}
-        onClick={handleButtonClick}
-      >
-        People
-      </button>
-      <button
-        className={`${styles.blog_type_button} ${
-          selectedButton === "Engineering" ? styles.blog_selected_button : ""
-        }`}
-        onClick={handleButtonClick}
-      >
-        Engineering
-      </button>
-      <button
-        className={`${styles.blog_type_button} ${
-          selectedButton === "NFT" ? styles.blog_selected_button : ""
-        }`}
-        onClick={handleButtonClick}
-      >
-        NFT
+        Rowboatics
       </button>
     </div>
   );
@@ -73,24 +46,27 @@ function BlogType() {
 export default function Blog() {
   return (
     <>
-      <Navbar BgColor="black"/>
+      <Navbar BgColor="black" />
       <body className={styles.main}>
         <div className={styles.blog_intro}>
           <h1 className={styles.blog_title}>Blogs</h1>
-          <p>
+          <span>
             Learn about cryptocurrency, NFTs, and blockchain, discover our
             latest product updates, partnership announcements, user stories, and
             more.
-          </p>
-          <BlogType />
+          </span>
+          <BlogType/>
         </div>
-        <div className={styles.blog_container}>
-          <div className={styles.blog_card}><button>Read More</button></div>
-          <div className={styles.blog_card}><button>Read More</button></div>
-          <div className={styles.blog_card}><button>Read More</button></div>
-          <div className={styles.blog_card}><button>Read More</button></div>
-          <div className={styles.blog_card}><button>Read More</button></div>
-          <div className={styles.blog_card}><button>Read More</button></div>
+        <BlogContainer numBlogCards={6} />
+        <div className={styles.newBlogIdeas}>
+          <img className={styles.bulb} src='/blogs-images/Blogbulb.png' alt="" />
+          <div className={styles.sideContent}>
+            <h1>Give a platform to your ideas!</h1>
+            <h3>
+              Have something to share? Email us your blogs and get featured!
+            </h3>
+            <div className={styles.email}><img className={styles.logo} src='/gmail.svg' alt=''/>saeiitbhu@itbhu.ac.in</div>
+          </div>
         </div>
       </body>
     </>
