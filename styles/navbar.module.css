@@ -10,7 +10,7 @@
 }
 
 .navbarWhite {
-  background-color: #f4f4f4;
+  background-color: #fff;
   color: #000;
   padding: 10px 100px;
   display: flex;
@@ -144,8 +144,10 @@
   }
   .navbarBlack{
     padding: 0px;
+    height: 70px;
   }
   .navbarWhite {
     padding: 0px;
+    height: 70px;
   }
 }

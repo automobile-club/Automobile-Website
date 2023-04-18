@@ -32,7 +32,7 @@ function NavBar(props: { BgColor: string }) {
         />
       </Link>
 
-      <div className={styles.linkContainer}>
+      <div className={styles.linkContainer } >
         <motion.li
           whileHover={{ scale: 1.3, originX: 0, color: " " }}
           transition={{ type: "spring", stiffness: 180 }}
