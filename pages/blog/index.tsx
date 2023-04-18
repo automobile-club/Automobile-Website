@@ -47,7 +47,7 @@ export default function Blog() {
   return (
     <>
       <Navbar BgColor="black" />
-      <body className={styles.main}>
+      <div className={styles.main}>
         <div className={styles.blog_intro}>
           <h1 className={styles.blog_title}>Blogs</h1>
           <span>
@@ -68,7 +68,7 @@ export default function Blog() {
             <div className={styles.email}><img className={styles.logo} src='/gmail.svg' alt=''/>saeiitbhu@itbhu.ac.in</div>
           </div>
         </div>
-      </body>
+      </div>
     </>
   );
 }
