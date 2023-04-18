@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Navbar from "@/components/Navbar";
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
@@ -165,53 +166,50 @@ function Home() {
         </div>
         <div className={styles.achievments_cards_sae}>
           <div className={styles.achievments_card1_sae}>
-            <div className={styles.achievments_card1_img}>
-                <Image
-                  className={styles.Techfest_img}
-                  src="/images/Techfest_img.png"
-                  alt=""
-                  width={100}
-                  height={100}
-                />
-            </div>
-            <div className={styles.achievments_card1_content}>
-              <span className={styles.achievments_card1_text}>
-                Top 10 team IFT&apos;18 Techfest&apos;18 IIT Bombay
-              </span>
-            </div>
-          </div>
-
-          <div className={styles.achievments_card1_sae}>
-            <div className={styles.achievments_card1_img}>
-                <Image
-                  className={styles.Techniche_img}
-                  src="/images/Techniche_img.png"
-                  alt=""
-                  width={100}
-                  height={100}
-                />
-            </div>
-            <div className={styles.achievments_card1_content}>
-              <h1 className={styles.achievments_card1_text}>
-                2nd Position Burnout&apos;18 Techniche&apos;19 IIT Guwahati
-              </h1>
+            <img
+              className={styles.Techfest_img}
+              src="/images/Techfest_img.png"
+              alt="Techfest"
+            />
+            <div className={styles.achievments_card1_text}>
+              Top 10
+              <br />
+              in IFT&apos;18
+              <br /> Techfest&apos;18
+              <br />
+              IIT Bombay
             </div>
           </div>
 
           <div className={styles.achievments_card1_sae}>
-            <div className={styles.achievments_card1_img}>
-                <Image
-                  className={styles.Technex_img}
-                  src="/images/Technex_img.png"
-                  alt=""
-                  width={100}
-                  height={100}
-                />
+            <img
+              className={styles.Techniche_img}
+              src="/images/Techniche_img.png"
+              alt="Techniche"
+            />
+            <div className={styles.achievments_card1_text}>
+              2nd Position
+              <br />
+              Burnout&apos;18
+              <br />
+              Techniche&apos;19
+              <br />
+              IIT Guwahati
             </div>
-            <div className={styles.achievments_card1_content}>
-              <h1 className={styles.achievments_card1_text}>
-                1st Position Axelerate&apos;19 Technex&apos;19 IIT BHU
-              </h1>
+          </div>
+
+          <div className={styles.achievments_card1_sae}>
+            <img
+              className={styles.Technex_img}
+              src="/images/Technex_img.png"
+              alt="Technex"
+            />
+            <div className={styles.achievments_card1_text}>
+              1st Position
+              <br />
+              Axelerate&apos;19 <br />
+              Technex&apos;19 <br />
+              IIT BHU
             </div>
           </div>
         </div>
@@ -226,71 +224,53 @@ function Home() {
         </div>
         <div className={styles.ourmentors_cards_sae}>
           <div className={styles.ourmentors_card1_sae}>
-            <div className={styles.ourmentors_card1_img}>
-              <a href="#">
-                <Image
-                  className={styles.ourmentors_img}
-                  src="/images/mentors1.png"
-                  alt=""
-                  width={60}
-                  height={60}
-                />
-              </a>
-            </div>
+            <img
+              className={styles.ourmentors_img}
+              src="/images/mentors1.png"
+              alt="mentor"
+            />
             <div className={styles.ourmentors_card1_content}>
-              <h1 className={styles.ourmentors_card1_heading_text}>
+              <h4 className={styles.ourmentors_card1_heading_text}>
                 Amit Kumar
-              </h1>
-              <h1 className={styles.ourmentors_card1_text}>
+              </h4>
+              <span className={styles.ourmentors_card1_text}>
                 Proud to be an SAE Club IIT BHU alumnus, where innovation and
                 teamwork fueled my passion for engineering excellence
-              </h1>
+              </span>
             </div>
           </div>
 
           <div className={styles.ourmentors_card1_sae}>
-            <div className={styles.ourmentors_card1_img}>
-              <a href="#">
-                <Image
-                  className={styles.ourmentors_img}
-                  src="/images/mentors2.png"
-                  alt=""
-                  width={60}
-                  height={60}
-                />
-              </a>
-            </div>
+            <img
+              className={styles.ourmentors_img}
+              src="/images/mentors1.png"
+              alt="mentor"
+            />
             <div className={styles.ourmentors_card1_content}>
-              <h1 className={styles.ourmentors_card1_heading_text}>
+              <h3 className={styles.ourmentors_card1_heading_text}>
                 Amit Kumar
-              </h1>
-              <h1 className={styles.ourmentors_card1_text}>
+              </h3>
+              <span className={styles.ourmentors_card1_text}>
                 Proud to be an SAE Club IIT BHU alumnus, where innovation and
                 teamwork fueled my passion for engineering excellence
-              </h1>
+              </span>
             </div>
           </div>
 
           <div className={styles.ourmentors_card1_sae}>
-            <div className={styles.ourmentors_card1_img}>
-              <a href="#">
-                <Image
-                  className={styles.ourmentors_img}
-                  src="/images/mentors3.png"
-                  alt=""
-                  width={60}
-                  height={60}
-                />
-              </a>
-            </div>
+            <img
+              className={styles.ourmentors_img}
+              src="/images/mentors1.png"
+              alt="mentor"
+            />
             <div className={styles.ourmentors_card1_content}>
-              <h1 className={styles.ourmentors_card1_heading_text}>
+              <h3 className={styles.ourmentors_card1_heading_text}>
                 Amit Kumar
-              </h1>
-              <h1 className={styles.ourmentors_card1_text}>
+              </h3>
+              <span className={styles.ourmentors_card1_text}>
                 Proud to be an SAE Club IIT BHU alumnus, where innovation and
                 teamwork fueled my passion for engineering excellence
-              </h1>
+              </span>
             </div>
           </div>
         </div>
