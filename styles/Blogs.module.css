@@ -35,7 +35,7 @@
   color: white;
   text-align: center;
 }
-.blog_intro p {
+.blog_intro span {
   font-family: "Poppins";
   font-size: 1.1vw;
   color: #a4a3a4;
@@ -98,7 +98,7 @@
   border-radius: 40px;
   transition: all 0.3s ease-in-out;
 }
-.blog_card button{
+.blog_card button {
   background-color: #000000;
   color: white;
   border: none;
@@ -122,4 +122,44 @@
 }
 .blog_card:active button {
   display: none;
+}
+.newBlogIdeas {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-color: #e86526;
+  width: 100%;
+  height: 40vh;
+  margin-top: 100px;
+}
+.sideContent {
+  margin-top: 30px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.sideContent h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+.sideContent h3 {
+  font-size: 1.5em;
+  margin-left: 5px;
+}
+
+.bulb {
+  margin-top: -170px;
+  height: 450px;
+  width: 350px;
+}
+.email {
+  margin-top: 40px;
+  font-size: 2em;
+  background-color: black;
+  max-width: fit-content;
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+.logo {
+  width: 50px;
+  margin-right: 20px;
 }
