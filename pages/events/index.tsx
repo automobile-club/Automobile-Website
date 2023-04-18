@@ -10,7 +10,7 @@ export default function Events() {
       <div className={styles.upper_content}>
         <Image
           className={styles.top_img}
-          src="/events-images/Rectangle 37.png"
+          src="/images/Rectangle37.png"
           alt="#"
           width={1200}
           height={580}
@@ -35,44 +35,21 @@ export default function Events() {
         <div className={styles.row_events}>
           <div className={styles.indivisual_event}>
             <Link href="#">
-              <Image width={447} height={290} className={styles.event_img} src="/events-images/Rectangle 15.png" alt="#"></Image>
+              <Image width={447} height={290} className={styles.event_img} src="/images/Rectangle15.png" alt="#"></Image>
               <p>February 6th 2023</p>
               <h1>Meet up Freelancer</h1>
             </Link>
           </div>
           <div className={styles.indivisual_event}>
             <Link href="#">
-              <Image width={447} height={290} className={styles.event_img} src="/events-images/Rectangle 15.png" alt="#"></Image>
+              <Image width={447} height={290} className={styles.event_img} src="/images/Rectangle15.png" alt="#"></Image>
               <p>February 6th 2023</p>
               <h1>Meet up Freelancer</h1>
             </Link>
           </div>
           <div className={styles.indivisual_event}>
             <Link href="#">
-              <Image width={447} height={290} className={styles.event_img} src="/events-images/Rectangle 15.png" alt="#"></Image>
-              <p>February 6th 2023</p>
-              <h1>Meet up Freelancer</h1>
-            </Link>
-          </div>
-        </div>
-        <div className={styles.row_events}>
-          <div className={styles.indivisual_event}>
-            <Link href="#">
-              <Image width={447} height={290} className={styles.event_img} src="/events-images/Rectangle 15.png" alt="#"></Image>
-              <p>February 6th 2023</p>
-              <h1>Meet up Freelancer</h1>
-            </Link>
-          </div>
-          <div className={styles.indivisual_event}>
-            <Link href="#">
-              <Image width={447} height={290} className={styles.event_img} src="/events-images/Rectangle 15.png" alt="#"></Image>
-              <p>February 6th 2023</p>
-              <h1>Meet up Freelancer</h1>
-            </Link>
-          </div>
-          <div className={styles.indivisual_event}>
-            <Link href="#">
-              <Image width={447} height={290} className={styles.event_img} src="/events-images/Rectangle 15.png" alt="#"></Image>
+              <Image width={447} height={290} className={styles.event_img} src="/images/Rectangle15.png" alt="#"></Image>
               <p>February 6th 2023</p>
               <h1>Meet up Freelancer</h1>
             </Link>
@@ -81,21 +58,44 @@ export default function Events() {
         <div className={styles.row_events}>
           <div className={styles.indivisual_event}>
             <Link href="#">
-              <Image width={447} height={290} className={styles.event_img} src="/events-images/Rectangle 15.png" alt="#"></Image>
+              <Image width={447} height={290} className={styles.event_img} src="/images/Rectangle15.png" alt="#"></Image>
               <p>February 6th 2023</p>
               <h1>Meet up Freelancer</h1>
             </Link>
           </div>
           <div className={styles.indivisual_event}>
             <Link href="#">
-              <Image width={447} height={290} className={styles.event_img} src="/events-images/Rectangle 15.png" alt="#"></Image>
+              <Image width={447} height={290} className={styles.event_img} src="/images/Rectangle15.png" alt="#"></Image>
               <p>February 6th 2023</p>
               <h1>Meet up Freelancer</h1>
             </Link>
           </div>
           <div className={styles.indivisual_event}>
             <Link href="#">
-              <Image width={447} height={290} className={styles.event_img} src="/events-images/Rectangle 15.png" alt="#"></Image>
+              <Image width={447} height={290} className={styles.event_img} src="/images/Rectangle15.png" alt="#"></Image>
+              <p>February 6th 2023</p>
+              <h1>Meet up Freelancer</h1>
+            </Link>
+          </div>
+        </div>
+        <div className={styles.row_events}>
+          <div className={styles.indivisual_event}>
+            <Link href="#">
+              <Image width={447} height={290} className={styles.event_img} src="/images/Rectangle15.png" alt="#"></Image>
+              <p>February 6th 2023</p>
+              <h1>Meet up Freelancer</h1>
+            </Link>
+          </div>
+          <div className={styles.indivisual_event}>
+            <Link href="#">
+              <Image width={447} height={290} className={styles.event_img} src="/images/Rectangle15.png" alt="#"></Image>
+              <p>February 6th 2023</p>
+              <h1>Meet up Freelancer</h1>
+            </Link>
+          </div>
+          <div className={styles.indivisual_event}>
+            <Link href="#">
+              <Image width={447} height={290} className={styles.event_img} src="/images/Rectangle15.png" alt="#"></Image>
               <p>February 6th 2023</p>
               <h1>Meet up Freelancer</h1>
             </Link>
