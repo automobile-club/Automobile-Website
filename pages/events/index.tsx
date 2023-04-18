@@ -32,44 +32,21 @@ export default function Events() {
       <div className={styles.all_events}>
         <div className={styles.row_events}>
           <div>
-            <Link href="#">
+            <Link href="/events/individual">
               <Image className={styles.event_img} src={img2} alt="#"></Image>
               <p>February 6th 2023</p>
               <h1>Meet up Freelancer</h1>
             </Link>
           </div>
           <div>
-            <Link href="#">
+            <Link href="/events/individual">
               <Image className={styles.event_img} src={img2} alt="#"></Image>
               <p>February 6th 2023</p>
               <h1>Meet up Freelancer</h1>
             </Link>
           </div>
           <div>
-            <Link href="#">
-              <Image className={styles.event_img} src={img2} alt="#"></Image>
-              <p>February 6th 2023</p>
-              <h1>Meet up Freelancer</h1>
-            </Link>
-          </div>
-        </div>
-        <div className={styles.row_events}>
-          <div>
-            <Link href="#">
-              <Image className={styles.event_img} src={img2} alt="#"></Image>
-              <p>February 6th 2023</p>
-              <h1>Meet up Freelancer</h1>
-            </Link>
-          </div>
-          <div>
-            <Link href="#">
-              <Image className={styles.event_img} src={img2} alt="#"></Image>
-              <p>February 6th 2023</p>
-              <h1>Meet up Freelancer</h1>
-            </Link>
-          </div>
-          <div>
-            <Link href="#">
+            <Link href="/events/individual">
               <Image className={styles.event_img} src={img2} alt="#"></Image>
               <p>February 6th 2023</p>
               <h1>Meet up Freelancer</h1>
@@ -78,21 +55,44 @@ export default function Events() {
         </div>
         <div className={styles.row_events}>
           <div>
-            <Link href="#">
+            <Link href="/events/individual">
               <Image className={styles.event_img} src={img2} alt="#"></Image>
               <p>February 6th 2023</p>
               <h1>Meet up Freelancer</h1>
             </Link>
           </div>
           <div>
-            <Link href="#">
+            <Link href="/events/individual">
               <Image className={styles.event_img} src={img2} alt="#"></Image>
               <p>February 6th 2023</p>
               <h1>Meet up Freelancer</h1>
             </Link>
           </div>
           <div>
-            <Link href="#">
+            <Link href="/events/individual">
+              <Image className={styles.event_img} src={img2} alt="#"></Image>
+              <p>February 6th 2023</p>
+              <h1>Meet up Freelancer</h1>
+            </Link>
+          </div>
+        </div>
+        <div className={styles.row_events}>
+          <div>
+            <Link href="/events/individual">
+              <Image className={styles.event_img} src={img2} alt="#"></Image>
+              <p>February 6th 2023</p>
+              <h1>Meet up Freelancer</h1>
+            </Link>
+          </div>
+          <div>
+            <Link href="/events/individual">
+              <Image className={styles.event_img} src={img2} alt="#"></Image>
+              <p>February 6th 2023</p>
+              <h1>Meet up Freelancer</h1>
+            </Link>
+          </div>
+          <div>
+            <Link href="/events/individual">
               <Image className={styles.event_img} src={img2} alt="#"></Image>
               <p>February 6th 2023</p>
               <h1>Meet up Freelancer</h1>
