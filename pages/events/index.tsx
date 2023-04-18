@@ -13,7 +13,7 @@ export default function Events() {
           src="/events-images/Rectangle 37.png"
           alt="#"
           width={1200}
-          height={580} 
+          height={580}
         ></Image>
         <div className={styles.top_content}>
           <h1 className={styles.top_heading}>Event Name</h1>
@@ -102,8 +102,6 @@ export default function Events() {
           </div>
         </div>
       </div>
-
-      <Image src="/events-images/Rectangle 19.png" alt="" width={440} height={290}></Image>
     </div>
   );
 }
