@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import BlogContainer from "@/components/BlogContainer";
 import styles from "@/styles/Blogs.module.css";
 import { useState } from "react";
+import Image from "next/image";
 
 function BlogType() {
   const [selectedButton, setSelectedButton] = useState<string>("View All");
