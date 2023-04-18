@@ -1,5 +1,5 @@
 import styles from "@/styles/projects.module.css";
-import React from "react";
+import React , {useState} from "react";
 import Navbar from "@/components/Navbar";
 import {
   VerticalTimeline,
@@ -11,13 +11,25 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
 
 export default function Projects() {
+
+  const [slidesPerView, setSlidesPerView] = useState(3);
+
+  const handleResize = () => {
+    if (window.innerWidth < 768) {
+      setSlidesPerView(1);
+    } else if (window.innerWidth < 1024) {
+      setSlidesPerView(2);
+    } else {
+      setSlidesPerView(3);
+    }
+  };
+
   return (
     <>
       <Navbar BgColor="white" />
@@ -47,10 +59,11 @@ export default function Projects() {
                 Creative Director
               </h3>
               <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-              <span>
+              <p>
                 Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
-              </span>
+                Management, Team Leading Creative Direction, User Experience, Visual Design, Project
+                Management, Team Leading 
+              </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
@@ -63,10 +76,10 @@ export default function Projects() {
               <h4 className="vertical-timeline-element-subtitle">
                 San Francisco, CA
               </h4>
-              <span>
+              <p>
                 Creative Direction, User Experience, Visual Design, SEO, Online
                 Marketing
-              </span>
+              </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
@@ -77,7 +90,7 @@ export default function Projects() {
               <h4 className="vertical-timeline-element-subtitle">
                 Los Angeles, CA
               </h4>
-              <span>User Experience, Visual Design</span>
+              <p>User Experience, Visual Design</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
@@ -88,7 +101,7 @@ export default function Projects() {
               <h4 className="vertical-timeline-element-subtitle">
                 San Francisco, CA
               </h4>
-              <span>User Experience, Visual Design</span>
+              <p>User Experience, Visual Design</p>
             </VerticalTimelineElement>
           </VerticalTimeline>
         </div>
@@ -109,12 +122,11 @@ export default function Projects() {
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={0}
-          slidesPerView={3}
-          pagination={{ clickable: true }}
-          navigation={{ clickable: true }}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
+          slidesPerView={slidesPerView}
+          navigation
+          scrollbar={{ draggable: true }}
           className={styles.slider}
+          onResize={handleResize}
         >
           <SwiperSlide>
             <Image
