@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 .first_section{
-    background-color: #F4F4F4;
+    /* background-color: #F4F4F4; */
+    background-color: #1a1b1a;
     height: 91vh;
     margin:0px;
     padding-top:10vh;
@@ -14,6 +15,7 @@
     margin:auto;
     padding:20px;
     text-align: center;
+    color:#A3A4A3;
 }
 
 .about h1{
@@ -21,6 +23,7 @@
     margin-top:0px;
     font-family: 'Outfit';
     font-weight: 400;
+    color: #f4f4f4;
 }
 
 .about hr{
@@ -37,6 +40,12 @@
     position: relative;
     left:8vw;
     bottom:20vh;
+    transition: 0.5s ease;
+}
+
+.star img:hover{
+    transform: rotate(60deg);
+    transition: 0.5s ease;
 }
 
 .intro{
@@ -58,43 +67,57 @@
 }
 
 .intro_text{
-    width:31.8%;
+    width:20vw;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 3.4vw;
     font-family: 'Outfit';
     padding:20px 0px 30px 0px;
 }
 
+
 .youtube_btn{
     background-color: black;
-    color:white;
+    color: #f4f4f4;
     font-family: 'outfit';
-    font-size: 18px;
+    font-size: 17px;
     padding:7px 14px;
     border-radius:20px;
     margin-top:30px;
+    transition: 0.3s ease;
 }
 
 .youtube_btn:hover{
     cursor:pointer;
+    background-color: #e25420;
+    border:2px #e25420 solid;
+    transition: 0.3s ease;
 }
 
 .youtube_btn img{
-    width:26px;
+    width:22px;
     position: relative;
     bottom:3px;
 }
 
 .second_section{
-    background-color: black;
+    background-color: #f4f4f4;
     height: 129.5vh;
     width:99.92;
-    color:white;
+    color:#1a1b1a;
     padding-top:260px;
 }
 
+.second_section img{
+    transition: 0.5s ease;
+}
+
+.second_section img:hover{
+    transform: rotate(-10deg) scale(0.9,0.9) ;
+    transition: 0.5s ease;
+}
+
 .second_section h1,.third_section h1, .fourth_section h1{
-    font-size:60px;
+    font-size:4vw;
     font-family: 'Poppins';
     font-weight: 600;
     padding-bottom: 10px;
@@ -105,23 +128,46 @@
 }
 
 .third_section{
-    background-color: #F4F4F4;
+    background-color: #1a1b1a;
     height: 100vh;
     width:99.92;
     padding-top:10vh;
+    color: #f4f4f4;
+    
+}
+
+.third_section img{
+    transition: 0.5s ease;
+}
+
+.third_section img:hover{
+    transform: rotate(10deg) scale(0.9,0.9) ;
+    transition: 0.5s ease;
 }
 
 .fourth_section{
-    background-color: black;
+    background-color: #f4f4f4;
     height: 100vh;
     width:99.92;
-    color:white;
+    color:#1a1b1a;
     padding-top:10vh;
 }
 
+.fourth_section img{
+    transition: 0.5s ease;
+}
+
+.fourth_section img:hover{
+    transform: rotate(-10deg) scale(0.9,0.9) ;
+    transition: 0.5s ease;
+}
+
+
+
 .fifth_section{
-    background-color: #F4F4F4;
-    height: 70vh;
+    background-color: #1a1b1a;
+    color: #f4f4f4;
+    height: 48vw;
     width:99.92;
     padding-top:5vh;
 }
@@ -129,7 +175,7 @@
 .fifth_section h1{
     font-family: 'Poppins';
     font-weight: 600;
-    font-size:60px;
+    font-size:4vw;
     padding-bottom: 10px;
     border-bottom-style: solid;
     border-bottom-width: 3.1px;
@@ -140,11 +186,13 @@
 .helm{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    padding:20px 100px 0px 250px;
+    column-gap:40px;
+    margin:7vw auto;
+    width:min-content;
 }
 
 .helm img{
-    width:230px;
+    width:15vw;
 }
 
 .content{
@@ -158,18 +206,129 @@
 
 .left{
     width:40%;
+    display: flex;
+    align-items: center;
 }
 .left img{
     width:100%;
 }
 .right{
     width:70%;
-    font-size: 1.625rem;
-    line-height: 2.5rem;
+    font-size: 1.5vw;
+    line-height:3vw;
     padding:30px;
     display: flex;
     align-items: center;
 }
+
+
+@media (max-width:1000px) {
+    
+    .about{
+        width:50vw;
+
+    }
+    .about hr{
+        width:46.4vw;
+    }
+    .youtube_btn{
+        font-size: 1.5vw;
+    }
+    
+    .youtube_btn img{
+        width:2vw;
+    }
+}
+
+@media (max-width:840px) {
+    .first_section,.second_section,.third_section,.fifth_section,.fourth_section{
+        height: auto;
+        padding-top:20px;
+    }
+    .intro{
+        float: none;
+        position: relative;
+        bottom:0;
+        left:0;
+        width:100%;
+    }
+    .content{
+        margin-bottom:0px;
+        margin-top:0px;
+        column-gap:20px;
+    }
+    
+    
+    .left{
+        width:55%;
+        display: flex;
+        align-items: center;
+    }
+    .right{
+        font-size:12px;
+        line-height: 25px;
+    }
+
+    .right p{
+        display: none;
+    }
+
+
+    .second_section,.fourth_section{
+        background-color: #1a1b1a;
+        color:#f4f4f4;
+    }
+
+    .third_section,.fifth_section{
+        background-color: #f4f4f4;
+        color:#1a1b1a;
+    }
+
+    .intro_text{
+        width:20vw;
+        text-align: center;
+        font-size: 36px;
+        font-family: 'Outfit';
+        padding:20px 0px 30px 0px;
+    }
+    
+    
+    .youtube_btn{
+        background-color: black;
+        color: #f4f4f4;
+        font-family: 'outfit';
+        font-size: 17px;
+        padding:7px 14px;
+        border-radius:20px;
+        margin-top:30px;
+        transition: 0.3s ease;
+    }
+
+    
+    .youtube_btn img{
+        width:22px;
+        position: relative;
+        bottom:3px;
+    }
+
+    .helm{
+        display: grid;
+        /* grid-template-columns: 1fr; */
+        column-gap:30px;
+        margin:7vw auto;
+        width:min-content;
+    }
+    
+    .helm img{
+        width:20vw;
+    }
+
+    .fifth_section{
+        height: 54vw;
+    }
+
+} 
+
 
 
 
