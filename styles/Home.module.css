@@ -8,7 +8,7 @@
 
 .sae_intro {
     padding-top: 1.56em;
-    background-color: black;
+    background-color:#1B1A1B;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
