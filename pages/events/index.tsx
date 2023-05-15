@@ -9,7 +9,9 @@ export default function Events() {
       <Navbar BgColor="white" />
       <div className={styles.upper_content}>
         <div className={styles.top_img_container}>
-          <img
+          <Image
+            width={1200}
+            height={800}
             src="/images/Rectangle37.png"
             alt="#"
             className={styles.top_image}
