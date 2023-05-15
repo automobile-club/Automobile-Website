@@ -21,39 +21,19 @@
   width: 100px;
 }
 
-.upper_content{
-  height: 700px;
+.top_img_container {
+  max-width: 100%;
 }
 
-.top_img {
+.top_image {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
   position: relative;
-  top:30px;
-  display: block;
-  margin: auto;
+  top: 35px;
   z-index: -1;
-}
-
-.top_content{
-  width: 400px;
-  position: relative;
-  bottom: 380px;
-  left: 250px;
-}
-
-.top_heading {
-  font-family: "Outfit";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 60px;
-  color: #ffffff;
-}
-
-.top_desc {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  color: #ffffff;
 }
 
 .btn_container{
@@ -61,11 +41,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -205px;
 }
 
 .top_btn {
-  width: 240px;
+  padding: 8px 20px;
+  font-size: 22px;
+  width: 280px;
   height: 60px;
   background: #e94d00;
   border-radius: 51.68px;
@@ -74,7 +55,6 @@
   font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
   line-height: 34px;
   color: #ffffff;
 }
@@ -84,115 +64,116 @@
   font-family: "Fredoka";
   font-style: normal;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 45px;
   line-height: 93px;
   color: #000000;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .all_events {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin: 0 55px;
-  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
 }
 
-.row_events {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  max-width: 1550px;
-  gap: 4vw;
-  margin-bottom: 70px;
+.individual_event {
+  padding: 20px;
 }
 
-.event_img {
-  border-radius: 24px;
+.event_img{
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  height: auto;
 }
 
-.row_events div a {
-  text-decoration: none;
-}
-
-.row_events div p {
+.event_p{
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   color: #6b7280;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 25px;
 }
 
-.row_events div h1 {
+.event_h1{
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 24.1167px;
   color: #374151;
   margin-top: -5px;
-  margin-left: 10px;
+  margin-left: 25px;
 }
 
 .row_events a {
   cursor: pointer;
 }
 
-
-/* Media Queries */
-/* CSS for screens smaller than 768px */
-@media (max-width:768px) {
-  .upper_content{
-    width: 900px;
-    height: 600px;
-  }
-
-  .top_img{
-    width: 900px;
-    margin-left: 2px;
-    padding-left: 50px;
-    padding-right: 50px;
-    height: 500px;
-  }
-
-  .top_content{
-    left: 80px;
-  }
-
-  .main_heading{
-    width: 900px;
-  }
-
+@media (max-width: 768px) {
   .all_events {
-    margin: 0 3px;
-    margin-top: 60px;
+    grid-template-columns: repeat(2, 1fr);
   }
-  
-  .row_events {
-    gap: 2vw;
-    margin-bottom: 50px;
+  .top_image{
+    padding-left: 40px;
+    padding-right: 40px;
+    top: 25px;
   }
+  .top_btn{
+    font-size: 22px;
+    padding: 6px 16px;
+    width: 180px;
+    height: 42px;
+  }
+  .main_heading{
+    font-size: 40px;
+  }
+  .event_img{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .event_h1{
+    font-size: 20px;
+    margin-top: -12px;
+  }
+  .event_p{
+    font-size: 12px;
+  }
+}
 
-  .indivisual_event{
+@media (max-width: 480px) {
+  .all_events {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .top_btn{
+    font-size: 13px;
+    padding: 0px 12px;
+    width: 110px;
+    height: 32px;
+  }
+  .top_image{
+    top: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .main_heading{
+    font-size: 30px;
+    margin-top: 0px;
+  }
+  .event_img{
     padding-left: 50px;
     padding-right: 50px;
   }
-  
-  .row_events div h1 {
-    font-size: 40px;
-    margin-bottom: 50px;
-    text-align: center;
+  .event_p{
+    margin-left: 50px;
+    font-size: 14px;
   }
-
-  .event_img{
-    width: 800px;
-    height: 550px;
-  }
-  
-  .row_events div p {
-    font-size: 25px;
-    margin-top: 18px;
-    text-align: center;
+  .event_h1{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: -12px;
   }
 }
 
