@@ -27,69 +27,123 @@ export default function Events() {
       <h1 className={styles.main_heading}>EVENT SCHEDULE</h1>
 
       <div className={styles.all_events}>
-          <div className={styles.indivisual_event}>
-            <Link style={{ textDecoration: 'none' }} href="#">
-              <Image width={447} height={290} className={styles.event_img} src="/images/Rectangle15.png" alt="#"></Image>
-              <p className={styles.event_p}>February 6th 2023</p>
-              <h1 className={styles.event_h1}>Meet up Freelancer</h1>
-            </Link>
-          </div>
-          <div className={styles.indivisual_event}>
-            <Link style={{ textDecoration: 'none' }} href="#">
-              <Image width={447} height={290} className={styles.event_img} src="/images/Rectangle15.png" alt="#"></Image>
-              <p className={styles.event_p}>February 6th 2023</p>
-              <h1 className={styles.event_h1}>Meet up Freelancer</h1>
-            </Link>
-          </div>
-          <div className={styles.indivisual_event}>
-            <Link style={{ textDecoration: 'none' }} href="#">
-              <Image width={447} height={290} className={styles.event_img} src="/images/Rectangle15.png" alt="#"></Image>
-              <p className={styles.event_p}>February 6th 2023</p>
-              <h1 className={styles.event_h1}>Meet up Freelancer</h1>
-            </Link>
-          </div>
-          <div className={styles.indivisual_event}>
-            <Link style={{ textDecoration: 'none' }} href="#">
-              <Image width={447} height={290} className={styles.event_img} src="/images/Rectangle15.png" alt="#"></Image>
-              <p className={styles.event_p}>February 6th 2023</p>
-              <h1 className={styles.event_h1}>Meet up Freelancer</h1>
-            </Link>
-          </div>
-          <div className={styles.indivisual_event}>
-            <Link style={{ textDecoration: 'none' }} href="#">
-              <Image width={447} height={290} className={styles.event_img} src="/images/Rectangle15.png" alt="#"></Image>
-              <p className={styles.event_p}>February 6th 2023</p>
-              <h1 className={styles.event_h1}>Meet up Freelancer</h1>
-            </Link>
-          </div>
-          <div className={styles.indivisual_event}>
-            <Link style={{ textDecoration: 'none' }} href="#">
-              <Image width={447} height={290} className={styles.event_img} src="/images/Rectangle15.png" alt="#"></Image>
-              <p className={styles.event_p}>February 6th 2023</p>
-              <h1 className={styles.event_h1}>Meet up Freelancer</h1>
-            </Link>
-          </div>
-          <div className={styles.indivisual_event}>
-            <Link style={{ textDecoration: 'none' }} href="#">
-              <Image width={447} height={290} className={styles.event_img} src="/images/Rectangle15.png" alt="#"></Image>
-              <p className={styles.event_p}>February 6th 2023</p>
-              <h1 className={styles.event_h1}>Meet up Freelancer</h1>
-            </Link>
-          </div>
-          <div className={styles.indivisual_event}>
-            <Link style={{ textDecoration: 'none' }} href="#">
-              <Image width={447} height={290} className={styles.event_img} src="/images/Rectangle15.png" alt="#"></Image>
-              <p className={styles.event_p}>February 6th 2023</p>
-              <h1 className={styles.event_h1}>Meet up Freelancer</h1>
-            </Link>
-          </div>
-          <div className={styles.indivisual_event}>
-            <Link style={{ textDecoration: 'none' }} href="#">
-              <Image width={447} height={290} className={styles.event_img} src="/images/Rectangle15.png" alt="#"></Image>
-              <p className={styles.event_p}>February 6th 2023</p>
-              <h1 className={styles.event_h1}>Meet up Freelancer</h1>
-            </Link>
-          </div>
+        <div className={styles.indivisual_event}>
+          <Link style={{ textDecoration: "none" }} href="#">
+            <Image
+              width={447}
+              height={290}
+              className={styles.event_img}
+              src="/images/Rectangle15.png"
+              alt="#"
+            ></Image>
+            <p className={styles.event_p}>February 6th 2023</p>
+            <h1 className={styles.event_h1}>Meet up Freelancer</h1>
+          </Link>
+        </div>
+        <div className={styles.indivisual_event}>
+          <Link style={{ textDecoration: "none" }} href="#">
+            <Image
+              width={447}
+              height={290}
+              className={styles.event_img}
+              src="/images/Rectangle15.png"
+              alt="#"
+            ></Image>
+            <p className={styles.event_p}>February 6th 2023</p>
+            <h1 className={styles.event_h1}>Meet up Freelancer</h1>
+          </Link>
+        </div>
+        <div className={styles.indivisual_event}>
+          <Link style={{ textDecoration: "none" }} href="#">
+            <Image
+              width={447}
+              height={290}
+              className={styles.event_img}
+              src="/images/Rectangle15.png"
+              alt="#"
+            ></Image>
+            <p className={styles.event_p}>February 6th 2023</p>
+            <h1 className={styles.event_h1}>Meet up Freelancer</h1>
+          </Link>
+        </div>
+        <div className={styles.indivisual_event}>
+          <Link style={{ textDecoration: "none" }} href="#">
+            <Image
+              width={447}
+              height={290}
+              className={styles.event_img}
+              src="/images/Rectangle15.png"
+              alt="#"
+            ></Image>
+            <p className={styles.event_p}>February 6th 2023</p>
+            <h1 className={styles.event_h1}>Meet up Freelancer</h1>
+          </Link>
+        </div>
+        <div className={styles.indivisual_event}>
+          <Link style={{ textDecoration: "none" }} href="#">
+            <Image
+              width={447}
+              height={290}
+              className={styles.event_img}
+              src="/images/Rectangle15.png"
+              alt="#"
+            ></Image>
+            <p className={styles.event_p}>February 6th 2023</p>
+            <h1 className={styles.event_h1}>Meet up Freelancer</h1>
+          </Link>
+        </div>
+        <div className={styles.indivisual_event}>
+          <Link style={{ textDecoration: "none" }} href="#">
+            <Image
+              width={447}
+              height={290}
+              className={styles.event_img}
+              src="/images/Rectangle15.png"
+              alt="#"
+            ></Image>
+            <p className={styles.event_p}>February 6th 2023</p>
+            <h1 className={styles.event_h1}>Meet up Freelancer</h1>
+          </Link>
+        </div>
+        <div className={styles.indivisual_event}>
+          <Link style={{ textDecoration: "none" }} href="#">
+            <Image
+              width={447}
+              height={290}
+              className={styles.event_img}
+              src="/images/Rectangle15.png"
+              alt="#"
+            ></Image>
+            <p className={styles.event_p}>February 6th 2023</p>
+            <h1 className={styles.event_h1}>Meet up Freelancer</h1>
+          </Link>
+        </div>
+        <div className={styles.indivisual_event}>
+          <Link style={{ textDecoration: "none" }} href="#">
+            <Image
+              width={447}
+              height={290}
+              className={styles.event_img}
+              src="/images/Rectangle15.png"
+              alt="#"
+            ></Image>
+            <p className={styles.event_p}>February 6th 2023</p>
+            <h1 className={styles.event_h1}>Meet up Freelancer</h1>
+          </Link>
+        </div>
+        <div className={styles.indivisual_event}>
+          <Link style={{ textDecoration: "none" }} href="#">
+            <Image
+              width={447}
+              height={290}
+              className={styles.event_img}
+              src="/images/Rectangle15.png"
+              alt="#"
+            ></Image>
+            <p className={styles.event_p}>February 6th 2023</p>
+            <h1 className={styles.event_h1}>Meet up Freelancer</h1>
+          </Link>
+        </div>
       </div>
     </div>
   );
