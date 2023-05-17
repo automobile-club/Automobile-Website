@@ -1,74 +1,270 @@
+/* eslint-disable @next/next/no-img-element */
 import Navbar from "@/components/Navbar";
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import BlogContainer from "@/components/BlogContainer";
+import DirectionCards from "@/components/DirectionCards/DirectionCards";
 
 function Home() {
   return (
     <>
       <Navbar BgColor="black" />
+
+      {/* Hero Section */}
+      {/* Hero Section */}
       <div className={styles.sae_intro}>
-        <div className={styles.left_wrapper_saeintro}>
-          <div className={styles.cards_saeintro}>
-            <Image
-              className={styles.cards_img_saeintro}
-              src="/images/cards.png"
-              alt=""
-              width={600}
-              height={600}
-            />
-          </div>
-        </div>
+        <Image
+          className={styles.cards_img_saeintro}
+          src="/images/cards.png"
+          alt=""
+          width={600}
+          height={600}
+        />
         <div className={styles.right_wrapper_saeintro}>
           <div className={styles.sae_headings}>
-            <h1 className={styles.sae_name_text}>SAE</h1>
-            <h1 className={styles.sae_collegiate_text}>Collegiate Club</h1>
+            <h1 className={styles.sae_name_text}>SAE Collegiate Club</h1>
           </div>
           <div className={styles.sae_content}>
-            <h1 className={styles.sae_long_text}>
+            <p className={styles.sae_long_text}>
               It is a student organization at Indian Institute of Technology,
-              (BHU) Varanasi.{} It focuses on promoting automotive engineering
-              and provides members with opportunities to participate in
-              technical events, competitions, and hands-on projects related to
-              vehicle design and building.
-            </h1>
+              (BHU) Varanasi. It focuses on promoting automotive engineering and
+              provides opportunities to participate in technical events,
+              competitions, and hands-on projects related to vehicle design.
+            </p>
           </div>
           <div className={styles.social_media}>
-            <div className={styles.instagram}>
-              <a href="#">
-                <Image
-                  className={styles.instagram_img}
-                  src="/images/instagram_hero.png"
-                  alt=""
-                  width={40}
-                  height={40}
-                />
-              </a>
-            </div>
-            <div className={styles.facebook}>
-              <a href="#">
-                <Image
-                  className={styles.facebook_img}
-                  src="/images/facebook_hero.png"
-                  alt=""
-                  width={60}
-                  height={40}
-                />
-              </a>
-            </div>
-            <div className={styles.linkedIn}>
-              <a href="#">
-                <Image
-                  className={styles.linkedIn_img}
-                  src="/images/linkedIn_hero.png"
-                  alt=""
-                  width={55}
-                  height={37}
-                />
-              </a>
-            </div>
+            <a href="#">
+              <img
+                className={styles.instagram_img}
+                src="/images/instagram_hero.png"
+                alt=""
+              />
+            </a>
+            <a href="#">
+              <img
+                className={styles.facebook_img}
+                src="/images/facebook_hero.png"
+                alt=""
+              />
+            </a>
+            <a href="#">
+              <img
+                className={styles.linkedIn_img}
+                src="/images/linkedIn_hero.png"
+                alt=""
+              />
+            </a>
           </div>
           <div className={styles.line}></div>
+        </div>
+      </div>
+
+      {/* our achievments section */}
+      {/* our achievments section */}
+      <div className={styles.ourachievments_sae}>
+        <div className={styles.ourachievments_heading}>
+          <h2 className={styles.ourmentors_heading_text}>Our Achievements</h2>
+        </div>
+        <div className={styles.achievments_cards_sae}>
+          <div className={styles.ourmentors_card1_sae}>
+            <img
+              className={styles.ourmentors_img}
+              src="/images/Techfest_img.png"
+              alt="Mentors"
+            />
+            <div className={styles.achievments_card1_text}>
+              <h3 className={styles.ourmentors_card1_heading_text}>
+                IIT Bombay
+              </h3>
+              <span
+                className={`${styles.ourmentors_card1_text} ${styles.ourachievments_card1_text}`}
+              >
+                Top 10 in IFT&apos;18 Techfest&apos;18
+              </span>
+            </div>
+          </div>
+
+          <div className={styles.ourmentors_card1_sae}>
+            <img
+              className={styles.ourmentors_img}
+              src="/images/Techniche_img.png"
+              alt="Mentors"
+            />
+            <div className={styles.achievments_card1_text}>
+              <h3 className={styles.ourmentors_card1_heading_text}>
+                IIT Guwahati
+              </h3>
+              <span
+                className={`${styles.ourmentors_card1_text} ${styles.ourachievments_card1_text}`}
+              >
+                2nd Position Burnout&apos;18 Techniche&apos;19
+              </span>
+            </div>
+          </div>
+
+          <div className={styles.ourmentors_card1_sae}>
+            <img
+              className={styles.ourmentors_img}
+              src="/images/Technex_img.png"
+              alt="Technex"
+            />
+            <div className={styles.achievments_card1_text}>
+              <h3 className={styles.ourmentors_card1_heading_text}>
+                IIT Varanasi
+              </h3>
+              <span
+                className={`${styles.ourmentors_card1_text} ${styles.ourachievments_card1_text}`}
+              >
+                1st Position Axelerate&apos;19 Technex&apos;19
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* our events section */}
+      {/* our events section */}
+      <div className={styles.events}>
+        <div className={styles.eventHeading}>
+          <h2>Events & Workshop</h2>
+        </div>
+        <div className={styles.card_container}>
+          <div className={styles.row}>
+            <div className={styles.card}>
+              <img src="/images/eventImg.svg" alt="The Culture of SAE" />
+              <h2>The Culture of SAE</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc
+                vel risus commodo viverra.
+              </p>
+              <a href="#">Read More</a>
+            </div>
+            <div className={styles.card}>
+              <img src="/images/eventImg.svg" alt="The Culture of SAE" />
+              <h2>The Culture of SAE</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc
+                vel risus commodo viverra.
+              </p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div className={styles.row}>
+            <div className={styles.card}>
+              <img src="/images/eventImg.svg" alt="The Culture of SAE" />
+              <h2>The Culture of SAE</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc
+                vel risus commodo viverra.
+              </p>
+              <a href="#">Read More</a>
+            </div>
+            <div className={styles.card}>
+              <img src="/images/eventImg.svg" alt="The Culture of SAE" />
+              <h2>The Culture of SAE</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc
+                vel risus commodo viverra.
+              </p>
+              <a href="#">Read More</a>
+            </div>
+            <div className={styles.card}>
+              <img src="/images/eventImg.svg" alt="The Culture of SAE" />
+              <h2>The Culture of SAE</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc
+                vel risus commodo viverra.
+              </p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <Link href="/blog" className={`${styles.vmBtn} ${styles.ourBlogBtn}`}>
+          View More
+        </Link>
+      </div>
+
+      {/* orange section */}
+      {/* orange section */}
+      <div className={styles.orangeSection}>
+        <img src="/images/orangeSection.svg" alt="orange" />
+      </div>
+
+      {/* our blogs section */}
+      {/* our blogs section */}
+      <div className={styles.blogs}>
+        <div className={styles.blogHeading}>
+          <h2>Our Blogs</h2>
+        </div>
+        <BlogContainer numBlogCards={4} />
+        <Link href="/blog" className={`${styles.vmBtn} ${styles.ourBlogBtn}`}>
+          View More
+        </Link>
+      </div>
+
+      {/* our mentors section */}
+      {/* our mentors section */}
+      <div className={styles.ourmentors_sae}>
+        <div className={styles.ourachievments_heading}>
+          <h2 className={styles.ourmentors_heading_text}>Our Mentors</h2>
+        </div>
+        <div className={styles.achievments_cards_sae}>
+          <div className={styles.ourmentors_card1_sae}>
+            <img
+              className={styles.ourmentors_img}
+              src="/images/mentors1.png"
+              alt="Mentors"
+            />
+            <div className={styles.achievments_card1_text}>
+              <h4 className={styles.ourmentors_card1_heading_text}>
+                Amit Kumar
+              </h4>
+              <span className={styles.ourmentors_card1_text}>
+                Proud to be an SAE Club IIT BHU alumnus, where innovation and
+                teamwork fueled my passion for engineering excellence
+              </span>
+            </div>
+          </div>
+
+          <div className={styles.ourmentors_card1_sae}>
+            <img
+              className={styles.ourmentors_img}
+              src="/images/mentors1.png"
+              alt="Mentors"
+            />
+            <div className={styles.achievments_card1_text}>
+              <h4 className={styles.ourmentors_card1_heading_text}>
+                Amit Kumar
+              </h4>
+              <span className={styles.ourmentors_card1_text}>
+                Proud to be an SAE Club IIT BHU alumnus, where innovation and
+                teamwork fueled my passion for engineering excellence
+              </span>
+            </div>
+          </div>
+
+          <div className={styles.ourmentors_card1_sae}>
+            <img
+              className={styles.ourmentors_img}
+              src="/images/mentors1.png"
+              alt="Mentors"
+            />
+            <div className={styles.achievments_card1_text}>
+              <h4 className={styles.ourmentors_card1_heading_text}>
+                Amit Kumar
+              </h4>
+              <span className={styles.ourmentors_card1_text}>
+                Proud to be an SAE Club IIT BHU alumnus, where innovation and
+                teamwork fueled my passion for engineering excellence
+              </span>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -77,300 +273,21 @@ function Home() {
       <div className={styles.sae_ourteams}>
         <div className={styles.left_wrapper_ourteams}>
           <div className={styles.heading_ourteams}>
-            <h1 className={styles.heading_content_ourteams}>Our Teams </h1>
+            <h2 className={styles.heading_content_ourteams}>Our Teams </h2>
           </div>
-          <div className={styles.long_content_ourteams}>
-            <h1 className={styles.text_longcontent_ourteams}>
-              Morem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-              turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
-              nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum
-              tellus elit sed risus. Maecenas eget condimentum velit, sit
-            </h1>
-          </div>
-          <div className={styles.colored_div}></div>
+          <p className={styles.text_longcontent_ourteams}>
+            Morem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
+            turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
+            nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum
+            tellus elit sed risus. Maecenas eget condimentum velit, sit
+          </p>
+          <Link href="/blog" className={`${styles.vmBtn} ${styles.ourBlogBtn}`}>
+            View More
+          </Link>
         </div>
         <div className={styles.right_wrapper_ourteams}>
-          <div className={styles.cards_ourteams}>
-            <div className={styles.uppercards_ourteams}>
-              <div className={styles.cards_wholecontent_ourteams}>
-                <h2 className={styles.cards_headings_ourteams}>Card Heading</h2>
-                <h1 className={styles.cardcontent_ourteams}>
-                  Short content describing the card goes here. Lorem ipsum dolor
-                  sit amet, consectetur adipiscing elit.
-                </h1>
-              </div>
-              <div className={styles.cards_wholecontent_ourteams}>
-                <h2 className={styles.cards_headings_ourteams}>Card Heading</h2>
-                <h1 className={styles.cardcontent_ourteams}>
-                  Short content describing the card goes here. Lorem ipsum dolor
-                  sit amet, consectetur adipiscing elit.
-                </h1>
-              </div>
-            </div>
-            <div className={styles.lowercards_ourteams}>
-              <div className={styles.cards_wholecontent_ourteams}>
-                <h2 className={styles.cards_headings_ourteams}>Card Heading</h2>
-                <h1 className={styles.cardcontent_ourteams}>
-                  Short content describing the card goes here. Lorem ipsum dolor
-                  sit amet, consectetur adipiscing elit.
-                </h1>
-              </div>
-              <div className={styles.cards_wholecontent_ourteams}>
-                <h2 className={styles.cards_headings_ourteams}>Card Heading</h2>
-                <h1 className={styles.cardcontent_ourteams}>
-                  Short content describing the card goes here. Lorem ipsum dolor
-                  sit amet, consectetur adipiscing elit.
-                </h1>
-              </div>
-            </div>
-          </div>
+          <DirectionCards />
         </div>
-      </div>
-
-      {/* our blogs section */}
-      {/* our blogs section */}
-      <div className={styles.blogs}>
-        <div className={styles.blogHeading}>
-          <h1>Our Blogs</h1>
-        </div>
-        <div className={styles.blog_container}>
-          <div className={styles.blog_card}>
-            <button>Read More</button>
-          </div>
-          <div className={styles.blog_card}>
-            <button>Read More</button>
-          </div>
-          <div className={styles.blog_card}>
-            <button>Read More</button>
-          </div>
-          <div className={styles.blog_card}>
-            <button>Read More</button>
-          </div>
-        </div>
-      </div>
-
-      {/* orange section */}
-      {/* orange section */}
-      <div className={styles.orangeSection}>
-        <img src="/images/orangeSection.svg" />
-      </div>
-
-      {/* our achievments section */}
-      {/* our achievments section */}
-      <div className={styles.ourachievments_sae}>
-        <div className={styles.ourachievments_heading}>
-          <h1 className={styles.ourachievments_heading_text}>
-            Our Achievements
-          </h1>
-        </div>
-        <div className={styles.achievments_cards_sae}>
-          <div className={styles.achievments_card1_sae}>
-            <div className={styles.achievments_card1_img}>
-                <Image
-                  className={styles.Techfest_img}
-                  src="/images/Techfest_img.png"
-                  alt=""
-                  width={100}
-                  height={100}
-                />
-            </div>
-            <div className={styles.achievments_card1_content}>
-              <span className={styles.achievments_card1_text}>
-                Top 10 team IFT&apos;18 Techfest&apos;18 IIT Bombay
-              </span>
-            </div>
-          </div>
-
-          <div className={styles.achievments_card1_sae}>
-            <div className={styles.achievments_card1_img}>
-                <Image
-                  className={styles.Techniche_img}
-                  src="/images/Techniche_img.png"
-                  alt=""
-                  width={100}
-                  height={100}
-                />
-            </div>
-            <div className={styles.achievments_card1_content}>
-              <h1 className={styles.achievments_card1_text}>
-                2nd Position Burnout&apos;18 Techniche&apos;19 IIT Guwahati
-              </h1>
-            </div>
-          </div>
-
-          <div className={styles.achievments_card1_sae}>
-            <div className={styles.achievments_card1_img}>
-                <Image
-                  className={styles.Technex_img}
-                  src="/images/Technex_img.png"
-                  alt=""
-                  width={100}
-                  height={100}
-                />
-            </div>
-            <div className={styles.achievments_card1_content}>
-              <h1 className={styles.achievments_card1_text}>
-                1st Position Axelerate&apos;19 Technex&apos;19 IIT BHU
-              </h1>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* our mentors section */}
-      {/* our mentors section */}
-
-      <div className={styles.ourmentors_sae}>
-        <div className={styles.ourmentors_heading}>
-          <h1 className={styles.ourmentors_heading_text}> Our Mentors</h1>
-        </div>
-        <div className={styles.ourmentors_cards_sae}>
-          <div className={styles.ourmentors_card1_sae}>
-            <div className={styles.ourmentors_card1_img}>
-              <a href="#">
-                <Image
-                  className={styles.ourmentors_img}
-                  src="/images/mentors1.png"
-                  alt=""
-                  width={60}
-                  height={60}
-                />
-              </a>
-            </div>
-            <div className={styles.ourmentors_card1_content}>
-              <h1 className={styles.ourmentors_card1_heading_text}>
-                Amit Kumar
-              </h1>
-              <h1 className={styles.ourmentors_card1_text}>
-                Proud to be an SAE Club IIT BHU alumnus, where innovation and
-                teamwork fueled my passion for engineering excellence
-              </h1>
-            </div>
-          </div>
-
-          <div className={styles.ourmentors_card1_sae}>
-            <div className={styles.ourmentors_card1_img}>
-              <a href="#">
-                <Image
-                  className={styles.ourmentors_img}
-                  src="/images/mentors2.png"
-                  alt=""
-                  width={60}
-                  height={60}
-                />
-              </a>
-            </div>
-            <div className={styles.ourmentors_card1_content}>
-              <h1 className={styles.ourmentors_card1_heading_text}>
-                Amit Kumar
-              </h1>
-              <h1 className={styles.ourmentors_card1_text}>
-                Proud to be an SAE Club IIT BHU alumnus, where innovation and
-                teamwork fueled my passion for engineering excellence
-              </h1>
-            </div>
-          </div>
-
-          <div className={styles.ourmentors_card1_sae}>
-            <div className={styles.ourmentors_card1_img}>
-              <a href="#">
-                <Image
-                  className={styles.ourmentors_img}
-                  src="/images/mentors3.png"
-                  alt=""
-                  width={60}
-                  height={60}
-                />
-              </a>
-            </div>
-            <div className={styles.ourmentors_card1_content}>
-              <h1 className={styles.ourmentors_card1_heading_text}>
-                Amit Kumar
-              </h1>
-              <h1 className={styles.ourmentors_card1_text}>
-                Proud to be an SAE Club IIT BHU alumnus, where innovation and
-                teamwork fueled my passion for engineering excellence
-              </h1>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* our events section */}
-      {/* our events section */}
-
-      <div className={styles.events}>
-        <div className={styles.eventHeading}>
-          <h1>Events & Workshop</h1>
-        </div>
-
-        <div className={styles.eventContainer}>
-          <div className={styles.upperEvent}>
-            <div className={styles.ueEach}>
-              <img src="/images/eventImg.svg" />
-              <div className={styles.ueContent}>
-                <span>The culture of SAE</span>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna
-                  aliqua.Nunc vel risus commodo viverra.
-                </p>
-                <Link href="/">Read more </Link>
-              </div>
-            </div>
-            <div className={styles.ueEach}>
-              <img src="/images/eventImg.svg" />
-              <div className={styles.ueContent}>
-                <span>The culture of SAE</span>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna
-                  aliqua.Nunc vel risus commodo viverra.
-                </p>
-                <Link href="/">Read more </Link>
-              </div>
-            </div>
-          </div>
-          <div className={styles.lowerEvent}>
-            <div className={styles.leEach}>
-              <img src="/images/eventImg.svg" />
-              <div className={styles.leContent}>
-                <span>The culture of SAE</span>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna
-                  aliqua.Nunc vel risus commodo viverra.
-                </p>
-                <Link href="/">Read more </Link>
-              </div>
-            </div>
-            <div className={styles.leEach}>
-              <img src="/images/eventImg.svg" />
-              <div className={styles.leContent}>
-                <span>The culture of SAE</span>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna
-                  aliqua.Nunc vel risus commodo viverra.
-                </p>
-                <Link href="/">Read more </Link>
-              </div>
-            </div>
-            <div className={styles.leEach}>
-              <img src="/images/eventImg.svg" />
-              <div className={styles.leContent}>
-                <span>The culture of SAE</span>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna
-                  aliqua.Nunc vel risus commodo viverra.
-                </p>
-                <Link href="/">Read more </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-        <button className={styles.vmBtn}>View More</button>
       </div>
     </>
   );

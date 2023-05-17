@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
-
 .main {
     margin: 0px;
     padding: 0px;
@@ -8,7 +5,7 @@
 
 .sae_intro {
     padding-top: 1.56em;
-    background-color:#1B1A1B;
+    background-color: #1B1A1B;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
@@ -17,30 +14,14 @@
 }
 
 .sae_headings {
-    display: flex;
-    flex-direction: row;
     color: white;
-    justify-content: center;
-    font-family: "Outfit";
-    font-style: normal;
-    display: flex;
-    align-items: center;
     text-align: center;
     padding-top: 6vw;
-    font-weight: 700;
-    font-size: 2.5vw;
-    line-height: 1.6vw;
-}
-
-.sae_name_text {
-    padding-right: 2vw;
 }
 
 .sae_long_text {
     text-align: center;
     color: white;
-    font-family: "Poppins";
-    font-style: normal;
     padding-top: 0.65vw;
     padding-left: 1.62vw;
     padding-right: 1.62vw;
@@ -55,24 +36,14 @@
     justify-content: center;
     padding-top: 0.65vw;
     padding-bottom: 1.25vw;
+    gap: 0.5vw;
 }
 
-.linkedIn_img {
-    width: 4.2vw;
-    height: 2.9vw;
-    padding-top: 1.8px;
-    padding-left: 1.62vw;
-}
-
-.instagram_img {
-    width: 3.1vw;
-    height: 3.2vw;
-}
-
-.facebook_img {
-    width: 4.5vw;
-    height: 3.2vw;
-    padding-left: 1.62vw;
+.social_media>a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .cards_img_saeintro {
@@ -97,113 +68,67 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     width: 100%;
-    height: 40vw;
+    padding: 0 11vw;
 }
 
 .left_wrapper_ourteams {
-    padding-top: 9.375vw;
-}
-
-.cards_ourteams {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding-top: 9.375vw;
-}
-
-.cards_wholecontent_ourteams {
-    padding: 0.6vw;
-    background-color: #fff;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 1.302vw;
-    margin: 1.302vw;
-    height: 11vw;
-}
-
-.cards_headings_ourteams {
-    text-align: center;
-    font-size: 1.4vw;
-    font-family: "outfit";
-    font-style: normal;
-    font-weight: bold;
-    margin-bottom: 0.6vw;
-}
-
-.cardcontent_ourteams {
-    font-family: "poppins";
-    font-style: normal;
-    width: 14vw;
-    font-size: 1.1vw;
-    line-height: 1.1vw;
+    padding: 4vw;
+    padding-left: 0;
+    flex-direction: column;
 }
 
 .line1 {
     margin-left: 18.55vw;
     margin-top: 7.48vw;
     border-top: 4px solid rgb(242, 84, 2);
-    width: 2.60vw;
+    width: 2.6vw;
 }
 
-.heading_ourteams {
-    margin-left: 16.14vw;
-    color: black;
-    font-family: "Outfit";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.255vw;
-    line-height: 1.95;
+.heading_ourteams>h2 {
     border-top: 5px solid transparent;
     border-image: linear-gradient(to right, rgb(242, 84, 2) 9%, transparent 9%) 1;
 }
 
 .text_longcontent_ourteams {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 4.2vw;
-    padding-left: 12.36vw;
-    padding-right: 12.36vw;
     color: black;
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 500;
     font-size: 1.2vw;
     line-height: 1.7vw;
+    padding: 2vw 0 3vw 0;
+    text-align: justify;
 }
 
-.colored_div {
-    margin: 0 auto;
-    background-color: rgb(242, 84, 2);
-    /* Replace "red" with your desired color */
-    width: 9.11vw;
-    /* Set the width and height to your desired size */
-    height: 2.60vw;
-    border-radius: 1.30vw;
+.right_wrapper_ourteams {
+    padding-top: 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .right_wrapper_ourteams {
+        transform: scale(0.8);
+    }
 }
 
 .ourachievments_sae {
     background-color: rgb(236, 236, 241);
-    height: 60vh;
+    height: 30vw;
     border-bottom: 3px solid rgb(207, 207, 207);
+    padding: 7vw 0 2vw 0;
 }
 
-.ourachievments_heading_text {
-    padding-top: 2em;
-    padding-left: 170px;
-    font-family: "outfit";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 30px;
-    color: #000000;
+.ourachievments_heading {
+    padding-left: 11vw;
 }
 
 .achievments_cards_sae {
-    padding-top: 40px;
-    gap: 70px;
+    gap: 5vw;
     display: flex;
     justify-content: center;
     width: 100%;
+    padding: 3vw;
 }
 
 .achievments_card1_sae {
@@ -211,27 +136,25 @@
     flex-direction: row;
     background-color: rgb(248, 248, 251);
     justify-content: center;
-    width: 300px;
-    height: 140px;
+    width: 20vw;
     padding: 10px;
     align-items: center;
     border-radius: 30px;
     transition: all 0.3s ease-in-out;
+    justify-content: space-around;
 }
 
-.achievments_card1_text {
-    padding-left: 35px;
-    padding-right: 35px;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 30px;
-    color: #000000;
+.achievments_card1_sae img {
+    width: 9vw;
+    padding: 1vw;
+}
+
+.ourachievments_card1_text {
+    text-align: center;
 }
 
 .achievments_card1_sae:hover {
-    transform: translate(0px, -20px) scale(1.1);
+    transform: translate(0px, -10px) scale(1.1);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
@@ -239,73 +162,21 @@
 /* Our blogs */
 
 .blogs {
-    padding: 5em 0;
+    padding: 4vw 0;
     background-color: #e5e5e9;
 }
 
 .blogHeading {
-    padding-left: 20em;
-    font-family: "Outfit";
+    padding-left: 11vw;
 }
 
-.blogHeading h1 {
-    font-weight: 800;
+.blogHeading h2 {
     border-top: 5px solid transparent;
     border-image: linear-gradient(to right, rgb(242, 84, 2) 4%, transparent 4%) 1;
 }
 
-.blog_container {
-    margin-left: 15vw;
-    margin-right: 15vw;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    justify-items: center;
-    align-items: center;
-    padding: 50px;
-    padding-top: 20px;
-}
-
-.blog_card {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    margin-bottom: 20px;
-    width: 25vw;
-    height: 45vh;
-    background-color: #807f7f;
-    border-radius: 40px;
-    transition: all 0.3s ease-in-out;
-}
-
-.blog_card button {
-    background-color: #000000;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    width: 100px;
-    height: 30px;
-    margin-left: 10%;
-    margin-bottom: 5%;
-}
-
-.blog_card:hover {
-    transform: translate(10px, -7px);
-    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 12px 50px 0 rgba(0, 0, 0, 0.1);
-    background-color: #cb3d15;
-}
-
-.blog_card:active {
-    transform: scale(0.95);
-    box-shadow: none;
-}
-
-.blog_card:hover button {
-    background-color: #f25402;
-}
-
-.blog_card:active button {
-    display: none;
+.blogs>.ourBlogBtn {
+    margin-top: 3vw;
 }
 
 .orangeSection img {
@@ -316,175 +187,288 @@
 /* our mentors section */
 .ourmentors_sae {
     background-color: rgb(236, 236, 241);
-    height: 50vh;
+    height: 25vw;
+    border-bottom: 3px solid rgb(207, 207, 207);
+    padding: 3vw 0;
 }
 
 .ourmentors_heading_text {
-    padding-top: 15px;
-    padding-left: 170px;
-    font-family: "outfit";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 30px;
-    color: #000000;
+    border-top: 5px solid transparent;
+    border-image: linear-gradient(to right, rgb(242, 84, 2) 4%, transparent 4%) 1;
 }
 
 .ourmentors_cards_sae {
-    padding-top: 40px;
-    grid-gap: 70px;
+    gap: 5vw;
     display: flex;
     justify-content: center;
     width: 100%;
+    padding: 3vw;
 }
 
 .ourmentors_card1_sae {
     display: flex;
+    flex-direction: row;
     background-color: rgb(248, 248, 251);
     justify-content: center;
-    width: 340px;
-    height: 140px;
+    width: 26vw;
+    height: 12vw;
+    padding: 10px;
+    align-items: center;
     border-radius: 30px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    justify-content: space-around;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 .ourmentors_card1_sae:hover {
-    transform: translate(0px, -20px) scale(1.1);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: translate(0px, -3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.ourmentors_img {
+    width: 9vw;
+    padding: 1vw;
+}
+
+.ourmentors_img {
+    width: 9vw;
+    padding: 1vw;
 }
 
 .ourmentors_card1_heading_text {
     padding-top: 6px;
-    font-family: "outfit";
     text-align: center;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 30px;
     color: #000000;
 }
 
 .ourmentors_card1_text {
     display: flex;
-    -ms-flex-align: start;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
+    font-size: 1vw;
     line-height: 20px;
     color: #000000;
 }
 
-.ourmentors_img {
-    padding-left: px;
+@media screen and (max-width: 1300px) and (min-width: 750px) {
+
+    .achievments_cards_sae {
+        gap: 5vw;
+    }
+
+    .achievments_card1_sae {
+        width: 25vw;
+        padding: 10px;
+    }
+
+    /* 975 ke baad media query */
+
+    .achievments_card1_sae img {
+        width: 10vw;
+        height: 10vw;
+        padding: 1vw;
+    }
+
+    .achievments_card1_text {
+        font-weight: 500;
+        font-size: 1.3vw;
+        line-height: 1.9vw;
+    }
+
+    .ourmentors_cards_sae {
+        width: 100%;
+        padding: 3vw;
+    }
+
+    .ourmentors_card1_sae {
+        width: 26vw;
+        height: 12vw;
+        padding: 10px;
+    }
+
+    .ourmentors_img {
+        width: 9vw;
+        padding: 1vw;
+    }
+
+    .ourmentors_card1_heading_text {
+        padding-top: 6px;
+    }
+
+    .ourmentors_card1_text {
+        display: flex;
+        font-size: 1vw;
+        line-height: 20px;
+    }
 }
 
-.events {
-    background-color: #e3e3e3;
-    padding: 50px 0;
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+
+    .ourmentors_cards_sae {
+        width: 100%;
+        padding: 2.5vw;
+    }
+
+    .ourmentors_card1_sae {
+        width: 26vw;
+        height: 12.5vw;
+        padding: 10px;
+    }
+
+    .ourmentors_img {
+        width: 9vw;
+        height: 9vw;
+        padding: 1vw;
+    }
+
+    .ourmentors_card1_heading_text {
+        padding-top: 5px;
+    }
+
+    .ourmentors_card1_text {
+        display: flex;
+        font-size: 1.1vw;
+        line-height: 1.5vw;
+        padding-bottom: 0.1vw;
+    }
 }
 
-.eventHeading {
-    padding-left: 19em;
+@media screen and (max-width: 900px) and (min-width: 700px) {
+
+    .ourmentors_cards_sae {
+        width: 100%;
+        padding: 2.7vw;
+    }
+
+    .ourmentors_card1_sae {
+        width: 32vw;
+        height: 14vw;
+        padding: 10px;
+    }
+
+    .ourmentors_img {
+        width: 8.5vw;
+        height: 8.5vw;
+        padding: 1vw;
+    }
+
+    .ourmentors_card1_heading_text {
+        font-size: 2vw;
+        padding-top: 1vw;
+    }
+
+    .ourmentors_card1_text {
+        display: flex;
+        font-size: 1.3vw;
+        line-height: 1.6vw;
+        padding-bottom: 2vw;
+    }
 }
 
-.eventHeading h1 {
-    font-weight: bolder;
-    font-family: "Outfit";
-    border-top: 5px solid transparent;
-    border-image: linear-gradient(to right, rgb(242, 84, 2) 4%, transparent 4%) 1;
+@media screen and (max-width: 700px) and (min-width: 600px) {
+    .ourmentors_sae {
+        height: auto;
+    }
+
+    .ourmentors_cards_sae {
+        width: 100%;
+        padding: 2.7vw;
+    }
+
+    .ourmentors_card1_sae {
+        width: 32vw;
+        height: 14vw;
+        padding: 10px;
+    }
+
+    .ourmentors_img {
+        width: 9vw;
+        height: 9vw;
+        padding: 1vw;
+    }
+
+    .ourmentors_card1_heading_text {
+        font-size: 2vw;
+        padding-top: 1vw;
+    }
+
+    .ourmentors_card1_text {
+        display: flex;
+        font-size: 1.3vw;
+        line-height: 1.6vw;
+        padding-bottom: 2vw;
+    }
 }
 
-.eventContainer {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    gap: 50px;
-    padding: 50px 0 50px 0;
+@media screen and (max-width: 600px) and (min-width: 500px) {
+    .ourmentors_sae {
+        height: auto;
+    }
+
+    .ourmentors_cards_sae {
+        width: 100%;
+        padding: 2.7vw;
+    }
+
+    .ourmentors_card1_sae {
+        width: 36vw;
+        height: 16vw;
+        padding: 10px;
+    }
+
+    .ourmentors_img {
+        width: 9vw;
+        height: 9vw;
+        padding: 1vw;
+    }
+
+    .ourmentors_card1_heading_text {
+        font-size: 2.4vw;
+        padding-top: 1.5vw;
+    }
+
+    .ourmentors_card1_text {
+        display: flex;
+        font-size: 1.3vw;
+        line-height: 1.5vw;
+        padding-bottom: 2vw;
+    }
 }
 
-.upperEvent {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-    gap: 50px;
-    margin: 0 20vw 0 20vw;
-    justify-items: center;
+@media screen and (max-width: 500px) and (min-width: 430px) {
+    .ourmentors_sae {
+        height: auto;
+    }
+
+    .ourmentors_cards_sae {
+        width: 100%;
+        padding: 2.7vw;
+    }
+
+    .ourmentors_card1_sae {
+        width: 36vw;
+        height: 16vw;
+        padding: 10px;
+    }
+
+    .ourmentors_img {
+        width: 9vw;
+        height: 9vw;
+        padding: 1vw;
+    }
+
+    .ourmentors_card1_heading_text {
+        font-size: 2.3vw;
+        padding-top: 1.5vw;
+    }
+
+    .ourmentors_card1_text {
+        display: flex;
+        font-size: 1.3vw;
+        line-height: 1.5vw;
+        padding-bottom: 2vw;
+    }
 }
 
-.ueEach {
-    background-color: white;
-    border-radius: 35px;
-    overflow: hidden;
-}
-
-.ueEach img {
-    max-width: 100%;
-    height: auto;
-}
-
-.ueContent {
-    padding: 20px;
-}
-
-.ueContent span {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.ueContent a {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-.lowerEvent {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-    gap: 25px;
-    margin: 0 20vw 0 20vw;
-    justify-items: center;
-}
-
-.leEach {
-    background-color: white;
-    border-radius: 25px;
-    overflow: hidden;
-}
-
-.leEach img {
-    max-width: 100%;
-    height: auto;
-}
-
-.leContent {
-    padding: 20px;
-}
-
-.leContent span {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.leContent a {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-.vmBtn {
-    display: block;
-    margin: 0 auto;
-    background-color: rgb(242, 84, 2);
-    width: 140px;
-    height: 40px;
-    border-radius: 20px;
-    border: none;
-}
-
-@media screen and (max-width: 750px) and (min-width: 300px) {
+@media screen and (max-width: 750px) {
     .sae_intro {
         padding-top: 0;
         grid-template-columns: 1fr;
@@ -498,10 +482,6 @@
         font-weight: 500;
         font-size: 24px;
         line-height: 24px;
-    }
-
-    .sae_name_text {
-        padding-right: 0.4em;
     }
 
     .sae_long_text {
@@ -518,24 +498,6 @@
         padding-bottom: 1em;
     }
 
-    .linkedIn_img {
-        width: 65px;
-        height: 44px;
-        padding-top: 2px;
-        padding-left: 1.56em;
-    }
-
-    .instagram_img {
-        width: 47px;
-        height: 47px;
-    }
-
-    .facebook_img {
-        width: 75px;
-        height: 49px;
-        padding-left: 1.56em;
-    }
-
     .cards_img_saeintro {
         display: none;
     }
@@ -550,34 +512,7 @@
         display: grid;
         grid-template-columns: 1fr;
         width: 100%;
-        height: 80vh;
-    }
-
-    .left_wrapper_ourteams {
-        padding-top: 5em;
-    }
-
-    .cards_ourteams {
-        padding-top: 1em;
-    }
-
-    .cards_wholecontent_ourteams {
-        background-color: #fff;
-        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-        border-radius: 20px;
-        margin-left: 1.25em;
-        height: 7.5em;
-    }
-
-    .cards_headings_ourteams {
-        font-size: 14px;
-        margin-bottom: 8px;
-    }
-
-    .cardcontent_ourteams {
-        width: 13em;
-        font-size: 13px;
-        line-height: 14px;
+        height: 70vh;
     }
 
     .heading_ourteams {
@@ -594,9 +529,100 @@
     .colored_div {
         display: none;
     }
+
+    .ourachievments_sae {
+        height: 40vw;
+    }
+
+    .achievments_cards_sae {
+        gap: 5vw;
+    }
+
+    .achievments_card1_sae {
+        background-color: rgb(248, 248, 251);
+        width: 24vw;
+        padding: 10px;
+    }
+
+    /* 975 ke baad media query */
+
+    .achievments_card1_sae img {
+        width: 10.5vw;
+        height: 10.5vw;
+        padding: 1vw;
+    }
+
+    .achievments_card1_text {
+        font-weight: 500;
+        font-size: 1.5vw;
+        line-height: 1.9vw;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 500px) {
+
+    .achievments_cards_sae {
+        gap: 6vw;
+    }
+
+    .achievments_card1_sae {
+        background-color: rgb(248, 248, 251);
+        width: 25vw;
+        padding: 10px;
+    }
+
+    /* 975 ke baad media query */
+
+    .achievments_card1_sae img {
+        width: 10.7vw;
+        height: 10.7vw;
+        padding: 1vw;
+    }
+
+    .achievments_card1_text {
+        font-weight: 500;
+        font-size: 1.8vw;
+        line-height: 2.2vw;
+    }
 }
 
 @media screen and (max-width: 500px) and (min-width: 430px) {
+    .sae_intro {
+        padding-top: 0;
+        grid-template-columns: 1fr;
+        grid-gap: 3px;
+        width: 100%;
+        height: 60vh;
+    }
+
+    .sae_headings {
+        padding-top: 1em;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .sae_long_text {
+        padding-top: 12px;
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .social_media {
+        padding-top: 10px;
+        padding-bottom: 1em;
+    }
+
+    .cards_img_saeintro {
+        display: none;
+    }
+
+    .line {
+        width: 68vw;
+    }
 
     /* our teams */
     .sae_ourteams {
@@ -605,36 +631,13 @@
         grid-template-columns: 1fr;
 
         width: 100%;
-        height: 80vh;
+        height: 70vh;
     }
 
     .left_wrapper_ourteams {
         padding-top: 5em;
     }
 
-    .cards_ourteams {
-        padding-top: 1em;
-    }
-
-    .cards_wholecontent_ourteams {
-        background-color: #fff;
-        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-        border-radius: 20px;
-        margin-left: 1.25em;
-        height: 7em;
-    }
-
-    .cards_headings_ourteams {
-        font-size: 13px;
-        margin-bottom: 8px;
-    }
-
-    .cardcontent_ourteams {
-        width: 13em;
-        font-size: 12px;
-        line-height: 14px;
-    }
-
     .heading_ourteams {
         margin: 0 auto;
         width: 300px;
@@ -649,9 +652,66 @@
     .colored_div {
         display: none;
     }
+
+    .achievments_card1_sae {
+        width: 40vw;
+    }
+
+    .achievments_cards_sae {
+        display: flex;
+        align-items: center;
+    }
+
+    .achievments_card1_sae img {
+        width: 10.8vw;
+        height: 10.8vw;
+        padding: 1vw;
+    }
+
+    .achievments_card1_text {
+        font-weight: 500;
+        font-size: 1.9vw;
+        line-height: 2.2vw;
+    }
 }
 
 @media screen and (max-width: 430px) and (min-width: 300px) {
+    .sae_intro {
+        padding-top: 0;
+        grid-template-columns: 1fr;
+        grid-gap: 3px;
+        width: 100%;
+        height: 60vh;
+    }
+
+    .sae_headings {
+        padding-top: 1em;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 23px;
+    }
+
+    .sae_long_text {
+        padding-top: 12px;
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .social_media {
+        padding-top: 10px;
+        padding-bottom: 1vw;
+    }
+
+    .cards_img_saeintro {
+        display: none;
+    }
+
+    .line {
+        width: 68vw;
+    }
 
     /* our teams */
     .sae_ourteams {
@@ -660,32 +720,12 @@
         grid-template-columns: 1fr;
 
         width: 100%;
-        height: 80vh;
+        height: 120vw;
     }
 
     .left_wrapper_ourteams {
-        padding-top: 6em;
-    }
-
-    .cards_ourteams {
-        padding-top: 1em;
-    }
-
-    .cards_wholecontent_ourteams {
-        border-radius: 20px;
-        margin-left: 1em;
-        height: 7em;
-    }
-
-    .cards_headings_ourteams {
-        font-size: 12px;
-        margin-bottom: 8px;
-    }
-
-    .cardcontent_ourteams {
-        width: 12em;
-        font-size: 10px;
-        line-height: 12px;
+        padding-top: 4em;
+        padding-left: 1.2em;
     }
 
     .heading_ourteams {
@@ -701,5 +741,239 @@
 
     .colored_div {
         display: none;
+    }
+
+    .ourachievments_sae {
+        height: 90vw;
+    }
+
+    .achievments_card1_sae {
+        width: 50vw;
+    }
+
+    .achievments_card1_text {
+        font-size: 2.5vw;
+        line-height: 3vw;
+    }
+
+    .achievments_card1_sae img {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .achievments_cards_sae {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5vw;
+    }
+
+    .ourmentors_card1_heading_text {
+        font-size: 4vw;
+        width: 10px;
+    }
+
+    .ourmentors_sae {
+        height: 115vw;
+    }
+
+    .ourmentors_card1_sae {
+        width: fit-content;
+        height: auto;
+    }
+
+    .ourmentors_card1_text {
+        font-size: 2.5vw;
+        line-height: 3vw;
+    }
+
+    .ourmentors_card1_sae img {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .achievments_cards_sae {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5vw;
+    }
+}
+
+/* Events and Workshps  */
+/* Events and Workshps  */
+
+.events {
+    background-color: #e3e3e3;
+    padding: 50px 0;
+}
+
+.eventHeading {
+    padding-left: 11vw;
+}
+
+.eventHeading h2 {
+    border-top: 5px solid transparent;
+    border-image: linear-gradient(to right, rgb(242, 84, 2) 4%, transparent 4%) 1;
+}
+
+.vmBtn {
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(242, 84, 2);
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.vmBtn:hover {
+    color: white;
+    transform: translateY(-1px);
+}
+
+.vmBtn:active {
+    transform: translateY(2px);
+    transform: translateX(-2px);
+}
+
+
+.card_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+    width: 90vw;
+    max-width: 350px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.card a {
+    color: #e25521;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 2px solid #e25521;
+    transition: border-bottom 0.2s ease-in-out;
+    display: inline-block;
+    margin-top: auto;
+}
+
+.card a::after {
+    content: " →";
+}
+
+.card a:hover {
+    border-bottom: 2px solid #963715;
+}
+
+@media screen and (min-width: 350px) {
+
+    .row:nth-of-type(2) .card:nth-last-of-type(1),
+    .row:nth-of-type(2) .card:nth-last-of-type(2),
+    .row:nth-of-type(2) .card:nth-last-of-type(3) {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .card {
+        width: 40vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .card p {
+        font-size: 18px;
+    }
+
+    .row:nth-of-type(2) .card:nth-last-of-type(3) {
+        display: inherit;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .card {
+        width: 30vw;
+    }
+
+    .row:nth-of-type(2) .card:nth-last-of-type(1),
+    .row:nth-of-type(2) .card:nth-last-of-type(2) {
+        display: inherit;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .card {
+        width: 22.5vw;
+    }
+
+    .card h2 {
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+
+    .card p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .card a {
+        font-size: 18px;
     }
 }
