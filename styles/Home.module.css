@@ -93,8 +93,8 @@
 .text_longcontent_ourteams {
     color: black;
     font-weight: 500;
-    font-size: 1.2vw;
-    line-height: 1.7vw;
+    font-size: 1.3vw;
+    line-height: 1.8vw;
     padding: 2vw 0 3vw 0;
     text-align: justify;
 }
@@ -114,7 +114,7 @@
 
 .ourachievments_sae {
     background-color: rgb(236, 236, 241);
-    height: 30vw;
+    height:fit-content;
     border-bottom: 3px solid rgb(207, 207, 207);
     padding: 7vw 0 2vw 0;
 }
@@ -187,7 +187,7 @@
 /* our mentors section */
 .ourmentors_sae {
     background-color: rgb(236, 236, 241);
-    height: 25vw;
+    height: fit-content;
     border-bottom: 3px solid rgb(207, 207, 207);
     padding: 3vw 0;
 }
@@ -332,10 +332,11 @@
 }
 
 @media screen and (max-width: 900px) and (min-width: 700px) {
-
+   
     .ourmentors_cards_sae {
         width: 100%;
         padding: 2.7vw;
+       
     }
 
     .ourmentors_card1_sae {
@@ -506,29 +507,6 @@
         width: 68vw;
     }
 
-    /* our teams */
-    .sae_ourteams {
-        background-color: rgb(236, 236, 241);
-        display: grid;
-        grid-template-columns: 1fr;
-        width: 100%;
-        height: 70vh;
-    }
-
-    .heading_ourteams {
-        margin: 0 auto;
-        width: 300px;
-        font-size: 45px;
-        line-height: 28px;
-    }
-
-    .text_longcontent_ourteams {
-        display: none;
-    }
-
-    .colored_div {
-        display: none;
-    }
 
     .ourachievments_sae {
         height: 40vw;
@@ -558,6 +536,35 @@
         line-height: 1.9vw;
     }
 }
+@media screen and (max-width: 800px) {
+
+    /* our teams */
+    .sae_ourteams {
+        background-color: rgb(236, 236, 241);
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 65vw;
+    }
+
+    .heading_ourteams {
+        margin: 0 auto;
+        width: 300px;
+        font-size: 45px;
+        line-height: 28px;
+    }
+    .right_wrapper_ourteams{
+        display: none;
+    }
+    .text_longcontent_ourteams{
+       
+        padding-left: 10vw;
+        padding-right: 10vw;
+        font-size: 2vw;
+        line-height: 4vw;
+    }
+}
+
 
 @media screen and (max-width: 600px) and (min-width: 500px) {
 
@@ -571,7 +578,6 @@
         padding: 10px;
     }
 
-    /* 975 ke baad media query */
 
     .achievments_card1_sae img {
         width: 10.7vw;
@@ -624,33 +630,30 @@
         width: 68vw;
     }
 
-    /* our teams */
-    .sae_ourteams {
+     /* our teams */
+     .sae_ourteams {
         background-color: rgb(236, 236, 241);
         display: grid;
         grid-template-columns: 1fr;
-
         width: 100%;
-        height: 70vh;
-    }
-
-    .left_wrapper_ourteams {
-        padding-top: 5em;
+        height: 65vw;
     }
 
     .heading_ourteams {
         margin: 0 auto;
         width: 300px;
-        font-size: 43px;
+        font-size: 45px;
         line-height: 28px;
     }
-
-    .text_longcontent_ourteams {
+    .right_wrapper_ourteams{
         display: none;
     }
-
-    .colored_div {
-        display: none;
+    .text_longcontent_ourteams{
+       
+        padding-left: 10vw;
+        padding-right: 10vw;
+        font-size: 2.1vw;
+        line-height: 4.1vw;
     }
 
     .achievments_card1_sae {
@@ -718,25 +721,25 @@
         background-color: rgb(236, 236, 241);
         display: grid;
         grid-template-columns: 1fr;
-
         width: 100%;
-        height: 120vw;
-    }
-
-    .left_wrapper_ourteams {
-        padding-top: 4em;
-        padding-left: 1.2em;
+        height: 65vw;
     }
 
     .heading_ourteams {
         margin: 0 auto;
         width: 300px;
-        font-size: 43px;
+        font-size: 45px;
         line-height: 28px;
     }
-
-    .text_longcontent_ourteams {
+    .right_wrapper_ourteams{
         display: none;
+    }
+    .text_longcontent_ourteams{
+       
+        padding-left: 10vw;
+        padding-right: 10vw;
+        font-size: 2vw;
+        line-height: 4vw;
     }
 
     .colored_div {
@@ -744,7 +747,7 @@
     }
 
     .ourachievments_sae {
-        height: 90vw;
+        height: fit-content;
     }
 
     .achievments_card1_sae {
@@ -778,7 +781,7 @@
     }
 
     .ourmentors_card1_sae {
-        width: fit-content;
+        width: 90vw;
         height: auto;
     }
 
@@ -800,8 +803,7 @@
     }
 }
 
-/* Events and Workshps  */
-/* Events and Workshps  */
+
 
 .events {
     background-color: #e3e3e3;
