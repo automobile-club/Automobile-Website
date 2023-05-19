@@ -563,6 +563,17 @@
         font-size: 2vw;
         line-height: 4vw;
     }
+    .ourmentors_card1_heading_text{
+        padding-top: 12px;
+      }
+      .ourachievments_card1_text{
+          font-size: 1.6vw;
+          line-height: 2.5vw;
+          height: auto;
+          padding-left: 5px;
+          padding-right: 5px;
+      }
+    
 }
 
 
@@ -590,6 +601,17 @@
         font-size: 1.8vw;
         line-height: 2.2vw;
     }
+    .ourmentors_card1_heading_text{
+        padding-top: 12px;
+      }
+      .ourachievments_card1_text{
+          font-size: 1.8vw;
+          line-height: 2.5vw;
+          height: auto;
+          padding-left: 5px;
+          padding-right: 5px;
+      }
+  
 }
 
 @media screen and (max-width: 500px) and (min-width: 430px) {
@@ -675,6 +697,16 @@
         font-weight: 500;
         font-size: 1.9vw;
         line-height: 2.2vw;
+    }
+    .ourmentors_card1_heading_text{
+      padding-top: 12px;
+    }
+    .ourachievments_card1_text{
+        font-size: 2vw;
+        line-height: 2.5vw;
+        height: auto;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
 
@@ -772,8 +804,8 @@
     }
 
     .ourmentors_card1_heading_text {
-        font-size: 4vw;
-        width: 10px;
+      font-size: 4vw;
+      width: 65vw;
     }
 
     .ourmentors_sae {
@@ -788,6 +820,14 @@
     .ourmentors_card1_text {
         font-size: 2.5vw;
         line-height: 3vw;
+    }
+    .ourachievments_card1_text{
+        font-size: 2.5vw;
+        line-height: 3vw;
+        width: 60vw;
+        padding-left: 18vw;
+        padding-right: 12vw;
+        text-align: center;
     }
 
     .ourmentors_card1_sae img {
