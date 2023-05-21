@@ -1,10 +1,7 @@
 import Navbar from "@/components/Navbar";
 import BlogContainer from "@/components/BlogContainer";
 import styles from "@/styles/Blogs.module.css";
-import blogimg from "../../public/blogs-images/Blogbulb.png";
-import gmail from "../../public/gmail.svg";
 import { useState } from "react";
-import Image from "next/image";
 
 function BlogType() {
   const [selectedButton, setSelectedButton] = useState<string>("View All");
@@ -27,43 +24,19 @@ function BlogType() {
       </button>
       <button
         className={`${styles.blog_type_button} ${
-          selectedButton === "Crypto" ? styles.blog_selected_button : ""
+          selectedButton === "Trident" ? styles.blog_selected_button : ""
         }`}
         onClick={handleButtonClick}
       >
-        Crypto
+        Trident
       </button>
       <button
         className={`${styles.blog_type_button} ${
-          selectedButton === "Announcements" ? styles.blog_selected_button : ""
+          selectedButton === "Rowboatics" ? styles.blog_selected_button : ""
         }`}
         onClick={handleButtonClick}
       >
-        Announcements
-      </button>
-      <button
-        className={`${styles.blog_type_button} ${
-          selectedButton === "People" ? styles.blog_selected_button : ""
-        }`}
-        onClick={handleButtonClick}
-      >
-        People
-      </button>
-      <button
-        className={`${styles.blog_type_button} ${
-          selectedButton === "Engineering" ? styles.blog_selected_button : ""
-        }`}
-        onClick={handleButtonClick}
-      >
-        Engineering
-      </button>
-      <button
-        className={`${styles.blog_type_button} ${
-          selectedButton === "NFT" ? styles.blog_selected_button : ""
-        }`}
-        onClick={handleButtonClick}
-      >
-        NFT
+        Rowboatics
       </button>
     </div>
   );
@@ -85,13 +58,20 @@ export default function Blog() {
         </div>
         <BlogContainer numBlogCards={6} />
         <div className={styles.newBlogIdeas}>
-          <Image className={styles.bulb} src={blogimg} alt="" />
+          <img
+            className={styles.bulb}
+            src="/blogs-images/Blogbulb.png"
+            alt="bulb"
+          />
           <div className={styles.sideContent}>
             <h1>Give a platform to your ideas!</h1>
             <h3>
               Have something to share? Email us your blogs and get featured!
             </h3>
-            <div className={styles.email}><Image className={styles.logo} src={gmail} alt=''/>saeiitbhu@itbhu.ac.in</div>
+            <div className={styles.email}>
+              <img className={styles.logo} src="/gmail.svg" alt="gmail" />
+              saeiitbhu@itbhu.ac.in
+            </div>
           </div>
         </div>
       </body>
