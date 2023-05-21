@@ -30,7 +30,7 @@ export default function Events() {
 
       <div className={styles.all_events}>
         <div className={styles.indivisual_event}>
-          <Link style={{ textDecoration: "none" }} href="#">
+          <Link style={{ textDecoration: "none" }} href="/events/individual">
             <Image
               width={447}
               height={290}
@@ -43,7 +43,7 @@ export default function Events() {
           </Link>
         </div>
         <div className={styles.indivisual_event}>
-          <Link style={{ textDecoration: "none" }} href="#">
+          <Link style={{ textDecoration: "none" }} href="/events/individual">
             <Image
               width={447}
               height={290}
@@ -56,7 +56,7 @@ export default function Events() {
           </Link>
         </div>
         <div className={styles.indivisual_event}>
-          <Link style={{ textDecoration: "none" }} href="#">
+          <Link style={{ textDecoration: "none" }} href="/events/individual">
             <Image
               width={447}
               height={290}
@@ -69,7 +69,7 @@ export default function Events() {
           </Link>
         </div>
         <div className={styles.indivisual_event}>
-          <Link style={{ textDecoration: "none" }} href="#">
+          <Link style={{ textDecoration: "none" }} href="/events/individual">
             <Image
               width={447}
               height={290}
@@ -82,7 +82,7 @@ export default function Events() {
           </Link>
         </div>
         <div className={styles.indivisual_event}>
-          <Link style={{ textDecoration: "none" }} href="#">
+          <Link style={{ textDecoration: "none" }} href="/events/individual">
             <Image
               width={447}
               height={290}
@@ -95,7 +95,7 @@ export default function Events() {
           </Link>
         </div>
         <div className={styles.indivisual_event}>
-          <Link style={{ textDecoration: "none" }} href="#">
+          <Link style={{ textDecoration: "none" }} href="/events/individual">
             <Image
               width={447}
               height={290}
@@ -108,7 +108,7 @@ export default function Events() {
           </Link>
         </div>
         <div className={styles.indivisual_event}>
-          <Link style={{ textDecoration: "none" }} href="#">
+          <Link style={{ textDecoration: "none" }} href="/events/individual">
             <Image
               width={447}
               height={290}
@@ -121,7 +121,7 @@ export default function Events() {
           </Link>
         </div>
         <div className={styles.indivisual_event}>
-          <Link style={{ textDecoration: "none" }} href="#">
+          <Link style={{ textDecoration: "none" }} href="/events/individual">
             <Image
               width={447}
               height={290}
@@ -134,7 +134,7 @@ export default function Events() {
           </Link>
         </div>
         <div className={styles.indivisual_event}>
-          <Link style={{ textDecoration: "none" }} href="#">
+          <Link style={{ textDecoration: "none" }} href="/events/individual">
             <Image
               width={447}
               height={290}
