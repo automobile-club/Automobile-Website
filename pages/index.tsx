@@ -18,6 +18,7 @@ function Home() {
           src="/images/cards.webp"
           alt="card"
           placeholder="empty"
+          loading="eager"
           width={600}
           height={600}
         />
