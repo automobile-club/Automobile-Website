@@ -23,7 +23,6 @@ const BlogContainer: React.FC<BlogContainerProps> = ({ numBlogCards }) => {
           <div key={index} className={styles.blog_card}>
             <div className={styles.blog_card_image}></div>
             <button>Read More</button>
-            
           </div>
         ))}
     </div>

@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import Navbar from "@/components/Navbar";
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
@@ -17,7 +16,8 @@ function Home() {
         <Image
           className={styles.cards_img_saeintro}
           src="/images/cards.png"
-          alt=""
+          alt="card"
+          placeholder="empty"
           width={600}
           height={600}
         />
@@ -35,24 +35,30 @@ function Home() {
           </div>
           <div className={styles.social_media}>
             <a href="#">
-              <img
+              <Image
                 className={styles.instagram_img}
                 src="/images/instagram_hero.svg"
-                alt=""
+                alt="instagram"
+                width={60}
+                height={60}
               />
             </a>
             <a href="#">
-              <img
+              <Image
                 className={styles.facebook_img}
                 src="/images/facebook_hero.svg"
-                alt=""
+                alt="facebook"
+                width={60}
+                height={60}
               />
             </a>
             <a href="#">
-              <img
+              <Image
                 className={styles.linkedIn_img}
                 src="/images/linkedIn_hero.svg"
-                alt=""
+                alt="linkedIn"
+                width={60}
+                height={60}
               />
             </a>
           </div>
@@ -68,10 +74,12 @@ function Home() {
         </div>
         <div className={styles.achievments_cards_sae}>
           <div className={styles.ourmentors_card1_sae}>
-            <img
+            <Image
               className={styles.ourmentors_img}
               src="/images/Techfest_img.png"
               alt="Mentors"
+              width={138.24}
+              height={138.24}
             />
             <div className={styles.achievments_card1_text}>
               <h3 className={styles.ourmentors_card1_heading_text}>
@@ -84,10 +92,12 @@ function Home() {
           </div>
 
           <div className={styles.ourmentors_card1_sae}>
-            <img
+            <Image
               className={styles.ourmentors_img}
               src="/images/Techniche_img.png"
               alt="Mentors"
+              width={138.24}
+              height={138.24}
             />
             <div className={styles.achievments_card1_text}>
               <h3 className={styles.ourmentors_card1_heading_text}>
@@ -100,10 +110,12 @@ function Home() {
           </div>
 
           <div className={styles.ourmentors_card1_sae}>
-            <img
+            <Image
               className={styles.ourmentors_img}
               src="/images/Technex_img.png"
               alt="Technex"
+              width={138.24}
+              height={138.24}
             />
             <div className={styles.achievments_card1_text}>
               <h3 className={styles.ourmentors_card1_heading_text}>
@@ -126,7 +138,12 @@ function Home() {
         <div className={styles.card_container}>
           <div className={styles.row}>
             <div className={styles.card}>
-              <img src="/images/eventImg.svg" alt="The Culture of SAE" />
+              <Image
+                src="/images/eventImg.svg"
+                alt="The Culture of SAE"
+                width={290}
+                height={117.15}
+              />
               <h2>The Culture of SAE</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -136,7 +153,12 @@ function Home() {
               <a href="#">Read More</a>
             </div>
             <div className={styles.card}>
-              <img src="/images/eventImg.svg" alt="The Culture of SAE" />
+              <Image
+                src="/images/eventImg.svg"
+                alt="The Culture of SAE"
+                width={290}
+                height={117.15}
+              />
               <h2>The Culture of SAE</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -148,7 +170,12 @@ function Home() {
           </div>
           <div className={styles.row}>
             <div className={styles.card}>
-              <img src="/images/eventImg.svg" alt="The Culture of SAE" />
+              <Image
+                src="/images/eventImg.svg"
+                alt="The Culture of SAE"
+                width={290}
+                height={117.15}
+              />
               <h2>The Culture of SAE</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -158,7 +185,12 @@ function Home() {
               <a href="#">Read More</a>
             </div>
             <div className={styles.card}>
-              <img src="/images/eventImg.svg" alt="The Culture of SAE" />
+              <Image
+                src="/images/eventImg.svg"
+                alt="The Culture of SAE"
+                width={290}
+                height={117.15}
+              />
               <h2>The Culture of SAE</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -168,7 +200,12 @@ function Home() {
               <a href="#">Read More</a>
             </div>
             <div className={styles.card}>
-              <img src="/images/eventImg.svg" alt="The Culture of SAE" />
+              <Image
+                src="/images/eventImg.svg"
+                alt="The Culture of SAE"
+                width={290}
+                height={117.15}
+              />
               <h2>The Culture of SAE</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -188,10 +225,12 @@ function Home() {
       {/* orange section */}
       <div className={styles.orangeSection}>
         <div className={styles.newBlogIdeas}>
-          <img
+          <Image
             className={styles.bulb}
             src="/blogs-images/Blogbulb.png"
             alt="bulb"
+            width={240}
+            height={300}
           />
           <div className={styles.sideContent}>
             <h1>Give a platform to your ideas!</h1>
@@ -199,7 +238,13 @@ function Home() {
               Have something to share? Email us your blogs and get featured!
             </h3>
             <div className={styles.email}>
-              <img className={styles.logo} src="/gmail.svg" alt="gmail" />
+              <Image
+                className={styles.logo}
+                src="/gmail.svg"
+                alt="gmail"
+                width={40}
+                height={50.71}
+              />
               saeiitbhu@itbhu.ac.in
             </div>
           </div>
@@ -226,10 +271,12 @@ function Home() {
         </div>
         <div className={styles.achievments_cards_sae}>
           <div className={styles.ourmentors_card1_sae}>
-            <img
+            <Image
               className={styles.ourmentors_img}
               src="/images/mentors1.png"
               alt="Mentors"
+              width={138.24}
+              height={138.24}
             />
             <div className={styles.achievments_card1_text}>
               <h4 className={styles.ourmentors_card1_heading_text}>
@@ -242,10 +289,12 @@ function Home() {
           </div>
 
           <div className={styles.ourmentors_card1_sae}>
-            <img
+            <Image
               className={styles.ourmentors_img}
               src="/images/mentors1.png"
               alt="Mentors"
+              width={138.24}
+              height={138.24}
             />
             <div className={styles.achievments_card1_text}>
               <h4 className={styles.ourmentors_card1_heading_text}>
@@ -258,10 +307,12 @@ function Home() {
           </div>
 
           <div className={styles.ourmentors_card1_sae}>
-            <img
+            <Image
               className={styles.ourmentors_img}
               src="/images/mentors1.png"
               alt="Mentors"
+              width={138.24}
+              height={138.24}
             />
             <div className={styles.achievments_card1_text}>
               <h4 className={styles.ourmentors_card1_heading_text}>

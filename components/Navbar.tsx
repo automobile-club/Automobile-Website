@@ -18,7 +18,8 @@ function NavBar(props: { BgColor: string }) {
       }
     >
       <Link href="/">
-        <Image className={styles.caricon}
+        <Image
+          className={styles.caricon}
           src={
             props.BgColor === "black"
               ? "/images/SAEVectorWhite.svg"
@@ -32,7 +33,7 @@ function NavBar(props: { BgColor: string }) {
         />
       </Link>
 
-      <div className={styles.linkContainer } >
+      <div className={styles.linkContainer}>
         <motion.li
           whileHover={{ scale: 1.3, originX: 0, color: " " }}
           transition={{ type: "spring", stiffness: 180 }}
@@ -88,8 +89,7 @@ function NavBar(props: { BgColor: string }) {
       <motion.button
         whileHover={{
           scale: 1.1,
-          textShadow: "0px 0px 8px rgb(255,255,255)"
-          
+          textShadow: "0px 0px 8px rgb(255,255,255)",
         }}
         className={styles.signInBtn}
       >
@@ -159,7 +159,7 @@ function NavBar(props: { BgColor: string }) {
         <motion.button
           whileHover={{
             scale: 1.1,
-            textShadow: "0px 0px 8px rgb(255,255,255)"
+            textShadow: "0px 0px 8px rgb(255,255,255)",
           }}
           className={styles.signInBtnhamburger}
         >

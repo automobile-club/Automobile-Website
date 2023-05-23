@@ -74,7 +74,7 @@
 }
 
 .blog_card {
-  position:relative;
+  position: relative;
   display: flex;
   align-items: stretch;
   justify-content: flex-start;
@@ -84,16 +84,15 @@
   background-color: #807f7f;
   border-radius: 40px;
   transition: all 0.3s ease-out;
-  
 }
-.blog_card_image{
+.blog_card_image {
   flex: 1;
-  background-image: url('/blogs-images/sample.jpg');
+  background-image: url("/blogs-images/sample.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0.5;
-  filter: blur(0px); 
+  filter: blur(0px);
   border-radius: inherit;
 }
 .blog_card button {
@@ -107,7 +106,6 @@
   width: 100px;
   height: 30px;
   z-index: 999;
-  
 }
 .blog_card:hover {
   transform: translate(5px, -4px);
@@ -118,7 +116,7 @@
   transform: scale(0.95);
   box-shadow: none;
 }
-.blog_card:hover  button {
+.blog_card:hover button {
   background-color: #f25402;
 }
 .blog_card:active button {
@@ -150,7 +148,7 @@
 
 .bulb {
   margin-top: -100px;
-  height:300px;
+  height: 300px;
   width: 240px;
 }
 .email {
@@ -173,10 +171,9 @@
   .newBlogIdeas {
     justify-content: center;
   }
-
 }
 @media (max-width: 1000px) {
-  .blog_intro{
+  .blog_intro {
     justify-content: space-evenly;
   }
   .bulb {
@@ -211,7 +208,6 @@
     margin-bottom: 10px;
   }
   .blog_intro span {
-    
     font-size: 2vh;
     width: 80vw;
   }
@@ -250,18 +246,18 @@
   }
 }
 @media (max-width: 800px) {
-  .blog_card{
+  .blog_card {
     width: 70vw;
     height: 45vh;
   }
-  .blog_container{
+  .blog_container {
     padding: 0px;
     padding-top: 20px;
   }
 }
 
 @media (max-width: 500px) {
-  .blog_intro{
+  .blog_intro {
     height: 40vh;
   }
   .bulb {
@@ -280,7 +276,7 @@
     justify-content: center;
     align-items: center;
   }
-  .email{
+  .email {
     margin-bottom: 15px;
     margin-top: 10px;
   }
@@ -293,20 +289,20 @@
     text-align: center;
     margin-left: 5px;
   }
-  .blog_container{
+  .blog_container {
     padding: 0px;
     padding-top: 20px;
   }
-  .blog_card{
+  .blog_card {
     width: 70vw;
   }
 }
 @media (max-width: 800px) {
-  .blog_card{
+  .blog_card {
     width: 70vw;
     height: 45vh;
   }
-  .blog_container{
+  .blog_container {
     padding: 0px;
     padding-top: 20px;
   }
@@ -316,7 +312,7 @@
     justify-content: center;
     align-items: center;
   }
-  .email{
+  .email {
     margin-bottom: 15px;
     margin-top: 10px;
   }

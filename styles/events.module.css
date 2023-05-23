@@ -32,7 +32,7 @@
   z-index: -1;
 }
 
-.btn_container{
+.btn_container {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -77,14 +77,14 @@
   padding: 20px;
 }
 
-.event_img{
+.event_img {
   padding-left: 20px;
   padding-right: 20px;
   width: 100%;
   height: auto;
 }
 
-.event_p{
+.event_p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -94,7 +94,7 @@
   margin-left: 25px;
 }
 
-.event_h1{
+.event_h1 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -112,29 +112,29 @@
   .all_events {
     grid-template-columns: repeat(2, 1fr);
   }
-  .top_image{
+  .top_image {
     padding-left: 40px;
     padding-right: 40px;
     top: 25px;
   }
-  .top_btn{
+  .top_btn {
     font-size: 22px;
     padding: 6px 16px;
     width: 180px;
     height: 42px;
   }
-  .main_heading{
+  .main_heading {
     font-size: 40px;
   }
-  .event_img{
+  .event_img {
     padding-left: 10px;
     padding-right: 10px;
   }
-  .event_h1{
+  .event_h1 {
     font-size: 20px;
     margin-top: -12px;
   }
-  .event_p{
+  .event_p {
     font-size: 12px;
   }
 }
@@ -143,35 +143,32 @@
   .all_events {
     grid-template-columns: repeat(1, 1fr);
   }
-  .top_btn{
+  .top_btn {
     font-size: 13px;
     padding: 0px 12px;
     width: 110px;
     height: 32px;
   }
-  .top_image{
+  .top_image {
     top: 18px;
     padding-left: 30px;
     padding-right: 30px;
   }
-  .main_heading{
+  .main_heading {
     font-size: 30px;
     margin-top: 0px;
   }
-  .event_img{
+  .event_img {
     padding-left: 50px;
     padding-right: 50px;
   }
-  .event_p{
+  .event_p {
     margin-left: 50px;
     font-size: 14px;
   }
-  .event_h1{
+  .event_h1 {
     font-size: 20px;
     margin-left: 50px;
     margin-top: -12px;
   }
 }
-
-
-
