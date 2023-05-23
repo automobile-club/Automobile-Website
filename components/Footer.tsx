@@ -29,8 +29,9 @@ function Footer() {
           <span>Mail us at-</span>
           <br />
           <span className={styles.contact_us_desc_mail}>
-            <img src="/images/Gmail.svg" alt="" />
-            <Link href="saecollegiateclub.iitbhu@gmail.com">saecollegiateclub.iitbhu@gmail.com</Link>
+          <a href="saecollegiateclub.iitbhu@gmail.com"><img src="/images/Gmail.svg" alt="" /></a>
+            <span>
+            <Link href="saecollegiateclub.iitbhu@gmail.com">saecollegiateclub.iitbhu@gmail.com</Link></span>
             
           </span>
         </div>

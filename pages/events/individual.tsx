@@ -1,6 +1,7 @@
 import React,{useLayoutEffect, useState} from 'react'
 import Image from 'next/image'
 import NavBar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 import styles from "@/styles/individualEvent.module.css";
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';

@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import BlogContainer from "@/components/BlogContainer";
 import styles from "@/styles/Blogs.module.css";
 import { useState } from "react";
+import Footer from '@/components/Footer'
 
 function BlogType() {
   const [selectedButton, setSelectedButton] = useState<string>("View All");
@@ -75,6 +76,7 @@ export default function Blog() {
           </div>
         </div>
       </body>
+      <Footer />
     </>
   );
 }

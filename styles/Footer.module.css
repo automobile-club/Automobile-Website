@@ -114,10 +114,19 @@
     .footer_line img {
       display: none;
     }
-    .contact_us_desc span{
-        text-align: justify;
-        font-size: 20px;
+    .contact_us_desc{
+        padding-left: 80px;
     }
-   
+ 
+   .contact_us_desc_mail span{
+    display: none;
+   }
+    .quick_links{
+        padding-left: 10px;
+    }
+    .connectLogo img{
+        width:50px ;
+        padding: 5px;
+    }
   }
   
