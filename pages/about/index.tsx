@@ -17,7 +17,7 @@ export default function About() {
         <img src="/images/star.png"/>
       </div>
       <div className={styles.intro}>
-        <div className={styles.player}><ReactPlayer url='https://www.youtube.com/watch?v=Y-fVS9FSoXw' height={435} width={720}/></div>
+        <div className={styles.player}><ReactPlayer url='https://www.youtube.com/watch?v=Y-fVS9FSoXw' height='100%' width='100%'/></div>
         <div className={styles.intro_text}>Watch Our Intro <br/>Video<br/><button className={styles.youtube_btn}>Watch on &nbsp;<img src="/images/feYoutube2.png"/></button></div>
       </div>
     </div>
