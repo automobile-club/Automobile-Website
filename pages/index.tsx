@@ -15,7 +15,7 @@ function Home() {
       <div className={styles.sae_intro}>
         <Image
           className={styles.cards_img_saeintro}
-          src="/images/cards.png"
+          src="/images/cards.webp"
           alt="card"
           placeholder="empty"
           width={600}
@@ -76,7 +76,7 @@ function Home() {
           <div className={styles.ourmentors_card1_sae}>
             <Image
               className={styles.ourmentors_img}
-              src="/images/Techfest_img.png"
+              src="/images/Techfest_img.webp"
               alt="Mentors"
               width={138.24}
               height={138.24}
@@ -94,7 +94,7 @@ function Home() {
           <div className={styles.ourmentors_card1_sae}>
             <Image
               className={styles.ourmentors_img}
-              src="/images/Techniche_img.png"
+              src="/images/Techniche_img.webp"
               alt="Mentors"
               width={138.24}
               height={138.24}
@@ -112,7 +112,7 @@ function Home() {
           <div className={styles.ourmentors_card1_sae}>
             <Image
               className={styles.ourmentors_img}
-              src="/images/Technex_img.png"
+              src="/images/Technex_img.webp"
               alt="Technex"
               width={138.24}
               height={138.24}
@@ -273,7 +273,7 @@ function Home() {
           <div className={styles.ourmentors_card1_sae}>
             <Image
               className={styles.ourmentors_img}
-              src="/images/mentors1.png"
+              src="/images/mentors1.webp"
               alt="Mentors"
               width={138.24}
               height={138.24}
@@ -291,7 +291,7 @@ function Home() {
           <div className={styles.ourmentors_card1_sae}>
             <Image
               className={styles.ourmentors_img}
-              src="/images/mentors1.png"
+              src="/images/mentors1.webp"
               alt="Mentors"
               width={138.24}
               height={138.24}
@@ -309,7 +309,7 @@ function Home() {
           <div className={styles.ourmentors_card1_sae}>
             <Image
               className={styles.ourmentors_img}
-              src="/images/mentors1.png"
+              src="/images/mentors1.webp"
               alt="Mentors"
               width={138.24}
               height={138.24}
