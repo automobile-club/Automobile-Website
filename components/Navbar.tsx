@@ -35,7 +35,7 @@ function NavBar(props: { BgColor: string }) {
       <div className={styles.linkContainer } >
         <motion.li
           whileHover={{ scale: 1.3, originX: 0, color: " " }}
-          transition={{ type: "spring", stiffness: 180 }}
+          transition={{ type: "spring", stiffness: 180 ,duration:0.2}}
           className={styles.animate}
         >
           {" "}
@@ -45,7 +45,7 @@ function NavBar(props: { BgColor: string }) {
         </motion.li>
         <motion.li
           whileHover={{ scale: 1.3, originX: 0, color: " " }}
-          transition={{ type: "spring", stiffness: 180 }}
+          transition={{ type: "spring", stiffness: 180, duration: 0.2 }}
           className={styles.animate}
         >
           {" "}
@@ -55,7 +55,7 @@ function NavBar(props: { BgColor: string }) {
         </motion.li>
         <motion.li
           whileHover={{ scale: 1.3, originX: 0, color: " " }}
-          transition={{ type: "spring", stiffness: 180 }}
+          transition={{ type: "spring", stiffness: 180, duration: 0.2 }}
           className={styles.animate}
         >
           {" "}
@@ -65,7 +65,7 @@ function NavBar(props: { BgColor: string }) {
         </motion.li>
         <motion.li
           whileHover={{ scale: 1.3, originX: 0, color: " " }}
-          transition={{ type: "spring", stiffness: 180 }}
+          transition={{ type: "spring", stiffness: 180, duration: 0.2 }}
           className={styles.animate}
         >
           {" "}
@@ -75,7 +75,7 @@ function NavBar(props: { BgColor: string }) {
         </motion.li>
         <motion.li
           whileHover={{ scale: 1.3, originX: 0, color: " " }}
-          transition={{ type: "spring", stiffness: 180 }}
+          transition={{ type: "spring", stiffness: 180, duration: 0.2 }}
           className={styles.animate}
         >
           {" "}
@@ -101,9 +101,9 @@ function NavBar(props: { BgColor: string }) {
         whileInView={{
           opacity: 1,
           scale: 1.05,
-          transition: { duration: 0.7 },
+          transition: { duration: 0.4 },
         }}
-        exit={{ opacity: 0 }}
+       exit={{ opacity: 0 }}
         className={`${
           !toggle
             ? styles.linkContainerhamburger
@@ -112,7 +112,7 @@ function NavBar(props: { BgColor: string }) {
       >
         <motion.li
           whileHover={{ scale: 1.1, originX: 0, color: "#ffffff" }}
-          transition={{ type: "spring", stiffness: 280 }}
+          transition={{ type: "spring", stiffness: 280, duration: 0.2 }}
           className={styles.animate}
         >
           <Nav.Link href="/" className={styles.linkshamburger}>
@@ -121,7 +121,7 @@ function NavBar(props: { BgColor: string }) {
         </motion.li>
         <motion.li
           whileHover={{ scale: 1.1, originX: 0, color: "#ffffff" }}
-          transition={{ type: "spring", stiffness: 280 }}
+          transition={{ type: "spring", stiffness: 280, duration: 0.2 }}
           className={styles.animate}
         >
           <Nav.Link href="/about" className={styles.linkshamburger}>
@@ -130,7 +130,7 @@ function NavBar(props: { BgColor: string }) {
         </motion.li>
         <motion.li
           whileHover={{ scale: 1.1, originX: 0, color: "#ffffff" }}
-          transition={{ type: "spring", stiffness: 280 }}
+          transition={{ type: "spring", stiffness: 280, duration: 0.2 }}
           className={styles.animate}
         >
           {" "}
@@ -140,7 +140,7 @@ function NavBar(props: { BgColor: string }) {
         </motion.li>
         <motion.li
           whileHover={{ scale: 1.1, originX: 0, color: "#ffffff" }}
-          transition={{ type: "spring", stiffness: 280 }}
+          transition={{ type: "spring", stiffness: 280, duration: 0.2 }}
           className={styles.animate}
         >
           <Nav.Link href="/blog" className={styles.linkshamburger}>
@@ -149,7 +149,7 @@ function NavBar(props: { BgColor: string }) {
         </motion.li>
         <motion.li
           whileHover={{ scale: 1.1, originX: 0, color: "#ffffff" }}
-          transition={{ type: "spring", stiffness: 280 }}
+          transition={{ type: "spring", stiffness: 280, duration: 0.2 }}
           className={styles.animate}
         >
           <Nav.Link href="/projects" className={styles.linkshamburger}>

@@ -1,6 +1,7 @@
 import styles from '@/styles/about.module.css'
 import Navbar from '@/components/Navbar'
 import ReactPlayer from 'react-player'
+import Footer from '@/components/Footer'
 export default function About() {
   return (
     <>
@@ -62,7 +63,7 @@ export default function About() {
       <img src="/images/Helm3.png" alt="helm1"/>
       </div>
     </div>
-    
+    <Footer />
     </>
   )
 }
