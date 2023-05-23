@@ -20,7 +20,7 @@ function Footer() {
             </span>
             <span>+91 7558525641</span>
           </div>
-        </div>
+          </div>
         <div className={styles.quick_links}>
           <h2>Quick Links</h2>
           <div className={styles.linkDiv}>

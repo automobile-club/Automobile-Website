@@ -249,7 +249,16 @@
     border-radius: 5px;
   }
 }
-
+@media (max-width: 800px) {
+  .blog_card{
+    width: 70vw;
+    height: 45vh;
+  }
+  .blog_container{
+    padding: 0px;
+    padding-top: 20px;
+  }
+}
 
 @media (max-width: 500px) {
   .blog_intro{
