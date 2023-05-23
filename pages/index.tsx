@@ -187,7 +187,23 @@ function Home() {
       {/* orange section */}
       {/* orange section */}
       <div className={styles.orangeSection}>
-        <img src="/images/orangeSection.svg" alt="orange" />
+        <div className={styles.newBlogIdeas}>
+          <img
+            className={styles.bulb}
+            src="/blogs-images/Blogbulb.png"
+            alt="bulb"
+          />
+          <div className={styles.sideContent}>
+            <h1>Give a platform to your ideas!</h1>
+            <h3>
+              Have something to share? Email us your blogs and get featured!
+            </h3>
+            <div className={styles.email}>
+              <img className={styles.logo} src="/gmail.svg" alt="gmail" />
+              saeiitbhu@itbhu.ac.in
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* our blogs section */}
