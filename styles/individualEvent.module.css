@@ -38,8 +38,8 @@
     background-color: #1B1A1B;
     border-radius: 1.5rem;
     color: white;
-    height: 7rem;
-    width: 10rem;
+    height: 6rem;
+    width: 8rem;
     margin-right: 5rem;
     display: flex;
     flex-direction: column;
@@ -55,7 +55,7 @@
 
 .boxBold{
     font-weight: 600;
-    font-size: xx-large;
+    font-size: x-large;
     font-family: Nunito;
 }
 
@@ -80,7 +80,7 @@
 }
 
 .sliderMain{
-    width:"100%";
+    width:"50%";
 }
 
 .swiperRoot{
@@ -113,13 +113,14 @@
 
 .cardEventHead{
     font-family: Popins;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
 
 }
 
 .cardEventData{
     font-family: Popins;
+    font-size: 0.75rem;
     overflow: hidden;
     
 }
@@ -248,7 +249,9 @@
         color: #777a;
         padding: 0px 0px 20px 30px;
       }
-      
+      .addressWrap{
+        font-family: Nunito;
+      }
       .div5 {
         grid-row: 4 / span 2;
         grid-column: 3 /span 3;
