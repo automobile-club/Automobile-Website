@@ -139,7 +139,7 @@ function Home() {
           <div className={styles.row}>
             <div className={styles.card}>
               <Image
-                src="/images/eventImg.svg"
+                src="/images/car.webp"
                 alt="The Culture of SAE"
                 width={290}
                 height={117.15}
@@ -154,7 +154,7 @@ function Home() {
             </div>
             <div className={styles.card}>
               <Image
-                src="/images/eventImg.svg"
+                src="/images/car.webp"
                 alt="The Culture of SAE"
                 width={290}
                 height={117.15}
@@ -171,7 +171,7 @@ function Home() {
           <div className={styles.row}>
             <div className={styles.card}>
               <Image
-                src="/images/eventImg.svg"
+                src="/images/car.webp"
                 alt="The Culture of SAE"
                 width={290}
                 height={117.15}
@@ -186,7 +186,7 @@ function Home() {
             </div>
             <div className={styles.card}>
               <Image
-                src="/images/eventImg.svg"
+                src="/images/car.webp"
                 alt="The Culture of SAE"
                 width={290}
                 height={117.15}
@@ -201,7 +201,7 @@ function Home() {
             </div>
             <div className={styles.card}>
               <Image
-                src="/images/eventImg.svg"
+                src="/images/car.webp"
                 alt="The Culture of SAE"
                 width={290}
                 height={117.15}
