@@ -39,7 +39,7 @@
   gap: 0.5vw;
 }
 
-.social_media>a {
+.social_media > a {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -122,11 +122,9 @@
   border-image: linear-gradient(to right, rgb(242, 84, 2) 4%, transparent 4%) 1;
 }
 
-.blogs>.ourBlogBtn {
+.blogs > .ourBlogBtn {
   margin-top: 3vw;
 }
-
-
 
 /* our mentors section */
 /* our mentors section */
@@ -172,6 +170,7 @@
 
 .ourmentors_img {
   width: 9vw;
+  height: 9vw;
   padding: 1vw;
 }
 
@@ -212,7 +211,7 @@
   width: 2.6vw;
 }
 
-.heading_ourteams>h2 {
+.heading_ourteams > h2 {
   border-top: 5px solid transparent;
   border-image: linear-gradient(to right, rgb(242, 84, 2) 9%, transparent 9%) 1;
 }
@@ -343,12 +342,13 @@
 }
 
 .card a::after {
-  content: ' →';
+  content: " →";
 }
 
 .card a:hover {
   border-bottom: 2px solid #963715;
 }
+
 .newBlogIdeas {
   display: flex;
   flex-direction: row;
@@ -357,16 +357,19 @@
   width: 100%;
   height: fit-content;
 }
+
 .sideContent {
   margin-top: 25px;
   color: white;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
 }
+
 .sideContent h1 {
   font-size: 3vw;
   font-weight: bold;
 }
+
 .sideContent h3 {
   font-size: 1.5vw;
   margin-left: 5px;
@@ -374,9 +377,10 @@
 
 .bulb {
   margin-top: -100px;
-  height:300px;
+  height: 300px;
   width: 240px;
 }
+
 .email {
   margin-top: 20px;
   font-size: 1.2em;
@@ -385,6 +389,7 @@
   padding: 0px 20px;
   border-radius: 30px;
 }
+
 .logo {
   width: 40px;
   margin-right: 15px;
@@ -573,28 +578,34 @@
   .bulb {
     display: none;
   }
+
   .newBlogIdeas {
     justify-content: center;
   }
+
   .sideContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .email{
+
+  .email {
     margin-bottom: 15px;
     margin-top: 10px;
   }
+
   .sideContent h1 {
     font-size: 20px;
     font-weight: bold;
   }
+
   .sideContent h3 {
     font-size: 15px;
     text-align: center;
     margin-left: 5px;
   }
+
   .sae_headings {
     color: white;
     text-align: center;
@@ -675,7 +686,6 @@
 }
 
 @media screen and (max-width: 700px) {
-
   /* here */
   .ourmentors_sae {
     height: auto;
@@ -694,6 +704,7 @@
 
   .ourmentors_img {
     width: 13vw;
+    height: 13vw;
   }
 
   .ourmentors_card1_heading_text {
@@ -753,6 +764,7 @@
 
   .ourmentors_img {
     width: 15vw;
+    height: 15vw;
   }
 
   .achievments_cards_sae {
@@ -780,7 +792,6 @@
 }
 
 @media screen and (max-width: 500px) {
-  
   .sae_headings {
     padding-top: 1em;
     font-weight: 500;
@@ -850,7 +861,6 @@
 }
 
 @media screen and (max-width: 430px) {
-
   .sae_headings {
     padding-top: 1em;
     font-weight: 500;
@@ -886,7 +896,6 @@
 }
 
 @media screen and (max-width: 350px) {
-
   .row:nth-of-type(2) .card:nth-last-of-type(1),
   .row:nth-of-type(2) .card:nth-last-of-type(2),
   .row:nth-of-type(2) .card:nth-last-of-type(3) {

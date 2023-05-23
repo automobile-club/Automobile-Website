@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
 
 .navbarBlack {
-  background-color: #1B1A1B;
+  background-color: #1b1a1b;
   color: #fff;
   padding: 10px 100px;
   display: flex;
@@ -19,11 +19,10 @@
   align-items: center;
   margin-bottom: -2px;
 }
-.animate{
+.animate {
   list-style-type: none;
 }
 .links {
-  
   font-family: "Poppins";
   font-style: normal;
   font-size: 15px;
@@ -99,37 +98,36 @@
   z-index: 100;
 }
 @media screen and (max-width: 1200px) {
-  .linkContainer{
-   margin:auto;
-   height:60px;
+  .linkContainer {
+    margin: auto;
+    height: 60px;
   }
   .animate {
-    padding-right:24px;
+    padding-right: 24px;
   }
   .signInBtn {
-    text-align:center;
+    text-align: center;
     position: absolute;
-    right:20px;
+    right: 20px;
   }
-  .caricon{
-    position:absolute;
-    top:10px;
-    left:20px;
-    }
+  .caricon {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
   .signInBtn {
     margin-top: 10px;
-    text-align:center;
+    text-align: center;
     position: absolute;
-    right:20px;
+    right: 20px;
   }
-  .caricon{
-  position:absolute;
-  top:10px;
-  left:20px;
+  .caricon {
+    position: absolute;
+    top: 10px;
+    left: 20px;
   }
-  
 }
 @media screen and (max-width: 840px) {
   .linkContainer {
@@ -144,7 +142,7 @@
   .linkContainerhamburgershow {
     display: flex;
   }
-  .navbarBlack{
+  .navbarBlack {
     padding: 0px;
     height: 70px;
   }

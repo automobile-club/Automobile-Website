@@ -1,5 +1,5 @@
 import styles from "@/styles/projects.module.css";
-import React , {useState} from "react";
+import React, { useState } from "react";
 import Navbar from "@/components/Navbar";
 import {
   VerticalTimeline,
@@ -17,7 +17,6 @@ import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
 
 export default function Projects() {
-
   const [slidesPerView, setSlidesPerView] = useState(3);
 
   const handleResize = () => {
@@ -61,8 +60,8 @@ export default function Projects() {
               <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
               <p>
                 Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading 
+                Management, Team Leading Creative Direction, User Experience,
+                Visual Design, Project Management, Team Leading
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
