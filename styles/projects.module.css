@@ -133,20 +133,19 @@
     font-size: 15px;
     width: 90%;
   }
-  .achievements h1{
+  .achievements h1 {
     font-size: 30px;
   }
-  .teams h1{
+  .teams h1 {
     font-size: 30px;
   }
-  .teams h2{
+  .teams h2 {
     font-size: 15px;
     width: 90%;
   }
 }
-@media screen and (max-width: 840px){
-  .achievements h1{
+@media screen and (max-width: 840px) {
+  .achievements h1 {
     margin-top: 20px;
   }
-
 }

@@ -21,6 +21,7 @@ const BlogContainer: React.FC<BlogContainerProps> = ({ numBlogCards }) => {
         .fill(null)
         .map((_, index) => (
           <div key={index} className={styles.blog_card}>
+            <div className={styles.blog_card_image}></div>
             <button>Read More</button>
           </div>
         ))}
