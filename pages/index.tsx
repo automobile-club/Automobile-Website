@@ -37,21 +37,21 @@ function Home() {
             <a href="#">
               <img
                 className={styles.instagram_img}
-                src="/images/instagram_hero.png"
+                src="/images/instagram_hero.svg"
                 alt=""
               />
             </a>
             <a href="#">
               <img
                 className={styles.facebook_img}
-                src="/images/facebook_hero.png"
+                src="/images/facebook_hero.svg"
                 alt=""
               />
             </a>
             <a href="#">
               <img
                 className={styles.linkedIn_img}
-                src="/images/linkedIn_hero.png"
+                src="/images/linkedIn_hero.svg"
                 alt=""
               />
             </a>
@@ -77,9 +77,7 @@ function Home() {
               <h3 className={styles.ourmentors_card1_heading_text}>
                 IIT Bombay
               </h3>
-              <span
-                className={`${styles.ourmentors_card1_text} ${styles.ourachievments_card1_text}`}
-              >
+              <span className={styles.ourmentors_card1_text}>
                 Top 10 in IFT&apos;18 Techfest&apos;18
               </span>
             </div>
@@ -95,9 +93,7 @@ function Home() {
               <h3 className={styles.ourmentors_card1_heading_text}>
                 IIT Guwahati
               </h3>
-              <span
-                className={`${styles.ourmentors_card1_text} ${styles.ourachievments_card1_text}`}
-              >
+              <span className={styles.ourmentors_card1_text}>
                 2nd Position Burnout&apos;18 Techniche&apos;19
               </span>
             </div>
@@ -113,9 +109,7 @@ function Home() {
               <h3 className={styles.ourmentors_card1_heading_text}>
                 IIT Varanasi
               </h3>
-              <span
-                className={`${styles.ourmentors_card1_text} ${styles.ourachievments_card1_text}`}
-              >
+              <span className={styles.ourmentors_card1_text}>
                 1st Position Axelerate&apos;19 Technex&apos;19
               </span>
             </div>
@@ -226,8 +220,7 @@ function Home() {
                 Amit Kumar
               </h4>
               <span className={styles.ourmentors_card1_text}>
-                Proud to be an SAE Club IIT BHU alumnus, where innovation and
-                teamwork fueled my passion for engineering excellence
+                Proud to be an SAE Club IIT BHU alumnus
               </span>
             </div>
           </div>
@@ -243,8 +236,7 @@ function Home() {
                 Amit Kumar
               </h4>
               <span className={styles.ourmentors_card1_text}>
-                Proud to be an SAE Club IIT BHU alumnus, where innovation and
-                teamwork fueled my passion for engineering excellence
+                Proud to be an SAE Club IIT BHU alumnus
               </span>
             </div>
           </div>
@@ -260,8 +252,7 @@ function Home() {
                 Amit Kumar
               </h4>
               <span className={styles.ourmentors_card1_text}>
-                Proud to be an SAE Club IIT BHU alumnus, where innovation and
-                teamwork fueled my passion for engineering excellence
+                Proud to be an SAE Club IIT BHU alumnus
               </span>
             </div>
           </div>

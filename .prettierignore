@@ -1,0 +1,14 @@
+# Ignore build directories
+build/
+out/
+
+# Ignore Next.js specific directories
+.next/
+public/
+
+# Ignore version control directories
+.git/
+node_modules/
+
+# Ignore specific files
+*.log
