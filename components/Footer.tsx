@@ -31,6 +31,7 @@ function Footer() {
           <span className={styles.contact_us_desc_mail}>
           <a href="saecollegiateclub.iitbhu@gmail.com"><img src="/images/Gmail.svg" alt="" /></a>
             <span>
+
             <Link href="saecollegiateclub.iitbhu@gmail.com">saecollegiateclub.iitbhu@gmail.com</Link></span>
             
           </span>

@@ -59,19 +59,21 @@
     left:12vw;
     padding:30px;
     display: flex;
-    column-gap: 30px;
+    column-gap: 0%;
+    border-radius:20px;
 }
 .player{
     border-radius: 20px;
     overflow: hidden;
+    width: 80%;
 }
 
+
 .intro_text{
-    width:20vw;
     text-align: center;
     font-size: 3.4vw;
     font-family: 'Outfit';
-    padding:20px 0px 30px 0px;
+    padding:20px 0px 0px 0px; 
 }
 
 
@@ -104,7 +106,7 @@
     height: 129.5vh;
     width:99.92;
     color:#1a1b1a;
-    padding-top:260px;
+    padding-top:35vh;
 }
 
 .second_section img{

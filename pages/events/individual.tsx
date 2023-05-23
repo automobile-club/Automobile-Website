@@ -34,7 +34,7 @@ const SingleEvent = () => {
         <NavBar BgColor='white'/>
         <div>
             <div className={styles.firstVP}>
-            <Image src='/images/event Poster.jpg' className={styles.bannerImage} height={100} width={390} objectFit='cover' alt='event_name'/>
+            <Image src='/images/event_Poster.jpg' className={styles.bannerImage} height={100} width={390} objectFit='cover' alt='event_name'/>
                 <div className={styles.imgTime}>
                     <div className={styles.eventName}>EVENT NAME</div>
                     <div className={styles.eventTime}>
@@ -104,7 +104,7 @@ const SingleEvent = () => {
         <Link href="/events/individual" className={styles.link}>
         <div className={styles.carBody}>
             <div className={styles.imgBack}>
-                <Image src='/images/Rectangle 19img.png' className={styles.carImg} width="125" height="125" alt='event_name' />
+                <Image src='/images/Rectangle_19img.png' className={styles.carImg} width="125" height="125" alt='event_name' />
             </div>
             <div className={styles.carouselData}>
             <div className={styles.eventDate}>May 8 , 2020</div>
@@ -123,7 +123,7 @@ const SingleEvent = () => {
         <Link href="/events/individual" className={styles.link}>
         <div className={styles.carBody}>
             <div className={styles.imgBack}>
-                <Image src='/images/Rectangle 19img.png' className={styles.carImg} width="125" height="125" alt='event_name' />
+                <Image src='/images/Rectangle_19img.png' className={styles.carImg} width="125" height="125" alt='event_name' />
             </div>
             <div className={styles.carouselData}>
             <div className={styles.eventDate}>May 8 , 2020</div>
@@ -143,7 +143,7 @@ const SingleEvent = () => {
         <Link href="/events/individual" className={styles.link}>
         <div className={styles.carBody}>
             <div className={styles.imgBack}>
-                <Image src='/images/Rectangle 19img.png' className={styles.carImg} width="125" height="125" alt='event_name' />
+                <Image src='/images/Rectangle_19img.png' className={styles.carImg} width="125" height="125" alt='event_name' />
             </div>
             <div className={styles.carouselData}>
             <div className={styles.eventDate}>May 8 , 2020</div>
@@ -163,7 +163,7 @@ const SingleEvent = () => {
         <Link href="/events/individual" className={styles.link}>
         <div className={styles.carBody}>
             <div className={styles.imgBack}>
-                <Image src='/images/Rectangle 19img.png' className={styles.carImg} width="125" height="125" alt='event_name' />
+                <Image src='/images/Rectangle_19img.png' className={styles.carImg} width="125" height="125" alt='event_name' />
             </div>
             <div className={styles.carouselData}>
             <div className={styles.eventDate}>May 8 , 2020</div>

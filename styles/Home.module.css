@@ -39,7 +39,7 @@
   gap: 0.5vw;
 }
 
-.social_media > a {
+.social_media>a {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,6 +57,7 @@
   border-top: 1px solid white;
   margin: 0 auto;
   width: 34.75vw;
+  padding-bottom: 5vw;
 }
 
 /* Our achievments*/
@@ -99,10 +100,6 @@
   padding: 1vw;
 }
 
-.ourachievments_card1_text {
-  text-align: center;
-}
-
 .achievments_card1_sae:hover {
   transform: translate(0px, -10px) scale(1.1);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
@@ -125,13 +122,11 @@
   border-image: linear-gradient(to right, rgb(242, 84, 2) 4%, transparent 4%) 1;
 }
 
-.blogs > .ourBlogBtn {
+.blogs>.ourBlogBtn {
   margin-top: 3vw;
 }
 
-.orangeSection img {
-  width: 100%;
-}
+
 
 /* our mentors section */
 /* our mentors section */
@@ -166,7 +161,7 @@
   align-items: center;
   border-radius: 30px;
   transition: all 0.2s ease-in-out;
-  justify-content: space-around;
+  justify-content: space-evenly;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -180,22 +175,15 @@
   padding: 1vw;
 }
 
-.ourmentors_img {
-  width: 9vw;
-  padding: 1vw;
-}
-
 .ourmentors_card1_heading_text {
-  padding-top: 6px;
   text-align: center;
   color: #000000;
 }
 
 .ourmentors_card1_text {
   display: flex;
-  font-size: 1vw;
-  line-height: 20px;
-  color: #000000;
+  font-size: 1.3vw;
+  text-align: center;
 }
 
 /* ourteams section */
@@ -224,7 +212,7 @@
   width: 2.6vw;
 }
 
-.heading_ourteams > h2 {
+.heading_ourteams>h2 {
   border-top: 5px solid transparent;
   border-image: linear-gradient(to right, rgb(242, 84, 2) 9%, transparent 9%) 1;
 }
@@ -245,138 +233,172 @@
   justify-content: center;
 }
 
-
 /* ourevents section */
 /* ourevents section */
 
 .events {
-    background-color: #e3e3e3;
-    padding: 50px 0;
-  }
-  
-  .eventHeading {
-    padding-left: 11vw;
-  }
-  
-  .eventHeading h2 {
-    border-top: 5px solid transparent;
-    border-image: linear-gradient(to right, rgb(242, 84, 2) 4%, transparent 4%) 1;
-  }
-  
-  .vmBtn {
-    display: flex;
-    margin: 0 auto;
-    background-color: rgb(242, 84, 2);
-    width: 140px;
-    height: 40px;
-    border-radius: 20px;
-    color: white;
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .vmBtn:hover {
-    color: white;
-    transform: translateY(-1px);
-  }
-  
-  .vmBtn:active {
-    transform: translateY(2px);
-    transform: translateX(-2px);
-  }
-  
-  .card_container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 20px;
-  }
-  
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 30px;
-  }
-  
-  .card {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    text-align: center;
-    width: 90vw;
-    max-width: 350px;
-    transition: transform 0.2s ease-in-out;
-  }
-  
-  .card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  .card h2 {
-    font-size: 24px;
-    font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .card p {
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 30px;
-    color: #555;
-  }
-  
-  .card a {
-    color: #e25521;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 700;
-    border-bottom: 2px solid #e25521;
-    transition: border-bottom 0.2s ease-in-out;
-    display: inline-block;
-    margin-top: auto;
-  }
-  
-  .card a::after {
-    content: " →";
-  }
-  
-  .card a:hover {
-    border-bottom: 2px solid #963715;
-  }
+  background-color: #e3e3e3;
+  padding: 50px 0;
+}
 
+.eventHeading {
+  padding-left: 11vw;
+}
 
-@media screen and ((max-width: 1496px) and (min-width: 1200px)) {
-  .left_wrapper_ourteams {
-    display: flex;
-    padding: 4vw;
-    padding-left: 0;
-    flex-direction: column;
-  }
+.eventHeading h2 {
+  border-top: 5px solid transparent;
+  border-image: linear-gradient(to right, rgb(242, 84, 2) 4%, transparent 4%) 1;
+}
 
+.vmBtn {
+  display: flex;
+  margin: 0 auto;
+  background-color: rgb(242, 84, 2);
+  width: 8vw;
+  height: 2.5vw;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.vmBtn:hover {
+  color: white;
+  transform: translateY(-1px);
+}
+
+.vmBtn:active {
+  transform: translateY(2px);
+  transform: translateX(-2px);
+}
+
+.card_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  text-align: center;
+  width: 90vw;
+  max-width: 350px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.card p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.card a {
+  color: #e25521;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 2px solid #e25521;
+  transition: border-bottom 0.2s ease-in-out;
+  display: inline-block;
+  margin-top: auto;
+}
+
+.card a::after {
+  content: ' →';
+}
+
+.card a:hover {
+  border-bottom: 2px solid #963715;
+}
+.newBlogIdeas {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-color: #e86526;
+  width: 100%;
+  height: fit-content;
+}
+.sideContent {
+  margin-top: 25px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+.sideContent h1 {
+  font-size: 3vw;
+  font-weight: bold;
+}
+.sideContent h3 {
+  font-size: 1.5vw;
+  margin-left: 5px;
+}
+
+.bulb {
+  margin-top: -100px;
+  height:300px;
+  width: 240px;
+}
+.email {
+  margin-top: 20px;
+  font-size: 1.2em;
+  background-color: black;
+  max-width: fit-content;
+  padding: 0px 20px;
+  border-radius: 30px;
+}
+.logo {
+  width: 40px;
+  margin-right: 15px;
+  padding: 10px 0px;
+}
+
+@media screen and (max-width: 1496px) {
   .line1 {
     margin-left: 18.55vw;
     margin-top: 7.48vw;
     border-top: 4px solid rgb(242, 84, 2);
     width: 2.6vw;
   }
+
   .text_longcontent_ourteams {
     color: black;
     font-weight: 500;
@@ -387,7 +409,39 @@
   }
 }
 
-@media screen and ((max-width: 1200px) and (min-width: 1000px)) {
+@media screen and (max-width: 1300px) {
+  .achievments_card1_sae {
+    width: 25vw;
+    padding: 10px;
+  }
+
+  .achievments_card1_sae img {
+    width: 10vw;
+    height: 10vw;
+    padding: 1vw;
+  }
+
+  .achievments_card1_text {
+    font-weight: 500;
+    font-size: 1.3vw;
+    line-height: 1.9vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ourmentors_cards_sae {
+    width: 100%;
+    padding: 3vw;
+  }
+
+  .ourmentors_card1_sae {
+    width: 26vw;
+    height: 12vw;
+  }
+}
+
+@media screen and (max-width: 1200px) {
   .left_wrapper_ourteams {
     display: flex;
     padding: 4vw;
@@ -401,6 +455,7 @@
     border-top: 4px solid rgb(242, 84, 2);
     width: 2.6vw;
   }
+
   .text_longcontent_ourteams {
     color: black;
     font-weight: 500;
@@ -409,12 +464,57 @@
     padding: 2vw 0 3vw 0;
     text-align: justify;
   }
+
   .right_wrapper_ourteams {
     transform: scale(0.8);
   }
+
+  .ourmentors_cards_sae {
+    width: 100%;
+    padding: 2.5vw;
+  }
+
+  .ourmentors_card1_sae {
+    width: 26vw;
+    height: 12.5vw;
+    padding: 10px;
+  }
+
+  .ourmentors_card1_heading_text {
+    font-size: 2.6vw;
+  }
+
+  .ourmentors_card1_text {
+    font-size: 1.6vw;
+  }
+
+  .card h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+
+  .card p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .card a {
+    font-size: 18px;
+  }
+
+  .vmBtn {
+    width: 100px;
+    height: 30px;
+  }
 }
 
-@media screen and ((max-width: 1000px) and (min-width: 800px)) {
+@media screen and (max-width: 1150px) {
+  .row:nth-of-type(2) .card:nth-last-child(1) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
   .sae_headings {
     color: white;
     text-align: center;
@@ -428,19 +528,13 @@
     margin-top: 0vw;
   }
 
-  .left_wrapper_ourteams {
-    display: flex;
-    padding: 3vw;
-    padding-left: 0;
-    flex-direction: column;
-  }
-
   .line1 {
     margin-left: 18.55vw;
     margin-top: 7.48vw;
     border-top: 4px solid rgb(242, 84, 2);
     width: 2.6vw;
   }
+
   .text_longcontent_ourteams {
     color: black;
     font-weight: 500;
@@ -449,12 +543,58 @@
     padding: 2vw 0 3vw 0;
     text-align: justify;
   }
+
   .right_wrapper_ourteams {
     transform: scale(0.8);
   }
+
+  .card {
+    width: auto;
+  }
+
+  .row:nth-of-type(2) {
+    display: none;
+  }
 }
 
-@media screen and ((max-width: 800px) and (min-width: 750px)) {
+@media screen and (max-width: 900px) {
+  .ourmentors_cards_sae {
+    width: 100%;
+    padding: 2.7vw;
+  }
+
+  .ourmentors_card1_sae {
+    width: 32vw;
+    height: 14vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .bulb {
+    display: none;
+  }
+  .newBlogIdeas {
+    justify-content: center;
+  }
+  .sideContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .email{
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  .sideContent h1 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .sideContent h3 {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 5px;
+  }
   .sae_headings {
     color: white;
     text-align: center;
@@ -467,219 +607,19 @@
     margin-left: 1.62vw;
     margin-top: 0vw;
   }
-}
-@media screen and (max-width: 1300px) and (min-width: 750px) {
-  .achievments_cards_sae {
-    gap: 5vw;
-  }
 
-  .achievments_card1_sae {
-    width: 25vw;
-    padding: 10px;
-  }
-  .achievments_card1_sae img {
-    width: 10vw;
-    height: 10vw;
-    padding: 1vw;
-  }
-
-  .achievments_card1_text {
-    font-weight: 500;
-    font-size: 1.3vw;
-    line-height: 1.9vw;
-  }
-
-  .ourmentors_cards_sae {
-    width: 100%;
-    padding: 3vw;
-  }
-
-  .ourmentors_card1_sae {
-    width: 26vw;
-    height: 12vw;
-    padding: 10px;
-  }
-
-  .ourmentors_img {
-    width: 9vw;
-    padding: 1vw;
-  }
-
-  .ourmentors_card1_heading_text {
-    padding-top: 6px;
-  }
-
-  .ourmentors_card1_text {
-    display: flex;
-    font-size: 1vw;
-    line-height: 20px;
-  }
-}
-
-@media screen and (max-width: 1200px) and (min-width: 900px) {
-  .ourmentors_cards_sae {
-    width: 100%;
-    padding: 2.5vw;
-  }
-
-  .ourmentors_card1_sae {
-    width: 26vw;
-    height: 12.5vw;
-    padding: 10px;
-  }
-
-  .ourmentors_img {
-    width: 9vw;
-    height: 9vw;
-    padding: 1vw;
-  }
-
-  .ourmentors_card1_heading_text {
-    padding-top: 5px;
-    font-size: 2.6vw;
-  }
-
-  .ourmentors_card1_text {
-    display: flex;
-    font-size: 1.1vw;
-    line-height: 1.5vw;
-    padding-bottom: 0.1vw;
-  }
-}
-
-@media screen and (max-width: 900px) and (min-width: 700px) {
-  .ourmentors_cards_sae {
-    width: 100%;
-    padding: 2.7vw;
-  }
-
-  .ourmentors_card1_sae {
-    width: 32vw;
-    height: 14vw;
-    padding: 10px;
-  }
-
-  .ourmentors_img {
-    width: 8.5vw;
-    height: 8.5vw;
-    padding: 1vw;
-  }
-
-  .ourmentors_card1_heading_text {
-    font-size: 2vw;
-    padding-top: 1vw;
-  }
-
-  .ourmentors_card1_text {
-    display: flex;
-    font-size: 1.3vw;
-    line-height: 1.6vw;
-    padding-bottom: 2vw;
-  }
-}
-
-@media screen and (max-width: 700px) and (min-width: 600px) {
-  .ourmentors_sae {
+  .sae_ourteams {
+    grid-template-columns: 1fr;
     height: auto;
   }
 
-  .ourmentors_cards_sae {
-    width: 100%;
-    padding: 2.7vw;
+  .right_wrapper_ourteams {
+    display: none;
   }
 
-  .ourmentors_card1_sae {
-    width: 32vw;
-    height: 14vw;
-    padding: 10px;
-  }
-
-  .ourmentors_img {
-    width: 9vw;
-    height: 9vw;
-    padding: 1vw;
-  }
-
-  .ourmentors_card1_heading_text {
-    font-size: 2vw;
-    padding-top: 1vw;
-  }
-
-  .ourmentors_card1_text {
-    display: flex;
-    font-size: 1.3vw;
-    line-height: 1.6vw;
-    padding-bottom: 2vw;
-  }
-}
-
-@media screen and (max-width: 600px) and (min-width: 500px) {
-  .ourmentors_sae {
-    height: auto;
-  }
-
-  .ourmentors_cards_sae {
-    width: 100%;
-    padding: 2.7vw;
-  }
-
-  .ourmentors_card1_sae {
-    width: 36vw;
-    height: 16vw;
-    padding: 10px;
-  }
-
-  .ourmentors_img {
-    width: 9vw;
-    height: 9vw;
-    padding: 1vw;
-  }
-
-  .ourmentors_card1_heading_text {
-    font-size: 2.4vw;
-    padding-top: 1.5vw;
-  }
-
-  .ourmentors_card1_text {
-    display: flex;
-    font-size: 1.3vw;
-    line-height: 1.5vw;
-    padding-bottom: 2vw;
-  }
-}
-
-@media screen and (max-width: 500px) and (min-width: 430px) {
-  .ourmentors_sae {
-    height: auto;
-  }
-
-  .ourmentors_cards_sae {
-    width: 100%;
-    padding: 2.7vw;
-  }
-
-  .ourmentors_card1_sae {
-    width: 36vw;
-    height: 16vw;
-    padding: 10px;
-  }
-
-  .ourmentors_img {
-    width: 9vw;
-    height: 9vw;
-    padding: 1vw;
-  }
-
-  .ourmentors_card1_heading_text {
-    font-size: 2.3vw;
-    padding-top: 1.5vw;
-  }
-
-  .ourmentors_card1_text {
-    display: flex;
-    font-size: 1.3vw;
-    line-height: 1.5vw;
-    padding-bottom: 2vw;
+  .text_longcontent_ourteams {
+    font-size: 2.5vw;
+    line-height: 3.5vw;
   }
 }
 
@@ -689,7 +629,7 @@
     grid-template-columns: 1fr;
     grid-gap: 3px;
     width: 100%;
-    height: 60vh;
+    height: auto;
   }
 
   .sae_headings {
@@ -721,14 +661,6 @@
     width: 68vw;
   }
 
-  .ourachievments_sae {
-    height: 40vw;
-  }
-
-  .achievments_cards_sae {
-    gap: 5vw;
-  }
-
   .achievments_card1_sae {
     background-color: rgb(248, 248, 251);
     width: 24vw;
@@ -740,51 +672,45 @@
     height: 10.5vw;
     padding: 1vw;
   }
-
-  .achievments_card1_text {
-    font-weight: 500;
-    font-size: 1.5vw;
-    line-height: 1.9vw;
-  }
 }
-@media screen and (max-width: 800px) {
-  /* our teams */
-  .sae_ourteams {
-    background-color: rgb(236, 236, 241);
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 100%;
-    height: 65vw;
-  }
 
-  .heading_ourteams {
-    margin: 0 auto;
-    width: 300px;
-    font-size: 45px;
-    line-height: 28px;
-  }
-  .right_wrapper_ourteams {
-    display: none;
-  }
-  .text_longcontent_ourteams {
-    padding-left: 10vw;
-    padding-right: 10vw;
-    font-size: 2vw;
-    line-height: 4vw;
-  }
-  .ourmentors_card1_heading_text {
-    padding-top: 12px;
-  }
-  .ourachievments_card1_text {
-    font-size: 1.6vw;
-    line-height: 2.5vw;
+@media screen and (max-width: 700px) {
+
+  /* here */
+  .ourmentors_sae {
     height: auto;
-    padding-left: 5px;
-    padding-right: 5px;
+  }
+
+  .ourmentors_cards_sae {
+    width: 100%;
+    padding: 2.7vw;
+  }
+
+  .ourmentors_card1_sae {
+    width: 30vw;
+    height: 30vw;
+    flex-direction: column;
+  }
+
+  .ourmentors_img {
+    width: 13vw;
+  }
+
+  .ourmentors_card1_heading_text {
+    font-size: 3vw;
+  }
+
+  .ourmentors_card1_text {
+    font-size: 2vw;
   }
 }
 
-@media screen and (max-width: 600px) and (min-width: 500px) {
+@media screen and (max-width: 600px) {
+  .ourmentors_cards_sae {
+    width: 100%;
+    padding: 2.7vw;
+  }
+
   .achievments_cards_sae {
     gap: 6vw;
   }
@@ -802,30 +728,59 @@
   }
 
   .achievments_card1_text {
-    font-weight: 500;
     font-size: 1.8vw;
     line-height: 2.2vw;
   }
-  .ourmentors_card1_heading_text {
-    padding-top: 12px;
-  }
-  .ourachievments_card1_text {
-    font-size: 1.8vw;
-    line-height: 2.5vw;
-    padding-left: 5px;
-    padding-right: 5px;
+
+  .row p {
+    display: none;
   }
 }
 
-@media screen and (max-width: 500px) and (min-width: 430px) {
-  .sae_intro {
-    padding-top: 0;
-    grid-template-columns: 1fr;
-    grid-gap: 3px;
-    width: 100%;
-    height: 60vh;
+@media screen and (max-width: 550px) {
+  .ourachievments_sae {
+    height: fit-content;
   }
 
+  .achievments_card1_sae {
+    width: 50vw;
+  }
+
+  .achievments_card1_text {
+    font-size: 2.5vw;
+    line-height: 3vw;
+  }
+
+  .ourmentors_img {
+    width: 15vw;
+  }
+
+  .achievments_cards_sae {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vw;
+  }
+
+  .ourmentors_card1_heading_text {
+    font-size: 5vw;
+    width: 65vw;
+  }
+
+  .ourmentors_card1_sae {
+    width: 90vw;
+    height: auto;
+    flex-direction: row;
+  }
+
+  .ourmentors_card1_text {
+    font-size: 3vw;
+    line-height: 3vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  
   .sae_headings {
     padding-top: 1em;
     font-weight: 500;
@@ -855,29 +810,8 @@
     width: 68vw;
   }
 
-  /* our teams */
-  .sae_ourteams {
-    background-color: rgb(236, 236, 241);
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 100%;
-    height: 65vw;
-  }
-
-  .heading_ourteams {
-    margin: 0 auto;
-    width: 300px;
-    font-size: 45px;
-    line-height: 28px;
-  }
   .right_wrapper_ourteams {
     display: none;
-  }
-  .text_longcontent_ourteams {
-    padding-left: 10vw;
-    padding-right: 10vw;
-    font-size: 2.1vw;
-    line-height: 4.1vw;
   }
 
   .achievments_card1_sae {
@@ -900,26 +834,22 @@
     font-size: 1.9vw;
     line-height: 2.2vw;
   }
+
   .ourmentors_card1_heading_text {
     padding-top: 12px;
   }
-  .ourachievments_card1_text {
-    font-size: 2vw;
-    line-height: 2.5vw;
+
+  .ourmentors_sae {
     height: auto;
-    padding-left: 5px;
-    padding-right: 5px;
+  }
+
+  .ourmentors_cards_sae {
+    width: 100%;
+    padding: 2.7vw;
   }
 }
 
-@media screen and (max-width: 430px) and (min-width: 300px) {
-  .sae_intro {
-    padding-top: 0;
-    grid-template-columns: 1fr;
-    grid-gap: 3px;
-    width: 100%;
-    height: 60vh;
-  }
+@media screen and (max-width: 430px) {
 
   .sae_headings {
     padding-top: 1em;
@@ -950,158 +880,16 @@
     width: 68vw;
   }
 
-  /* our teams */
-  .sae_ourteams {
-    background-color: rgb(236, 236, 241);
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 100%;
-    height: 65vw;
-  }
-
-  .heading_ourteams {
-    margin: 0 auto;
-    width: 300px;
-    font-size: 45px;
-    line-height: 28px;
-  }
   .right_wrapper_ourteams {
     display: none;
   }
-  .text_longcontent_ourteams {
-    padding-left: 10vw;
-    padding-right: 10vw;
-    font-size: 2vw;
-    line-height: 4vw;
-  }
-
-  .colored_div {
-    display: none;
-  }
 }
 
-@media screen and (max-width: 550px) and (min-width: 300px) {
-  .ourachievments_sae {
-    height: fit-content;
-  }
+@media screen and (max-width: 350px) {
 
-  .achievments_card1_sae {
-    width: 50vw;
-  }
-
-  .achievments_card1_text {
-    font-size: 2.5vw;
-    line-height: 3vw;
-  }
-
-  .achievments_card1_sae img {
-    width: 15vw;
-    height: 15vw;
-  }
-
-  .achievments_cards_sae {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5vw;
-  }
-
-  .ourmentors_card1_heading_text {
-    font-size: 4vw;
-    width: 65vw;
-  }
-
-  .ourmentors_sae {
-    height: 115vw;
-  }
-
-  .ourmentors_card1_sae {
-    width: 90vw;
-    height: auto;
-  }
-
-  .ourmentors_card1_text {
-    font-size: 2.5vw;
-    line-height: 3vw;
-  }
-  .ourachievments_card1_text {
-    font-size: 2.5vw;
-    line-height: 3vw;
-    width: 60vw;
-    padding-left: 18vw;
-    padding-right: 12vw;
-    text-align: center;
-  }
-
-  .ourmentors_card1_sae img {
-    width: 15vw;
-    height: 15vw;
-  }
-
-  .achievments_cards_sae {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5vw;
-  }
-}
-
-@media screen and (min-width: 350px) {
   .row:nth-of-type(2) .card:nth-last-of-type(1),
   .row:nth-of-type(2) .card:nth-last-of-type(2),
   .row:nth-of-type(2) .card:nth-last-of-type(3) {
     display: none;
-  }
-}
-
-@media screen and (min-width: 576px) {
-  .card {
-    width: 40vw;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .card h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-  }
-
-  .card p {
-    font-size: 18px;
-  }
-
-  .row:nth-of-type(2) .card:nth-last-of-type(3) {
-    display: inherit;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .card {
-    width: 30vw;
-  }
-
-  .row:nth-of-type(2) .card:nth-last-of-type(1),
-  .row:nth-of-type(2) .card:nth-last-of-type(2) {
-    display: inherit;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .card {
-    width: 22.5vw;
-  }
-
-  .card h2 {
-    font-size: 32px;
-    margin-bottom: 25px;
-  }
-
-  .card p {
-    font-size: 20px;
-    margin-bottom: 30px;
-  }
-
-  .card a {
-    font-size: 18px;
   }
 }

@@ -47,7 +47,7 @@ export default function Blog() {
   return (
     <>
       <Navbar BgColor="black" />
-      <body className={styles.main}>
+      <div className={styles.main}>
         <div className={styles.blog_intro}>
           <h1 className={styles.blog_title}>Blogs</h1>
           <span>
@@ -75,8 +75,12 @@ export default function Blog() {
             </div>
           </div>
         </div>
+
       </body>
-      <Footer />
+   
+
+      </div>
+   <Footer />
     </>
   );
 }

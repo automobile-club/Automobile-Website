@@ -7,6 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: -2px;
 }
 
 .navbarWhite {
@@ -16,6 +17,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: -2px;
 }
 .animate{
   list-style-type: none;

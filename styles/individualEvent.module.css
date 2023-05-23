@@ -120,7 +120,6 @@
 
 .cardEventData{
     font-family: Popins;
-    font-size: 0.75rem;
     overflow: hidden;
     
 }
@@ -364,5 +363,11 @@
       }
       .eventTime{
         width: 66%;
+      }
+      .cardEventHead{
+        font-size: 1rem;
+      }
+      .cardEventData{
+        font-size: 0.75rem;
       }
       }
