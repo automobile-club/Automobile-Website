@@ -184,6 +184,7 @@ const SingleEvent = () => {
 
             </div>
         </div>
+        <Footer/>
     </>
   )
 }
