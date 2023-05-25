@@ -23,7 +23,7 @@
     padding: 15px;
   }
   .footer_line img{
-    padding:20px 0 10px 0 ;
+    padding:20px 0 20px 0 ;
   }
 
   .contact_us_desc h2 {
@@ -103,29 +103,52 @@
   }
 
   /* Responsive Styles for max screen width: 1000 */
-  @media (max-width: 1200px) {
-    .footer_box {
-      flex-wrap: wrap;
+  @media only screen and (max-width: 1200px) and (min-width: 900px) {
+    .footer_logo img {
+      width: 200px;
+      padding: 10px;
     }
+    .contact_us_desc h2 {
+      font-size: 35px;
+    }
+    .contact_us_desc span {
+      font-size: 1.2rem;
+    }
+  
+    .contact_us_desc_mail span{
+      display: none;
+
+    }
+    .quick_links h2 {
+      font-size: 35px;
+      padding-bottom: 15px;
+    }
+  
+  
   }
 
   /* Responsive Styles for max screen width: 700 */
-  @media (max-width: 1000px) {
+  @media (max-width: 900px) {
     .footer_box {
-      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      
     }
     .footer_line img {
       display: none;
     }
     .contact_us_desc{
-        padding-left: 80px;
+        padding-left: 120px;
     }
-
+    .contact_us_desc span {
+      font-size: 1.5rem;
+    }
    .contact_us_desc_mail span{
     display: none;
    }
     .quick_links{
-        padding-left: 10px;
+        padding-left: 90px;
     }
     .connectLogo img{
         width:50px ;
@@ -133,6 +156,7 @@
     }
     .contact_us_desc_mail span{
       display: none;
+
 
     }
   }
