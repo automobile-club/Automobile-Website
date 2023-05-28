@@ -102,7 +102,7 @@
   margin: 0px 5px;
 }
 
-/* Responsive Styles for max screen width: 1000 */
+/* Responsive Styles  */
 @media only screen and (max-width: 1200px) and (min-width: 900px) {
   .footer_logo img {
     width: 200px;
@@ -124,7 +124,7 @@
   }
 }
 
-/* Responsive Styles for max screen width: 700 */
+/* Responsive Styles for max screen width: 900 */
 @media (max-width: 900px) {
   .footer_box {
     flex-direction: column;
