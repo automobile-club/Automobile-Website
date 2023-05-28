@@ -101,7 +101,7 @@ function NavBar(props: { BgColor: string }) {
         whileInView={{
           opacity: 1,
           scale: 1.05,
-          transition: { duration: 0.7 },
+          transition: { duration: 0.35 },
         }}
         exit={{ opacity: 0 }}
         className={`${
