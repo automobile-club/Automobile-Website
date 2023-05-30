@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
 
@@ -112,7 +110,7 @@
   color: white;
   border: none;
   border-radius: 20px;
-  width: 100px;
+  width: 120px;
   height: 30px;
   z-index: 999;
 }
@@ -143,6 +141,7 @@
   background-color: #e86526;
   width: 100%;
   height: fit-content;
+  padding-bottom: 25px;
   margin-top: 100px;
 }
 
