@@ -29,7 +29,7 @@ function Home() {
           </div>
           <div className={styles.sae_content}>
             <p className={styles.sae_long_text}>
-              It is a student organization at Indian Institute of Technology,
+              We are a student organization at Indian Institute of Technology,
               (BHU) Varanasi. It focuses on promoting automotive engineering and
               provides opportunities to participate in technical events,
               competitions, and hands-on projects related to vehicle design.
@@ -50,8 +50,8 @@ function Home() {
                 className={styles.facebook_img}
                 src="/images/facebook_hero.svg"
                 alt="facebook"
-                width={60}
-                height={60}
+                width={62}
+                height={62}
               />
             </a>
             <a href="#">
@@ -59,8 +59,8 @@ function Home() {
                 className={styles.linkedIn_img}
                 src="/images/linkedIn_hero.svg"
                 alt="linkedIn"
-                width={60}
-                height={60}
+                width={50}
+                height={50}
               />
             </a>
           </div>
