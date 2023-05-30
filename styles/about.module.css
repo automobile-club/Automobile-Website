@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .first_section {
   /* background-color: #F4F4F4; */
   background-color: #1a1b1a;
@@ -32,7 +32,7 @@
 }
 
 .desc {
-  font-family: "Actor";
+  font-family: "Poppins";
 }
 
 .star img {
@@ -200,7 +200,7 @@
   display: flex;
   column-gap: 40px;
   height: 60vh;
-  font-family: "Inter";
+  font-family: "Poppins";
 }
 
 .left {
@@ -218,7 +218,7 @@
   padding: 30px;
   display: flex;
   align-items: center;
-  font-family: "Actor";
+  font-family: "Poppins";
 }
 
 @media (max-width: 1000px) {
@@ -296,7 +296,7 @@
   .youtube_btn {
     background-color: black;
     color: #f4f4f4;
-    font-family: "outfit";
+    font-family: "Outfit";
     font-size: 17px;
     padding: 7px 14px;
     border-radius: 20px;
