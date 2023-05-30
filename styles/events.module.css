@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
 
 .navbar {
   background-color: white;
@@ -8,7 +9,9 @@
   justify-content: space-between;
   align-items: center;
 }
-
+.upper_content{
+  position: relative;
+}
 .button {
   background: #000000;
   border-radius: 200px;
@@ -28,11 +31,13 @@
   padding-left: 70px;
   padding-right: 70px;
   position: relative;
-  top: 35px;
+  top: 0px;
   z-index: -1;
 }
 
 .btn_container {
+  position: absolute;
+  bottom:-35px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -44,20 +49,23 @@
   font-size: 22px;
   width: 280px;
   height: 60px;
-  background: #e94d00;
+  background: #000000;
   border-radius: 51.68px;
   border: none;
   z-index: 1;
-  font-family: "Inter";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   line-height: 34px;
   color: #ffffff;
 }
-
+.top_btn:hover{
+  background: #e94d00;
+  color: white;
+}
 .main_heading {
   text-align: center;
-  font-family: "Inter";
+  font-family: "Outfit";
   font-style: normal;
   font-weight: 700;
   font-size: 45px;
@@ -71,6 +79,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
+  margin-bottom: 50px;
 }
 
 .individual_event {
@@ -85,7 +94,7 @@
 }
 
 .event_p {
-  font-family: "Inter";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -95,7 +104,7 @@
 }
 
 .event_h1 {
-  font-family: "Inter";
+  font-family: "Outfit";
   font-style: normal;
   font-weight: 700;
   font-size: 24.1167px;
@@ -144,9 +153,9 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .top_btn {
-    font-size: 13px;
+    font-size: 15px;
     padding: 0px 12px;
-    width: 110px;
+    width: 130px;
     height: 32px;
   }
   .top_image {
@@ -156,7 +165,8 @@
   }
   .main_heading {
     font-size: 30px;
-    margin-top: 0px;
+    margin-top: 30px;
+    margin-bottom: -10px;
   }
   .event_img {
     padding-left: 50px;
