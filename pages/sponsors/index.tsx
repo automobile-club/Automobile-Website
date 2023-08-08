@@ -112,46 +112,7 @@ export default function Projects() {
         </div>
         <div className="custom-container">
         <div className={styles.achievements}>
-          <h1>Team Averera Sponsors</h1>
-        </div>
-        <div className="card-group" style={{ width: '75%', margin: '0 auto' }}>
-          <div className="card">
-            <Image className="card-img-top"  width={200} height={200} src="/images/tatasteel.png" alt="Card image cap"/>
-              <div className="card-body">
-               <h5 className="card-title">Card title</h5>
-                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-          </div>
-          <div className="card">
-            <Image className="card-img-top" width={200} height={200} src="/images/tatasteel.png" alt="Card image cap"/>
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-          </div>
-          <div className="card">
-            <Image className="card-img-top" width={200} height={200} src="/images/tatasteel.png" alt="Card image cap"/>
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-          <div className="card">
-            <Image className="card-img-top" width={200} height={200} src="/images/tatasteel.png" alt="Card image cap"/>
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-        </div>
-        <div className="custom-container">
-        <div className={styles.achievements}>
-          <h1>Team Trident Sponsors</h1>
+          <h1>Silver Sponsors</h1>
         </div>
         <div className="card-group" style={{ width: '75%', margin: '0 auto' }}>
           <div className="card">
