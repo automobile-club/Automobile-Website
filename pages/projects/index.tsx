@@ -116,9 +116,11 @@ export default function Projects() {
             </h2>
           </span>
         </div>
+
         <div className={styles.teams}>
           <h1>Team Trident</h1>
         </div>
+        
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={0}
