@@ -1,0 +1,130 @@
+/* ImageTiles.module.css */
+
+.achievements {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.achievements h1 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 113px;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+}
+
+.achievements span {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.achievements h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0% 1% 0% 1%;
+  color: #000000;
+  padding-bottom: 2%;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.6);
+  width: 50%;
+  text-align: center;
+}
+
+.teams h1 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 113px;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+}
+
+.h1{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.tileLine {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+ 
+}
+
+.imageTileT {
+  width: 200px;
+  height: 200px;
+  margin: 20px 30px 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageTileT img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  border:  1px solid #f9f5f5;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.imageTile {
+  width: 170px;
+  height: 170px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageTile img {
+  display: block;
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
+  border:  1px solid #f9f5f5;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.imageTileT img:hover {
+  transform: scale(1.1);
+}
+.imageTile img:hover {
+  transform: scale(1.1);
+}
+
+.slider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5% 
+}
+.image{
+  width: 200px;/* Set the image width to fill its container */
+  height: 200px; /* Set the image height to fill its container */
+  object-fit: contain; /* Adjust this value based on your design */
+ margin-left: 27% ;
+  ;
+}
+
+.sliderContainer {
+  width: 97%; 
+  height: 220px;
+}
