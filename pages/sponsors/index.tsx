@@ -21,17 +21,17 @@ export default function Sponsors() {
   const [slidesPerView, setSlidesPerView] = useState(3);
 
   const handleResize = () => {
-    if (window.innerWidth < 768) {
-      setSlidesPerView(1);
+    if (window.innerWidth < 478) {
+      setSlidesPerView(2);
     } else if (window.innerWidth < 1024) {
-      setSlidesPerView(1);
+      setSlidesPerView(2);
     } else {
       setSlidesPerView(3);
     }
   };
 
   
-  
+ 
   
   return (
     <>  
@@ -61,7 +61,7 @@ Our collaborative efforts will help us achieve our vision of a sustainable futur
         </div>
         
         <div className={styles.imageTileT}>
-          <a href="https:/heromotocorp.com">
+          <a href="https://www.heromotocorp.com/">
             <Image src="/images/others/hero.png" alt="Tile 2" />
           </a>
         </div>
@@ -77,12 +77,12 @@ Our collaborative efforts will help us achieve our vision of a sustainable futur
       <div className={styles.tileLine}>
        
         <div className={styles.imageTile}>
-          <a href="link-to-page3">
+          <a href="https://www.tatamotors.com/">
             <Image src="/images/others/tata.png" alt="Tile 3" />
           </a>
         </div>
         <div className={styles.imageTile}>
-          <a href="link-to-page3">
+          <a href="https://auto.mahindra.com/">
             <Image src="/images/others/mahindra.png" alt="Tile 3" />
           </a>
         </div>
@@ -117,13 +117,13 @@ Our collaborative efforts will help us achieve our vision of a sustainable futur
           </a>
         </div>
         <div className={styles.imageTile}>
-          <a href="link-to-page3">
+          <a href="https://www.iitk.ac.in/">
             <Image src="/images/others/kanpur.png" alt="Tile 3" />
           </a>
         </div>
         <div className={styles.imageTile}>
           <a href="link-to-page4">
-            <Image src="/images/others/mahindra.png" alt="Tile 4" />
+            <Image src="/images/others/ntpc.png" alt="Tile 4" />
           </a>
         </div>
         <div className={styles.imageTile}>
