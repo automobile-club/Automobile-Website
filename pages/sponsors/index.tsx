@@ -42,7 +42,7 @@ export default function Sponsors() {
           <h1>Why Sponsor Us?</h1>
           <span>
             <h2>
-Your partnership is more than just financial support. It's an opportunity to co-create meaningful change. 
+Your partnership is more than just financial support. Its an opportunity to co-create meaningful change. 
 Our collaborative efforts will help us achieve our vision of a sustainable future.
  Your brand will shine as a beacon of social responsibility, gaining visibility among our engaged audience.
           </h2>
@@ -56,20 +56,20 @@ Our collaborative efforts will help us achieve our vision of a sustainable futur
       <div className={styles.tileLine}>
         <div className={styles.imageTileT}>
           <a href="https://www.castrol.com/">
-            <img src="/images/others/castrol.cms" alt="Tile 1" />
+            <Image src="/images/others/castrol.cms" alt="Tile 1" />
           </a>
         </div>
         
         <div className={styles.imageTileT}>
           <a href="https:/heromotocorp.com">
-            <img src="/images/others/hero.png" alt="Tile 2" />
+            <Image src="/images/others/hero.png" alt="Tile 2" />
           </a>
         </div>
      
       
         <div className={styles.imageTileT}>
           <a href="http://upsacs.up.gov.in/">
-            <img src="/images/others/upsacs.png" alt="Tile 2" />
+            <Image src="/images/others/upsacs.png" alt="Tile 2" />
           </a>
         </div>
        </div>
@@ -78,27 +78,27 @@ Our collaborative efforts will help us achieve our vision of a sustainable futur
        
         <div className={styles.imageTile}>
           <a href="link-to-page3">
-            <img src="/images/others/tata.png" alt="Tile 3" />
+            <Image src="/images/others/tata.png" alt="Tile 3" />
           </a>
         </div>
         <div className={styles.imageTile}>
           <a href="link-to-page3">
-            <img src="/images/others/mahindra.png" alt="Tile 3" />
+            <Image src="/images/others/mahindra.png" alt="Tile 3" />
           </a>
         </div>
         <div className={styles.imageTile}>
           <a href="link-to-page3">
-            <img src="/images/others/godrej.png" alt="Tile 3" />
+            <Image src="/images/others/godrej.png" alt="Tile 3" />
           </a>
         </div>
         <div className={styles.imageTile}>
           <a href="link-to-page4">
-            <img src="/images/others/iocl.png" alt="Tile 4" />
+            <Image src="/images/others/iocl.png" alt="Tile 4" />
           </a>
         </div>
         <div className={styles.imageTile}>
           <a href="link-to-page4">
-            <img src="/images/others/bankofbaroda.png" alt="Tile 4" />
+            <Image src="/images/others/bankofbaroda.png" alt="Tile 4" />
           </a>
         </div>
         
@@ -108,27 +108,27 @@ Our collaborative efforts will help us achieve our vision of a sustainable futur
        
         <div className={styles.imageTile}>
           <a href="link-to-page3">
-            <img src="/images/others/hpcl.png" alt="Tile 3" />
+            <Image src="/images/others/hpcl.png" alt="Tile 3" />
           </a>
         </div>
         <div className={styles.imageTile}>
           <a href="link-to-page3">
-            <img src="/images/others/KTM_Logo.png" alt="Tile 3" />
+            <Image src="/images/others/KTM_Logo.png" alt="Tile 3" />
           </a>
         </div>
         <div className={styles.imageTile}>
           <a href="link-to-page3">
-            <img src="/images/others/kanpur.png" alt="Tile 3" />
+            <Image src="/images/others/kanpur.png" alt="Tile 3" />
           </a>
         </div>
         <div className={styles.imageTile}>
           <a href="link-to-page4">
-            <img src="/images/others/mahindra.png" alt="Tile 4" />
+            <Image src="/images/others/mahindra.png" alt="Tile 4" />
           </a>
         </div>
         <div className={styles.imageTile}>
           <a href="link-to-page4">
-            <img src="/images/others/laxmi_cycle.png" alt="Tile 4" />
+            <Image src="/images/others/laxmi_cycle.png" alt="Tile 4" />
           </a>
         </div>
        
