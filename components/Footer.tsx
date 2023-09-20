@@ -32,10 +32,10 @@ function Footer() {
               {" "}
               <img src="/images/gmailFooter.svg" alt="" />
             </a>
-<span>
-            <Link href="saecollegiateclub.iitbhu@gmail.com">
-              saecollegiateclub.iitbhu@gmail.com
-            </Link>
+            <span>
+              <Link href="saecollegiateclub.iitbhu@gmail.com">
+                saecollegiateclub.iitbhu@gmail.com
+              </Link>
             </span>
           </span>
         </div>

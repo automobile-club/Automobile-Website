@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.upper_content{
+.upper_content {
   position: relative;
 }
 .button {
@@ -37,7 +37,7 @@
 
 .btn_container {
   position: absolute;
-  bottom:-35px;
+  bottom: -35px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -59,7 +59,7 @@
   line-height: 34px;
   color: #ffffff;
 }
-.top_btn:hover{
+.top_btn:hover {
   background: #e94d00;
   color: white;
 }

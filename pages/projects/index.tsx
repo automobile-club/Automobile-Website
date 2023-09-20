@@ -209,7 +209,7 @@ export default function Projects() {
           </span>
         </div>
       </body>
-      <Footer/>
+      <Footer />
     </>
   );
 }
