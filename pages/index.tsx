@@ -4,7 +4,7 @@ import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import BlogContainer from "@/components/BlogContainer";
-import DirectionCards from "@/components/DirectionCards/DirectionCards";
+// import DirectionCards from "@/components/DirectionCards/DirectionCards";
 
 function Home() {
   return (
@@ -330,7 +330,7 @@ function Home() {
 
       {/* our teams section  */}
       {/* our teams section  */}
-      <div className={styles.sae_ourteams}>
+      {/* <div className={styles.sae_ourteams}>
         <div className={styles.left_wrapper_ourteams}>
           <div className={styles.heading_ourteams}>
             <h2 className={styles.heading_content_ourteams}>Our Teams </h2>
@@ -348,7 +348,7 @@ function Home() {
         <div className={styles.right_wrapper_ourteams}>
           <DirectionCards />
         </div>
-      </div>
+      </div> */}
       <Footer />
     </>
   );

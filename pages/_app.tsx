@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>SAE IIT BHU</title>
       </Head>
       <Component {...pageProps} />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

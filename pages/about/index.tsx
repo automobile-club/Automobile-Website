@@ -17,7 +17,7 @@ export default function About() {
           <hr />
         </div>
         <div className={styles.star}>
-          <img src="/images/star.png" />
+          <img alt="stars" src="/images/star.png" />
         </div>
         <div className={styles.intro}>
           <div className={styles.player}>
@@ -33,7 +33,7 @@ export default function About() {
             <br />
             <button className={styles.youtube_btn}>
               Watch on &nbsp;
-              <img src="/images/feYoutube2.png" />
+              <img alt="youtube" src="/images/feYoutube2.png" />
             </button>
           </div>
         </div>

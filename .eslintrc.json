@@ -1,7 +1,13 @@
 {
-  "extends": ["next", "next/core-web-vitals", "eslint:recommended"],
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "eslint:recommended"
+  ],
   "globals": {
-    "React": "readonly"
+    "React": "readonly",
+    "JSX": "readonly",
+    "NodeListOf": "readonly"
   },
   "rules": {
     "no-unused-vars": [
@@ -10,6 +16,7 @@
         "args": "after-used",
         "argsIgnorePattern": "^_"
       }
-    ]
+    ],
+    "@next/next/no-img-element": "off"
   }
 }

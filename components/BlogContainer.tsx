@@ -1,19 +1,19 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import styles from "@/styles/Blogs.module.css";
-import Image from "next/image";
+// import Image from "next/image";
 
 interface BlogContainerProps {
   numBlogCards: number;
 }
 
 const BlogContainer: React.FC<BlogContainerProps> = ({ numBlogCards }) => {
-  const [selectedButton, setSelectedButton] = useState<string>("View All");
+  // const [selectedButton, setSelectedButton] = useState<string>("View All");
 
-  const handleButtonClick = (
-    event: React.MouseEvent<HTMLButtonElement, MouseEvent>
-  ) => {
-    setSelectedButton(event.currentTarget.innerText);
-  };
+  // const handleButtonClick = (
+  //   event: React.MouseEvent<HTMLButtonElement, MouseEvent>
+  // ) => {
+  //   setSelectedButton(event.currentTarget.innerText);
+  // };
 
   return (
     <div className={styles.blog_container}>
