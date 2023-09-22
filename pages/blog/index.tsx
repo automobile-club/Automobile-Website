@@ -1,5 +1,4 @@
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import BlogContainer from "@/components/BlogContainer";
 import styles from "@/styles/Blogs.module.css";
 import { useState } from "react";
@@ -76,7 +75,6 @@ export default function Blog() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

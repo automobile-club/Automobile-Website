@@ -1,5 +1,4 @@
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
@@ -349,7 +348,6 @@ function Home() {
           <DirectionCards />
         </div>
       </div> */}
-      <Footer />
     </>
   );
 }
