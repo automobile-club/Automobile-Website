@@ -1,12 +1,32 @@
+import React, { useState, useEffect } from "react";
 import Nav from "react-bootstrap/Nav";
 import Image from "next/image";
 import styles from "@/styles/navbar.module.css";
 import Link from "next/link";
-import { useState } from "react";
 import { motion } from "framer-motion";
 
 function NavBar(props: { BgColor: string }) {
-  const [toggle, setToggle] = useState(false);
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth <= 956);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const handleDropdownClick = () => {
+    setShowDropdown(!showDropdown);
+  };
+
   return (
     <div
       className={
@@ -33,58 +53,38 @@ function NavBar(props: { BgColor: string }) {
         />
       </Link>
 
-      <div className={styles.linkContainer}>
-        <motion.li
-          whileHover={{ scale: 1.3, originX: 0, color: " " }}
-          transition={{ type: "spring", stiffness: 180 }}
-          className={styles.animate}
-        >
-          {" "}
-          <Nav.Link href="/" className={styles.links}>
+      {isSmallScreen ? (
+        <div className={styles.hamburger} onClick={handleDropdownClick}>
+          <img
+            src={
+                props.BgColor === "black"
+                ? "/menu.svg"
+                : props.BgColor === "white"
+                ? "/menublack.svg"
+                : ""
+            }
+            alt="menu"
+          />
+        </div>
+      ) : (
+        <div className={styles.linkContainer}>
+          <Nav.Link href="/" className={`${styles.links} ${styles.navlinkltr}`}>
             Home
-          </Nav.Link>{" "}
-        </motion.li>
-        <motion.li
-          whileHover={{ scale: 1.3, originX: 0, color: " " }}
-          transition={{ type: "spring", stiffness: 180 }}
-          className={styles.animate}
-        >
-          {" "}
-          <Nav.Link href="/about" className={styles.links}>
+          </Nav.Link>
+          <Nav.Link href="/about" className={`${styles.links} ${styles.navlinkltr}`}>
             About
-          </Nav.Link>{" "}
-        </motion.li>
-        <motion.li
-          whileHover={{ scale: 1.3, originX: 0, color: " " }}
-          transition={{ type: "spring", stiffness: 180 }}
-          className={styles.animate}
-        >
-          {" "}
-          <Nav.Link href="/events" className={styles.links}>
+          </Nav.Link>
+          <Nav.Link href="/events" className={`${styles.links} ${styles.navlinkltr}`}>
             Events
-          </Nav.Link>{" "}
-        </motion.li>
-        <motion.li
-          whileHover={{ scale: 1.3, originX: 0, color: " " }}
-          transition={{ type: "spring", stiffness: 180 }}
-          className={styles.animate}
-        >
-          {" "}
-          <Nav.Link href="/blog" className={styles.links}>
+          </Nav.Link>
+          <Nav.Link href="/blog" className={`${styles.links} ${styles.navlinkltr}`}>
             Blogs
-          </Nav.Link>{" "}
-        </motion.li>
-        <motion.li
-          whileHover={{ scale: 1.3, originX: 0, color: " " }}
-          transition={{ type: "spring", stiffness: 180 }}
-          className={styles.animate}
-        >
-          {" "}
-          <Nav.Link href="/projects" className={styles.links}>
+          </Nav.Link>
+          <Nav.Link href="/projects" className={`${styles.links} ${styles.navlinkltr}`}>
             Projects
-          </Nav.Link>{" "}
-        </motion.li>{" "}
-      </div>
+          </Nav.Link>
+        </div>
+      )}
 
       <motion.button
         whileHover={{
@@ -93,96 +93,42 @@ function NavBar(props: { BgColor: string }) {
         }}
         className={styles.signInBtn}
       >
-        Sign In
+        Login
       </motion.button>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{
-          opacity: 1,
-          scale: 1.05,
-          transition: { duration: 0.35 },
-        }}
-        exit={{ opacity: 0 }}
-        className={`${
-          !toggle
-            ? styles.linkContainerhamburger
-            : styles.linkContainerhamburgershow
-        }`}
-      >
-        <motion.li
-          whileHover={{ scale: 1.1, originX: 0, color: "#ffffff" }}
-          transition={{ type: "spring", stiffness: 280 }}
-          className={styles.animate}
-        >
-          <Nav.Link href="/" className={styles.linkshamburger}>
-            Home
-          </Nav.Link>
-        </motion.li>
-        <motion.li
-          whileHover={{ scale: 1.1, originX: 0, color: "#ffffff" }}
-          transition={{ type: "spring", stiffness: 280 }}
-          className={styles.animate}
-        >
-          <Nav.Link href="/about" className={styles.linkshamburger}>
-            About
-          </Nav.Link>
-        </motion.li>
-        <motion.li
-          whileHover={{ scale: 1.1, originX: 0, color: "#ffffff" }}
-          transition={{ type: "spring", stiffness: 280 }}
-          className={styles.animate}
-        >
-          {" "}
-          <Nav.Link href="/events" className={styles.linkshamburger}>
-            Events
-          </Nav.Link>
-        </motion.li>
-        <motion.li
-          whileHover={{ scale: 1.1, originX: 0, color: "#ffffff" }}
-          transition={{ type: "spring", stiffness: 280 }}
-          className={styles.animate}
-        >
-          <Nav.Link href="/blog" className={styles.linkshamburger}>
-            Blogs
-          </Nav.Link>
-        </motion.li>
-        <motion.li
-          whileHover={{ scale: 1.1, originX: 0, color: "#ffffff" }}
-          transition={{ type: "spring", stiffness: 280 }}
-          className={styles.animate}
-        >
-          <Nav.Link href="/projects" className={styles.linkshamburger}>
-            Projects
-          </Nav.Link>
-        </motion.li>
-        <motion.button
-          whileHover={{
-            scale: 1.1,
-            textShadow: "0px 0px 8px rgb(255,255,255)",
-          }}
-          className={styles.signInBtnhamburger}
-        >
-          Sign In
-        </motion.button>
-      </motion.div>
-
-      <img
-        className={styles.hamburger}
-        src={
-          toggle
-            ? "/close.svg"
-            : props.BgColor === "black"
-            ? "/menu.svg"
-            : props.BgColor === "white"
-            ? "/menublack.svg"
-            : ""
-        }
-        alt="menu"
-        onClick={() => setToggle(!toggle)}
-      ></img>
+      {isSmallScreen && showDropdown && (
+        <div className={styles.fullScreenOverlay} onClick={handleDropdownClick}>
+          <div className={styles.linkContainer}>
+            <Nav.Link href="/" className={`${styles.links} ${styles.navlinkltr}`}>
+              Home
+            </Nav.Link>
+            <Nav.Link href="/about" className={`${styles.links} ${styles.navlinkltr}`}>
+              About
+            </Nav.Link>
+            <Nav.Link href="/events" className={`${styles.links} ${styles.navlinkltr}`}>
+              Events
+            </Nav.Link>
+            <Nav.Link href="/blog" className={`${styles.links} ${styles.navlinkltr}`}>
+              Blogs
+            </Nav.Link>
+            <Nav.Link href="/projects" className={`${styles.links} ${styles.navlinkltr}`}>
+              Projects
+            </Nav.Link>
+          </div>
+          <motion.button
+            whileHover={{
+              scale: 1.1,
+              textShadow: "0px 0px 8px rgb(255,255,255)",
+            }}
+            className={styles.signInBtnhamburger}
+          >
+            Login
+          </motion.button>
+        </div>
+      )}
     </div>
   );
 }
 
 export default NavBar;
+
