@@ -68,8 +68,9 @@ export default function Projects() {
               className="vertical-timeline-element--work"
               date="2010 - 2011"
               iconStyle={{ background: "rgb(33, 150, 243)" }}
-              contentStyle={{ background: "#fff", color: "black" }}
-              contentArrowStyle={{ borderRight: "7px solid  #fff" }}
+              contentStyle={{ background: "#FF6012", color: "#f2f5f8" }}
+              contentArrowStyle={{ borderRight: "7px solid  #FF6012" }}
+              dateClassName={styles.date}
             >
               <h3 className="vertical-timeline-element-title">Art Director</h3>
               <h4 className="vertical-timeline-element-subtitle">
@@ -82,8 +83,11 @@ export default function Projects() {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
+              contentStyle={{ background: "#FF6012", color: "#f2f5f8" }}
+              contentArrowStyle={{ borderRight: "7px solid  #FF6012" }}
               date="2008 - 2010"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "black" }}
+              iconStyle={{ background: "rgb(33, 150, 243)" }}
+              dateClassName={styles.date}
             >
               <h3 className="vertical-timeline-element-title">Web Designer</h3>
               <h4 className="vertical-timeline-element-subtitle">
@@ -92,9 +96,12 @@ export default function Projects() {
               <p>User Experience, Visual Design</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date="2006 - 2008"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+             className="vertical-timeline-element--work"
+             contentStyle={{ background: "#FF6012", color: "#f2f5f8" }}
+             contentArrowStyle={{ borderRight: "7px solid  #FF6012" }}
+             date="2006 - 2008"
+             iconStyle={{ background: "rgb(33, 150, 243)" }}
+             dateClassName={styles.date}
             >
               <h3 className="vertical-timeline-element-title">Web Designer</h3>
               <h4 className="vertical-timeline-element-subtitle">
@@ -104,93 +111,6 @@ export default function Projects() {
             </VerticalTimelineElement>
           </VerticalTimeline>
         </div>
-        <div className={styles.achievements}>
-          <h1>Our Projects</h1>
-          <span>
-            <h2>
-              SAE(Society of Automotive Engineers) aims to give a platform to
-              people who wish to learn about and build automobiles. Our teams
-              take part in various RC and automotive events all round the
-              year....
-            </h2>
-          </span>
-        </div>
-        <div className={styles.teams}>
-          <h1>Team Trident</h1>
-        </div>
-        <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={0}
-          slidesPerView={slidesPerView}
-          navigation
-          scrollbar={{ draggable: true }}
-          className={styles.slider}
-          onResize={handleResize}
-        >
-          <SwiperSlide>
-            <Image
-              src="/images/car.png"
-              width={400}
-              height={300}
-              alt=""
-              className={styles.image}
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/images/car.png"
-              width={400}
-              height={300}
-              alt=""
-              className={styles.image}
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/images/car.png"
-              width={400}
-              height={300}
-              alt=""
-              className={styles.image}
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/images/car.png"
-              width={400}
-              height={300}
-              alt=""
-              className={styles.image}
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/images/car.png"
-              width={400}
-              height={300}
-              alt=""
-              className={styles.image}
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/images/car.png"
-              width={400}
-              height={300}
-              alt=""
-              className={styles.image}
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/images/car.png"
-              width={400}
-              height={300}
-              alt=""
-              className={styles.image}
-            />
-          </SwiperSlide>
-        </Swiper>
         <div className={styles.teams}>
           <span>
             <h2>

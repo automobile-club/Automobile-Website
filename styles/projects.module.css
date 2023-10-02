@@ -65,10 +65,12 @@
   margin-top: 2%;
   height: max-content;
   margin-bottom: 1%;
+ 
 }
 
 .date {
-  color: black;
+  color: #000000;
+
 }
 
 .teams {
@@ -128,7 +130,7 @@
   }
 }
 
-@media screen and (max-width: 1188px) {
+@media screen and (max-width: 525x) {
   .achievements h2 {
     font-size: 15px;
     width: 90%;
@@ -136,16 +138,13 @@
   .achievements h1 {
     font-size: 30px;
   }
-  .teams h1 {
-    font-size: 30px;
-  }
-  .teams h2 {
-    font-size: 15px;
-    width: 90%;
-  }
 }
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 525px) and (min-width: 200px) {
   .achievements h1 {
     margin-top: 20px;
+  }
+  .achievements h2 {
+    font-size: 18px;
+    width: 90%;
   }
 }
