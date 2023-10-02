@@ -31,7 +31,7 @@ export default function Projects() {
 
   return (
     <>
-      <Navbar BgColor="white" />
+      <Navbar BgColor="black" />
       <body className={styles.body}>
         <div className={styles.achievements}>
           <h1>Our Achievements</h1>

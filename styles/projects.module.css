@@ -28,6 +28,7 @@
   width: 100%;
   justify-content: center;
   flex-direction: column;
+  background: #1b1a1b
 }
 
 .achievements h1 {
@@ -36,7 +37,7 @@
   font-weight: 400;
   font-size: 45px;
   line-height: 113px;
-  color: #000000;
+  color: white;
   display: flex;
   justify-content: center;
 }
@@ -54,7 +55,7 @@
   font-size: 20px;
   line-height: 30px;
   margin: 0% 1% 0% 1%;
-  color: #000000;
+  color: #a4a3a4;
   padding-bottom: 2%;
   border-bottom: 1px solid rgba(151, 151, 151, 0.6);
   width: 50%;
