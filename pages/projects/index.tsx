@@ -37,11 +37,14 @@ export default function Projects() {
           <h1>Our Achievements</h1>
           <span>
             <h2>
-              SAE(Society of Automotive Engineers) aims to give a platform to people who wish to learn about and build automobiles. Our teams take part in various RC and automotive events all round the year.... SAE(Society of Automotive Engineers) aims to give a platform to people who wish to learn about and build automobiles. Our teams take part in various RC and automotive events all round the year.... 
+              SAE(Society of Automotive Engineers) aims to give a platform to people who wish to learn about and build automobiles. Our teams take part in various RC and automotive events all round the year.... SAE(Society of Automotive Engineers) aims to give a platform to people who wish to learn about and build automobiles. Our teams take part in various RC and automotive events all round the year....
             </h2>
-            </span>
+          </span>
         </div>
         <div className={styles.timeline}>
+        <div className={styles.Timeline_heading}>
+          <h2 className={styles.Timeline_heading_text}>Timeline</h2>
+         </div>
           <VerticalTimeline lineColor={"#8c96a3"}>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
