@@ -33,16 +33,13 @@ export default function Projects() {
     <>
       <Navbar BgColor="black" />
       <body className={styles.body}>
-        <div className={styles.achievements}>
+        <div className={`${styles.achievements} ${styles.introp}`}>
           <h1>Our Achievements</h1>
           <span>
             <h2>
-              SAE(Society of Automotive Engineers) aims to give a platform to
-              people who wish to learn about and build automobiles. Our teams
-              take part in various RC and automotive events all round the
-              year....
+              SAE(Society of Automotive Engineers) aims to give a platform to people who wish to learn about and build automobiles. Our teams take part in various RC and automotive events all round the year.... SAE(Society of Automotive Engineers) aims to give a platform to people who wish to learn about and build automobiles. Our teams take part in various RC and automotive events all round the year.... 
             </h2>
-          </span>
+            </span>
         </div>
         <div className={styles.timeline}>
           <VerticalTimeline lineColor={"#8c96a3"}>
@@ -96,12 +93,12 @@ export default function Projects() {
               <p>User Experience, Visual Design</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-             className="vertical-timeline-element--work"
-             contentStyle={{ background: "#FF6012", color: "#f2f5f8" }}
-             contentArrowStyle={{ borderRight: "7px solid  #FF6012" }}
-             date="2006 - 2008"
-             iconStyle={{ background: "rgb(33, 150, 243)" }}
-             dateClassName={styles.date}
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "#FF6012", color: "#f2f5f8" }}
+              contentArrowStyle={{ borderRight: "7px solid  #FF6012" }}
+              date="2006 - 2008"
+              iconStyle={{ background: "rgb(33, 150, 243)" }}
+              dateClassName={styles.date}
             >
               <h3 className="vertical-timeline-element-title">Web Designer</h3>
               <h4 className="vertical-timeline-element-subtitle">

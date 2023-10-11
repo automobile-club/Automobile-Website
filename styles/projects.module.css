@@ -23,12 +23,17 @@
   background-color: white;
 }
 
+.introp {
+background:#1b1a1b;
+text-align: center;
+padding-bottom:10% ;
+}
 .achievements {
   display: flex;
   width: 100%;
   justify-content: center;
   flex-direction: column;
-  background: #1b1a1b
+  background: #1b1a1b;
 }
 
 .achievements h1 {
