@@ -23,11 +23,17 @@
   background-color: white;
 }
 
+.introp {
+background:#1b1a1b;
+text-align: center;
+padding-bottom:15% ;
+}
 .achievements {
   display: flex;
   width: 100%;
   justify-content: center;
   flex-direction: column;
+  background: #1b1a1b;
 }
 
 .achievements h1 {
@@ -36,7 +42,7 @@
   font-weight: 400;
   font-size: 45px;
   line-height: 113px;
-  color: #000000;
+  color: white;
   display: flex;
   justify-content: center;
 }
@@ -54,7 +60,7 @@
   font-size: 20px;
   line-height: 30px;
   margin: 0% 1% 0% 1%;
-  color: #000000;
+  color: #a4a3a4;
   padding-bottom: 2%;
   border-bottom: 1px solid rgba(151, 151, 151, 0.6);
   width: 50%;
@@ -62,13 +68,24 @@
 }
 
 .timeline {
-  margin-top: 2%;
-  height: max-content;
+  margin-top: 3.5%;
+  height: fit-content;
   margin-bottom: 1%;
+
+}
+
+.Timeline_heading { 
+  padding-left: 11vw;
+}
+
+.Timeline_heading_text{
+  border-top: 5px solid transparent;
+  border-image: linear-gradient(to right, rgb(242, 84, 2) 4%, transparent 4%) 1;
 }
 
 .date {
-  color: black;
+  color: #000000;
+
 }
 
 .teams {
@@ -128,7 +145,7 @@
   }
 }
 
-@media screen and (max-width: 1188px) {
+@media screen and (max-width: 525x) {
   .achievements h2 {
     font-size: 15px;
     width: 90%;
@@ -136,16 +153,13 @@
   .achievements h1 {
     font-size: 30px;
   }
-  .teams h1 {
-    font-size: 30px;
-  }
-  .teams h2 {
-    font-size: 15px;
-    width: 90%;
-  }
 }
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 525px) and (min-width: 200px) {
   .achievements h1 {
     margin-top: 20px;
+  }
+  .achievements h2 {
+    font-size: 18px;
+    width: 90%;
   }
 }
