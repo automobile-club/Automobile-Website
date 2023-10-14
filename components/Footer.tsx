@@ -6,8 +6,8 @@ function Footer() {
     <div className={styles.footer}>
       <div className={styles.footer_box}>
         <div className={styles.footer_logo}>
-          <link href="/">{" "} <img src="/images/bhuFooter.svg" alt="" /> >
-          <link href="/">{" "} <img src="/images/logoFooter.svg" alt="" /> >
+          <link href="/">{" "} <img src="/images/bhuFooter.svg" alt="" /></link>
+          <link href="/">{" "} <img src="/images/logoFooter.svg" alt="" /></link>
            </div>
             
         <div className={styles.footer_line}>
