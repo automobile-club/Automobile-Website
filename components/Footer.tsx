@@ -3,12 +3,12 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <div className={styles.footer}>
+   <div className={styles.footer}>
       <div className={styles.footer_box}>
         <div className={styles.footer_logo}>
-          <link href="/">{" "} <img src="/images/bhuFooter.svg" alt="" /></link>
-          <link href="/">{" "} <img src="/images/logoFooter.svg" alt="" /></link>
-           </div>
+          <img src="/images/bhuFooter.svg" alt="" />
+          <img src="/images/logoFooter.svg" alt="" />
+        </div>
             
         <div className={styles.footer_line}>
           <img src="/images/line 4.svg" alt="" />
