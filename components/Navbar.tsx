@@ -49,7 +49,7 @@ function NavBar(props: { BgColor: string }) {
           }
           alt="SAE"
           width={150}
-          height={50}
+          height={30}
         />
       </Link>
 
