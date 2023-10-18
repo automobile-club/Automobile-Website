@@ -3,17 +3,16 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <div className={styles.footer}>
+   <div className={styles.footer}>
       <div className={styles.footer_box}>
         <div className={styles.footer_logo}>
           <img src="/images/bhuFooter.svg" alt="" />
           <img src="/images/logoFooter.svg" alt="" />
         </div>
-
+            
         <div className={styles.footer_line}>
           <img src="/images/line 4.svg" alt="" />
         </div>
-
         <div className={styles.contact_us_desc}>
           <h2>Contact Us</h2>
           <span>
@@ -28,12 +27,12 @@ function Footer() {
           <span>Mail us at-</span>
           <br />
           <span className={styles.contact_us_desc_mail}>
-            <a href=" saecollegiateclub.iitbhu@gmail.com  ">
+            <a href="mailto: saecollegiateclub.iitbhu@gmail.com">
               {" "}
               <img src="/images/gmailFooter.svg" alt="" />
             </a>
             <span>
-              <Link href="saecollegiateclub.iitbhu@gmail.com">
+              <Link href="mailto: saecollegiateclub.iitbhu@gmail.com">
                 saecollegiateclub.iitbhu@gmail.com
               </Link>
             </span>
@@ -47,10 +46,10 @@ function Footer() {
         <div className={styles.quick_links}>
           <h2>Quick Links</h2>
           <div className={styles.linkDiv}>
-            <Link href="/">Projects</Link>
-            <Link href="/">Events</Link>
-            <Link href="/">About us</Link>
-            <Link href="/">Workshops</Link>
+            <Link href="/projects">Projects</Link>
+            <Link href="/events">Events</Link>
+            <Link href="/about">About us</Link>
+            <Link href="/events">Workshops</Link>
             <img
               alt="upArrow"
               src="/images/upArrow.svg"
@@ -59,10 +58,10 @@ function Footer() {
           </div>
           <h4 className={styles.connectLogo}>
             Connect to us on :
-            <Link href="/">
+            <Link href="https://www.instagram.com/saecollegiateclubiitbhu">
               <img src="/images/instagramFooter.png" alt="" />
             </Link>
-            <Link href="/">
+            <Link href="https://in.linkedin.com/company/sae-collegiate-club-iit-varanasi">
               <img src="/images/linkedinFooter.png" alt="" />
             </Link>
           </h4>
