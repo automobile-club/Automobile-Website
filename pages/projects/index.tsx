@@ -34,7 +34,7 @@ export default function Projects() {
       <Navbar BgColor="black" />
       <body className={styles.body}>
         <div className={`${styles.achievements} ${styles.introp}`}>
-          <h1>Our Achievements</h1>
+          <h1>Our Projects</h1>
           <span>
             <h2>
               SAE(Society of Automotive Engineers) aims to give a platform to people who wish to learn about and build automobiles. Our teams take part in various RC and automotive events all round the year.... SAE(Society of Automotive Engineers) aims to give a platform to people who wish to learn about and build automobiles. Our teams take part in various RC and automotive events all round the year....
