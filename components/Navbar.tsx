@@ -57,7 +57,7 @@ function NavBar(props: { BgColor: string }) {
         <div className={styles.hamburger} onClick={handleDropdownClick}>
           <img
             src={
-                props.BgColor === "black"
+              props.BgColor === "black"
                 ? "/menu.svg"
                 : props.BgColor === "white"
                 ? "/menublack.svg"
@@ -71,16 +71,28 @@ function NavBar(props: { BgColor: string }) {
           <Nav.Link href="/" className={`${styles.links} ${styles.navlinkltr}`}>
             Home
           </Nav.Link>
-          <Nav.Link href="/about" className={`${styles.links} ${styles.navlinkltr}`}>
+          <Nav.Link
+            href="/about"
+            className={`${styles.links} ${styles.navlinkltr}`}
+          >
             About
           </Nav.Link>
-          <Nav.Link href="/events" className={`${styles.links} ${styles.navlinkltr}`}>
+          <Nav.Link
+            href="/events"
+            className={`${styles.links} ${styles.navlinkltr}`}
+          >
             Events
           </Nav.Link>
-          <Nav.Link href="/blog" className={`${styles.links} ${styles.navlinkltr}`}>
+          {/* <Nav.Link
+            href="/blog"
+            className={`${styles.links} ${styles.navlinkltr}`}
+          >
             Blogs
-          </Nav.Link>
-          <Nav.Link href="/projects" className={`${styles.links} ${styles.navlinkltr}`}>
+          </Nav.Link> */}
+          <Nav.Link
+            href="/projects"
+            className={`${styles.links} ${styles.navlinkltr}`}
+          >
             Projects
           </Nav.Link>
         </div>
@@ -93,25 +105,40 @@ function NavBar(props: { BgColor: string }) {
         }}
         className={styles.signInBtn}
       >
-        Login
+        Trident
       </motion.button>
 
       {isSmallScreen && showDropdown && (
         <div className={styles.fullScreenOverlay} onClick={handleDropdownClick}>
           <div className={styles.linkContainer}>
-            <Nav.Link href="/" className={`${styles.links} ${styles.navlinkltr}`}>
+            <Nav.Link
+              href="/"
+              className={`${styles.links} ${styles.navlinkltr}`}
+            >
               Home
             </Nav.Link>
-            <Nav.Link href="/about" className={`${styles.links} ${styles.navlinkltr}`}>
+            <Nav.Link
+              href="/about"
+              className={`${styles.links} ${styles.navlinkltr}`}
+            >
               About
             </Nav.Link>
-            <Nav.Link href="/events" className={`${styles.links} ${styles.navlinkltr}`}>
+            <Nav.Link
+              href="/events"
+              className={`${styles.links} ${styles.navlinkltr}`}
+            >
               Events
             </Nav.Link>
-            <Nav.Link href="/blog" className={`${styles.links} ${styles.navlinkltr}`}>
+            <Nav.Link
+              href="/blog"
+              className={`${styles.links} ${styles.navlinkltr}`}
+            >
               Blogs
             </Nav.Link>
-            <Nav.Link href="/projects" className={`${styles.links} ${styles.navlinkltr}`}>
+            <Nav.Link
+              href="/projects"
+              className={`${styles.links} ${styles.navlinkltr}`}
+            >
               Projects
             </Nav.Link>
           </div>
@@ -131,4 +158,3 @@ function NavBar(props: { BgColor: string }) {
 }
 
 export default NavBar;
-

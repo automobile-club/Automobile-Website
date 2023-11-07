@@ -2,22 +2,28 @@
 
 .navbarBlack {
   background-color: #1b1a1b;
+  position: fixed;
+  width: 100%;
   color: #fff;
   padding: 10px 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: -2px;
+  z-index: 1000;
 }
 
 .navbarWhite {
   background-color: #fff;
+  width: 100%;
   color: #000;
+  position: fixed;
   padding: 10px 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: -2px;
+  z-index: 1000;
 }
 .animate {
   list-style-type: none;
@@ -25,7 +31,7 @@
 .links {
   font-family: "Poppins";
   font-style: normal;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 20px;
   padding: 20px 0px;
   margin: 0px 20px;
@@ -35,7 +41,7 @@
 
 .links::before {
   transition: 350ms;
-  height: 5px;
+  height: 2.5px;
   content: "";
   position: absolute;
   background-color: #ffffff;
