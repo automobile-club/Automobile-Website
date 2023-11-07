@@ -134,7 +134,7 @@ function Home() {
       {/* our events section */}
       <div className={styles.events}>
         <div className={styles.eventHeading}>
-          <h2>Events & Workshop</h2>
+          <h2 className={styles.ourmentors_heading_text} >Events & Workshop</h2>
         </div>
         <div className={styles.card_container}>
           <div className={styles.row}>
@@ -217,7 +217,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <Link href="/blog" className={`${styles.vmBtn} ${styles.ourBlogBtn}`}>
+        <Link href="/events" className={`${styles.vmBtn} ${styles.ourBlogBtn}`}>
           View More
         </Link>
       </div>
@@ -351,5 +351,6 @@ function Home() {
     </>
   );
 }
+
 
 export default Home;
