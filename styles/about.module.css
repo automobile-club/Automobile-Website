@@ -1,47 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-.first_section {
-  /* background-color: #F4F4F4; */
-  background-color: #1a1b1a;
-  height: 37vw;
-  margin: 0px;
-  padding-top: 10vh;
-}
 
-.about {
-  width: 35vw;
-  height: 50vh;
-  margin: auto;
-  padding: 20px;
+/* First Section */
+.introp {
+  background:#1b1a1b;
   text-align: center;
-  color: #a3a4a3;
-}
-
-.about h1 {
-  font-size: 60px;
-  margin-top: 0px;
-  font-family: "Outfit";
-  font-weight: 400;
-  color: #f4f4f4;
-}
-
-.about hr {
-  margin-top: 30px;
-  width: 30vw;
-}
-
-.desc {
-  font-family: "Poppins";
-  font-size: 18px;
-}
-
+  }
+  .first_section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    background: #1b1a1b;
+  }
+  
+  .first_section h1 {
+    margin-top: 80px;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .first_section span {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .first_section h2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0% 1% 0% 1%;
+    color: #a4a3a4;
+    padding-bottom: 2%;
+    border-bottom: 1px solid rgba(151, 151, 151, 0.6);
+    width: 50%;
+    text-align: center;
+  }
 .star img {
   width: 80px;
   position: relative;
   left: 8vw;
   bottom: 20vh;
   transition: 0.5s ease;
+  padding-bottom: 80px;
 }
 
 .star img:hover {
@@ -49,20 +60,22 @@
   transition: 0.5s ease;
 }
 
+/* Player */
 .intro {
   background-color: white;
-  height: 60vh;
-  width: 70vw;
+  height: 475px;
+  width: 75vw;
   margin: auto;
   float: right;
   position: absolute;
-  bottom: -1vh;
+  bottom: -30px;
   left: 15vw;
-  padding: 30px;
+  padding: 15px;
   display: flex;
   column-gap: 0%;
   border-radius: 20px;
 }
+
 .player {
   border-radius: 20px;
   overflow: hidden;
@@ -73,7 +86,6 @@
   text-align: center;
   font-size: 3.4vw;
   font-family: "Outfit";
-  padding: 20px 0px 0px 0px;
 }
 
 .youtube_btn {
@@ -83,8 +95,9 @@
   font-size: 17px;
   padding: 7px 14px;
   border-radius: 20px;
-  margin-top: 30px;
+  margin-top: 200px;
   transition: 0.3s ease;
+  position: relative;
 }
 
 .youtube_btn:hover {
@@ -100,93 +113,134 @@
   bottom: 3px;
 }
 
+/* Second Section */
 .second_section {
   background-color: #f4f4f4;
-  height: 129.5vh;
-  width: 99.92;
   color: #1a1b1a;
-  padding-top: 35vh;
+  display: flex;
+  width: 100%;
+  padding-top: 420px;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; /* Center the text */
 }
 
 .second_section img {
+  width: 100%;
+  max-width: 600px; /* Adjust the maximum width of the image */
   transition: 0.5s ease;
 }
 
 .second_section img:hover {
-  transform: rotate(-10deg) scale(0.9, 0.9);
-  transition: 0.5s ease;
+  transform: rotate(-10deg) scale(0.9);
 }
 
-.second_section h1,
-.third_section h1,
-.fourth_section h1 {
-  font-size: 4vw;
+.second_section h1 {
   font-family: "Outfit";
-  font-weight: 600;
-  padding-bottom: 10px;
-  border-bottom-style: solid;
-  border-bottom-width: 3.1px;
-  width: fit-content;
-  margin: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 70px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
+.second_section .content {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Center content horizontally */
+  text-align: justify; /* Justify the text */
+}
+
+
+.second_section .left {
+  width: 40%; /* Adjust the width of the image container */
+  margin-left: 20px; /*Add space between image and text */
+}
+
+.second_section .right {
+  width: 60%;
+  font-size: 18px;
+  margin: 5%;
+}
+
+/* Third Section */
 .third_section {
   background-color: #1a1b1a;
-  height: 100vh;
-  width: 99.92;
-  padding-top: 10vh;
   color: #f4f4f4;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; /* Center the text */
 }
 
 .third_section img {
+  width: 100%;
+  max-width: 600px; /* Adjust the maximum width of the image */
+  margin-bottom: 20px; /* Add space between image and text */
   transition: 0.5s ease;
 }
 
 .third_section img:hover {
-  transform: rotate(10deg) scale(0.9, 0.9);
-  transition: 0.5s ease;
+  transform: rotate(-10deg) scale(0.9);
 }
 
-.fourth_section {
-  background-color: #f4f4f4;
-  height: 100vh;
-  width: 99.92;
-  color: #1a1b1a;
-  padding-top: 10vh;
+.third_section h1 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 70px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
-.fourth_section img {
-  transition: 0.5s ease;
+.third_section .content {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Center content horizontally */
+  text-align: justify; /* Justify the text */
 }
 
-.fourth_section img:hover {
-  transform: rotate(-10deg) scale(0.9, 0.9);
-  transition: 0.5s ease;
+
+.third_section .right {
+  width: 60%;
+  
+  font-size: 18px;
+  margin: 5%;
+}
+
+.third_section .left {
+  width: 40%; /* Adjust the width of the image container */
+  margin-right: 20px; /* Add space between image and text */
 }
 
 .fifth_section {
-  background-color: #1a1b1a;
-  color: #f4f4f4;
+  background-color: #ffffff;
+  color: #000000;
   height: 100%;
   width: 99.92;
-  padding-top: 5vh;
 }
 
 .fifth_section h1 {
-  font-family: "Outfit";
-  font-weight: 600;
-  font-size: 4vw;
-  padding-bottom: 10px;
-  border-bottom-style: solid;
-  border-bottom-width: 3.1px;
-  width: fit-content;
-  margin: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 70px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .helm {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 100px; /* Adjust as needed */
+  gap: 50px; /* Adjust as needed */
   margin: 5vw auto;
   width: min-content;
 }
@@ -211,7 +265,6 @@
   text-align: center; /* Center-align the text */
   font-size: 20px; /* Adjust the font size as needed */
   color: #ffffff; /* Adjust the text color as needed */
-  margin-top: 10px; /* Add top margin for spacing */
 }
 
 .memberDesignation {
@@ -250,139 +303,69 @@
   margin: 0;
 }
 
-
-.content {
-  margin: 20px;
-  margin-top: 60px;
-  display: flex;
-  column-gap: 40px;
-  height: 60vh;
-  font-family: "Poppins";
-}
-
-.left {
-  width: 40%;
-  display: flex;
-  align-items: center;
-}
-.left img {
-  width: 100%;
-}
-.right {
-  width: 70%;
-  font-size: 1.5vw;
-  line-height: 3vw;
-  padding: 30px;
-  display: flex;
-  align-items: center;
-  font-family: "Poppins";
-}
-
-@media (max-width: 1000px) {
-  .about {
-    width: 50vw;
-  }
-  .about hr {
-    width: 46.4vw;
-  }
-  .youtube_btn {
-    font-size: 1.5vw;
+@media (max-width: 960px) {
+  .star img{
+    padding-bottom: 0px;
   }
 
-  .youtube_btn img {
-    width: 2vw;
+  /* Adjust this breakpoint according to your design needs */
+  .first_section h2 {
+    width: 80%;
   }
-}
 
-@media (max-width: 840px) {
-  .first_section,
-  .second_section,
-  .third_section,
-  .fifth_section,
-  .fourth_section {
-    height: auto;
-    padding-top: 20px;
-  }
+  /* intro player */
   .intro {
-    float: none;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-  }
-  .content {
-    margin-bottom: 0px;
-    margin-top: 0px;
-    column-gap: 20px;
-  }
-
-  .left {
-    width: 55%;
-    display: flex;
+    flex-direction: column;
     align-items: center;
-  }
-  .right {
-    font-size: 12px;
-    line-height: 25px;
+    height: auto;
+    bottom: 70px;
   }
 
-  .right p {
-    display: none;
+  .intro_text,
+  .player,
+  .youtube_btn {
+    width: 100%;
+    margin: 10px 0;
+    font-size: 18px;
   }
 
-  .second_section,
-  .fourth_section {
-    background-color: #1a1b1a;
-    color: #f4f4f4;
-  }
-
-  .third_section,
-  .fifth_section {
-    background-color: #f4f4f4;
-    color: #1a1b1a;
-    padding: 20px; /* Add padding to create some space inside the section */
-    max-width: 1200px; /* Limit the maximum width of the section */
-    margin: 0 auto; /* Center the section horizontally */
-  }
-  
-
-  .intro_text {
-    width: 20vw;
-    text-align: center;
-    font-size: 36px;
-    font-family: "Outfit";
-    padding: 20px 0px 30px 0px;
+  .player {
+    order: 1;
   }
 
   .youtube_btn {
-    background-color: black;
-    color: #f4f4f4;
-    font-family: "Outfit";
-    font-size: 17px;
-    padding: 7px 14px;
-    border-radius: 20px;
-    margin-top: 30px;
-    transition: 0.3s ease;
+    order: 2;
+  }
+  .second_section{
+    padding-top: 300px;
   }
 
-  .youtube_btn img {
-    width: 22px;
-    position: relative;
-    bottom: 3px;
+    /* Adjust this breakpoint according to your design needs */
+    .second_section .content {
+      flex-direction: column; /* Display content side by side on larger screens */
+    }
+    .second_section .left,
+    .second_section .right {
+      width: 100%;
+      font-size: 18px;
+      padding-left: 12%;
+      padding-right: 12%;
+    }
+    
+  /* Adjust this breakpoint according to your design needs */
+  .third_section .content {
+    flex-direction: column; /* Display content side by side on larger screens */
   }
 
-  .helm {
-    display: flex;
-    flex-wrap: wrap; /* Allow circles to wrap to the next line if they overflow */
-    justify-content: center; /* Center-align the circles horizontally */
-    gap: 20px; /* Add some space between the circles */
-  }
+  .third_section .right,
+.third_section .left {
+  width: 100%;
+  font-size: 18px;
+  padding-left: 12%;
+  padding-right: 12%;
+}
 
-  .helm img {
-    width: 20vw;
-  }
-
-  .fifth_section {
-    height: 54vw;
-  }
+.helm{
+  grid-template-columns: repeat(1, 1fr);
+}
 }
