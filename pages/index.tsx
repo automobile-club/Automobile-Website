@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import BlogContainer from "@/components/BlogContainer";
+// import BlogContainer from "@/components/BlogContainer";
 // import DirectionCards from "@/components/DirectionCards/DirectionCards";
 
 function Home() {
