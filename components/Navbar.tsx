@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 function NavBar(props: { BgColor: string }) {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -24,7 +25,17 @@ function NavBar(props: { BgColor: string }) {
   }, []);
 
   const handleDropdownClick = () => {
+    // Set the loading state to true when the button is clicked
+    setIsLoading(true);
+
+    // Toggle the showDropdown state
     setShowDropdown(!showDropdown);
+
+    // Simulate an asynchronous action (you can replace this with your actual async code)
+    setTimeout(() => {
+      // Reset the loading state when the action is complete
+      setIsLoading(false);
+    }, 300); // Replace 2000 with the actual time your async action takes
   };
 
   return (
@@ -33,8 +44,8 @@ function NavBar(props: { BgColor: string }) {
         props.BgColor === "black"
           ? styles.navbarBlack
           : props.BgColor === "white"
-          ? styles.navbarWhite
-          : ""
+            ? styles.navbarWhite
+            : ""
       }
     >
       <Link href="/">
@@ -44,8 +55,8 @@ function NavBar(props: { BgColor: string }) {
             props.BgColor === "black"
               ? "/images/SAEVectorWhite.svg"
               : props.BgColor === "white"
-              ? "/images/SAE.png"
-              : ""
+                ? "/images/SAE.png"
+                : ""
           }
           alt="SAE"
           width={150}
@@ -55,16 +66,24 @@ function NavBar(props: { BgColor: string }) {
 
       {isSmallScreen ? (
         <div className={styles.hamburger} onClick={handleDropdownClick}>
-          <img
-            src={
-              props.BgColor === "black"
-                ? "/menu.svg"
-                : props.BgColor === "white"
-                ? "/menublack.svg"
-                : ""
-            }
-            alt="menu"
-          />
+          {isLoading && (
+            // Render full-screen overlay with loading animation
+            <div className={styles.overlay}>
+              <div className={styles.loader}></div>
+            </div>
+          )}
+          {!isLoading && (
+            <img
+              src={
+                props.BgColor === 'black'
+                  ? '/menu.svg'
+                  : props.BgColor === 'white'
+                    ? '/menublack.svg'
+                    : ''
+              }
+              alt="menu"
+            />
+          )}
         </div>
       ) : (
         <div className={styles.linkContainer}>
