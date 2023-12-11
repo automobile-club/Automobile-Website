@@ -35,7 +35,7 @@ function NavBar(props: { BgColor: string }) {
     setTimeout(() => {
       // Reset the loading state when the action is complete
       setIsLoading(false);
-    }, 300); // Replace 2000 with the actual time your async action takes
+    }, 0); // Replace 2000 with the actual time your async action takes
   };
 
   return (
