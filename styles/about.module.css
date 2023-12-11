@@ -138,6 +138,7 @@
 }
 
 .second_section .content {
+  font-family: "Poppins";
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -158,7 +159,8 @@
 .second_section .right {
   width: 60%;
   font-size: 18px;
-  margin: 5%;
+  margin: 3%;
+  font-family: "Poppins"
 }
 
 /* Third Section */
@@ -213,7 +215,8 @@
   width: 60%;
 
   font-size: 18px;
-  margin: 5%;
+  margin: 3%;
+  font-family: "Poppins"
 }
 
 .third_section .left {
@@ -244,6 +247,15 @@
 .helm {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  /* Adjust as needed */
+  margin: 5vw auto;
+  width: min-content;
+}
+
+.helm2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 50px;
   /* Adjust as needed */
   margin: 5vw auto;
@@ -343,12 +355,23 @@
   }
 }
 
+@media (min-width: 957px) and (max-width: 1200px) {
+  .intro {
+    top: 35vw;
+  }
+
+  .second_section {
+    padding-top: 25vw;
+  }
+}
+
 @media (max-width: 956px) {
 
   .first_section,
   .fifth_section {
     height: auto;
     padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .intro {
@@ -358,6 +381,7 @@
     top: 0;
     left: 0;
     width: 80%;
+    padding: 20px;
   }
 
 
@@ -372,6 +396,10 @@
     width: 100%;
     margin: 10px 0;
     font-size: 18px;
+  }
+
+  .intro_text {
+    padding: 0;
   }
 
   .player {
@@ -390,6 +418,12 @@
 
   .helm {
     grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+
+  .helm2 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
   }
 
   .second_section {
@@ -414,6 +448,10 @@
   .third_section .content {
     flex-direction: column;
     /* Display content side by side on larger screens */
+  }
+
+  .p {
+    margin: 0;
   }
 
   .third_section .right,

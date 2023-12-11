@@ -198,6 +198,41 @@ export default function About() {
             <p className={styles.memberName}>Name 3</p>
             <p className={styles.memberDesignation}>Name 3</p>
           </div>
+        </div>
+        <div className={styles.helm2}>
+          <div className={styles.member}>
+            <div className={styles.circle}>
+              <img src="/images/Helm3.png" alt="helm3" />
+              <div className={styles.overlay}>
+                <a href="#">
+                  <img
+                    src="/images/instagram_hero.svg"
+                    alt="instagram"
+                    width={50}
+                    height={50}
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="/images/facebook_hero.svg"
+                    alt="Facebook"
+                    width={50}
+                    height={50}
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="/images/linkedIn_hero.svg"
+                    alt="LinkedIn"
+                    width={50}
+                    height={50}
+                  />
+                </a>
+              </div>
+            </div>
+            <p className={styles.memberName}>Name 3</p>
+            <p className={styles.memberDesignation}>Name 3</p>
+          </div>
           <div className={styles.member}>
             <div className={styles.circle}>
               <img src="/images/Helm3.png" alt="helm3" />
