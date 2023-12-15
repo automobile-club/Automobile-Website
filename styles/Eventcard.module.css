@@ -1,10 +1,12 @@
-.card_custom {
+
+.card_event {
     overflow: hidden;
     min-height: 450px;
+    max-width: 340px;
     box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
   }
   
-  .card_custom_img {
+  .card_event_img {
     height: 200px;
     min-height: 200px;
     background-repeat: no-repeat;
@@ -14,7 +16,7 @@
   }
   
   /* First border-left-width setting is a fallback */
-  .card_custom_img::after {
+  .card_event_img::after {
     position: absolute;
     content: '';
     top: 161px;
@@ -33,7 +35,7 @@
     border-left-color: white;
   }
   
-  .card_custom_avatar img {
+  .card_event_avatar img {
     border-radius: 50%;
     box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
     position: absolute;
@@ -43,3 +45,15 @@
     height: 100px;
   }
   
+  /* styles.css (or your stylesheet file) */
+.duration {
+  display: flex;
+  align-items: center;
+  color: #a89ec9;
+  margin-right: .2rem;
+}
+
+.duration ins {
+  margin: .5rem;
+  margin-bottom: .4rem;
+}

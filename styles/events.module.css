@@ -13,8 +13,69 @@
   position: relative;
   background-color: #1b1a1b;
   width: 100%;
-  height: 38vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 37vw;
 }
+
+.sae_intro {
+  padding-top: 1.56em;
+  background-color: #1b1a1b;
+  width: 100%;
+  height: 37vw;
+}
+
+.sae_headings {
+  color: white;
+  text-align: center;
+  padding-top: 6vw;
+}
+
+.sae_long_text {
+  text-align: center;
+  color: white;
+  padding-top: 0.65vw;
+  padding-left: 18vw;
+  padding-right: 18vw;
+  font-weight: 400; 
+  font-size: 1.4vw;
+  line-height: 2vw;
+}
+
+.social_media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 0.65vw;
+  padding-bottom: 1.25vw;
+  gap: 0.5vw;
+}
+.linkedIn_img {
+  margin-left: 0.25vw;
+}
+
+.social_media > a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards_img_saeintro {
+  height: 42vw;
+  width: 40vw;
+  margin-left: 1.62vw;
+  margin-top: 1vw;
+}
+
+.line {
+  border-top: 1px solid white;
+  margin: 0 auto;
+  width: 34.75vw;
+  padding-bottom: 5vw;
+}
+
 .button {
   background: #000000;
   border-radius: 200px;
@@ -120,6 +181,7 @@
 .row_events a {
   cursor: pointer;
 }  */
+
 
 @media (max-width: 768px) {
   .all_events {
