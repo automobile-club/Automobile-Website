@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import HomeCard from "@/components/HomeCards";
 // import BlogContainer from "@/components/BlogContainer";
 // import DirectionCards from "@/components/DirectionCards/DirectionCards";
 
@@ -137,7 +138,15 @@ function Home() {
           <h2 className={styles.ourmentors_heading_text} >Events & Workshop</h2>
         </div>
         <div className={styles.card_container}>
-          <div className={styles.row}>
+          <HomeCard />
+          <HomeCard />
+          <HomeCard />
+
+          <HomeCard />
+          <HomeCard />
+          <HomeCard />
+          
+          {/* <div className={styles.row}>
             <div className={styles.card}>
               <Image
                 src="/images/car.webp"
@@ -215,7 +224,7 @@ function Home() {
               </p>
               <a href="#">Read More</a>
             </div>
-          </div>
+          </div> */}
         </div>
         <Link href="/events" className={`${styles.vmBtn} ${styles.ourBlogBtn}`}>
           View More
