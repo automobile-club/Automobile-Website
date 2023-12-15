@@ -2,58 +2,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-/* First Section */
-.introp {
-  background:#1b1a1b;
+.first_section {
+  /* background-color: #F4F4F4; */
+  background-color: #1a1b1a;
+  height: 37vw;
+  margin: 0px;
+  padding-top: 10vh;
+}
+
+.about {
+  width: 55vw;
+  margin: auto;
+  padding-top: 7vh;
   text-align: center;
-  }
-  .first_section {
-    display: flex;
-    height: 37vw;
-    width: 100%;
-    justify-content: center;
-    flex-direction: column;
-    background: #1b1a1b;
-  }
-  
-  .first_section h1 {
-    margin-top: 80px;
-    font-family: "Outfit";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 60px;
-    color: white;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .first_section span {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .first_section h2 {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    margin: 0% 1% 0% 1%;
-    color: #a4a3a4;
-    padding-bottom: 2%;
-    border-bottom: 1px solid rgba(151, 151, 151, 0.6);
-    width: 50%;
-    text-align: center;
-  }
+  color: #a3a4a3;
+}
+
+.about h1 {
+  font-size: 60px;
+  margin-top: 0px;
+  font-family: "Outfit";
+  font-weight: 400;
+  color: #f4f4f4;
+}
+
+.about hr {
+  margin-top: 30px;
+  width: 55vw;
+}
+
+.desc {
+  font-family: "Poppins";
+}
+
 .star img {
   width: 80px;
   position: relative;
   left: 8vw;
   bottom: 20vh;
   transition: 0.5s ease;
-  padding-bottom: 80px;
 }
 
 .star img:hover {
@@ -61,17 +48,16 @@
   transition: 0.5s ease;
 }
 
-/* Player */
 .intro {
   background-color: white;
-  height: 475px;
-  width: 75vw;
+  height: auto;
+  width: 70vw;
   margin: auto;
   float: right;
   position: absolute;
-  bottom: -30px;
+  top: 30vw;
   left: 15vw;
-  padding: 15px;
+  padding: 30px;
   display: flex;
   column-gap: 0%;
   border-radius: 20px;
@@ -87,6 +73,7 @@
   text-align: center;
   font-size: 3.4vw;
   font-family: "Outfit";
+  padding: 20px 0px 0px 0px;
 }
 
 .youtube_btn {
@@ -96,9 +83,8 @@
   font-size: 17px;
   padding: 7px 14px;
   border-radius: 20px;
-  margin-top: 200px;
+  margin-top: 30px;
   transition: 0.3s ease;
-  position: relative;
 }
 
 .youtube_btn:hover {
@@ -116,19 +102,22 @@
 
 /* Second Section */
 .second_section {
+  padding-top: 20vw;
   background-color: #f4f4f4;
   color: #1a1b1a;
   display: flex;
   width: 100%;
-  padding-top: 420px;
   justify-content: center;
   flex-direction: column;
-  text-align: center; /* Center the text */
+  text-align: center;
+  height: auto;
+  /* Center the text */
 }
 
 .second_section img {
   width: 100%;
-  max-width: 600px; /* Adjust the maximum width of the image */
+  max-width: 600px;
+  /* Adjust the maximum width of the image */
   transition: 0.5s ease;
 }
 
@@ -149,22 +138,29 @@
 }
 
 .second_section .content {
+  font-family: "Poppins";
   display: flex;
   flex-direction: row;
-  align-items: center; /* Center content horizontally */
-  text-align: justify; /* Justify the text */
+  align-items: center;
+  /* Center content horizontally */
+  text-align: justify;
+  /* Justify the text */
+  height: auto;
 }
 
 
 .second_section .left {
-  width: 40%; /* Adjust the width of the image container */
-  margin-left: 20px; /*Add space between image and text */
+  width: 40%;
+  /* Adjust the width of the image container */
+  margin-left: 20px;
+  /*Add space between image and text */
 }
 
 .second_section .right {
   width: 60%;
   font-size: 18px;
-  margin: 5%;
+  margin: 3%;
+  font-family: "Poppins"
 }
 
 /* Third Section */
@@ -175,13 +171,17 @@
   width: 100%;
   justify-content: center;
   flex-direction: column;
-  text-align: center; /* Center the text */
+  text-align: center;
+  /* Center the text */
+  height: auto;
 }
 
 .third_section img {
   width: 100%;
-  max-width: 600px; /* Adjust the maximum width of the image */
-  margin-bottom: 20px; /* Add space between image and text */
+  max-width: 600px;
+  /* Adjust the maximum width of the image */
+  margin-bottom: 20px;
+  /* Add space between image and text */
   transition: 0.5s ease;
 }
 
@@ -203,21 +203,27 @@
 .third_section .content {
   display: flex;
   flex-direction: row;
-  align-items: center; /* Center content horizontally */
-  text-align: justify; /* Justify the text */
+  align-items: center;
+  /* Center content horizontally */
+  text-align: justify;
+  /* Justify the text */
+  height: auto;
 }
 
 
 .third_section .right {
   width: 60%;
-  
+
   font-size: 18px;
-  margin: 5%;
+  margin: 3%;
+  font-family: "Poppins"
 }
 
 .third_section .left {
-  width: 40%; /* Adjust the width of the image container */
-  margin-right: 20px; /* Add space between image and text */
+  width: 40%;
+  /* Adjust the width of the image container */
+  margin-right: 20px;
+  /* Add space between image and text */
 }
 
 .fifth_section {
@@ -241,85 +247,72 @@
 .helm {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 50px; /* Adjust as needed */
+  gap: 50px;
+  /* Adjust as needed */
   margin: 5vw auto;
   width: min-content;
 }
 
-.circle {
-  position: relative;
-  width: 250px; /* Adjust the size of the circle */
-  height: 250px; /* Adjust the size of the circle */
-  border-radius: 50%;
-  overflow: hidden;
-  cursor: pointer;
-  transition: 0.3s;
+.helm2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  /* Adjust as needed */
+  margin: 5vw auto;
+  width: min-content;
 }
 
-.circle img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.memberName {
-  text-align: center; /* Center-align the text */
-  font-size: 20px; /* Adjust the font size as needed */
-  color: #ffffff; /* Adjust the text color as needed */
-}
-
-.memberDesignation {
-  text-align: center; /* Center-align the text */
-  font-size: 17px; /* Adjust the font size as needed */
-  color: #b9b9b9; /* Adjust the text color as needed */
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Adjust the transparency as needed */
-  display: flex;
-  align-items: center;
-  justify-content: space-around; /* Change from 'center' to 'space-around' */
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.circle:hover .overlay {
-  opacity: 1;
-}
-
-.overlay img {
-  width: 50px; /* Adjust the size of the images */
-  height: 50px; /* Adjust the size of the images */
-  margin: 0 10px; /* Add some margin between the images */
-}
-
-.overlay p {
-  color: white; /* Text color */
-  font-size: 14px; /* Adjust the font size as needed */
-  margin: 0;
-}
-
-@media (max-width: 960px) {
-  .star img{
-    padding-bottom: 0px;
+@media (max-width: 1050px) {
+  .about {
+    width: 70vw;
   }
 
-  /* Adjust this breakpoint according to your design needs */
-  .first_section h2 {
-    width: 80%;
+  .about hr {
+    width: 67vw;
   }
 
-  /* intro player */
+  .youtube_btn {
+    font-size: 1.5vw;
+  }
+
+  .youtube_btn img {
+    width: 2vw;
+  }
+}
+
+@media (min-width: 957px) and (max-width: 1200px) {
   .intro {
-    flex-direction: column;
-    align-items: center;
+    top: 35vw;
+  }
+
+  .second_section {
+    padding-top: 25vw;
+  }
+}
+
+@media (max-width: 956px) {
+
+  .first_section,
+  .fifth_section {
     height: auto;
-    bottom: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .intro {
+    float: none;
+    position: relative;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 20px;
+  }
+
+
+  .fifth_section {
+    background-color: #f4f4f4;
+    color: #1a1b1a;
   }
 
   .intro_text,
@@ -330,6 +323,10 @@
     font-size: 18px;
   }
 
+  .intro_text {
+    padding: 0;
+  }
+
   .player {
     order: 1;
   }
@@ -337,36 +334,56 @@
   .youtube_btn {
     order: 2;
   }
-  .second_section{
-    padding-top: 300px;
+
+  .youtube_btn img {
+    width: 22px;
+    position: relative;
+    bottom: 3px;
   }
 
-    /* Adjust this breakpoint according to your design needs */
-    .second_section .content {
-      flex-direction: column; /* Display content side by side on larger screens */
-    }
-    .second_section .left,
-    .second_section .right {
-      width: 100%;
-      font-size: 18px;
-      padding-left: 12%;
-      padding-right: 12%;
-    }
-    
+  .helm {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+
+  .helm2 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+
+  .second_section {
+    padding-top: 0;
+  }
+
+  /* Adjust this breakpoint according to your design needs */
+  .second_section .content {
+    flex-direction: column;
+    /* Display content side by side on larger screens */
+  }
+
+  .second_section .left,
+  .second_section .right {
+    width: 100%;
+    font-size: 18px;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
   /* Adjust this breakpoint according to your design needs */
   .third_section .content {
-    flex-direction: column; /* Display content side by side on larger screens */
+    flex-direction: column;
+    /* Display content side by side on larger screens */
+  }
+
+  .p {
+    margin: 0;
   }
 
   .third_section .right,
-.third_section .left {
-  width: 100%;
-  font-size: 18px;
-  padding-left: 12%;
-  padding-right: 12%;
-}
-
-.helm{
-  grid-template-columns: repeat(1, 1fr);
-}
+  .third_section .left {
+    width: 100%;
+    font-size: 18px;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
 }

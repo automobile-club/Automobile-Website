@@ -1,22 +1,19 @@
 import styles from "@/styles/about.module.css";
 import Navbar from "@/components/Navbar";
 import ReactPlayer from "react-player";
+import MemberCard from "./memberCard";
 export default function About() {
   return (
     <>
       <Navbar BgColor="black" />
-      <div className={`${styles.first_section} ${styles.introp}`}>
-        <h1>About Us...</h1>
-        <span>
-          <h2>
-            SAE(Society of Automotive Engineers) aims to give a platform to
-            people who wish to learn about and build automobiles. Our teams take
-            part in various RC and automotive events all round the year....
-            SAE(Society of Automotive Engineers) aims to give a platform to
-            people who wish to learn about and build automobiles. Our teams take
-            part in various RC and automotive events all round the year....
-          </h2>
-        </span>
+      <div className={styles.first_section}>
+        <div className={styles.about}>
+          <h1>About Us..</h1>
+          <div className={styles.desc}>
+            The SAE Collegiate Club at the Indian Institute of Technology (IIT) BHU is a dynamic and vibrant community of engineering enthusiasts dedicated to all things automotive. Our club serves as a melting pot of creativity, innovation, and engineering excellence, providing a platform for students to immerse themselves in the thrilling world of automobiles.
+          </div>
+          <hr />
+        </div>
         <div className={styles.star}>
           <img alt="stars" src="/images/star.png" />
         </div>
@@ -29,10 +26,10 @@ export default function About() {
             />
           </div>
           <div className={styles.intro_text}>Watch Our Intro Video<br></br>
-          <button className={styles.youtube_btn}>
-            Watch on &nbsp;
-            <img alt="youtube" src="/images/feYoutube2.png" />
-          </button>
+            <button className={styles.youtube_btn}>
+              Watch on &nbsp;
+              <img alt="youtube" src="/images/feYoutube2.png" />
+            </button>
           </div>
         </div>
       </div>
@@ -101,140 +98,35 @@ export default function About() {
       <div className={styles.fifth_section}>
         <h1>Our Team</h1>
         <div className={styles.helm}>
-          <div className={styles.member}>
-            <div className={styles.circle}>
-              <img src="/images/Helm1.png" alt="helm1" />
-              <div className={styles.overlay}>
-                <a href="#">
-                  <img
-                    src="/images/instagram_hero.svg"
-                    alt="instagram"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-                <a href="#">
-                  <img
-                    src="/images/facebook_hero.svg"
-                    alt="Facebook"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-                <a href="#">
-                  <img
-                    src="/images/linkedIn_hero.svg"
-                    alt="LinkedIn"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-              </div>
-            </div>
-            <p className={styles.memberName}>Name 1</p>
-            <p className={styles.memberDesignation}>Name 3</p>
-          </div>
+          <MemberCard
+            imageSrc="/images/Shruti.jpg"
+            memberName="Shruti Jha"
+            memberDesignation="Secretary"
+          />
 
-          <div className={styles.member}>
-            <div className={styles.circle}>
-              <img src="/images/Helm2.png" alt="helm2" />
-              <div className={styles.overlay}>
-                <a href="#">
-                  <img
-                    src="/images/instagram_hero.svg"
-                    alt="instagram"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-                <a href="#">
-                  <img
-                    src="/images/facebook_hero.svg"
-                    alt="Facebook"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-                <a href="#">
-                  <img
-                    src="/images/linkedIn_hero.svg"
-                    alt="LinkedIn"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-              </div>
-            </div>
-            <p className={styles.memberName}>Name 2</p>
-            <p className={styles.memberDesignation}>Name 3</p>
-          </div>
+          <MemberCard
+            imageSrc="/images/AmanSrivastava.png"
+            memberName="Aman Srivastava"
+            memberDesignation="Jt. Secretary"
+          />
 
-          <div className={styles.member}>
-            <div className={styles.circle}>
-              <img src="/images/Helm3.png" alt="helm3" />
-              <div className={styles.overlay}>
-                <a href="#">
-                  <img
-                    src="/images/instagram_hero.svg"
-                    alt="instagram"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-                <a href="#">
-                  <img
-                    src="/images/facebook_hero.svg"
-                    alt="Facebook"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-                <a href="#">
-                  <img
-                    src="/images/linkedIn_hero.svg"
-                    alt="LinkedIn"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-              </div>
-            </div>
-            <p className={styles.memberName}>Name 3</p>
-            <p className={styles.memberDesignation}>Name 3</p>
-          </div>
-          <div className={styles.member}>
-            <div className={styles.circle}>
-              <img src="/images/Helm3.png" alt="helm3" />
-              <div className={styles.overlay}>
-                <a href="#">
-                  <img
-                    src="/images/instagram_hero.svg"
-                    alt="instagram"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-                <a href="#">
-                  <img
-                    src="/images/facebook_hero.svg"
-                    alt="Facebook"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-                <a href="#">
-                  <img
-                    src="/images/linkedIn_hero.svg"
-                    alt="LinkedIn"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-              </div>
-            </div>
-            <p className={styles.memberName}>Name 3</p>
-            <p className={styles.memberDesignation}>Name 3</p>
-          </div>
+          <MemberCard
+            imageSrc="/images/Anshuman.jpeg"
+            memberName="Anshuman Chaurasia"
+            memberDesignation="Jt. Secretary"
+          />
+        </div>
+        <div className={styles.helm2}>
+          <MemberCard
+            imageSrc="/images/NisthaJain.jpeg"
+            memberName="Nistha Jain"
+            memberDesignation="Design Head"
+          />
+          <MemberCard
+            imageSrc="/images/PaltiSumasri.jpeg"
+            memberName="Palti Sumasri"
+            memberDesignation="Social Content Head"
+          />
         </div>
       </div>
     </>
