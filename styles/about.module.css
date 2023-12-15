@@ -9,6 +9,7 @@
   }
   .first_section {
     display: flex;
+    height: 37vw;
     width: 100%;
     justify-content: center;
     flex-direction: column;
