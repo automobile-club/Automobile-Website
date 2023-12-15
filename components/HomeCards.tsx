@@ -1,6 +1,6 @@
 import React from 'react';
 import styles  from '../styles/HomeCards.module.css';
-import car from '../public/images/car.webp'
+import Link from 'next/link';
 
 
 
@@ -16,9 +16,11 @@ const HomeCard = () => {
             {/* <span className={styles.blog_slider__code}>26 December 2019</span> */}
             <div className={styles.blog_slider__title}>The Culture of SAE</div>
             <div className={styles.blog_slider__text}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
-            <a href="/events" className={styles.blog_slider__button}>READ MORE</a>
+            <Link href="/events" className={styles.blog_slider__button}>READ MORE</Link>
           </div>
-        </div>        
+        </div>      
+
+  
 
         {/* <div className={`${styles.blog_slider__item} ${styles.swiper_slide}`}>
           <div className={styles.blog_slider__img}>
