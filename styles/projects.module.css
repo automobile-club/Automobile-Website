@@ -135,9 +135,20 @@ padding-bottom:15% ;
   justify-content: center;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
 .image {
   margin-left: 10%;
 }
+
+
+
 
 .card_container {
   display: flex;
@@ -150,25 +161,18 @@ padding-bottom:15% ;
   padding-bottom: 5%;
 }
 
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  margin-bottom: 30px;
-}
-
 .card {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   display: flex;
-  flex-direction: column; 
-  padding: 20px;
-  text-align: center;
-  width: calc(33.33% - 30px); 
+  flex-direction: row; /* Change flex-direction to row */
+  width: 100%; /* Set the width to 100% to make cards stack horizontally */
+  max-width:100%;
+  height:100%;
+  margin: 0 auto; /* Center the cards within the container */
   transition: transform 0.2s ease-in-out;
+  margin-bottom: 30px; /* Add some space between cards */
 }
 
 .card:hover {
@@ -176,23 +180,34 @@ padding-bottom:15% ;
 }
 
 .card img {
-  max-width: 100%;
-  height: auto;
+  max-width: 150%;
+  height: 220px;
+  border-top: 5%;
   border-radius: 10px;
+  object-fit: cover;
 }
 
-.card h2 {
+.card_content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px; /* Add padding for inner content */
+  height:100%;
+  
+}
+
+.card h3 {
   font-size: 28px;
   font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  text-align:center ;
+  margin-top: 10px; /* Adjust margin */
   color: #333;
 }
 
 .card p {
   font-size: 18px;
   font-weight: 400;
-  margin-bottom: 30px;
+  margin-top: 10px; /* Adjust margin */
   color: #555;
 }
 
@@ -203,9 +218,10 @@ padding-bottom:15% ;
   font-weight: 700;
   border-bottom: 2px solid #e25521;
   transition: border-bottom 0.2s ease-in-out;
-  display: inline-block;
   margin-top: auto;
+  align-self: flex-start; /* Align the link to the start of the container */
 }
+
 
 .card h2 {
   padding-bottom: 5%;

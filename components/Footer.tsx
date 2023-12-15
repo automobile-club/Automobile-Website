@@ -47,10 +47,10 @@ function Footer() {
         <div className={styles.quick_links}>
           <h2>Quick Links</h2>
           <div className={styles.linkDiv}>
-            <Link href="/">Projects</Link>
-            <Link href="/">Events</Link>
-            <Link href="/">About us</Link>
-            <Link href="/">Workshops</Link>
+            <Link href="/projects">Projects</Link>
+            <Link href="/events">Events</Link>
+            <Link href="/about">About us</Link>
+            <Link href="/blog">Workshops</Link>
             <img
               alt="upArrow"
               src="/images/upArrow.svg"
@@ -59,10 +59,10 @@ function Footer() {
           </div>
           <h4 className={styles.connectLogo}>
             Connect to us on :
-            <Link href="/">
+            <Link href="https://www.instagram.com/saecollegiateclubiitbhu/">
               <img src="/images/instagramFooter.png" alt="" />
             </Link>
-            <Link href="/">
+            <Link href="https://www.linkedin.com/company/sae-collegiate-club-iit-varanasi/">
               <img src="/images/linkedinFooter.png" alt="" />
             </Link>
           </h4>
@@ -73,3 +73,4 @@ function Footer() {
 }
 
 export default Footer;
+
