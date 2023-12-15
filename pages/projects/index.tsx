@@ -34,17 +34,20 @@ export default function Projects() {
       <Navbar BgColor="black" />
       <body className={styles.body}>
         <div className={`${styles.achievements} ${styles.introp}`}>
+
           <h1>Our Projects</h1>
           <span>
             <h2>
             Discover our impressive portfolio of automotive projects that showcase our technical prowess and innovation.
 Each project represents our commitment to pushing the boundaries of automotive engineering.
 
+
             </h2>
           </span>
         </div>
         <div className={styles.timeline}>
         <div className={styles.Timeline_heading}>
+
           <h1 className={styles.Timeline_heading_text}>Our notable projects:</h1>
          </div>
          </div>
@@ -107,6 +110,7 @@ Each project represents our commitment to pushing the boundaries of automotive e
         <div className={styles.teams}>
 
             <h1 >Our Vision</h1>
+
             <h2>
               SAE(Society of Automotive Engineers) aims to give a platform to
               people who wish to learn about and build automobiles. Our teams

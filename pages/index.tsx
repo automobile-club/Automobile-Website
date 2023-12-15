@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import BlogContainer from "@/components/BlogContainer";
+// import BlogContainer from "@/components/BlogContainer";
 // import DirectionCards from "@/components/DirectionCards/DirectionCards";
 
 function Home() {
@@ -134,7 +134,7 @@ function Home() {
       {/* our events section */}
       <div className={styles.events}>
         <div className={styles.eventHeading}>
-          <h2>Events & Workshop</h2>
+          <h2 className={styles.ourmentors_heading_text} >Events & Workshop</h2>
         </div>
         <div className={styles.card_container}>
           <div className={styles.row}>
@@ -217,7 +217,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <Link href="/blog" className={`${styles.vmBtn} ${styles.ourBlogBtn}`}>
+        <Link href="/events" className={`${styles.vmBtn} ${styles.ourBlogBtn}`}>
           View More
         </Link>
       </div>
@@ -254,7 +254,7 @@ function Home() {
 
       {/* our blogs section */}
       {/* our blogs section */}
-      <div className={styles.blogs}>
+      {/* <div className={styles.blogs}>
         <div className={styles.blogHeading}>
           <h2>Our Blogs</h2>
         </div>
@@ -262,7 +262,7 @@ function Home() {
         <Link href="/blog" className={`${styles.vmBtn} ${styles.ourBlogBtn}`}>
           View More
         </Link>
-      </div>
+      </div> */}
 
       {/* our mentors section */}
       {/* our mentors section */}
@@ -351,5 +351,6 @@ function Home() {
     </>
   );
 }
+
 
 export default Home;
