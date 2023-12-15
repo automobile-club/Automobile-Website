@@ -1,0 +1,76 @@
+.circle {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    /* Add a more refined shadow */
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.memberName {
+    text-align: center;
+    font-size: 22px;
+    /* Slightly increased font size */
+    color: #000000;
+    margin-top: 10px;
+    /* Add some top margin for separation */
+}
+
+.memberDesignation {
+    text-align: center;
+    font-size: 18px;
+    /* Slightly increased font size */
+    color: #898989;
+    margin-top: 5px;
+    /* Add some top margin for separation */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.circle:hover .overlay {
+    opacity: 1;
+}
+
+.overlay img {
+    width: 40px;
+    /* Slightly reduced image size */
+    height: 40px;
+    /* Slightly reduced image size */
+    margin: 0 8px;
+    /* Reduced margin between images */
+}
+
+.overlay p {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Add a subtle transition to the memberName and memberDesignation for smoother hover effect */
+.circle:hover .memberName,
+.circle:hover .memberDesignation {
+    color: #ffcc00;
+    /* Change text color on hover */
+    transition: color 0.3s;
+}

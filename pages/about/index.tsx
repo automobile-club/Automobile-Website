@@ -1,6 +1,7 @@
 import styles from "@/styles/about.module.css";
 import Navbar from "@/components/Navbar";
 import ReactPlayer from "react-player";
+import MemberCard from "./memberCard";
 export default function About() {
   return (
     <>
@@ -97,175 +98,35 @@ export default function About() {
       <div className={styles.fifth_section}>
         <h1>Our Team</h1>
         <div className={styles.helm}>
-          <div className={styles.member}>
-            <div className={styles.circle}>
-              <img src="/images/Helm1.png" alt="helm1" />
-              <div className={styles.overlay}>
-                <a href="#">
-                  <img
-                    src="/images/instagram_hero.svg"
-                    alt="instagram"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-                <a href="#">
-                  <img
-                    src="/images/facebook_hero.svg"
-                    alt="Facebook"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-                <a href="#">
-                  <img
-                    src="/images/linkedIn_hero.svg"
-                    alt="LinkedIn"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-              </div>
-            </div>
-            <p className={styles.memberName}>Name 1</p>
-            <p className={styles.memberDesignation}>Name 3</p>
-          </div>
+          <MemberCard
+            imageSrc="/images/Shruti.jpg"
+            memberName="Shruti Jha"
+            memberDesignation="Secretary"
+          />
 
-          <div className={styles.member}>
-            <div className={styles.circle}>
-              <img src="/images/Helm2.png" alt="helm2" />
-              <div className={styles.overlay}>
-                <a href="#">
-                  <img
-                    src="/images/instagram_hero.svg"
-                    alt="instagram"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-                <a href="#">
-                  <img
-                    src="/images/facebook_hero.svg"
-                    alt="Facebook"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-                <a href="#">
-                  <img
-                    src="/images/linkedIn_hero.svg"
-                    alt="LinkedIn"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-              </div>
-            </div>
-            <p className={styles.memberName}>Name 2</p>
-            <p className={styles.memberDesignation}>Name 3</p>
-          </div>
+          <MemberCard
+            imageSrc="/images/AmanSrivastava.png"
+            memberName="Aman Srivastava"
+            memberDesignation="Jt. Secretary"
+          />
 
-          <div className={styles.member}>
-            <div className={styles.circle}>
-              <img src="/images/Helm3.png" alt="helm3" />
-              <div className={styles.overlay}>
-                <a href="#">
-                  <img
-                    src="/images/instagram_hero.svg"
-                    alt="instagram"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-                <a href="#">
-                  <img
-                    src="/images/facebook_hero.svg"
-                    alt="Facebook"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-                <a href="#">
-                  <img
-                    src="/images/linkedIn_hero.svg"
-                    alt="LinkedIn"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-              </div>
-            </div>
-            <p className={styles.memberName}>Name 3</p>
-            <p className={styles.memberDesignation}>Name 3</p>
-          </div>
+          <MemberCard
+            imageSrc="/images/Anshuman.jpeg"
+            memberName="Anshuman Chaurasia"
+            memberDesignation="Jt. Secretary"
+          />
         </div>
         <div className={styles.helm2}>
-          <div className={styles.member}>
-            <div className={styles.circle}>
-              <img src="/images/Helm3.png" alt="helm3" />
-              <div className={styles.overlay}>
-                <a href="#">
-                  <img
-                    src="/images/instagram_hero.svg"
-                    alt="instagram"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-                <a href="#">
-                  <img
-                    src="/images/facebook_hero.svg"
-                    alt="Facebook"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-                <a href="#">
-                  <img
-                    src="/images/linkedIn_hero.svg"
-                    alt="LinkedIn"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-              </div>
-            </div>
-            <p className={styles.memberName}>Name 3</p>
-            <p className={styles.memberDesignation}>Name 3</p>
-          </div>
-          <div className={styles.member}>
-            <div className={styles.circle}>
-              <img src="/images/Helm3.png" alt="helm3" />
-              <div className={styles.overlay}>
-                <a href="#">
-                  <img
-                    src="/images/instagram_hero.svg"
-                    alt="instagram"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-                <a href="#">
-                  <img
-                    src="/images/facebook_hero.svg"
-                    alt="Facebook"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-                <a href="#">
-                  <img
-                    src="/images/linkedIn_hero.svg"
-                    alt="LinkedIn"
-                    width={50}
-                    height={50}
-                  />
-                </a>
-              </div>
-            </div>
-            <p className={styles.memberName}>Name 3</p>
-            <p className={styles.memberDesignation}>Name 3</p>
-          </div>
+          <MemberCard
+            imageSrc="/images/NisthaJain.jpeg"
+            memberName="Nistha Jain"
+            memberDesignation="Design Head"
+          />
+          <MemberCard
+            imageSrc="/images/PaltiSumasri.jpeg"
+            memberName="Palti Sumasri"
+            memberDesignation="Social Content Head"
+          />
         </div>
       </div>
     </>
