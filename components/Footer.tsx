@@ -49,7 +49,10 @@ function Footer() {
             <Link href="/projects">Projects</Link>
             <Link href="/events">Events</Link>
             <Link href="/about">About us</Link>
-            <Link href="/events">Workshops</Link>
+
+            <Link href="/blog">Workshops</Link>
+       
+
             <img
               alt="upArrow"
               src="/images/upArrow.svg"
@@ -58,10 +61,12 @@ function Footer() {
           </div>
           <h4 className={styles.connectLogo}>
             Connect to us on :
-            <Link href="https://www.instagram.com/saecollegiateclubiitbhu">
+
+            <Link href="https://www.instagram.com/saecollegiateclubiitbhu/">
               <img src="/images/instagramFooter.png" alt="" />
             </Link>
-            <Link href="https://in.linkedin.com/company/sae-collegiate-club-iit-varanasi">
+            <Link href="https://www.linkedin.com/company/sae-collegiate-club-iit-varanasi/">
+
               <img src="/images/linkedinFooter.png" alt="" />
             </Link>
           </h4>
@@ -72,3 +77,4 @@ function Footer() {
 }
 
 export default Footer;
+
