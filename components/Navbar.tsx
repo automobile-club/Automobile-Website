@@ -167,17 +167,17 @@ function NavBar(props: { BgColor: string }) {
                 >
                   Projects
                 </Nav.Link>
+                <motion.button
+                  whileHover={{
+                    scale: 1.1,
+                    textShadow: "0px 0px 8px rgb(255,255,255)",
+                  }}
+                  className={styles.signInBtnhamburger}
+                >
+                  Trident
+                </motion.button>
               </div>
             </div>
-            <motion.button
-              whileHover={{
-                scale: 1.1,
-                textShadow: "0px 0px 8px rgb(255,255,255)",
-              }}
-              className={styles.signInBtnhamburger}
-            >
-              Trident
-            </motion.button>
           </motion.div>
         )}
       </AnimatePresence>

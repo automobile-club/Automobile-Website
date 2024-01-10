@@ -67,6 +67,7 @@
   border-radius: 20px;
   overflow: hidden;
   width: 80%;
+  height: 320px;
 }
 
 .intro_text {
@@ -102,128 +103,22 @@
 
 /* Second Section */
 .second_section {
-  padding-top: 20vw;
+  padding-top: 23vw;
   background-color: #f4f4f4;
   color: #1a1b1a;
-  display: flex;
   width: 100%;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
   height: auto;
   /* Center the text */
-}
-
-.second_section img {
-  width: 100%;
-  max-width: 600px;
-  /* Adjust the maximum width of the image */
-  transition: 0.5s ease;
-}
-
-.second_section img:hover {
-  transform: rotate(-10deg) scale(0.9);
-}
-
-.second_section h1 {
-  font-family: "Outfit";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 45px;
-  line-height: 70px;
-  color: rgb(0, 0, 0);
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-.second_section .content {
-  font-family: "Poppins";
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  /* Center content horizontally */
-  text-align: justify;
-  /* Justify the text */
-  height: auto;
-}
-
-
-.second_section .left {
-  width: 40%;
-  /* Adjust the width of the image container */
-  margin-left: 20px;
-  /*Add space between image and text */
-}
-
-.second_section .right {
-  width: 60%;
-  font-size: 18px;
-  margin: 3%;
-  font-family: "Poppins"
 }
 
 /* Third Section */
 .third_section {
+  /* padding-top: 5vw; */
   background-color: #1a1b1a;
   color: #f4f4f4;
-  display: flex;
   width: 100%;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
   /* Center the text */
   height: auto;
-}
-
-.third_section img {
-  width: 100%;
-  max-width: 600px;
-  /* Adjust the maximum width of the image */
-  margin-bottom: 20px;
-  /* Add space between image and text */
-  transition: 0.5s ease;
-}
-
-.third_section img:hover {
-  transform: rotate(-10deg) scale(0.9);
-}
-
-.third_section h1 {
-  font-family: "Outfit";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 45px;
-  line-height: 70px;
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-.third_section .content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  /* Center content horizontally */
-  text-align: justify;
-  /* Justify the text */
-  height: auto;
-}
-
-
-.third_section .right {
-  width: 60%;
-
-  font-size: 18px;
-  margin: 3%;
-  font-family: "Poppins"
-}
-
-.third_section .left {
-  width: 40%;
-  /* Adjust the width of the image container */
-  margin-right: 20px;
-  /* Add space between image and text */
 }
 
 .fifth_section {
@@ -233,15 +128,15 @@
   width: 99.92;
 }
 
-.fifth_section h1 {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 45px;
-  line-height: 70px;
-  color: rgb(0, 0, 0);
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
+.heading_box {
+  padding-top: 5vw;
+  padding-left: 11vw;
+}
+
+.fifth_section_heading {
+  font-size: calc(1.5rem + 1vw);
+  border-top: 5px solid transparent;
+  border-image: linear-gradient(to right, rgb(242, 84, 2) 4%, transparent 4%) 1;
 }
 
 .helm {
@@ -255,7 +150,7 @@
 
 .helm2 {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 50px;
   /* Adjust as needed */
   margin: 5vw auto;
@@ -286,7 +181,7 @@
   }
 
   .second_section {
-    padding-top: 25vw;
+    padding-top: 36vw;
   }
 }
 
@@ -327,14 +222,6 @@
     padding: 0;
   }
 
-  .player {
-    order: 1;
-  }
-
-  .youtube_btn {
-    order: 2;
-  }
-
   .youtube_btn img {
     width: 22px;
     position: relative;
@@ -352,38 +239,14 @@
   }
 
   .second_section {
-    padding-top: 0;
-  }
-
-  /* Adjust this breakpoint according to your design needs */
-  .second_section .content {
-    flex-direction: column;
-    /* Display content side by side on larger screens */
-  }
-
-  .second_section .left,
-  .second_section .right {
-    width: 100%;
-    font-size: 18px;
-    padding-left: 12%;
-    padding-right: 12%;
-  }
-
-  /* Adjust this breakpoint according to your design needs */
-  .third_section .content {
-    flex-direction: column;
-    /* Display content side by side on larger screens */
+    padding-top: 5vw;
   }
 
   .p {
     margin: 0;
   }
 
-  .third_section .right,
-  .third_section .left {
-    width: 100%;
-    font-size: 18px;
-    padding-left: 12%;
-    padding-right: 12%;
+  .star img {
+    display: none;
   }
 }
