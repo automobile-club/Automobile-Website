@@ -194,7 +194,7 @@ export default function Projects() {
               <div className={styles.pcard_container}>
                 <div className={styles.pcard}>
                   <Image
-                    src="/images/hybridwork.png (1).png"
+                    src="/images/hybridwork.png"
                     alt="Project 1"
                     width={100}
                     height={50}
@@ -208,7 +208,7 @@ export default function Projects() {
                 </div>
                 <div className={styles.pcard}>
                   <Image
-                    src="/images/hybridwork.png (1).png"
+                    src="/images/hybridwork.png"
                     alt="Project 2"
                     width={100}
                     height={50}
@@ -223,7 +223,7 @@ export default function Projects() {
                 </div>
                 <div className={styles.pcard}>
                   <Image
-                    src="/images/hybridwork.png (1).png"
+                    src="/images/hybridwork.png"
                     alt="Project 3"
                     width={100}
                     height={50}
