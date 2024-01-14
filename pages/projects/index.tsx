@@ -36,11 +36,13 @@ export default function Projects() {
       <Navbar BgColor="black" />
       <body className={styles.body}>
         <div className={`${styles.achievements} ${styles.introp}`}>
+
           <h1>Our Projects</h1>
           <span>
             <h2>
               Discover our impressive portfolio of automotive projects that showcase our technical prowess and innovation.
               Each project represents our commitment to pushing the boundaries of automotive engineering.
+
 
             </h2>
           </span>

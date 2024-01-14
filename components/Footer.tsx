@@ -56,7 +56,7 @@ const Group: NextPage = () => {
           <img className={styles.facebook_icon} alt="" src="/images/facebook_hero.svg" />
         </div>
         <div className={styles.linkedinHero}>
-          <img className={styles.linkedin_icon} alt="" src="/images/Linkedin.svg" />
+          <img className={styles.linkedin_icon} alt="" src="/images/linkedin_hero.svg" />
         </div>
         <div className={styles.emailHero}>
           <img className={styles.email_icon} alt="" src="/images/email@2x.png" />
