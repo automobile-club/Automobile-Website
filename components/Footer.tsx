@@ -111,6 +111,7 @@ const Group: NextPage = () => {
             />
           </div>
           <button type="submit" >
+
             <img
               src="/images/submit-icon.png"
               alt="Submit"
@@ -153,6 +154,7 @@ const Group: NextPage = () => {
               <img className={styles.nemailIcon} alt="" src="/images/email@2x.png" />
               </a>
           </div>
+
       </div>
       <div className={styles.nlogo}>
         <img className={styles.nsaeIcon} alt="" src="/images/logo.svg" />
@@ -169,4 +171,6 @@ const Group: NextPage = () => {
   );
 };
 
+
 export default Group;
+
