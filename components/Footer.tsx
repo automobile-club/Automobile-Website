@@ -41,7 +41,7 @@ const Group: NextPage = () => {
       console.log('Email submitted:', prevEmail);
       return '';
     });
-  };;
+  };
 
 
   return (
