@@ -56,7 +56,7 @@ export default function Projects() {
         <div className={styles.card_container}>
           <div className={styles.card}>
             <Image
-              src="/images/jlr robotic arm.png"
+              src="/images/jlrroboticarm.png"
               alt="Robotic arm"
               width={290}
               height={117.15}
