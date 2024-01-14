@@ -19,7 +19,7 @@
 }
 
 .about h1 {
-  font-size: 60px;
+  font-size: 3.75rem;
   margin-top: 0px;
   font-family: "Outfit";
   font-weight: 400;
@@ -71,8 +71,13 @@
 }
 
 .intro_text {
+  padding: 20px 0px 0px 0px;
   text-align: center;
-  font-size: 3.4vw;
+}
+.intro_text_text {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
   font-family: "Outfit";
   padding: 20px 0px 0px 0px;
 }
@@ -141,6 +146,7 @@
 
 .helm {
   display: grid;
+  grid-template-rows: auto auto;
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
   /* Adjust as needed */
@@ -148,14 +154,14 @@
   width: min-content;
 }
 
-.helm2 {
+/* .helm2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
   /* Adjust as needed */
-  margin: 5vw auto;
+  /* margin: 5vw auto;
   width: min-content;
-}
+} */ 
 
 @media (max-width: 1050px) {
   .about {
@@ -229,14 +235,13 @@
   }
 
   .helm {
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .helm2 {
+  /* .helm2 {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
-  }
+  } */
 
   .second_section {
     padding-top: 5vw;
@@ -248,5 +253,12 @@
 
   .star img {
     display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .helm {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
   }
 }
