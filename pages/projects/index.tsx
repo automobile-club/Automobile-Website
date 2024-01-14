@@ -40,14 +40,15 @@ export default function Projects() {
           <h1>Our Projects</h1>
           <span>
             <h2>
+
               Discover our impressive portfolio of automotive projects that showcase our technical prowess and innovation.
               Each project represents our commitment to pushing the boundaries of automotive engineering.
-
 
             </h2>
           </span>
         </div>
         <div className={styles.timeline}>
+
           <div className={styles.Timeline_heading}>
             <h1 className={styles.Timeline_heading_text}>Our notable projects:</h1>
           </div>
@@ -238,6 +239,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
+         
         </div>
       </body>
     </>
