@@ -13,27 +13,11 @@ const HomeCard = () => {
           <img src="/images/car.webp" alt="" />
           </div>
           <div className={styles.blog_slider__content}>
-            {/* <span className={styles.blog_slider__code}>26 December 2019</span> */}
             <div className={styles.blog_slider__title}>The Culture of SAE</div>
             <div className={styles.blog_slider__text}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
-            <Link href="/events" className={styles.blog_slider__button}>READ MORE</Link>
+            <Link href="/events" className={styles.blog_slider__button}>Read More</Link>
           </div>
-        </div>      
-
-  
-
-        {/* <div className={`${styles.blog_slider__item} ${styles.swiper_slide}`}>
-          <div className={styles.blog_slider__img}>
-            <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759872/kuldar-kalvik-799168-unsplash.webp" alt="" />
-          </div>
-          <div className={styles.blog_slider__content}>
-            <span className={styles.blog_slider__code}>26 December 2019</span>
-            <div className={styles.blog_slider__title}>Lorem Ipsum Dolor</div>
-            <div className={styles.blog_slider__text}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
-            <a href="#" className={styles.blog_slider__button}>READ MORE</a>
-          </div>
-        </div> */}
-        
+        </div>     
       </div>
       <div className={styles.blog_slider__pagination}></div>
     </div>

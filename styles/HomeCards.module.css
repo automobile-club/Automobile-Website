@@ -12,7 +12,7 @@
 } */
 
 .blog_slider {
-  width: 95%;
+  width: 98%;
   position: relative;
   max-width: 800px;
   margin: auto;
@@ -23,29 +23,30 @@
   height: 380px;
   transition: all 0.3s;
 }
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
   .blog_slider {
     max-width: 680px;
     height: 400px;
   }
-}
-@media screen and (max-width: 768px) {
+} */
+@media screen  and (max-width: 3000px) {
   .blog_slider {
-    min-height: 500px;
+    min-height: 440px;
     height: auto;
-    margin: 180px auto;
+    margin: 8vw auto 2vw auto;
   }
 }
-@media screen and (max-height: 500px) and (min-width: 992px) {
+@media screen and (max-height: 500px) and (min-width: 3000px) {
   .blog_slider {
     height: 350px;
   }
 }
 .blog_slider__item {
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 3000px) {
   .blog_slider__item {
     flex-direction: column;
   }
@@ -106,7 +107,7 @@
 .blog_slider__img {
   width: 300px;
   flex-shrink: 0;
-  height: 300px;
+  height: 200px;
   background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
   box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
   border-radius: 20px;
@@ -133,10 +134,10 @@
   border-radius: 20px;
   transition: all 0.3s;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 3000px) {
   .blog_slider__img {
     transform: translateY(-50%);
-    width: 90%;
+    width: 70%;
   }
 }
 @media screen and (max-width: 576px) {
@@ -144,7 +145,7 @@
     width: 95%;
   }
 }
-@media screen and (max-height: 500px) and (min-width: 992px) {
+@media screen and (max-height: 500px) and (min-width: 3000px) {
   .blog_slider__img {
     height: 270px;
   }
@@ -152,16 +153,17 @@
 .blog_slider__content {
   padding-right: 25px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 3000px) {
   .blog_slider__content {
     margin-top: -80px;
     text-align: center;
     padding: 0 30px;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 3000px) {
   .blog_slider__content {
     padding: 0;
+    
   }
 }
 .blog_slider__content > * {
@@ -188,22 +190,24 @@
 }
 .blog_slider__button {
   display: inline-flex;
-  background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
-  padding: 15px 35px;
+  background-color: rgb(242, 84, 2);
+  padding: 7px;
+  height: 36px;
+  width: 140px;
   border-radius: 50px;
   color: #fff;
   box-shadow: 0px 14px 80px rgba(252, 56, 56, 0.4);
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 200;
   justify-content: center;
   text-align: center;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
 }
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
   .blog_slider__button {
-    width: 100%;
+    width: 40%;
   }
-}
+} */
 .blog_slider .swiper_container_horizontal > .swiper_pagination_bullets, .blog_slider .swiper_pagination_custom, .blog_slider .swiper_pagination_fraction {
   bottom: 10px;
   left: 0;
@@ -220,12 +224,12 @@
   bottom: auto !important;
   transform: translateY(-50%);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 3000px) {
   .blog_slider__pagination {
     transform: translateX(-50%);
     left: 50% !important;
-    top: 205px;
-    width: 100% !important;
+    top: 100px;
+    width: 80% !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -234,7 +238,7 @@
 .blog_slider__pagination.swiper_pagination_bullets .swiper_pagination_bullet {
   margin: 8px 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1150px) {
   .blog_slider__pagination.swiper_pagination_bullets .swiper_pagination_bullet {
     margin: 0 5px;
   }
@@ -254,9 +258,30 @@
   height: 30px;
   box-shadow: 0px 0px 20px rgba(252, 56, 56, 0.3);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 3000px) {
   .blog_slider__pagination .swiper_pagination_bullet_active {
     height: 11px;
     width: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .blog_slider {
+    min-height: 400px;
+    margin: 100px auto;
+  }
+}
+
+@media screen and (max-width:380px){
+  .blog_slider__button{
+    width: 140px;
+    font-weight: 100;
+  }
+}
+
+@media screen and (max-width:365px){
+  .blog_slider {
+    min-height: 420px;
+    margin: 100px auto;
   }
 }

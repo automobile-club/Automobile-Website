@@ -3,8 +3,11 @@ import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import HomeCard from "@/components/HomeCards";
+
+import AchievementTimeline from "@/components/AchievementTimeline";
 // import BlogContainer from "@/components/BlogContainer";
 // import DirectionCards from "@/components/DirectionCards/DirectionCards";
+// import Mentors from "@/components/OurMentors";
 
 function Home() {
   return (
@@ -70,6 +73,7 @@ function Home() {
 
       {/* our achievments section */}
       {/* our achievments section */}
+      <AchievementTimeline/>
       <div className={styles.ourachievments_sae}>
         <div className={styles.ourachievments_heading}>
           <h2 className={styles.ourmentors_heading_text}>Our Achievements</h2>
@@ -138,13 +142,12 @@ function Home() {
           <h2 className={styles.ourmentors_heading_text} >Events & Workshop</h2>
         </div>
         <div className={styles.card_container}>
+          <div className={styles.card4}><HomeCard /></div>
+          <div className={styles.card4}><HomeCard /></div>
+          <div className={styles.card4}><HomeCard /></div>
+          {/* <HomeCard />
           <HomeCard />
-          <HomeCard />
-          <HomeCard />
-
-          <HomeCard />
-          <HomeCard />
-          <HomeCard />
+          <HomeCard /> */}
           
           {/* <div className={styles.row}>
             <div className={styles.card}>
@@ -275,6 +278,9 @@ function Home() {
 
       {/* our mentors section */}
       {/* our mentors section */}
+      <div>
+        
+      </div>
       <div className={styles.ourmentors_sae}>
         <div className={styles.ourachievments_heading}>
           <h2 className={styles.ourmentors_heading_text}>Our Mentors</h2>
