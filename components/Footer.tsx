@@ -24,7 +24,9 @@ const Group: NextPage = () => {
   }, []);
 
   const scrollToTop = () => {
+
     console.log('Scroll to top button clicked');
+
     window.scrollTo({
       top: 0,
       behavior: 'smooth',
@@ -38,11 +40,14 @@ const Group: NextPage = () => {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
     console.log('Email submitted:', email);
+
   };
 
 
   return (
+
     <div className={styles.outer}>
       <div className={styles.inner}>
         <div className={styles.logo}>
@@ -106,8 +111,46 @@ const Group: NextPage = () => {
               src="/images/Vector.png"
               alt="Scroll to Top"
               onClick={scrollToTop}
+
             />
+          </button>
+        </form>
+      </div>
+      {showScrollButton && (
+        <img
+          className={styles.scrollButton}
+          src="/images/Vector.png"
+          alt="Scroll to Top"
+          onClick={scrollToTop}
+        />
+      )}
+      <div className={styles.nfoot}>
+        <div className={styles.nsocials}>
+          <div className={styles.ninstagramHero}>
+            <div className={styles.ninstagramHeroChild} />
+            <a href="https://www.instagram.com/saecollegiateclubiitbhu/" target="_blank">
+              <img className={styles.nvectorIcon} alt="" src="/images/instagram_hero.svg" />
+            </a>
           </div>
+          <div className={styles.nfacebookHero}>
+            <div className={styles.nfacebookHeroChild} />
+            <a href="https://www.facebook.com/SAEIITBHU/" target="_blank">
+              <img className={styles.nvectorIcon1} alt="" src="/images/facebook_hero.svg" />
+            </a>
+          </div>
+          <div className={styles.nlinkedinHero}>
+            <div className={styles.nlinkedinChild} />
+            <a href="https://www.linkedin.com/company/sae-collegiate-club-iit-varanasi/" target="_blank">
+              <img className={styles.nlinkedinHeroIcon1} alt="" src="/images/linkedin_hero.svg" />
+            </a>
+          </div>
+          <div className={styles.nemailHero}>
+            <div className={styles.nemailChild} />
+            <a href="mailto: saecollegiateclub.iitbhu@gmail.com" target="_blank">
+              <img className={styles.nemailIcon} alt="" src="/images/email@2x.png" />
+              </a>
+          </div>
+
         )}
         <div className={styles.nfoot}>
           <div className={styles.nsocial}>
@@ -131,8 +174,22 @@ const Group: NextPage = () => {
           <img className={styles.sae} alt="sae logo" src="/sae_logo.svg" />
           <div className={styles.niit}>IIT (BHU) Varanasi, India</div>
         </div>
+
       </div>
+      <div className={styles.nlogo}>
+        <img className={styles.nsaeIcon} alt="" src="/images/logo.svg" />
+      </div>
+      <div className={styles.nsaeCollegiateClub}>
+        <b className={styles.nsae}>SAE</b>
+        <div className={styles.ncollegiateClub}> Collegiate Club </div>
+      </div>
+      <div className={styles.niitBhuVaranasi}>IIT (BHU) Varanasi, India</div>
     </div>
+    </div >
+
+
   );
 };
+
 export default Group;
+

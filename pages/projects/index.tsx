@@ -116,8 +116,10 @@ export default function Projects() {
                 <h2>Ongoing Projects</h2>
                 In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate, and co-create in one space no matter where you are.
                 <Link href="#" className={`${styles.Btn}`}>
+
                   Learn More
                 </Link>
+
               </div>
               <div className={styles.ongoingprojects}>
                 <ProjectCard
@@ -153,6 +155,7 @@ export default function Projects() {
                 <Link href="#" className={`${styles.Btn}`}>
                   Learn More
                 </Link>
+
               </div>
               <div className={styles.lb}>
                 <div className={styles.ongoingprojects}>
@@ -188,8 +191,10 @@ export default function Projects() {
                 <h2>Ongoing Projects</h2>
                 In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate, and co-create in one space no matter where you are.
                 <Link href="#" className={`${styles.Btn}`}>
+
                   Learn More
                 </Link>
+
               </div>
               <div className={styles.pcard_container}>
                 <div className={styles.pcard}>
