@@ -240,6 +240,9 @@ justify-content: center;
 align-items: center;
 height:30vh;
 }
+  .inner{
+  padding-left: 0;
+}
 .nsocial{
 display: flex;
 flex-direction: row;
