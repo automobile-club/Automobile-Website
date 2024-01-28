@@ -220,6 +220,9 @@ white-space: nowrap;
 .form button{
 left:78%
 }
+.submitcol{
+  padding-top: 2.5vh;
+}
 .submitcol h2, .submitcol{
 padding-left:0;
 }
