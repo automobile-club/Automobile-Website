@@ -1,353 +1,172 @@
-.groupChild {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: linear-gradient(-1.11deg, #450800, #ee3a24);
-  width: 100%;
-  height: 474px;
+.outer{
+  background: linear-gradient(359deg, #450800 0%, #EE3A24 100%);
+  height: 35vh;
+  padding: 0.5vh 0.3% 0.2vh 0.3%; 
+}
+.inner{
+background-color: #1b1a1b;
+border-radius: 2vh;
+padding-left: 4vw;
+height:34vh;
+display:flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+}
+.addlheading{
+display: none;
+}
+.logo{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content:center ;
+width: 20rem;
+height:30vh;
+}
+.building{
+width: 10rem; 
+height: auto;  
+}
+.sae{
+padding-top:2vh; 
+width: 15rem;
+height:auto;
+}
+.address{
+display:flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+height: auto;
+width:30vw;
+padding-right: 8%;
+padding-top: 1.5vh;
+padding-left: 4%;
+height:30vh;
+}
+.addheading{
+display: flex;
+flex-direction: row;
+justify-content: center;
+width:fit-content;
+padding-left: 0.8vh;
+}
+.heading1{
+background-image: linear-gradient(90.94deg, #e25420, #f69448);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+font-family: Outfit;
+font-weight: 700;
+}
+.heading2{
+color: white;
+font-family: Outfit;
+padding-left: 3%;
+font-weight: 600;
+white-space: nowrap;
+}
+.address p{
+color:white;
+font-family:Poppins;
+font-size: 120%;
+margin-top: 0;
+}
+.social{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding-right: 5%;
+height:30vh;
+}
+.socialItem{
+display:flex;
+flex-direction: row;
+align-items: center;
+}
+.social .socialItem > a {
+color: white;
+text-decoration: none;
+font-family: Inter;
+padding-left: 1.3vw;
+}
+
+.social h2{
+color:white;
+font-weight: 600;
+font-family: Inter;
+padding-left: 1.5vw;
+}
+.instaicon, .facebookicon{
+width:30%;
+height:auto;
+padding-bottom: 1vh;
+}
+.linkedinicon{
+  width:30%;
+  height:auto;
+  padding-left:0.3vh;
+  padding-bottom: 1.2vh;
+  padding-right: 0.3vh;
+}
+.emailicon{
+width:23%;
+height:auto;
+padding-left: 0.35vh;
+padding-right: 0.5vh;
+}
+
+.submitcol{
+display: flex;
+flex-direction: column;
+padding-left: 3vw;
+justify-content: flex-start;
+align-items: flex-start;
+padding-top: 1.8vh;
+height:30vh
+}
+.submitcol h2{
+color:white;
+font-weight: 600;
+font-family: Inter;
+}
+
+
+.form{
+width:17vw;
+max-width: 100%;
+position:relative;
+}
+
+.form input{
+background:white;
+opacity:0.2;
+width:100%;
+color:black;
+border:none;
+height:5vh;
+border-radius:11px;
+padding-left: 1vw;
+}
+.form input::placeholder{
+color:black;
+font-family: Inter;
+}
+.form button{
+background:none;
+border:none;
+position: absolute;
+height:60%;
+width:auto;
+left:80%;
+top:10%;
+padding-bottom:10%
 }
 .nfoot{
-  display:none;
+display:none;
 }
-
-.groupItem {
-  position: absolute;
-  top: 8px;
-  left: 0.533%;
-  border-radius: 15px;
-  background-color: #1b1a1b;
-  width: 98.8%;
-  height: 463px;
-}
-.vectorIcon4 {
-  position: absolute;
-  height: 10.55%;
-  width: 2.6%;
-  top: 81.43%;
-  right: 2.4%;
-  bottom: 8.02%;
-  left: 95%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-
-}
-
-.instagramHero,
-.instagram_icon {
-  position: absolute;
-  overflow: hidden;
-}
-.instagram_icon  {
-  height: 83.33%;
-  width: 83.33%;
-  top: 8.33%;
-  right: 8.33%;
-  bottom: 8.33%;
-  left: 8.33%;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-}
-.instagramHero {
-  top: 31%;
-  left: 45px;
-  width: 30px;
-  height: 30px;
-}
-
-.facebookHero,
-.facebook_icon  {
-  position: absolute;
-  overflow: hidden;
-}
-.facebook_icon {
-  height: 83%;
-  width: 83.33%;
-  top: 8.5%;
-  right: 8.33%;
-  bottom: 8.5%;
-  left: 8.34%;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-}
-.facebookHero {
-  top: 49%;
-  left: 44px;
-  width: 32px;
-  height: 32px;
-}
-
-.linkedinHero,
-.linkedin_icon  {
-  position: absolute;
-  overflow: hidden;
-}
-.linkedin_icon  {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-}
-.linkedinHero {
-  top: 69%;
-  left: 47px;
-  width: 26px;
-  height: 26px;
-}
-.emailHero,
-.email_icon  {
-  position: absolute;
-  overflow: hidden;
-}
-.email_icon  {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-}
-.emailHero {
-  top: 89%;
-  left: 47px;
-  width: 26px;
-  height: 26px;
-}
-
-.text a{
-  text-decoration: none;
-}
-.eMail,
-.facebook,
-.instagram,
-.linkediln,
-.socials {
-  position: absolute;
-  display: inline-block;
-  width: 233.57px;
-
-}
-.socials {
-  top: 2%;
-  left: 0;
-  font-size: 36.32px;
-  line-height: 40.88px;
-  font-weight: 600;
-  color: var(--default-white);
-}
-.eMail,
-.facebook,
-.instagram,
-.linkediln {
-  top: 76.04px;
-  left: 16.37px;
-  line-height: 29.2px;
-
-}
-.eMail,
-.facebook,
-.linkediln {
-  top: 123.55px;
-}
-.eMail,
-.linkediln {
-  top: 171.07px;
-}
-.eMail {
-  top: 218.59px;
-}
-.instagramHeroParent {
-  position: relative;
-  top: 101px;
-  left: 52%;
-  width: 9.9967%;
-  height: 248.59px;
-  text-align: center;
-  color: var(--neutral-silver);
-}
-.collegiateClub {
-  position: absolute;
-  top: 4px;
-  left: 17px;
-  font-size: 36.32px;
-  font-weight: 600;
-  white-space: pre-wrap;
-  display: inline-block;
-  width: 75%;
-  height: 56px;
-}
-.iitBhuVaranasiIndia {
-  margin: 0;
-  font-size: 90%;
-}
-.iitBhuVaranasiContainer1 {
-  width: 100%;
-}
-.iitBhuVaranasiContainer,
-.tack {
-  position: absolute;
-  top: 188px;
-  left: 17px;
-  font-weight: 500;
-  font-family: var(--font-poppins);
-  display: flex;
-  align-items: center;
-  width: 75%;
-}
-.tack {
-  top: 78px;
-  font-size: 90%;
-}
-.sae {
-  position: absolute;
-  top: 0;
-  left: 0px;
-  font-size: 40px;
-  display: inline-block;
-  background: linear-gradient(90.94deg, #e25420, #f69448);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
-  width:110px;
-}
-.collegiateClubParent,
-.groupInner {
-  position: absolute;
-  top: 24px;
-  left: 300px;
-  width: 449px;
-  height: 272px;
-}
-.groupInner {
-  top: 22%;
-  left: 40px;
-  width: 175px;
-  height: 120px;
-  object-fit: cover;
-}
-.rectangleDiv {
-  position: absolute;
-  top: 0;
-  left: 20px;
-  border-radius: 18.54px;
-  background: linear-gradient(270deg, #ffc369, #ffd6bc 53.04%, #fff 99.98%);
-  width: 229px;
-  height: 100.36px;
-}
-.saeIcon {
-  position: absolute;
-  top: 9.53px;
-  left: 31.33px;
-  width: 200px;
-  height: 65px;
-  object-fit: cover;
-}
-.groupParent,
-.rectangleGroup {
-  position: absolute;
-  top: 209px;
-  left: 0;
-  width: 329px;
-  height: 108.36px;
-}
-.groupParent {
-  top: 68px;
-  left: 30px;
-  width: 248px;
-  height: 317.36px;
-  font-size: 27.85px;
-  font-family: var(--font-outfit);
-}
-.stayUpTo1 {
-  position: relative;
-  line-height: 40.88px;
-  font-weight: 600;
-  display: inline-block;
-  font-size:100%;
-}
-.inputFieldBg {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border-radius: 11.68px;
-  background-color:#1b1a1b ;
-  opacity:1;
-}
-
-.submit{
-  position: absolute;
-  height: 45%;
-  width: 7.06%;
-  top: 27.5%;
-  right: 4.71%;
-  bottom: 27.5%;
-  left: 88.24%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-  opacity:1;
-}
-
-.yourEmailAddress1 {
-  position: absolute;
-  top: 22.5%;
-  left: 2.71%;
-  line-height: 29.2px;
-
-}
-.emailInputField1 input {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border-radius: 11.68px;
-  border-width: 0;
-  background-color:#494849;
-  font-size: 12.44px;
-  font-family: var(--font-inter);
-}
-
-.emailInputField1 {
-  position: relative;
-  width: 90%;
-  height: 45.39px;
-  font-size: 20.44px;
-  font-family: var(--font-inter);
- 
-}
-.col3 {
-  position: absolute;
-  top: 22%;
-  left: 72%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 35.04px;
-  font-size: 170%;
-  font-family: var(--font-poppins);
-}
-
 .scrollButton {
   position: fixed;
   bottom: 20px;
@@ -356,355 +175,112 @@
   width: 50px;
   height: 50px;
 }
-.rectangleParent {
-  position: relative;
-  width: 100%;
-  height: 474px;
-  text-align: left;
-  font-size: 20.44px;
-  color: var(--default-white);
-  font-family: var(--font-inter);
+@media screen and  (max-width:1150px){
+.nfoot{
+display: none;
 }
-.socialnew{
-  display: none;
+.building, .address{
+display: none;
 }
-
-
-@media screen and  (max-width:1250px) {
-  .tack{
-    display:none;
-  }
-  .groupInner{
-    display:none;
-  }
-  .iitBhuVaranasiContainer, .nfoot{
-    display:none;
-  }
-  .collegiateClubParent {
-  position: absolute;
-  top: 20%;
-  left: 5%;
-  width: 449px;
-  height: 272px;
+.inner{
+justify-content: space-around;
 }
-  .collegiateClub {
-  position: absolute;
-  top: 13%;
-  left: 5%;
-  width: 75%;
-  height: 15%;
-  font-size: 100%;
-  }
-  .sae {
-    position: absolute;
-    top: 13%;
-    left: 0px;
-    font-size: 100%;
-    display: inline-block;
-    background: linear-gradient(90.94deg, #e25420, #f69448);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-    width:110px;
+.logo{
+padding-top: 8vh;
+justify-content: center;
 }
-.rectangleGroup {
-  top: 55%;
-  left: 10%;
-  width: 329px;
-  height: 108.36px;
+.sae{
+padding-left: 2vh;
 }
-.rectangleDiv {
-  top: 0;
-  left: 20px;
-  border-radius: 18.54px;
-  background: linear-gradient(270deg, #ffc369, #ffd6bc 53.04%, #fff 99.98%);
-  width: 229px;
-  height: 100.36px;
+.addlheading{
+display: flex;
+flex-direction: row;
+justify-content: center;
+width:fit-content;
+padding-left: 0.5vh;
 }
-.saeIcon {
-  top: none;
-  left: 31.33px;
-  width: 65%;
-  height: 65%;
-  object-fit: cover;
+.headingl1{
+background-image: linear-gradient(90.94deg, #e25420, #f69448);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+font-family: Outfit;
+font-weight: 700;
 }
-.instagramHeroParent {
-  top: 25%;
-  left: 40%;
-  width: 9.9967%;
-  height: 248.59px;
-  text-align: center;
-  color: var(--neutral-silver);
+.headingl2{
+color: white;
+font-family: Outfit;
+padding-left: 3%;
+font-weight: 600;
+white-space: nowrap;
 }
-.emailIcon1 {
-  position: absolute;
-  top: 71.5%;
-  left: 39.7%;
-  width: 26px;
-  height: 26px;
-  object-fit: cover;
+.form{
+  width:20vw;
 }
-.col3 {
-  position: absolute;
-  top: 26%;
-  left: 65%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 35.04px;
-  font-size: 170%;
-  font-family: var(--font-poppins);
+.form button{
+left:78%
 }
-.emailInputField1 {
-  position: relative;
-  width: 80%;
-  height: 45.39px;
-  font-size: 20.44px;
-  font-family: var(--font-inter);
- 
-}
-.socialnew{
-  display: none;
+.submitcol h2, .submitcol{
+padding-left:0;
 }
 }
-@media screen and  (max-width:850px) {
-  .col3,.groupParent,.instagramHeroParent{
-    display: none;
-  }
-  .nfoot{
-    display: contents;
-  }
-  .rectangleParent{
-    width: 100%;
-  }
-  .rectangleGroup {
-    position: relative;
-    top: 70%;
-    left:50%;
-    width: 329px;
-    height: 108.36px;
-  }
-  .rectangleDiv {
-    position: relative;
-    top: 0;
-    left: 5;
-    border-radius: 18.54px;
-    background: linear-gradient(270deg, #ffc369, #ffd6bc 53.04%, #fff 99.98%);
-    width: 229px;
-    height: 100.36px;
-  }
-  .saeIcon {
-    top: none;
-    left: 31.33px;
-    width: 65%;
-    height: 65%;
-    object-fit: cover;
-  }
-  .nsocials {
-    position: relative;
-    top: 70px;
-    left: 34%;
-    width: 30%;
-    height: 1px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    gap: 42px;
-  }
-  .ninstagramHero {
-    position: relative;
-    width: 69.38px;
-    height: 69.38px;
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-  .ninstagramHeroChild {
-    position: relative;
-    height: 78.33%;
-    width: 78.33%;
-    top: 11.67%;
-    right: 11.67%;
-    bottom: 10%;
-    left: 10%;
-    border-radius: 27.9px;
-    background-color: #1b1a1b;
-  }
-  .nvectorIcon {
-    position: absolute;
-    height: 83.33%;
-    width: 83.33%;
-    top: 8.33%;
-    right: 8.33%;
-    bottom: 8.33%;
-    left: 8.33%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-  }
-  .nfacebookHero,
-  .nlinkedinHeroIcon {
-    position: relative;
-    width: 74px;
-    height: 74px;
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-  .nfacebookHeroChild,
-.nvectorIcon1 {
-  position: absolute;
-  width: 83.33%;
-  right: 8.33%;
-  left: 8.34%;
+@media screen and  (max-width:800px){
+.logo, .address, .social, .submitcol{
+display:none;
 }
-.nfacebookHeroChild {
-  height: 83.33%;
-  top: 8.33%;
-  bottom: 8.33%;
-  border-radius: 128.76px;
-  background-color: #1b1a1b;
+.nfoot{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height:30vh;
 }
-.nvectorIcon1 {
-  height: 83%;
-  top: 8.5%;
-  bottom: 8.5%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
+.nsocial{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items:center;
+height:10vh;
 }
-.nlikedinHero {
-  position: relative;
-  width: 100%;
-  height: 100%;
+.ninstaicon, .nfacebookicon {
+  width: 7vw;
+  height: auto;
+  margin-right:3vw;
 }
-
-.nlinkedinChild {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  top: 11.67%;
-  right: 11.67%;
-  bottom: 10%;
-  left: 10%;
-  border-radius: 27.9px;
-  background-color: #1b1a1b;
-}
-.nlinkedinHeroIcon {
-  position: absolute;
-  height: 400%;
-  width: 400%;
-  top: 8.33%;
-  right: 8.33%;
-  bottom: 8.33%;
-  left: 8.33%;
-}
-.nrectangleParent {
-  text-decoration: none;
-  position: relative;
-  width: 60.13px;
-  height: 60.13px;
-}
-.ngroupChild {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 4.63px;
-  background-color: #e3e3e3;
-  width: 60.13px;
-  height: 60.13px;
-}
-.ngroupIcon {
-  position: absolute;
-  height: 66.51%;
-  width: 79.63%;
-  top: 15.07%;
-  right: 11.22%;
-  bottom: 18.42%;
-  left: 9.15%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.nlogo {
-  position: relative;
-  top: 55%;
-  left: 26%;
-  width: 20%;
-  height: 20%;
-  align-items: center!important;
-}
-.nsaeIcon {
-  position: relative;
-  top: 8.11px;
-  left: 20%;
-  width: 200%;
-  height: 100%;
-  object-fit: fill;
-}
-
-.nsaeCollegiateClub {
-  position: absolute;
-  top: 35%;
-  left: 20%;
-  width: 60%;
-  height: 81.22px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nsae {
-  position: relative;
-  font-size: 180%;
-  background: linear-gradient(90.94deg, #e25420, #f69448);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.ncollegiateClub {
-  position: relative;
-  font-weight: 600;
-  font-size: 150%;
-  white-space: pre-wrap;
-  margin-left: 10px; /* Adjust the margin to your preference */
-}
-
-
-.niitBhuVaranasi {
-  position: absolute;
-  top:80%;
-  left:10%;
-  font-size: 32px;
-  font-weight: 500;
-  font-family: var(--font-poppins);
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 80%;
-}
-}
-
-@media screen and  (max-width:540px){
-  .nsae {
-    position: relative;
-    font-size: 150%;
-    background: linear-gradient(90.94deg, #e25420, #f69448);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .ncollegiateClub {
-    position: relative;
-    font-weight: 600;
-    font-size: 120%;
-    white-space: pre-wrap;
-    margin-left: 10px; /* Adjust the margin to your preference */
-  }
-  .niitBhuVaranasi {
-    font-size: 25px;
+.nlinkedinicon, .nemailicon{
+  width:5vw;
+  height: auto;
+  margin-right:3vw;
   }
 
+.heading1{
+font-size: 220%;
+}
+.heading2{
+font-size: 200%;
+padding-top: 0.4vh;
+}
+.sae{
+width:50%;
+padding-top:0;
+padding-bottom:0.8vh;
+}
+.niit{
+color:white;
+font-family: Poppins;
+font-size: 150%;
+
+}
+}
+@media screen and  (max-width:650px){
+  .ninstaicon, .nfacebookicon {
+    width: 8vw;
+    height: auto;
+    margin-right:3vw;
+  }
+  .nlinkedinicon, .nemailicon{
+    width:6vw;
+    height: auto;
+    margin-right:3vw;
+    }
 }

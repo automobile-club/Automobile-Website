@@ -24,6 +24,7 @@ const Group: NextPage = () => {
   }, []);
 
   const scrollToTop = () => {
+    console.log('Scroll to top button clicked');
     window.scrollTo({
       top: 0,
       behavior: 'smooth',
@@ -37,140 +38,101 @@ const Group: NextPage = () => {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setEmail((prevEmail) => {
-      console.log('Email submitted:', prevEmail);
-      return '';
-    });
+    console.log('Email submitted:', email);
   };
 
 
   return (
-    <div className={styles.rectangleParent}>
-      <div className={styles.groupChild} />
-      <div className={styles.groupItem} />
-      <div className={styles.instagramHeroParent}>
-        <div className={styles.instagramHero}>
-          <img className={styles.instagram_icon} alt="" src="/images/instagram_hero.svg" />
-        </div>
-        <div className={styles.facebookHero}>
-          <img className={styles.facebook_icon} alt="" src="/images/facebook_hero.svg" />
-        </div>
-        <div className={styles.linkedinHero}>
-          <img className={styles.linkedin_icon} alt="" src="/images/linkedin_hero.svg" />
-        </div>
-        <div className={styles.emailHero}>
-          <img className={styles.email_icon} alt="" src="/images/email@2x.png" />
-        </div>
-        <div className={styles.socials}>Socials</div>
-        <div className={styles.text}>
-          <div className={styles.instagram}>
-            <Link href="https://www.instagram.com/saecollegiateclubiitbhu/" style={{ color: 'var(--default-white)' }} >Instagram</Link>
+    <div className={styles.outer}>
+      <div className={styles.inner}>
+        <div className={styles.logo}>
+          <div className={styles.addlheading}>
+            <h2 className={styles.headingl1}>SAE</h2>
+            <h2 className={styles.headingl2}>Collegiate Club</h2>
           </div>
-          <div className={styles.facebook}>
-            <Link href="https://www.facebook.com/SAEIITBHU/" style={{ color: 'var(--default-white)' }} >Facebook</Link>
+          <img className={styles.building} alt="bhu building logo" src="/bhu_building.png" />
+          <img className={styles.sae} alt="sae logo" src="/sae_logo.svg" />
+        </div>
+        <div className={styles.address}>
+          <div className={styles.addheading}>
+            <h2 className={styles.heading1}>SAE</h2>
+            <h2 className={styles.heading2}>Collegiate Club</h2>
           </div>
-          <div className={styles.linkediln}>
-            <Link href="https://www.linkedin.com/company/sae-collegiate-club-iit-varanasi/" style={{ color: 'var(--default-white)' }}> LinkedIn </Link>
+          <p>TACK Ka full form Or pura tack ka address</p>
+          <p>IIT (BHU)
+            Varanasi. India
+            PIN: 221005
+          </p>
+        </div>
+        <div className={styles.social}>
+          <h2>Socials</h2>
+          <div className={styles.socialItem}>
+            <img className={styles.instaicon} alt="insta logo" src="/instagram_icon.svg" />
+            <Link href="https://www.instagram.com/saecollegiateclubiitbhu/" >Instagram </Link>
           </div>
-          <div className={styles.eMail}>
-            <Link href="mailto: saecollegiateclub.iitbhu@gmail.com" style={{ color: 'var(--default-white)' }}> Email</Link>
+          <div className={styles.socialItem}>
+            <img className={styles.facebookicon} alt="fb logo" src="/facebook_icon.svg" />
+            <Link href="https://www.facebook.com/SAEIITBHU/">Facebook </Link>
+          </div>
+          <div className={styles.socialItem}>
+            <img className={styles.linkedinicon} alt="linkedin logo" src="/linkedin_icon.svg" />
+            <Link href="https://www.linkedin.com/company/sae-collegiate-club-iit-varanasi/" > LinkedIn </Link>
+          </div>
+          <div className={styles.socialItem}>
+            <img className={styles.emailicon} alt="mail logo" src="/emailicon.svg" />
+            <Link href="mailto: saecollegiateclub.iitbhu@gmail.com" > Email </Link>
           </div>
         </div>
-      </div>
-      <div className={styles.groupParent}>
-        <div className={styles.collegiateClubParent}>
-          <div className={styles.collegiateClub}>            Collegiate Club</div>
-          <div className={styles.iitBhuVaranasiContainer}>
-            <span className={styles.iitBhuVaranasiContainer1}>
-              <p className={styles.iitBhuVaranasiIndia}>
-                IIT (BHU) Varanasi. India
-              </p>
-              <p className={styles.iitBhuVaranasiIndia}>PIN: 221005</p>
-            </span>
-          </div>
-          <div className={styles.tack}>
-            {`Dept. of Mechanical engineering`}</div>
-          <b className={styles.sae}>SAE</b>
-        </div>
-        <img className={styles.groupInner} alt="" src="/images/group-23@2x.png" />
-        <div className={styles.rectangleGroup}>
-          <div className={styles.rectangleDiv} />
-          <img className={styles.saeIcon} alt="" src="/images/sae@2x.png" />
-        </div>
-      </div>
-      <div className={styles.col3}>
-        <div className={styles.stayUpTo1}>Stay up to date</div>
-        <form className={styles.emailInputField1} onSubmit={handleSubmit}>
-          <div className={styles.inputFieldBg} >
+        <div className={styles.submitcol}>
+          <h2>Stay Up to date</h2>
+          <form className={styles.form} onSubmit={handleSubmit}>
             <input
               type="email"
               value={email}
               onChange={handleChange}
               placeholder="Your email address"
-              className={styles.yourEmailAddress1}
             />
-          </div>
-          <button type="submit" >
-
+            <button type="submit"  >
+              <img
+                src="/submit_icon.svg"
+                alt="Submit"
+              />
+            </button>
+          </form>
+        </div>
+        {showScrollButton && (
+          <div className={styles.scrollButton}>
             <img
-              src="/images/submit-icon.png"
-              alt="Submit"
-              className={styles.submit}
+              src="/images/Vector.png"
+              alt="Scroll to Top"
+              onClick={scrollToTop}
             />
-          </button>
-        </form>
-      </div>
-      {showScrollButton && (
-        <img
-          className={styles.scrollButton}
-          src="/images/Vector.png"
-          alt="Scroll to Top"
-          onClick={scrollToTop}
-        />
-      )}
-      <div className={styles.nfoot}>
-        <div className={styles.nsocials}>
-          <div className={styles.ninstagramHero}>
-            <div className={styles.ninstagramHeroChild} />
-            <a href="https://www.instagram.com/saecollegiateclubiitbhu/" target="_blank">
-              <img className={styles.nvectorIcon} alt="" src="/images/instagram_hero.svg" />
+          </div>
+        )}
+        <div className={styles.nfoot}>
+          <div className={styles.nsocial}>
+            <a href="https://www.instagram.com/saecollegiateclubiitbhu/" >
+              <img className={styles.ninstaicon} alt="insta logo" src="/instagram_icon.svg" />
+            </a>
+            <a href="https://www.facebook.com/SAEIITBHU/"  >
+              <img className={styles.nfacebookicon} alt="fb logo" src="/facebook_icon.svg" />
+            </a>
+            <a href="https://www.linkedin.com/company/sae-collegiate-club-iit-varanasi/" >
+              <img className={styles.nlinkedinicon} alt="linkedin logo" src="/linkedin_icon.svg" />
+            </a>
+            <a href="mailto: saecollegiateclub.iitbhu@gmail.com" >
+              <img className={styles.nemailicon} alt="mail logo" src="/emailicon.svg" />
             </a>
           </div>
-          <div className={styles.nfacebookHero}>
-            <div className={styles.nfacebookHeroChild} />
-            <a href="https://www.facebook.com/SAEIITBHU/" target="_blank">
-              <img className={styles.nvectorIcon1} alt="" src="/images/facebook_hero.svg" />
-            </a>
+          <div className={styles.addheading}>
+            <h2 className={styles.heading1}>SAE</h2>
+            <h2 className={styles.heading2}>Collegiate Club</h2>
           </div>
-          <div className={styles.nlinkedinHero}>
-            <div className={styles.nlinkedinChild} />
-            <a href="https://www.linkedin.com/company/sae-collegiate-club-iit-varanasi/" target="_blank">
-              <img className={styles.nlinkedinHeroIcon1} alt="" src="/images/linkedin_hero.svg" />
-            </a>
-          </div>
-          <div className={styles.nemailHero}>
-            <div className={styles.nemailChild} />
-            <a href="mailto: saecollegiateclub.iitbhu@gmail.com" target="_blank">
-              <img className={styles.nemailIcon} alt="" src="/images/email@2x.png" />
-              </a>
-          </div>
-
+          <img className={styles.sae} alt="sae logo" src="/sae_logo.svg" />
+          <div className={styles.niit}>IIT (BHU) Varanasi, India</div>
+        </div>
       </div>
-      <div className={styles.nlogo}>
-        <img className={styles.nsaeIcon} alt="" src="/images/logo.svg" />
-      </div>
-      <div className={styles.nsaeCollegiateClub}>
-        <b className={styles.nsae}>SAE</b>
-        <div className={styles.ncollegiateClub}> Collegiate Club </div>
-      </div>
-      <div className={styles.niitBhuVaranasi}>IIT (BHU) Varanasi, India</div>
     </div>
-    </div >
-
-
   );
 };
-
-
 export default Group;
-
