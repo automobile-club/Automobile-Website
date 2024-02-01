@@ -26,7 +26,7 @@ export default function About() {
               width="100%"
             />
           </div>
-          <div className={styles.intro_text}>Watch Our Intro Video<br></br>
+          <div className={styles.intro_text}><div className={styles.intro_text_text}>Watch Our Intro Video<br></br></div>
             <button className={styles.youtube_btn}>
               Watch on &nbsp;
               <img alt="youtube" src="/images/feYoutube2.png" />
@@ -74,8 +74,6 @@ export default function About() {
             memberName="Anshuman Chaurasia"
             memberDesignation="Jt. Secretary"
           />
-        </div>
-        <div className={styles.helm2}>
           <MemberCard
             imageSrc="/images/NisthaJain.jpeg"
             memberName="Nistha Jain"
