@@ -23,7 +23,17 @@
   background-color: white;
 }
 
-.introp {
+.upper_content {
+  position: relative;
+  background-color: #1b1a1b;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 37vw;
+}
+
+/* .introp {
 background:#1b1a1b;
 text-align: center;
 padding-bottom:15% ;
@@ -69,7 +79,7 @@ padding-bottom:15% ;
   border-bottom: 1px solid rgba(151, 151, 151, 0.6);
   width: 50%;
   text-align: center;
-}
+} */
 
 .timeline {
   margin-top: 3.5%;
