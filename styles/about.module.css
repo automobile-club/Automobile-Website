@@ -10,31 +10,6 @@
   padding-top: 10vh;
 }
 
-.about {
-  width: 55vw;
-  margin: auto;
-  padding-top: 7vh;
-  text-align: center;
-  color: #a3a4a3;
-}
-
-.about h1 {
-  font-size: 3.75rem;
-  margin-top: 0px;
-  font-family: "Outfit";
-  font-weight: 400;
-  color: #f4f4f4;
-}
-
-.about hr {
-  margin-top: 30px;
-  width: 55vw;
-}
-
-.desc {
-  font-family: "Poppins";
-}
-
 .star img {
   width: 80px;
   position: relative;
@@ -191,12 +166,42 @@
   }
 }
 
+@media (min-width: 1201px) and (max-width: 1319px) {
+  .intro {
+    top: 35vw;
+  }
+
+  .first_section{
+    padding-top: 7vh;
+    height: auto;
+  }
+
+  .second_section {
+    padding-top: 36vw;
+  }
+}
+
+@media (min-width: 957px) and (max-width: 1154px) {
+  .intro {
+    top: 40vw;
+  }
+
+  .first_section{
+    padding-top: 7vh;
+    height: auto;
+  }
+
+  .second_section {
+    padding-top: 36vw;
+  }
+}
+
 @media (max-width: 956px) {
 
   .first_section,
   .fifth_section {
     height: auto;
-    padding-top: 20px;
+    padding-top: 10vw;
     padding-bottom: 20px;
   }
 
