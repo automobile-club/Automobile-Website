@@ -39,7 +39,7 @@ function Home() {
             </p>
           </div>
           <div className={styles.social_media}>
-            <a href="#">
+            <a href="https://www.instagram.com/saecollegiateclubiitbhu/">
               <Image
                 className={styles.instagram_img}
                 src="/images/instagram_hero.svg"
@@ -48,7 +48,7 @@ function Home() {
                 height={60}
               />
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com/SAEIITBHU/">
               <Image
                 className={styles.facebook_img}
                 src="/images/facebook_hero.svg"
@@ -57,7 +57,7 @@ function Home() {
                 height={62}
               />
             </a>
-            <a href="#">
+            <a href="https://in.linkedin.com/company/sae-collegiate-club-iit-varanasi">
               <Image
                 className={styles.linkedIn_img}
                 src="/images/linkedIn_hero.svg"
