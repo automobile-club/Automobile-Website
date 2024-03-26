@@ -1,16 +1,10 @@
-'use client'
-import Navbar from "@/components/Navbar";
-import styles from "@/styles/Home.module.css";
-import Image from "next/image";
-import Link from "next/link";
-// import BlogContainer from "@/components/BlogContainer";
-// import DirectionCards from "@/components/DirectionCards/DirectionCards";
+import styles from '@/styles/Home.module.css'
+import Image from 'next/image'
+import Link from 'next/link'
 
 function Home() {
   return (
     <>
-      <Navbar BgColor="black" />
-
       {/* Hero Section */}
       {/* Hero Section */}
       <div className={styles.sae_intro}>
@@ -135,7 +129,7 @@ function Home() {
       {/* our events section */}
       <div className={styles.events}>
         <div className={styles.eventHeading}>
-          <h2 className={styles.ourmentors_heading_text} >Events & Workshop</h2>
+          <h2 className={styles.ourmentors_heading_text}>Events & Workshop</h2>
         </div>
         <div className={styles.card_container}>
           <div className={styles.row}>
@@ -253,18 +247,6 @@ function Home() {
         </div>
       </div>
 
-      {/* our blogs section */}
-      {/* our blogs section */}
-      {/* <div className={styles.blogs}>
-        <div className={styles.blogHeading}>
-          <h2>Our Blogs</h2>
-        </div>
-        <BlogContainer numBlogCards={4} />
-        <Link href="/blog" className={`${styles.vmBtn} ${styles.ourBlogBtn}`}>
-          View More
-        </Link>
-      </div> */}
-
       {/* our mentors section */}
       {/* our mentors section */}
       <div className={styles.ourmentors_sae}>
@@ -327,31 +309,8 @@ function Home() {
           </div>
         </div>
       </div>
-
-      {/* our teams section  */}
-      {/* our teams section  */}
-      {/* <div className={styles.sae_ourteams}>
-        <div className={styles.left_wrapper_ourteams}>
-          <div className={styles.heading_ourteams}>
-            <h2 className={styles.heading_content_ourteams}>Our Teams </h2>
-          </div>
-          <p className={styles.text_longcontent_ourteams}>
-            Morem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-            turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
-            nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum
-            tellus elit sed risus. Maecenas eget condimentum velit, sit
-          </p>
-          <Link href="/blog" className={`${styles.vmBtn} ${styles.ourBlogBtn}`}>
-            View More
-          </Link>
-        </div>
-        <div className={styles.right_wrapper_ourteams}>
-          <DirectionCards />
-        </div>
-      </div> */}
     </>
-  );
+  )
 }
 
-
-export default Home;
+export default Home

@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
 body {
   margin: 0px;
   padding: 0px;
@@ -35,11 +32,8 @@ h4 {
   border-radius: 8px;
   border: 0px outset #ffffff;
 }
-:root {
-  --font-inter: Inter;
-  --font-poppins: Poppins;
-  --font-outfit: Outfit;
 
+:root {
   --font-size-xl-4: 20.4px;
   --font-size-17xl-3: 36.3px;
   --font-size-8xl-9: 27.9px;

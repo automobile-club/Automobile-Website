@@ -1,15 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
-.first_section {
-  /* background-color: #F4F4F4; */
-  background-color: #1a1b1a;
-  height: 37vw;
-  margin: 0px;
-  padding-top: 10vh;
-}
-
 .about {
   width: 55vw;
   margin: auto;
@@ -187,7 +175,6 @@
 
 @media (max-width: 956px) {
 
-  .first_section,
   .fifth_section {
     height: auto;
     padding-top: 20px;
