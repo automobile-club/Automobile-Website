@@ -1,6 +1,8 @@
 'use client'
 import { ReactNode } from 'react'
 import Head from 'next/head'
+import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -34,6 +36,8 @@ export default function RootLayout({ children }: LayoutProps) {
         <title>SAE IIT BHU</title>
       </Head>
       <body>
+        <Analytics />
+        <SpeedInsights />
         <Navbar />
         <main>{children}</main>
         <Footer />
