@@ -51,7 +51,7 @@ function Home() {
             <a href="https://in.linkedin.com/company/sae-collegiate-club-iit-varanasi">
               <Image
                 className={styles.linkedIn_img}
-                src="/images/linkedIn_hero.svg"
+                src="/images/linkedin_hero.svg"
                 alt="linkedIn"
                 width={50}
                 height={50}

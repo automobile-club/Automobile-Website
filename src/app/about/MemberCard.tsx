@@ -35,7 +35,7 @@ const MemberCard: React.FC<MemberCardProps> = ({
           </a>
           <a href="#">
             <img
-              src="/images/linkedIn_hero.svg"
+              src="/images/linkedin_hero.svg"
               alt="LinkedIn"
               width={50}
               height={50}
