@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react'
 import Nav from 'react-bootstrap/Nav'
 import Image from 'next/image'
-import styles from '@/styles/navbar.module.css'
+import styles from '@/styles/Navbar.module.css'
 import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
 

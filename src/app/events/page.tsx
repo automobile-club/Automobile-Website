@@ -1,4 +1,4 @@
-import styles from '@/styles/events.module.css'
+import styles from '@/styles/Events.module.css'
 import EventCard from './EventCard'
 import HeroSection from '@/components/HeroSection'
 

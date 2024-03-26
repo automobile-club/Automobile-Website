@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '@/styles/Eventcard.module.css' // Import the CSS module
+import styles from '@/styles/EventCard.module.css' // Import the CSS module
 
 const EventCard = () => {
   return (

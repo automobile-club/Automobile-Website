@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import PropTypes from 'prop-types'
-import styles from '@/styles/aboutTeam.module.css'
+import styles from '@/styles/AboutTeam.module.css'
 
 interface AboutTeamProps {
   aboutText: string

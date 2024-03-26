@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '@/styles/memberCard.module.css'
+import styles from '@/styles/MemberCard.module.css'
 
 interface MemberCardProps {
   imageSrc: string

@@ -1,5 +1,5 @@
 'use client'
-import styles from '@/styles/about.module.css'
+import styles from '@/styles/About.module.css'
 import ReactPlayer from 'react-player/youtube'
 import MemberCard from './MemberCard'
 import AboutTeam from './AboutTeam'
