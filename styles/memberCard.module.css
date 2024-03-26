@@ -74,10 +74,3 @@
     /* Change text color on hover */
     transition: color 0.3s;
 }
-
-@media (max-width: 650px) {
-    .circle {
-        width: 195px;
-        height: 195px;
-    }
-  }

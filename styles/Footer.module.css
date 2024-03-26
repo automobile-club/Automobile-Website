@@ -167,7 +167,6 @@ padding-bottom:10%
 .nfoot{
 display:none;
 }
-
 .scrollButton {
   position: fixed;
   bottom: 20px;
@@ -176,7 +175,6 @@ display:none;
   width: 50px;
   height: 50px;
 }
-
 @media screen and  (max-width:1150px){
 .nfoot{
 display: none;
@@ -240,7 +238,7 @@ justify-content: center;
 align-items: center;
 height:30vh;
 }
-  .inner{
+.inner{
   padding-left: 0;
 }
 .nsocial{
@@ -292,4 +290,3 @@ font-size: 150%;
     margin-right:3vw;
     }
 }
-

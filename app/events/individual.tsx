@@ -1,3 +1,4 @@
+'use client';
 import React, { useLayoutEffect, useState } from "react";
 import Image from "next/image";
 import NavBar from "@/components/Navbar";

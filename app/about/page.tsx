@@ -1,15 +1,21 @@
+'use client';
 import styles from "@/styles/about.module.css";
 import Navbar from "@/components/Navbar";
 import ReactPlayer from "react-player";
 import MemberCard from "./memberCard";
 import AboutTeam from "./aboutTeam";
-import SaeIntro from "@/components/SaeIntro";
 export default function About() {
   return (
     <>
       <Navbar BgColor="black" />
       <div className={styles.first_section}>
-        <SaeIntro aboutheading="About Us.." desc="The SAE Collegiate Club at the Indian Institute of Technology (IIT) BHU is a dynamic and vibrant community of engineering enthusiasts dedicated to all things automotive. Our club serves as a melting pot of creativity, innovation, and engineering excellence, providing a platform for students to immerse themselves in the thrilling world of automobiles."/>
+        <div className={styles.about}>
+          <h1>About Us..</h1>
+          <div className={styles.desc}>
+            The SAE Collegiate Club at the Indian Institute of Technology (IIT) BHU is a dynamic and vibrant community of engineering enthusiasts dedicated to all things automotive. Our club serves as a melting pot of creativity, innovation, and engineering excellence, providing a platform for students to immerse themselves in the thrilling world of automobiles.
+          </div>
+          <hr />
+        </div>
         <div className={styles.star}>
           <img alt="stars" src="/images/star.png" />
         </div>
@@ -21,7 +27,7 @@ export default function About() {
               width="100%"
             />
           </div>
-          <div className={styles.intro_text}><div className={styles.intro_text_text}>Watch Our Intro Video<br></br></div>
+          <div className={styles.intro_text}>Watch Our Intro Video<br></br>
             <button className={styles.youtube_btn}>
               Watch on &nbsp;
               <img alt="youtube" src="/images/feYoutube2.png" />
@@ -69,6 +75,8 @@ export default function About() {
             memberName="Anshuman Chaurasia"
             memberDesignation="Jt. Secretary"
           />
+        </div>
+        <div className={styles.helm2}>
           <MemberCard
             imageSrc="/images/NisthaJain.jpeg"
             memberName="Nistha Jain"

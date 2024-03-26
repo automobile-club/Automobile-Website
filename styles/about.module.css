@@ -10,6 +10,31 @@
   padding-top: 10vh;
 }
 
+.about {
+  width: 55vw;
+  margin: auto;
+  padding-top: 7vh;
+  text-align: center;
+  color: #a3a4a3;
+}
+
+.about h1 {
+  font-size: 60px;
+  margin-top: 0px;
+  font-family: "Outfit";
+  font-weight: 400;
+  color: #f4f4f4;
+}
+
+.about hr {
+  margin-top: 30px;
+  width: 55vw;
+}
+
+.desc {
+  font-family: "Poppins";
+}
+
 .star img {
   width: 80px;
   position: relative;
@@ -46,13 +71,8 @@
 }
 
 .intro_text {
-  padding: 20px 0px 0px 0px;
   text-align: center;
-}
-.intro_text_text {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 3.4vw;
   font-family: "Outfit";
   padding: 20px 0px 0px 0px;
 }
@@ -121,7 +141,6 @@
 
 .helm {
   display: grid;
-  grid-template-rows: auto auto;
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
   /* Adjust as needed */
@@ -129,14 +148,14 @@
   width: min-content;
 }
 
-/* .helm2 {
+.helm2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
   /* Adjust as needed */
-  /* margin: 5vw auto;
+  margin: 5vw auto;
   width: min-content;
-} */ 
+}
 
 @media (max-width: 1050px) {
   .about {
@@ -166,42 +185,12 @@
   }
 }
 
-@media (min-width: 1201px) and (max-width: 1319px) {
-  .intro {
-    top: 35vw;
-  }
-
-  .first_section{
-    padding-top: 7vh;
-    height: auto;
-  }
-
-  .second_section {
-    padding-top: 36vw;
-  }
-}
-
-@media (min-width: 957px) and (max-width: 1154px) {
-  .intro {
-    top: 40vw;
-  }
-
-  .first_section{
-    padding-top: 7vh;
-    height: auto;
-  }
-
-  .second_section {
-    padding-top: 36vw;
-  }
-}
-
 @media (max-width: 956px) {
 
   .first_section,
   .fifth_section {
     height: auto;
-    padding-top: 10vw;
+    padding-top: 20px;
     padding-bottom: 20px;
   }
 
@@ -240,13 +229,14 @@
   }
 
   .helm {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  /* .helm2 {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
-  } */
+  }
+
+  .helm2 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
 
   .second_section {
     padding-top: 5vw;
@@ -258,12 +248,5 @@
 
   .star img {
     display: none;
-  }
-}
-
-@media (max-width: 650px) {
-  .helm {
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 20px;
   }
 }

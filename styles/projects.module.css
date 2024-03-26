@@ -7,16 +7,6 @@
   align-items: center;
 }
 
-.upper_content {
-  position: relative;
-  background-color: #1b1a1b;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 37vw;
-}
-
 .button {
   background: #000000;
   border-radius: 200px;
@@ -258,19 +248,15 @@ padding-bottom:15% ;
 
 .Btn {
   display: flex;
-
   margin: 0;
   margin-top:2vh;
-
   background-color: rgb(242, 84, 2);
   height: 2.5vw;
   border-radius: 20px;
   color: white !important;
-
   text-decoration: none;
   justify-content: center;
   align-items: center;
-
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -428,8 +414,8 @@ padding-bottom: 5%;
     left : 10%;
     font-size: 15.02;
     font-family: "Poppins";
-     padding-top: 3%;
-    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 5%
   }
   .lb{
     width: 75%;
@@ -510,7 +496,7 @@ padding-bottom: 5%;
     font-size: 7.02;
     font-family: "Poppins";
     padding-top: 3%;
-    padding-bottom: 5%;
+    padding-bottom:5%;
   }
   .lb{
     display: none;
@@ -565,31 +551,4 @@ padding-bottom: 5%;
     color: white;
   } 
   
-}
-
-@media (max-width: 1200px) {
-  .upper_content{
-    height: 45vw;
-  }
-}
-
-@media (max-width: 841px) {
-  .upper_content{
-    height: auto;
-    padding-top: 10vw;
-  }
-}
-
-@media (max-width: 768px) {
-  .upper_content{
-    height: auto;
-    padding-top: 10vw;
-  }
-}
-
-@media (max-width: 480px) {
-  .upper_content{
-    height: 45vw;
-    padding-top: 10vw;
-  }
 }

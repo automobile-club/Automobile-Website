@@ -1,3 +1,4 @@
+'use client';
 import styles from "@/styles/projects.module.css";
 import React, { useState } from "react";
 import Navbar from "@/components/Navbar";
@@ -17,7 +18,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
 import Link from "next/link";
-import SaeIntro from "@/components/SaeIntro";
 
 export default function Projects() {
   const [slidesPerView, setSlidesPerView] = useState(3);
@@ -36,9 +36,17 @@ export default function Projects() {
     <>
       <Navbar BgColor="black" />
       <body className={styles.body}>
-        <div className={styles.upper_content}>
-        <SaeIntro aboutheading="Our Projects" desc="Discover our impressive portfolio of automotive projects that showcase our technical prowess and innovation.
-              Each project represents our commitment to pushing the boundaries of automotive engineering."/>
+        <div className={`${styles.achievements} ${styles.introp}`}>
+
+          <h1>Our Projects</h1>
+          <span>
+            <h2>
+
+              Discover our impressive portfolio of automotive projects that showcase our technical prowess and innovation.
+              Each project represents our commitment to pushing the boundaries of automotive engineering.
+
+            </h2>
+          </span>
         </div>
         <div className={styles.timeline}>
 
@@ -109,10 +117,8 @@ export default function Projects() {
                 <h2>Ongoing Projects</h2>
                 In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate, and co-create in one space no matter where you are.
                 <Link href="#" className={`${styles.Btn}`}>
-
                   Learn More
                 </Link>
-
               </div>
               <div className={styles.ongoingprojects}>
                 <ProjectCard
@@ -148,7 +154,6 @@ export default function Projects() {
                 <Link href="#" className={`${styles.Btn}`}>
                   Learn More
                 </Link>
-
               </div>
               <div className={styles.lb}>
                 <div className={styles.ongoingprojects}>
@@ -184,10 +189,8 @@ export default function Projects() {
                 <h2>Ongoing Projects</h2>
                 In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate, and co-create in one space no matter where you are.
                 <Link href="#" className={`${styles.Btn}`}>
-
                   Learn More
                 </Link>
-
               </div>
               <div className={styles.pcard_container}>
                 <div className={styles.pcard}>
