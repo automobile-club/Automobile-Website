@@ -15,7 +15,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   return (
     <div className={styles.Project}>
       <div className={styles.rectangle}>
-        <img src={imageSrc} />
+        <img src={imageSrc} alt="ProjectCard Image" />
         <div className={styles.overlay}>
           <p className={styles.title}>{title}</p>
           <p>{content}</p>
