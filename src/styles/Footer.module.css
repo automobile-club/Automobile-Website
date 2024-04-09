@@ -1,3 +1,4 @@
+
 .outer{
   background: linear-gradient(359deg, #450800 0%, #EE3A24 100%);
   height: 35vh;
@@ -57,19 +58,19 @@ background-image: linear-gradient(90.94deg, #e25420, #f69448);
 -webkit-background-clip: text;
 background-clip: text;
 color: transparent;
-font-family: Outfit;
+/* font-family: Outfit; */
 font-weight: 700;
 }
 .heading2{
 color: white;
-font-family: Outfit;
+/* font-family: Outfit; */
 padding-left: 3%;
 font-weight: 600;
 white-space: nowrap;
 }
 .address p{
 color:white;
-font-family:Poppins;
+/* font-family:Poppins; */
 font-size: 120%;
 margin-top: 0;
 }
@@ -89,14 +90,14 @@ align-items: center;
 .social .socialItem > a {
 color: white;
 text-decoration: none;
-font-family: Inter;
+/* font-family: Inter; */
 padding-left: 1.3vw;
 }
 
 .social h2{
 color:white;
 font-weight: 600;
-font-family: Inter;
+/* font-family: Inter; */
 padding-left: 1.5vw;
 }
 .instaicon, .facebookicon{
@@ -130,7 +131,6 @@ height:30vh
 .submitcol h2{
 color:white;
 font-weight: 600;
-font-family: Inter;
 }
 
 
@@ -152,7 +152,7 @@ padding-left: 1vw;
 }
 .form input::placeholder{
 color:black;
-font-family: Inter;
+/* font-family: Inter; */
 }
 .form button{
 background:none;
@@ -204,12 +204,12 @@ background-image: linear-gradient(90.94deg, #e25420, #f69448);
 -webkit-background-clip: text;
 background-clip: text;
 color: transparent;
-font-family: Outfit;
+/* font-family: Outfit; */
 font-weight: 700;
 }
 .headingl2{
 color: white;
-font-family: Outfit;
+/* font-family: Outfit; */
 padding-left: 3%;
 font-weight: 600;
 white-space: nowrap;
@@ -273,7 +273,7 @@ padding-bottom:0.8vh;
 }
 .niit{
 color:white;
-font-family: Poppins;
+/* font-family: Poppins; */
 font-size: 150%;
 
 }

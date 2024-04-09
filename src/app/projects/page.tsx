@@ -21,7 +21,7 @@ export default function Projects() {
         <div className={styles.card_container}>
           <div className={styles.card}>
             <Image
-              src="/images/jlrroboticarm.png"
+              src="/project-images/jlrroboticarm.png"
               alt="Robotic arm"
               width={290}
               height={117.15}
@@ -39,7 +39,7 @@ export default function Projects() {
           </div>
           <div className={styles.card}>
             <Image
-              src="/images/piezoelectric_suspension.webp"
+              src="/project-images/piezoelectric_suspension.webp"
               alt="Piezoelectric suspension"
               width={290}
               height={117.15}
@@ -57,7 +57,7 @@ export default function Projects() {
           </div>
           <div className={styles.card}>
             <Image
-              src="/images/project-ev-logo.png"
+              src="/project-images/project-ev-logo.png"
               alt="EV Project"
               width={290}
               height={117.5}
@@ -92,21 +92,21 @@ export default function Projects() {
                 <ProjectCard
                   title="Formula Bharat"
                   content="In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate, and co-create in one space no matter where you are."
-                  imageSrc="/images/projects1.png"
+                  imageSrc="/project-images/projects1.png"
                 />
               </div>
               <div className={`${styles.ongoingprojects} ${styles.middlecard}`}>
                 <ProjectCard
                   title="Formula Bharat"
                   content="In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate, and co-create in one space no matter where you are."
-                  imageSrc="/images/projects2.png"
+                  imageSrc="/project-images/projects2.png"
                 />
               </div>
               <div className={styles.ongoingprojects}>
                 <ProjectCard
                   title="Formula Bharat"
                   content="In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate, and co-create in one space no matter where you are."
-                  imageSrc="/images/projects3.png"
+                  imageSrc="/project-images/projects3.png"
                 />
               </div>
             </div>
@@ -130,7 +130,7 @@ export default function Projects() {
                   <ProjectCard
                     title="Formula Bharat"
                     content="In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate, and co-create in one space no matter where you are."
-                    imageSrc="/images/projects1.png"
+                    imageSrc="/project-images/projects1.png"
                   />
                 </div>
                 <div
@@ -139,14 +139,14 @@ export default function Projects() {
                   <ProjectCard
                     title="Formula Bharat"
                     content="In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate, and co-create in one space no matter where you are."
-                    imageSrc="/images/projects2.png"
+                    imageSrc="/project-images/projects2.png"
                   />
                 </div>
                 <div className={styles.ongoingprojects}>
                   <ProjectCard
                     title="Formula Bharat"
                     content="In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate, and co-create in one space no matter where you are."
-                    imageSrc="/images/projects3.png"
+                    imageSrc="/project-images/projects3.png"
                   />
                 </div>
               </div>
@@ -169,7 +169,7 @@ export default function Projects() {
               <div className={styles.pcard_container}>
                 <div className={styles.pcard}>
                   <Image
-                    src="/images/hybridwork.png"
+                    src="/project-images/hybridwork.png"
                     alt="Project 1"
                     width={100}
                     height={50}
@@ -184,7 +184,7 @@ export default function Projects() {
                 </div>
                 <div className={styles.pcard}>
                   <Image
-                    src="/images/hybridwork.png"
+                    src="/project-images/hybridwork.png"
                     alt="Project 2"
                     width={100}
                     height={50}
@@ -199,7 +199,7 @@ export default function Projects() {
                 </div>
                 <div className={styles.pcard}>
                   <Image
-                    src="/images/hybridwork.png"
+                    src="/project-images/hybridwork.png"
                     alt="Project 3"
                     width={100}
                     height={50}

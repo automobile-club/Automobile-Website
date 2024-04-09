@@ -41,7 +41,6 @@ padding-bottom:15% ;
 }
 
 .achievements h1 {
-  font-family: "Outfit";
   font-style: normal;
   font-weight: 400;
   font-size: 45px;
@@ -58,7 +57,6 @@ padding-bottom:15% ;
 }
 
 .achievements h2 {
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -109,7 +107,7 @@ padding-bottom:15% ;
 }
 
 .teams h1 {
-  font-family: "Outfit";
+  /* font-family: "Outfit"; */
   font-style: normal;
   font-weight: 700;
   font-size: 45px;
@@ -120,7 +118,7 @@ padding-bottom:15% ;
 }
 
 .teams h2 {
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -315,10 +313,10 @@ padding-bottom: 5%;
   margin: none;
   left : 5%;
   font-size: 15.02;
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
 }
 .third_section h2 {
-  font-family: "Outfit";
+  /* font-family: "Outfit"; */
   font-style: normal;
   font-weight: 400;
   font-size: 140%;
@@ -413,7 +411,7 @@ padding-bottom: 5%;
     margin: 3%;
     left : 10%;
     font-size: 15.02;
-    font-family: "Poppins";
+    /* font-family: "Poppins"; */
     padding-top: 3%;
     padding-bottom: 5%
   }
@@ -476,7 +474,7 @@ padding-bottom: 5%;
     height: auto;
   }
   .third_section h2 {
-    font-family: "Outfit";
+    /* font-family: "Outfit"; */
     font-style: normal;
     font-weight: 400;
     font-size: 250%;
@@ -494,7 +492,7 @@ padding-bottom: 5%;
     margin: 3%;
     left : 10%;
     font-size: 7.02;
-    font-family: "Poppins";
+    /* font-family: "Poppins"; */
     padding-top: 3%;
     padding-bottom:5%;
   }
