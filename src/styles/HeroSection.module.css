@@ -62,3 +62,49 @@
     width: 34.75vw;
     padding-bottom: 5vw;
 }
+
+@media screen and (max-width:900px) {
+    .sae_intro{
+        height: 50vw;
+    }
+    .sae_long_text{
+        font-size: 2vw;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        line-height: 3vw;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .sae_intro{
+        height: 60vw;
+    }
+    .sae_headings {
+        font-size: 40px;
+        margin-top: 24px;
+    }
+    .sae_long_text{
+        font-size: 3vw;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        line-height: 3.5vw;
+    }
+    /* .social_media {
+        height: 10px;
+    } */
+    
+}
+
+@media screen and (max-width:580px) {
+    .sae_intro{
+        height: 70vw;
+        
+    }
+}
+
+@media screen and (max-width:450px) {
+    .sae_intro{
+        height: 85vw;
+        
+    }
+}
