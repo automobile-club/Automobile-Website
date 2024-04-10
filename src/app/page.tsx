@@ -1,6 +1,8 @@
 import styles from '@/styles/Home.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
+import AchievementTimeline from '@/components/home/AchievementTimeline'
+import HomeCard from '@/components/home/HomeCards'
 
 function Home() {
   return (
@@ -69,7 +71,8 @@ function Home() {
           <h2 className={styles.ourmentors_heading_text}>Our Achievements</h2>
         </div>
         <div className={styles.achievments_cards_sae}>
-          <div className={styles.ourmentors_card1_sae}>
+          <AchievementTimeline />
+          {/* <div className={styles.ourmentors_card1_sae}>
             <Image
               className={styles.ourmentors_img}
               src="/images/Techfest_img.webp"
@@ -121,13 +124,25 @@ function Home() {
                 1st Position Axelerate&apos;19 Technex&apos;19
               </span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
       {/* our events section */}
       {/* our events section */}
-      <div className={styles.events}>
+
+      <div className={styles.card_container}>
+        <div className={styles.card4}>
+          <HomeCard />
+        </div>
+        <div className={styles.card4}>
+          <HomeCard />
+        </div>
+        <div className={styles.card4}>
+          <HomeCard />
+        </div>
+      </div>
+      {/* <div className={styles.events}>
         <div className={styles.eventHeading}>
           <h2 className={styles.ourmentors_heading_text}>Events & Workshop</h2>
         </div>
@@ -212,10 +227,11 @@ function Home() {
             </div>
           </div>
         </div>
-        <Link href="/events" className={`${styles.vmBtn} ${styles.ourBlogBtn}`}>
-          View More
-        </Link>
-      </div>
+
+      </div> */}
+      <Link href="/events" className={`${styles.vmBtn} ${styles.ourBlogBtn}`}>
+        View More
+      </Link>
 
       {/* orange section */}
       {/* orange section */}
