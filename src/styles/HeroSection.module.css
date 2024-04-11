@@ -63,7 +63,7 @@
     padding-bottom: 5vw;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1024px) {
     .sae_intro{
         height: 50vw;
     }
@@ -73,6 +73,14 @@
         padding-right: 4vw;
         line-height: 3vw;
     }
+    .sae_headings {
+        font-size: 56px;
+        margin-top: 24px;
+    }
+    .sae_intro .social_media a img {
+        width: 33px; 
+        height: 33px; 
+      }
 }
 
 @media screen and (max-width:680px) {
@@ -80,7 +88,7 @@
         height: 60vw;
     }
     .sae_headings {
-        font-size: 40px;
+        font-size: 52px;
         margin-top: 24px;
     }
     .sae_long_text{
@@ -89,8 +97,8 @@
         padding-right: 4vw;
         line-height: 3.5vw;
     }
-    /* .social_media {
-        height: 10px;
+    /* .sae_headings{
+        font-size: 60px;
     } */
     
 }
@@ -104,7 +112,31 @@
 
 @media screen and (max-width:450px) {
     .sae_intro{
-        height: 85vw;
+        height: 80vw;
         
     }
+    .sae_headings {
+        font-size: 44pxpx;
+        margin-top: 24px;
+    }
+    .sae_intro .social_media a img {
+        width: 33px; 
+        height: 33px; 
+      }
+}
+
+@media screen and (max-width:400px) {
+    .sae_intro{
+        height: 95vw;
+        
+    }
+
+}
+
+@media screen and (max-width:300px) {
+    .sae_intro{
+        height: 105vw;
+        
+    }
+
 }
