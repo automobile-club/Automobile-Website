@@ -5,6 +5,7 @@
     /* Adjust the gap between columns as needed */
     padding: 20px;
     /* Add padding as needed */
+    /* position: relative; */
 }
 
 .about_image1 {
@@ -12,6 +13,11 @@
     grid-row: 1;
     display: flex;
     align-items: center;
+    
+}
+
+.about_image1 img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
 }
 
 .about_team_text {
@@ -28,8 +34,8 @@
 
 .about_team_heading {
     color: #e25420;
-    font-family: "Inter-BoldItalic", Helvetica;
-    font-size: 90px;
+    font-family: 'Outfit';
+    font-size: 70px;
     font-style: italic;
     font-weight: 700;
     left: 0;
@@ -40,10 +46,11 @@
 }
 
 .about_team_desc {
-    font-family: "poppins";
+    /* font-family: 'poppins'; */
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
+    font-size: x-large;
 }
 
 .about_image2 {
@@ -51,6 +58,7 @@
     grid-row: 1;
     display: flex;
     align-items: center;
+    translate: 4;
 }
 
 .about_image1 img,
@@ -59,6 +67,15 @@
     max-height: 100%;
     display: block;
     margin: 0 auto;
+    transform: translateX(-20px);
+}
+
+.about_image2 img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    transform: translateX(20px);
 }
 
 /* Media Query for screen width greater than 1200px */
