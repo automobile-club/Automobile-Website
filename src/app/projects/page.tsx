@@ -3,10 +3,15 @@ import ProjectCard from './ProjectCard'
 import Image from 'next/image'
 import Link from 'next/link'
 import HeroSection from '@/components/HeroSection'
+import type { Metadata } from 'next'
 
 const title = 'Our Projects'
 const content =
   'Discover our impressive portfolio of automotive projects that showcase our technical prowess and innovation. Each project represents our commitment to pushing the boundaries of automotive engineering.'
+
+export const metadata: Metadata = {
+  title: 'Projects',
+}
 
 export default function Projects() {
   return (

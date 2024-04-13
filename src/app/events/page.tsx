@@ -1,18 +1,24 @@
 import styles from '@/styles/Events.module.css'
 import EventCard from './EventCard'
 import HeroSection from '@/components/HeroSection'
+import type { Metadata } from 'next'
 
 const title = 'Events'
 const content =
   'We are a student organization at Indian Institute of Technology, (BHU) Varanasi. It focuses on promoting automotive engineering and provides opportunities to participate in technical events, competitions, and hands-on projects related to vehicle design.'
 
+export const metadata: Metadata = {
+  title: 'Events',
+}
+
 export default function Events() {
   return (
     <div>
       <HeroSection title={title} content={content} />
-        <div className={styles.ourevents_heading}>
-          <h2 className={styles.ourevents_heading_text}>Event Schedule</h2>
-        </div>      <div className={`${styles.Eventcards}`}>
+      <div className={styles.ourevents_heading}>
+        <h2 className={styles.ourevents_heading_text}>Event Schedule</h2>
+      </div>{' '}
+      <div className={`${styles.Eventcards}`}>
         <EventCard
           card_event_img="http://res.cloudinary.com/d3/image/upload/c_scale,q_auto:good,w_1110/trianglify-v1-cs85g_cc5d2i.jpg"
           card_event_avatar="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg"
