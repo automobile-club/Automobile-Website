@@ -4,15 +4,10 @@ import ReactPlayer from 'react-player/youtube'
 import MemberCard from './MemberCard'
 import AboutTeam from './AboutTeam'
 import HeroSection from '@/components/HeroSection'
-import type { Metadata } from 'next'
 
 const title = 'About Us'
 const content =
   'We are a student organization at Indian Institute of Technology, (BHU) Varanasi. It focuses on promoting automotive engineering and provides opportunities to participate in technical events, competitions, and hands-on projects related to vehicle design.'
-
-export const metadata: Metadata = {
-  title: 'About',
-}
 
 export default function About() {
   return (
