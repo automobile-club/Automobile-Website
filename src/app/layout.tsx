@@ -12,7 +12,7 @@ import '@/styles/globals.css'
 
 const outfit = Outfit({
   subsets: ['latin'],
-  variable: '--outfit-font',
+  variable: '--font-outfit',
   fallback: ['sans-serif'],
   display: 'swap',
 })
@@ -20,7 +20,7 @@ const outfit = Outfit({
 const poppins = Poppins({
   weight: ['400', '600'],
   subsets: ['latin'],
-  variable: '--poppins-font',
+  variable: '--font-poppins',
   fallback: ['sans-serif'],
   display: 'swap',
 })
@@ -31,7 +31,7 @@ type LayoutProps = {
 
 export default function RootLayout({ children }: LayoutProps) {
   return (
-    <html lang="en" className={`${outfit.className} ${poppins.className}`}>
+    <html lang="en" className={`${outfit.variable} ${poppins.variable}`}>
       <Head>
         <title>SAE IIT BHU</title>
       </Head>

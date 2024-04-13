@@ -3,6 +3,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import AchievementTimeline from '@/components/home/AchievementTimeline'
 import HomeCard from '@/components/home/HomeCards'
+import OurMentorCard from '@/components/home/OurMentorCard'
+import Heading from '@/components/Heading'
 
 function Home() {
   return (
@@ -12,12 +14,12 @@ function Home() {
       <div className={styles.sae_intro}>
         <Image
           className={styles.cards_img_saeintro}
-          src="/images/cards.webp"
+          src="/images/home/Cards.png"
           alt="card"
           placeholder="empty"
           loading="eager"
-          width={600}
-          height={600}
+          width={550}
+          height={550}
         />
         <div className={styles.right_wrapper_saeintro}>
           <div className={styles.sae_headings}>
@@ -35,28 +37,28 @@ function Home() {
             <a href="https://www.instagram.com/saecollegiateclubiitbhu/">
               <Image
                 className={styles.instagram_img}
-                src="/images/instagram_hero.svg"
+                src="/images/home/instagram_hero.svg"
                 alt="instagram"
-                width={60}
-                height={60}
+                width={54}
+                height={54}
               />
             </a>
             <a href="https://www.facebook.com/SAEIITBHU/">
               <Image
                 className={styles.facebook_img}
-                src="/images/facebook_hero.svg"
+                src="/images/home/facebook_hero.svg"
                 alt="facebook"
-                width={62}
-                height={62}
+                width={54}
+                height={54}
               />
             </a>
             <a href="https://in.linkedin.com/company/sae-collegiate-club-iit-varanasi">
               <Image
                 className={styles.linkedIn_img}
-                src="/images/linkedin_hero.svg"
+                src="/images/home/linkedin_hero.svg"
                 alt="linkedIn"
-                width={50}
-                height={50}
+                width={54}
+                height={54}
               />
             </a>
           </div>
@@ -67,9 +69,11 @@ function Home() {
       {/* our achievments section */}
       {/* our achievments section */}
       <div className={styles.ourachievments_sae}>
-        <div className={styles.ourachievments_heading}>
+        {/* <div className={styles.ourachievments_heading}>
           <h2 className={styles.ourmentors_heading_text}>Our Achievements</h2>
-        </div>
+        </div> */}
+        <Heading headingText='Our Achievements'> </Heading>
+
         <div className={styles.achievments_cards_sae}>
           <AchievementTimeline />
           {/* <div className={styles.ourmentors_card1_sae}>
@@ -127,7 +131,79 @@ function Home() {
           </div> */}
         </div>
       </div>
+    
+      {/* our mentors section */}
+      {/* our mentors section */}
+      <div className={styles.ourmentor}>
+        <Heading headingText="Our Mentor"></Heading>
+      <OurMentorCard></OurMentorCard>
+      </div>
+      
 
+
+
+
+      {/* <div className={styles.ourmentors_sae}> */}
+        {/* <div className={styles.ourachievments_heading}>
+          <h2 className={styles.ourmentors_heading_text}>Our Mentors</h2>
+        </div> */}
+        {/* <Heading headingText='Our Mentor'></Heading>
+        <div className={styles.achievments_cards_sae}>
+          <div className={styles.ourmentors_card1_sae}>
+            <Image
+              className={styles.ourmentors_img}
+              src="/images/mentors1.webp"
+              alt="Mentors"
+              width={138.24}
+              height={138.24}
+            />
+            <div className={styles.achievments_card1_text}>
+              <h4 className={styles.ourmentors_card1_heading_text}>
+                Amit Kumar
+              </h4>
+              <span className={styles.ourmentors_card1_text}>
+                Proud to be an SAE Club IIT BHU alumnus
+              </span>
+            </div>
+          </div>
+
+          <div className={styles.ourmentors_card1_sae}>
+            <Image
+              className={styles.ourmentors_img}
+              src="/images/mentors1.webp"
+              alt="Mentors"
+              width={138.24}
+              height={138.24}
+            />
+            <div className={styles.achievments_card1_text}>
+              <h4 className={styles.ourmentors_card1_heading_text}>
+                Amit Kumar
+              </h4>
+              <span className={styles.ourmentors_card1_text}>
+                Proud to be an SAE Club IIT BHU alumnus
+              </span>
+            </div>
+          </div>
+
+          <div className={styles.ourmentors_card1_sae}>
+            <Image
+              className={styles.ourmentors_img}
+              src="/images/mentors1.webp"
+              alt="Mentors"
+              width={138.24}
+              height={138.24}
+            />
+            <div className={styles.achievments_card1_text}>
+              <h4 className={styles.ourmentors_card1_heading_text}>
+                Amit Kumar
+              </h4>
+              <span className={styles.ourmentors_card1_text}>
+                Proud to be an SAE Club IIT BHU alumnus
+              </span>
+            </div>
+          </div>
+        </div>
+      </div> */}
       {/* our events section */}
       {/* our events section */}
 
@@ -261,70 +337,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
-
-      {/* our mentors section */}
-      {/* our mentors section */}
-      <div className={styles.ourmentors_sae}>
-        <div className={styles.ourachievments_heading}>
-          <h2 className={styles.ourmentors_heading_text}>Our Mentors</h2>
-        </div>
-        <div className={styles.achievments_cards_sae}>
-          <div className={styles.ourmentors_card1_sae}>
-            <Image
-              className={styles.ourmentors_img}
-              src="/images/mentors1.webp"
-              alt="Mentors"
-              width={138.24}
-              height={138.24}
-            />
-            <div className={styles.achievments_card1_text}>
-              <h4 className={styles.ourmentors_card1_heading_text}>
-                Amit Kumar
-              </h4>
-              <span className={styles.ourmentors_card1_text}>
-                Proud to be an SAE Club IIT BHU alumnus
-              </span>
-            </div>
-          </div>
-
-          <div className={styles.ourmentors_card1_sae}>
-            <Image
-              className={styles.ourmentors_img}
-              src="/images/mentors1.webp"
-              alt="Mentors"
-              width={138.24}
-              height={138.24}
-            />
-            <div className={styles.achievments_card1_text}>
-              <h4 className={styles.ourmentors_card1_heading_text}>
-                Amit Kumar
-              </h4>
-              <span className={styles.ourmentors_card1_text}>
-                Proud to be an SAE Club IIT BHU alumnus
-              </span>
-            </div>
-          </div>
-
-          <div className={styles.ourmentors_card1_sae}>
-            <Image
-              className={styles.ourmentors_img}
-              src="/images/mentors1.webp"
-              alt="Mentors"
-              width={138.24}
-              height={138.24}
-            />
-            <div className={styles.achievments_card1_text}>
-              <h4 className={styles.ourmentors_card1_heading_text}>
-                Amit Kumar
-              </h4>
-              <span className={styles.ourmentors_card1_text}>
-                Proud to be an SAE Club IIT BHU alumnus
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
+      </div>  
     </>
   )
 }

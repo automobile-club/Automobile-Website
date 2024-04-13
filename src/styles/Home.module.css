@@ -4,13 +4,19 @@
 }
 
 .sae_intro {
-  padding-top: 1.56em;
+  padding-top: 2.25em;
   background-color: #1b1a1b;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1.5fr;
   grid-gap: 10px;
   width: 100%;
   height: 37vw;
+  padding-inline : 2vw;
+}
+.cards_img_saeintro{
+  margin-top: 3vw;
+  width: 100%;
+  height: 97%;
 }
 
 .sae_headings {
@@ -26,8 +32,8 @@
   padding-left: 1.62vw;
   padding-right: 1.62vw;
   font-weight: 400;
-  font-size: 1.4vw;
-  line-height: 2vw;
+  font-size: 1.25rem;
+  font-family: var(--font-poppins) !important;
 }
 
 .social_media {
@@ -35,11 +41,8 @@
   flex-direction: row;
   justify-content: center;
   padding-top: 0.65vw;
-  padding-bottom: 1.25vw;
-  gap: 0.5vw;
-}
-.linkedIn_img {
-  margin-left: 0.25vw;
+  padding-bottom: 1vw;
+  gap: 1vw;
 }
 
 .social_media > a {
@@ -48,12 +51,8 @@
   justify-content: center;
   align-items: center;
 }
-
-.cards_img_saeintro {
-  height: 42vw;
-  width: 40vw;
-  margin-left: 1.62vw;
-  margin-top: 1vw;
+.social_media > a > img {
+  width: 40px;
 }
 
 .line {
@@ -70,7 +69,7 @@
   background-color: rgb(236, 236, 241);
   height: fit-content;
   border-bottom: 3px solid rgb(207, 207, 207);
-  padding: 7vw 0 2vw 0;
+  padding: 2.5vw 0 2vw 0;
 }
 
 .ourachievments_heading {
@@ -157,8 +156,8 @@
   flex-direction: row;
   background-color: rgb(248, 248, 251);
   justify-content: center;
-  width: 26vw;
-  height: 12vw;
+  width: 27vw;
+  height: 11vw;
   padding: 10px;
   align-items: center;
   border-radius: 30px;
@@ -189,6 +188,65 @@
   text-align: center;
 }
 
+/* our mentors section */
+/* our mentors section */
+.ourmentor {
+  background-color: rgb(236, 236, 241);
+  padding-bottom: 2vw;
+}
+.ourmentors_real_heading_text {
+  padding-bottom: 4vw;
+  font-size: calc(1.5rem + 1vw);
+  border-top: 5px solid transparent;
+  border-image: linear-gradient(to right, rgb(242, 84, 2) 4%, transparent 4%) 1;
+}
+
+.ourmentors_real_card1_sae {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(248, 248, 251);
+  justify-content: center;
+  width: 26vw;
+  height: 12vw;
+  padding: 10px;
+  align-items: center;
+  border-radius: 30px;
+  transition: all 0.2s ease-in-out;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ourmentors_real_card1_sae:hover {
+  transform: translate(0px, -3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.ourmentors_real_img {
+  width: 9vw;
+  height: 9vw;
+  background: #f25402;
+  translate: 6vw -7vw;
+  border-radius: 0px 3vw 0px;
+}
+.achievments_real_card1_text {
+  position: relative;
+}
+.ourmentors_real_card1_heading_text {
+  position: absolute;
+  top: -22px;
+  right: 65px;
+  margin: 0;
+  color: #000000;
+  padding-inline: 0.5vw;
+}
+.ourmentors_real_card1_text {
+  display: flex;
+  height: 5vw;
+  width: 25vw;
+  translate: -3.5vw 1.4vw;
+  font-size: 1.2vw;
+  text-align: start;
+}
 /* ourteams section */
 /* ourteams section */
 
@@ -253,9 +311,7 @@
   border-image: linear-gradient(to right, rgb(242, 84, 2) 4%, transparent 4%) 1;
 }
 
-@media screen and (max-width:3000px) {
-
-
+@media screen and (max-width: 3000px) {
   .vmBtn {
     display: flex;
     margin: 0 auto;
@@ -269,7 +325,8 @@
     align-items: center;
     justify-content: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  }}
+  }
+}
 .vmBtn:hover {
   color: white;
   transform: translateY(-1px);
@@ -317,14 +374,14 @@
   transform: translateY(-5px);
 }
 
-.card img {  
+.card img {
   max-width: 95%;
   height: auto;
   border-radius: 10px;
 }
 
 .card h2 {
-  font-size: calc(1.20rem + .45vw);
+  font-size: calc(1.2rem + 0.45vw);
   /* font-size: 28px; */
   font-weight: 700;
   margin-top: 20px;
@@ -351,7 +408,7 @@
 }
 
 .card a::after {
-  content: " →";
+  content: ' →';
 }
 
 .card a:hover {
@@ -360,21 +417,21 @@
 
 @media screen and (max-width: 500px) {
   .card {
-    max-width: 260px; 
-    padding: 13px;    
+    max-width: 260px;
+    padding: 13px;
   }
 
   .card img {
-    max-width: 75%; 
+    max-width: 75%;
   }
 
   .card h2 {
-    font-size: 20px; 
+    font-size: 20px;
     margin: 15px 0;
   }
 
   .card a {
-    font-size: 12px;   
+    font-size: 12px;
   }
 }
 
@@ -390,7 +447,7 @@
 .sideContent {
   margin-top: 25px;
   color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 20px;
 }
 
@@ -520,7 +577,7 @@
 
   .ourmentors_card1_text {
     font-size: 1.6vw;
-  } 
+  }
 
   .vmBtn {
     width: 100px;
@@ -532,21 +589,24 @@
   .row:nth-of-type(2) .card:nth-last-child(1) {
     display: none;
   }
+  .social_media > a > img {
+    width: 35px;
+  }
+  .sae_long_text {
+    font-size: 1rem;
+    margin-bottom: 2px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
   .sae_headings {
     color: white;
     text-align: center;
-    padding-top: 4.7vw;
+    padding-top: 4vw;
   }
-
-  .cards_img_saeintro {
-    height: 42vw;
-    width: 40vw;
-    margin-left: 1.62vw;
-    margin-top: 0vw;
-  }
+.ourachievments_sae{
+  padding: 4vw 0 2vw 0;
+}
 
   .line1 {
     margin-left: 18.55vw;
@@ -587,6 +647,12 @@
     width: 32vw;
     height: 14vw;
   }
+  .social_media {
+    gap: 1.5vw;
+  }
+  .sae_long_text{
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -624,15 +690,9 @@
   .sae_headings {
     color: white;
     text-align: center;
-    padding-top: 3.5vw;
+    padding-top: 4vw;
   }
 
-  .cards_img_saeintro {
-    height: 42vw;
-    width: 40vw;
-    margin-left: 1.62vw;
-    margin-top: 0vw;
-  }
 
   .sae_ourteams {
     grid-template-columns: 1fr;
@@ -658,8 +718,11 @@
     height: auto;
   }
 
+  .sae_name_text{
+    font-size: 36px;
+  }
   .sae_headings {
-    padding-top: 1em;
+    padding-top: 75px;
     font-weight: 500;
     font-size: 24px;
     line-height: 24px;
@@ -670,8 +733,6 @@
     padding-left: 2.5em;
     padding-right: 2.5em;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
   }
 
   .social_media {
@@ -737,6 +798,9 @@
     padding: 2.7vw;
   }
 
+  .social_media {
+    gap: 2vw;
+  }
   .achievments_cards_sae {
     gap: 6vw;
   }
@@ -808,7 +872,7 @@
 
 @media screen and (max-width: 500px) {
   .sae_headings {
-    padding-top: 1em;
+    padding-top: 75px;
     font-weight: 500;
     font-size: 24px;
     line-height: 24px;
@@ -819,8 +883,6 @@
     padding-left: 2.5em;
     padding-right: 2.5em;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
   }
 
   .social_media {
@@ -877,7 +939,7 @@
 
 @media screen and (max-width: 430px) {
   .sae_headings {
-    padding-top: 1em;
+    padding-top: 75px;
     font-weight: 500;
     font-size: 22px;
     line-height: 23px;
@@ -888,13 +950,11 @@
     padding-left: 2.5em;
     padding-right: 2.5em;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 20px;
   }
 
   .social_media {
     padding-top: 10px;
-    padding-bottom: 1vw;
+    padding-bottom: 1em;
   }
 
   .cards_img_saeintro {
@@ -923,7 +983,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three columns */
     grid-template-rows: repeat(1, 50vw); /* Three rows with a height of 100px each */
-    gap: 10px; 
+    gap: 10px;
     padding-bottom: 3vw;
   }
 }
@@ -934,12 +994,10 @@
     grid-template-columns: repeat(2, 1fr); /* Two columns */
     /* grid-template-rows: repeat(3, 80vw); Three rows with a height of 100px each */
     gap: 1px; /* Gap between grid items */
-
   }
   .card4:nth-child(3) {
     display: none;
   }
-
 }
 
 @media screen and (min-width: 800px) and (max-width: 890px) {
@@ -954,8 +1012,6 @@
   }
 }
 
-
-
 @media screen and (max-width: 800px) {
   .card4:nth-child(3) {
     display: none;
@@ -963,12 +1019,12 @@
 }
 
 @media screen and (min-width: 1250px) {
-  .vmBtn{
+  .vmBtn {
     margin-top: -8vw;
   }
 }
 @media screen and (min-width: 1950px) {
-  .vmBtn{
+  .vmBtn {
     margin-top: -20vw;
   }
 }
