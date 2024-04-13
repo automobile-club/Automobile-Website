@@ -1,10 +1,9 @@
 import React from 'react'
-import styles from '@/styles/EventCard.module.css' // Import the CSS module
+import styles from '@/styles/EventCard.module.css'
 
 // Define the type for props
 type EventCardProps = {
   card_event_img: string
-  card_event_avatar: string
   card_event_title: string
   card_event_text: string
   duration: string
@@ -12,7 +11,6 @@ type EventCardProps = {
 
 const EventCard: React.FC<EventCardProps> = ({
   card_event_img,
-  card_event_avatar,
   card_event_title,
   card_event_text,
   duration,
@@ -20,12 +18,9 @@ const EventCard: React.FC<EventCardProps> = ({
   return (
     <div className={`card ${styles.card_event}`}>
       <div
-        className={`card-event-img ${styles.card_event_img}`}
+        className={styles.card_event_img}
         style={{ backgroundImage: `url(${card_event_img})` }}
       ></div>
-      <div className={`${styles.card_event_avatar}`}>
-        <img className="img-fluid" src={card_event_avatar} alt="Avatar" />
-      </div>
       <div className="card-body" style={{ overflowY: 'auto' }}>
         <h4 className="card-title">{card_event_title}</h4>
         <p className={`${styles.card_event_text}`}>{card_event_text}</p>
