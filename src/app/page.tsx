@@ -37,7 +37,7 @@ function Home() {
             <a href="https://www.instagram.com/saecollegiateclubiitbhu/">
               <Image
                 className={styles.instagram_img}
-                src="/images/home/instagram_hero.svg"
+                src="/images/social/instagram_hero.svg"
                 alt="instagram"
                 width={54}
                 height={54}
@@ -46,7 +46,7 @@ function Home() {
             <a href="https://www.facebook.com/SAEIITBHU/">
               <Image
                 className={styles.facebook_img}
-                src="/images/home/facebook_hero.svg"
+                src="/images/social/facebook_hero.svg"
                 alt="facebook"
                 width={54}
                 height={54}
@@ -55,7 +55,7 @@ function Home() {
             <a href="https://in.linkedin.com/company/sae-collegiate-club-iit-varanasi">
               <Image
                 className={styles.linkedIn_img}
-                src="/images/home/linkedin_hero.svg"
+                src="/images/social/linkedin_hero.svg"
                 alt="linkedIn"
                 width={54}
                 height={54}
@@ -69,7 +69,7 @@ function Home() {
       {/* our achievments section */}
       {/* our achievments section */}
       <div className={styles.ourachievments_sae}>
-        <Heading headingText="Our Achievements"> </Heading>
+        <Heading headingText="Our Achievements" />
 
         <div className={styles.achievments_cards_sae}>
           <Timeline />
@@ -109,7 +109,7 @@ function Home() {
         <div className={styles.newBlogIdeas}>
           <Image
             className={styles.bulb}
-            src="/blogs-images/Blogbulb.png"
+            src="/images/social/bulb.png"
             alt="bulb"
             width={240}
             height={300}
@@ -122,12 +122,12 @@ function Home() {
             <div className={styles.email}>
               <Image
                 className={styles.logo}
-                src="/gmail.svg"
+                src="/images/social/gmail.svg"
                 alt="gmail"
                 width={40}
                 height={50.71}
               />
-              saeiitbhu@itbhu.ac.in
+              saecollegiateclub.iitbhu@gmail.com
             </div>
           </div>
         </div>

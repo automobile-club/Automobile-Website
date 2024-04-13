@@ -14,27 +14,27 @@ const HeroSection = ({ title, content }: HeroSectionProps) => {
       <div className={styles.social_media}>
         <a href="https://www.instagram.com/saecollegiateclubiitbhu/">
           <Image
-            src="/images/instagram_hero.svg"
+            src="/images/social/instagram_hero.svg"
             alt="instagram"
-            width={60}
-            height={60}
+            width={54}
+            height={54}
           />
         </a>
         <a href="https://www.facebook.com/SAEIITBHU/">
           <Image
-            src="/images/facebook_hero.svg"
+            src="/images/social/facebook_hero.svg"
             alt="facebook"
-            width={62}
-            height={62}
+            width={54}
+            height={54}
           />
         </a>
         <a href="https://in.linkedin.com/company/sae-collegiate-club-iit-varanasi">
           <Image
             className={styles.linkedIn_img}
-            src="/images/linkedin_hero.svg"
+            src="/images/social/linkedin_hero.svg"
             alt="linkedIn"
-            width={50}
-            height={50}
+            width={54}
+            height={54}
           />
         </a>
       </div>
