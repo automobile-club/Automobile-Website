@@ -1,7 +1,7 @@
 import styles from '@/styles/Home.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import AchievementTimeline from '@/components/home/AchievementTimeline'
+import Timeline from '@/components/home/Timeline'
 import HomeCard from '@/components/home/HomeCards'
 import OurMentorCard from '@/components/home/OurMentorCard'
 import Heading from '@/components/Heading'
@@ -69,245 +69,39 @@ function Home() {
       {/* our achievments section */}
       {/* our achievments section */}
       <div className={styles.ourachievments_sae}>
-        {/* <div className={styles.ourachievments_heading}>
-          <h2 className={styles.ourmentors_heading_text}>Our Achievements</h2>
-        </div> */}
-        <Heading headingText='Our Achievements'> </Heading>
+        <Heading headingText="Our Achievements"> </Heading>
 
         <div className={styles.achievments_cards_sae}>
-          <AchievementTimeline />
-          {/* <div className={styles.ourmentors_card1_sae}>
-            <Image
-              className={styles.ourmentors_img}
-              src="/images/Techfest_img.webp"
-              alt="Mentors"
-              width={138.24}
-              height={138.24}
-            />
-            <div className={styles.achievments_card1_text}>
-              <h3 className={styles.ourmentors_card1_heading_text}>
-                IIT Bombay
-              </h3>
-              <span className={styles.ourmentors_card1_text}>
-                Top 10 in IFT&apos;18 Techfest&apos;18
-              </span>
-            </div>
-          </div>
-
-          <div className={styles.ourmentors_card1_sae}>
-            <Image
-              className={styles.ourmentors_img}
-              src="/images/Techniche_img.webp"
-              alt="Mentors"
-              width={138.24}
-              height={138.24}
-            />
-            <div className={styles.achievments_card1_text}>
-              <h3 className={styles.ourmentors_card1_heading_text}>
-                IIT Guwahati
-              </h3>
-              <span className={styles.ourmentors_card1_text}>
-                2nd Position Burnout&apos;18 Techniche&apos;19
-              </span>
-            </div>
-          </div>
-
-          <div className={styles.ourmentors_card1_sae}>
-            <Image
-              className={styles.ourmentors_img}
-              src="/images/Technex_img.webp"
-              alt="Technex"
-              width={138.24}
-              height={138.24}
-            />
-            <div className={styles.achievments_card1_text}>
-              <h3 className={styles.ourmentors_card1_heading_text}>
-                IIT Varanasi
-              </h3>
-              <span className={styles.ourmentors_card1_text}>
-                1st Position Axelerate&apos;19 Technex&apos;19
-              </span>
-            </div>
-          </div> */}
+          <Timeline />
         </div>
       </div>
-    
+
       {/* our mentors section */}
       {/* our mentors section */}
       <div className={styles.ourmentor}>
         <Heading headingText="Our Mentor"></Heading>
-      <OurMentorCard></OurMentorCard>
+        <OurMentorCard></OurMentorCard>
       </div>
-      
 
-
-
-
-      {/* <div className={styles.ourmentors_sae}> */}
-        {/* <div className={styles.ourachievments_heading}>
-          <h2 className={styles.ourmentors_heading_text}>Our Mentors</h2>
-        </div> */}
-        {/* <Heading headingText='Our Mentor'></Heading>
-        <div className={styles.achievments_cards_sae}>
-          <div className={styles.ourmentors_card1_sae}>
-            <Image
-              className={styles.ourmentors_img}
-              src="/images/mentors1.webp"
-              alt="Mentors"
-              width={138.24}
-              height={138.24}
-            />
-            <div className={styles.achievments_card1_text}>
-              <h4 className={styles.ourmentors_card1_heading_text}>
-                Amit Kumar
-              </h4>
-              <span className={styles.ourmentors_card1_text}>
-                Proud to be an SAE Club IIT BHU alumnus
-              </span>
-            </div>
-          </div>
-
-          <div className={styles.ourmentors_card1_sae}>
-            <Image
-              className={styles.ourmentors_img}
-              src="/images/mentors1.webp"
-              alt="Mentors"
-              width={138.24}
-              height={138.24}
-            />
-            <div className={styles.achievments_card1_text}>
-              <h4 className={styles.ourmentors_card1_heading_text}>
-                Amit Kumar
-              </h4>
-              <span className={styles.ourmentors_card1_text}>
-                Proud to be an SAE Club IIT BHU alumnus
-              </span>
-            </div>
-          </div>
-
-          <div className={styles.ourmentors_card1_sae}>
-            <Image
-              className={styles.ourmentors_img}
-              src="/images/mentors1.webp"
-              alt="Mentors"
-              width={138.24}
-              height={138.24}
-            />
-            <div className={styles.achievments_card1_text}>
-              <h4 className={styles.ourmentors_card1_heading_text}>
-                Amit Kumar
-              </h4>
-              <span className={styles.ourmentors_card1_text}>
-                Proud to be an SAE Club IIT BHU alumnus
-              </span>
-            </div>
-          </div>
-        </div>
-      </div> */}
       {/* our events section */}
       {/* our events section */}
-
-      <div className={styles.card_container}>
-        <div className={styles.card4}>
-          <HomeCard />
-        </div>
-        <div className={styles.card4}>
-          <HomeCard />
-        </div>
-        <div className={styles.card4}>
-          <HomeCard />
-        </div>
-      </div>
-      {/* <div className={styles.events}>
-        <div className={styles.eventHeading}>
-          <h2 className={styles.ourmentors_heading_text}>Events & Workshop</h2>
-        </div>
+      <div>
+        <Heading headingText="Events & Workshops"> </Heading>
         <div className={styles.card_container}>
-          <div className={styles.row}>
-            <div className={styles.card}>
-              <Image
-                src="/images/car.webp"
-                alt="The Culture of SAE"
-                width={290}
-                height={117.15}
-              />
-              <h2>The Culture of SAE</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc
-                vel risus commodo viverra.
-              </p>
-              <a href="#">Read More</a>
-            </div>
-            <div className={styles.card}>
-              <Image
-                src="/images/car.webp"
-                alt="The Culture of SAE"
-                width={290}
-                height={117.15}
-              />
-              <h2>The Culture of SAE</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc
-                vel risus commodo viverra.
-              </p>
-              <a href="#">Read More</a>
-            </div>
+          <div className={styles.card4}>
+            <HomeCard />
           </div>
-          <div className={styles.row}>
-            <div className={styles.card}>
-              <Image
-                src="/images/car.webp"
-                alt="The Culture of SAE"
-                width={290}
-                height={117.15}
-              />
-              <h2>The Culture of SAE</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc
-                vel risus commodo viverra.
-              </p>
-              <a href="#">Read More</a>
-            </div>
-            <div className={styles.card}>
-              <Image
-                src="/images/car.webp"
-                alt="The Culture of SAE"
-                width={290}
-                height={117.15}
-              />
-              <h2>The Culture of SAE</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc
-                vel risus commodo viverra.
-              </p>
-              <a href="#">Read More</a>
-            </div>
-            <div className={styles.card}>
-              <Image
-                src="/images/car.webp"
-                alt="The Culture of SAE"
-                width={290}
-                height={117.15}
-              />
-              <h2>The Culture of SAE</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc
-                vel risus commodo viverra.
-              </p>
-              <a href="#">Read More</a>
-            </div>
+          <div className={styles.card4}>
+            <HomeCard />
+          </div>
+          <div className={styles.card4}>
+            <HomeCard />
           </div>
         </div>
-
-      </div> */}
-      <Link href="/events" className={`${styles.vmBtn} ${styles.ourBlogBtn}`}>
-        View More
-      </Link>
+        <Link href="/events" className={`${styles.vmBtn} ${styles.ourBlogBtn}`}>
+          View More
+        </Link>
+      </div>
 
       {/* orange section */}
       {/* orange section */}
@@ -337,7 +131,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>  
+      </div>
     </>
   )
 }
