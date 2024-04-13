@@ -108,6 +108,7 @@
   }
   .projcard{
     height: auto; /* Allow the height to adjust based on content */
+    margin:0px;
   }
   .projcard_title{
     font-size: 24px;

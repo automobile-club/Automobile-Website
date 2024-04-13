@@ -11,9 +11,9 @@
   grid-gap: 10px;
   width: 100%;
   height: 37vw;
-  padding-inline : 2vw;
+  padding-inline: 2vw;
 }
-.cards_img_saeintro{
+.cards_img_saeintro {
   margin-top: 3vw;
   width: 100%;
   height: 97%;
@@ -81,7 +81,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 3vw;
+  padding-inline: 11vw;
 }
 
 .achievments_card1_sae {
@@ -192,7 +192,7 @@
 /* our mentors section */
 .ourmentor {
   background-color: rgb(236, 236, 241);
-  padding-bottom: 2vw;
+  padding-bottom: 5vw;
 }
 .ourmentors_real_heading_text {
   padding-bottom: 4vw;
@@ -604,9 +604,9 @@
     text-align: center;
     padding-top: 4vw;
   }
-.ourachievments_sae{
-  padding: 4vw 0 2vw 0;
-}
+  .ourachievments_sae {
+    padding: 4vw 0 2vw 0;
+  }
 
   .line1 {
     margin-left: 18.55vw;
@@ -650,7 +650,7 @@
   .social_media {
     gap: 1.5vw;
   }
-  .sae_long_text{
+  .sae_long_text {
     font-size: 0.8rem;
   }
 }
@@ -693,7 +693,6 @@
     padding-top: 4vw;
   }
 
-
   .sae_ourteams {
     grid-template-columns: 1fr;
     height: auto;
@@ -718,7 +717,7 @@
     height: auto;
   }
 
-  .sae_name_text{
+  .sae_name_text {
     font-size: 36px;
   }
   .sae_headings {
@@ -850,7 +849,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5vw;
+    padding-left: 0vw;
   }
 
   .ourmentors_card1_heading_text {
@@ -907,8 +906,7 @@
   }
 
   .achievments_cards_sae {
-    display: flex;
-    align-items: center;
+padding-right: 6vw;
   }
 
   .achievments_card1_sae img {
@@ -982,7 +980,10 @@
   .card_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three columns */
-    grid-template-rows: repeat(1, 50vw); /* Three rows with a height of 100px each */
+    grid-template-rows: repeat(
+      1,
+      50vw
+    ); /* Three rows with a height of 100px each */
     gap: 10px;
     padding-bottom: 3vw;
   }
@@ -1004,7 +1005,10 @@
   .card_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Two columns */
-    grid-template-rows: repeat(1, 65vw); /* Three rows with a height of 100px each */
+    grid-template-rows: repeat(
+      1,
+      65vw
+    ); /* Three rows with a height of 100px each */
     gap: 10px; /* Gap between grid items */
   }
   .card4:nth-child(3) {
