@@ -1,14 +1,14 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-family: var(--poppins-font) !important;
+  font-family: var(--font-poppins) !important;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: var(--outfit-font) !important;
+  font-family: var(--font-outfit) !important;
 }
 
 /* ===== Scrollbar CSS ===== */

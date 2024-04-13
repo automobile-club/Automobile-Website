@@ -1,0 +1,9 @@
+.heading {
+    padding: 5vw 11vw 1.5vw;
+}
+
+.heading_text {
+    font-size: calc(1.5rem + 1vw);
+    border-top: 5px solid transparent;
+    border-image: linear-gradient(to right, rgb(242, 84, 2) 4%, transparent 4%) 1;
+}
