@@ -8,7 +8,7 @@ const Timeline = () => {
 
         <div className={`${styles.timeline_content} ${styles.timeline_card}`}>
           <div className={styles.timeline_img_header}>
-            <h2>IFT'18 Techfest'18</h2>
+            <h2>IFT&apos;18 Techfest&apos;18</h2>
           </div>
           <div className={styles.date}>IIT Bombay</div>
           <p>
@@ -25,7 +25,7 @@ const Timeline = () => {
 
         <div className={`${styles.timeline_content} ${styles.timeline_card}`}>
           <div className={styles.timeline_img_header}>
-            <h2>Burnout'18 Techniche'19</h2>
+            <h2>Burnout&apos;18 Techniche&apos;19</h2>
           </div>
           <div className={styles.date}>IIT Guwahati</div>
           <p>
@@ -42,7 +42,7 @@ const Timeline = () => {
 
         <div className={`${styles.timeline_content} ${styles.timeline_card}`}>
           <div className={styles.timeline_img_header}>
-            <h2>Axelerate'19 Technex'19</h2>
+            <h2>Axelerate&apos;19 Technex&apos;19</h2>
           </div>
           <div className={styles.date}>IIT Varanasi</div>
           <p>
@@ -59,7 +59,7 @@ const Timeline = () => {
 
         <div className={`${styles.timeline_content} ${styles.timeline_card}`}>
           <div className={styles.timeline_img_header}>
-            <h2>Axelerate'20 Technex'20</h2>
+            <h2>Axelerate&apos;20 Technex&apos;20</h2>
           </div>
           <div className={styles.date}>IIT Varanasi</div>
           <p>
