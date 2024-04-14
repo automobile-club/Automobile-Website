@@ -5,6 +5,7 @@ import Timeline from '@/components/home/Timeline'
 import HomeCard from '@/components/home/HomeCards'
 import OurMentorCard from '@/components/home/OurMentorCard'
 import Heading from '@/components/Heading'
+import OrangeSection from '@/components/OrangeSection'
 
 function Home() {
   return (
@@ -21,11 +22,11 @@ function Home() {
           width={550}
           height={550}
         />
-        <div className={styles.right_wrapper_saeintro}>
+        <div>
           <div className={styles.sae_headings}>
             <h1 className={styles.sae_name_text}>SAE Collegiate Club</h1>
           </div>
-          <div className={styles.sae_content}>
+          <div>
             <p className={styles.sae_long_text}>
               We are a student organization at Indian Institute of Technology,
               (BHU) Varanasi. It focuses on promoting automotive engineering and
@@ -36,7 +37,6 @@ function Home() {
           <div className={styles.social_media}>
             <a href="https://www.instagram.com/saecollegiateclubiitbhu/">
               <Image
-                className={styles.instagram_img}
                 src="/images/social/instagram_hero.svg"
                 alt="instagram"
                 width={54}
@@ -45,7 +45,6 @@ function Home() {
             </a>
             <a href="https://www.facebook.com/SAEIITBHU/">
               <Image
-                className={styles.facebook_img}
                 src="/images/social/facebook_hero.svg"
                 alt="facebook"
                 width={54}
@@ -54,7 +53,6 @@ function Home() {
             </a>
             <a href="https://in.linkedin.com/company/sae-collegiate-club-iit-varanasi">
               <Image
-                className={styles.linkedIn_img}
                 src="/images/social/linkedin_hero.svg"
                 alt="linkedIn"
                 width={54}
@@ -105,33 +103,7 @@ function Home() {
 
       {/* orange section */}
       {/* orange section */}
-      <div className={styles.orangeSection}>
-        <div className={styles.newBlogIdeas}>
-          <Image
-            className={styles.bulb}
-            src="/images/social/bulb.png"
-            alt="bulb"
-            width={240}
-            height={300}
-          />
-          <div className={styles.sideContent}>
-            <h1>Give a platform to your ideas!</h1>
-            <h3>
-              Have something to share? Email us your blogs and get featured!
-            </h3>
-            <div className={styles.email}>
-              <Image
-                className={styles.logo}
-                src="/images/social/gmail.svg"
-                alt="gmail"
-                width={40}
-                height={50.71}
-              />
-              saecollegiateclub.iitbhu@gmail.com
-            </div>
-          </div>
-        </div>
-      </div>
+      <OrangeSection />
     </>
   )
 }
