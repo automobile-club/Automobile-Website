@@ -4,6 +4,7 @@ import ReactPlayer from 'react-player/youtube'
 import MemberCard from './MemberCard'
 import AboutTeam from './AboutTeam'
 import HeroSection from '@/components/HeroSection'
+import Heading from '@/components/Heading'
 
 const title = 'About Us'
 const content =
@@ -34,7 +35,7 @@ export default function About() {
       <div className="about_teams">
         <div className={styles.second_section}>
           <AboutTeam
-            aboutText="Team Trident, a distinguished division within the SAE Collegiate Club at IIT BHU, has a rich legacy of innovation and engineering prowess. Their journey epitomizes teamwork, dedication, and a relentless pursuit of perfection.
+            aboutText="Team Trident, has a rich legacy of innovation and engineering prowess.
           "
             heading="Team Trident"
             img="/images/about/teamTri1.png"
@@ -43,7 +44,7 @@ export default function About() {
         </div>
         <div className={styles.third_section}>
           <AboutTeam
-            aboutText="The RC Car Team at IIT BHU, a subunit of the SAE Collegiate Club, has evolved from its roots in building remote-controlled cars to embracing the forefront of technological innovation – automation.
+            aboutText="The RC Car Team has evolved from its roots in building remote-controlled cars
           "
             heading="Team RC Car"
             img="/images/about/teamRC1.png"
@@ -52,9 +53,7 @@ export default function About() {
         </div>
       </div>
       <div className={styles.fifth_section}>
-        <div className={styles.heading_box}>
-          <div className={styles.fifth_section_heading}>Our Team</div>
-        </div>
+        <Heading headingText="Our Team" />
         <div className={styles.helm}>
           <MemberCard
             imageSrc="/images/about/team/AmanSrivastava.webp"

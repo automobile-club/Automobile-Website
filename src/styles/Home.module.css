@@ -1,8 +1,3 @@
-.main {
-  margin: 0px;
-  padding: 0px;
-}
-
 .sae_intro {
   padding-top: 2.25em;
   background-color: #1b1a1b;
@@ -13,6 +8,7 @@
   height: 37vw;
   padding-inline: 2vw;
 }
+
 .cards_img_saeintro {
   margin-top: 3vw;
   width: 100%;
@@ -45,13 +41,14 @@
   gap: 1vw;
 }
 
-.social_media > a {
+.social_media>a {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.social_media > a > img {
+
+.social_media>a>img {
   width: 40px;
 }
 
@@ -72,10 +69,6 @@
   padding: 2.5vw 0 2vw 0;
 }
 
-.ourachievments_heading {
-  padding-left: 11vw;
-}
-
 .achievments_cards_sae {
   gap: 5vw;
   display: flex;
@@ -84,231 +77,14 @@
   padding-inline: 11vw;
 }
 
-.achievments_card1_sae {
-  display: flex;
-  flex-direction: row;
-  background-color: rgb(248, 248, 251);
-  justify-content: center;
-  width: 20vw;
-  padding: 10px;
-  align-items: center;
-  border-radius: 30px;
-  transition: all 0.3s ease-in-out;
-  justify-content: space-around;
-}
-
-.achievments_card1_sae img {
-  width: 9vw;
-  padding: 1vw;
-}
-
-.achievments_card1_sae:hover {
-  transform: translate(0px, -10px) scale(1.1);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-}
-
-/* Our blogs */
-/* Our blogs */
-
-.blogs {
-  padding: 4vw 0;
-  background-color: #e5e5e9;
-}
-
-.blogHeading {
-  padding-left: 11vw;
-}
-
-.blogHeading h2 {
-  border-top: 5px solid transparent;
-  border-image: linear-gradient(to right, rgb(242, 84, 2) 4%, transparent 4%) 1;
-}
-
-.blogs > .ourBlogBtn {
-  margin-top: 3vw;
-}
-
 /* our mentors section */
 /* our mentors section */
-.ourmentors_sae {
-  background-color: rgb(236, 236, 241);
-  height: fit-content;
-  border-bottom: 3px solid rgb(207, 207, 207);
-  padding: 3vw 0;
-}
-
-.ourmentors_heading_text {
-  font-size: calc(1.5rem + 1vw);
-  border-top: 5px solid transparent;
-  border-image: linear-gradient(to right, rgb(242, 84, 2) 4%, transparent 4%) 1;
-}
-
-.ourmentors_cards_sae {
-  gap: 5vw;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 3vw;
-}
-
-.ourmentors_card1_sae {
-  display: flex;
-  flex-direction: row;
-  background-color: rgb(248, 248, 251);
-  justify-content: center;
-  width: 27vw;
-  height: 11vw;
-  padding: 10px;
-  align-items: center;
-  border-radius: 30px;
-  transition: all 0.2s ease-in-out;
-  justify-content: space-evenly;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-}
-
-.ourmentors_card1_sae:hover {
-  transform: translate(0px, -3px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.ourmentors_img {
-  width: 9vw;
-  height: 9vw;
-  padding: 1vw;
-}
-
-.ourmentors_card1_heading_text {
-  text-align: center;
-  color: #000000;
-}
-
-.ourmentors_card1_text {
-  display: flex;
-  font-size: 1.3vw;
-  text-align: center;
-}
 
 /* our mentors section */
 /* our mentors section */
 .ourmentor {
   background-color: rgb(236, 236, 241);
   padding-bottom: 5vw;
-}
-.ourmentors_real_heading_text {
-  padding-bottom: 4vw;
-  font-size: calc(1.5rem + 1vw);
-  border-top: 5px solid transparent;
-  border-image: linear-gradient(to right, rgb(242, 84, 2) 4%, transparent 4%) 1;
-}
-
-.ourmentors_real_card1_sae {
-  display: flex;
-  flex-direction: row;
-  background-color: rgb(248, 248, 251);
-  justify-content: center;
-  width: 26vw;
-  height: 12vw;
-  padding: 10px;
-  align-items: center;
-  border-radius: 30px;
-  transition: all 0.2s ease-in-out;
-  justify-content: space-evenly;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-}
-
-.ourmentors_real_card1_sae:hover {
-  transform: translate(0px, -3px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.ourmentors_real_img {
-  width: 9vw;
-  height: 9vw;
-  background: #f25402;
-  translate: 6vw -7vw;
-  border-radius: 0px 3vw 0px;
-}
-.achievments_real_card1_text {
-  position: relative;
-}
-.ourmentors_real_card1_heading_text {
-  position: absolute;
-  top: -22px;
-  right: 65px;
-  margin: 0;
-  color: #000000;
-  padding-inline: 0.5vw;
-}
-.ourmentors_real_card1_text {
-  display: flex;
-  height: 5vw;
-  width: 25vw;
-  translate: -3.5vw 1.4vw;
-  font-size: 1.2vw;
-  text-align: start;
-}
-/* ourteams section */
-/* ourteams section */
-
-.sae_ourteams {
-  background-color: rgb(236, 236, 241);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
-  width: 100%;
-  padding: 0 11vw;
-}
-
-.left_wrapper_ourteams {
-  display: flex;
-  padding: 4vw;
-  padding-left: 0;
-  flex-direction: column;
-}
-
-.line1 {
-  margin-left: 18.55vw;
-  margin-top: 7.48vw;
-  border-top: 4px solid rgb(242, 84, 2);
-  width: 2.6vw;
-}
-
-.heading_ourteams > h2 {
-  border-top: 5px solid transparent;
-  border-image: linear-gradient(to right, rgb(242, 84, 2) 9%, transparent 9%) 1;
-}
-
-.text_longcontent_ourteams {
-  color: black;
-  font-weight: 500;
-  font-size: 1.4vw;
-  line-height: 1.8vw;
-  padding: 2vw 0 3vw 0;
-  text-align: justify;
-}
-
-.right_wrapper_ourteams {
-  padding-top: 4vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-/* ourevents section */
-/* ourevents section */
-
-.events {
-  background-color: #e3e3e3;
-  padding: 50px 0;
-}
-
-.eventHeading {
-  padding-left: 11vw;
-}
-
-.eventHeading h2 {
-  border-top: 5px solid transparent;
-  border-image: linear-gradient(to right, rgb(242, 84, 2) 4%, transparent 4%) 1;
 }
 
 @media screen and (max-width: 3000px) {
@@ -327,6 +103,7 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   }
 }
+
 .vmBtn:hover {
   color: white;
   transform: translateY(-1px);
@@ -348,237 +125,7 @@
   padding: 20px;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  margin-bottom: 30px;
-}
-
-.card {
-  align-items: center;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  text-align: center;
-  width: 90vw;
-  max-width: 350px;
-  transition: transform 0.2s ease-in-out;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-.card img {
-  max-width: 95%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.card h2 {
-  font-size: calc(1.2rem + 0.45vw);
-  /* font-size: 28px; */
-  font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-.card p {
-  font-size: 18px;
-  font-weight: 400;
-  margin-bottom: 30px;
-  color: #555;
-}
-
-.card a {
-  color: #e25521;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 700;
-  border-bottom: 2px solid #e25521;
-  transition: border-bottom 0.2s ease-in-out;
-  display: inline-block;
-  margin-top: auto;
-}
-
-.card a::after {
-  content: ' →';
-}
-
-.card a:hover {
-  border-bottom: 2px solid #963715;
-}
-
-@media screen and (max-width: 500px) {
-  .card {
-    max-width: 260px;
-    padding: 13px;
-  }
-
-  .card img {
-    max-width: 75%;
-  }
-
-  .card h2 {
-    font-size: 20px;
-    margin: 15px 0;
-  }
-
-  .card a {
-    font-size: 12px;
-  }
-}
-
-.newBlogIdeas {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  background-color: #e86526;
-  width: 100%;
-  height: fit-content;
-}
-
-.sideContent {
-  margin-top: 25px;
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  margin-bottom: 20px;
-}
-
-.sideContent h1 {
-  font-size: 3vw;
-  font-weight: bold;
-}
-
-.sideContent h3 {
-  font-size: 1.5vw;
-  margin-left: 5px;
-}
-
-.bulb {
-  margin-top: -100px;
-  height: 300px;
-  width: 240px;
-}
-
-.email {
-  margin-top: 20px;
-  font-size: 1.2em;
-  background-color: black;
-  max-width: fit-content;
-  padding: 0px 20px;
-  border-radius: 30px;
-}
-
-.logo {
-  width: 40px;
-  margin-right: 15px;
-  padding: 10px 0px;
-}
-
-@media screen and (max-width: 1496px) {
-  .line1 {
-    margin-left: 18.55vw;
-    margin-top: 7.48vw;
-    border-top: 4px solid rgb(242, 84, 2);
-    width: 2.6vw;
-  }
-
-  .text_longcontent_ourteams {
-    color: black;
-    font-weight: 500;
-    font-size: 1.4vw;
-    line-height: 2.2vw;
-    padding: 2vw 0 3vw 0;
-    text-align: justify;
-  }
-}
-
-@media screen and (max-width: 1300px) {
-  .achievments_card1_sae {
-    width: 25vw;
-    padding: 10px;
-  }
-
-  .achievments_card1_sae img {
-    width: 10vw;
-    height: 10vw;
-    padding: 1vw;
-  }
-
-  .achievments_card1_text {
-    font-weight: 500;
-    font-size: 1.3vw;
-    line-height: 1.9vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .ourmentors_cards_sae {
-    width: 100%;
-    padding: 3vw;
-  }
-
-  .ourmentors_card1_sae {
-    width: 26vw;
-    height: 12vw;
-  }
-}
-
 @media screen and (max-width: 1200px) {
-  .left_wrapper_ourteams {
-    display: flex;
-    padding: 4vw;
-    padding-left: 0;
-    flex-direction: column;
-  }
-
-  .line1 {
-    margin-left: 18.55vw;
-    margin-top: 7.48vw;
-    border-top: 4px solid rgb(242, 84, 2);
-    width: 2.6vw;
-  }
-
-  .text_longcontent_ourteams {
-    color: black;
-    font-weight: 500;
-    font-size: 1.5vw;
-    line-height: 2.2vw;
-    padding: 2vw 0 3vw 0;
-    text-align: justify;
-  }
-
-  .right_wrapper_ourteams {
-    transform: scale(0.8);
-  }
-
-  .ourmentors_cards_sae {
-    width: 100%;
-    padding: 2.5vw;
-  }
-
-  .ourmentors_card1_sae {
-    width: 26vw;
-    height: 12.5vw;
-    padding: 10px;
-  }
-
-  .ourmentors_card1_heading_text {
-    font-size: 2.5vw;
-  }
-
-  .ourmentors_card1_text {
-    font-size: 1.6vw;
-  }
-
   .vmBtn {
     width: 100px;
     height: 30px;
@@ -586,12 +133,10 @@
 }
 
 @media screen and (max-width: 1150px) {
-  .row:nth-of-type(2) .card:nth-last-child(1) {
-    display: none;
-  }
-  .social_media > a > img {
+  .social_media>a>img {
     width: 35px;
   }
+
   .sae_long_text {
     font-size: 1rem;
     margin-bottom: 2px;
@@ -604,107 +149,27 @@
     text-align: center;
     padding-top: 4vw;
   }
+
   .ourachievments_sae {
     padding: 4vw 0 2vw 0;
-  }
-
-  .line1 {
-    margin-left: 18.55vw;
-    margin-top: 7.48vw;
-    border-top: 4px solid rgb(242, 84, 2);
-    width: 2.6vw;
-  }
-
-  .text_longcontent_ourteams {
-    color: black;
-    font-weight: 500;
-    font-size: 1.6vw;
-    line-height: 2.2vw;
-    padding: 2vw 0 3vw 0;
-    text-align: justify;
-  }
-
-  .right_wrapper_ourteams {
-    transform: scale(0.8);
-  }
-
-  .card {
-    width: auto;
-  }
-
-  .row:nth-of-type(2) {
-    display: none;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .ourmentors_cards_sae {
-    width: 100%;
-    padding: 2.7vw;
-  }
-
-  .ourmentors_card1_sae {
-    width: 32vw;
-    height: 14vw;
-  }
   .social_media {
     gap: 1.5vw;
   }
+
   .sae_long_text {
     font-size: 0.8rem;
   }
 }
 
 @media screen and (max-width: 800px) {
-  .bulb {
-    display: none;
-  }
-
-  .newBlogIdeas {
-    justify-content: center;
-  }
-
-  .sideContent {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .email {
-    margin-bottom: 15px;
-    margin-top: 10px;
-  }
-
-  .sideContent h1 {
-    font-size: 20px;
-    font-weight: bold;
-  }
-
-  .sideContent h3 {
-    font-size: 15px;
-    text-align: center;
-    margin-left: 5px;
-  }
-
   .sae_headings {
     color: white;
     text-align: center;
     padding-top: 4vw;
-  }
-
-  .sae_ourteams {
-    grid-template-columns: 1fr;
-    height: auto;
-  }
-
-  .right_wrapper_ourteams {
-    display: none;
-  }
-
-  .text_longcontent_ourteams {
-    font-size: 2.5vw;
-    line-height: 3.5vw;
   }
 }
 
@@ -720,12 +185,6 @@
   .sae_name_text {
     font-size: 36px;
   }
-  .sae_headings {
-    padding-top: 75px;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 24px;
-  }
 
   .sae_long_text {
     padding-top: 12px;
@@ -746,83 +205,16 @@
   .line {
     width: 68vw;
   }
-
-  .achievments_card1_sae {
-    background-color: rgb(248, 248, 251);
-    width: 24vw;
-    padding: 10px;
-  }
-
-  .achievments_card1_sae img {
-    width: 10.5vw;
-    height: 10.5vw;
-    padding: 1vw;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  /* here */
-  .ourmentors_sae {
-    height: auto;
-  }
-
-  .ourmentors_cards_sae {
-    width: 100%;
-    padding: 2.7vw;
-  }
-
-  .ourmentors_card1_sae {
-    width: 30vw;
-    height: 30vw;
-    flex-direction: column;
-  }
-
-  .ourmentors_img {
-    width: 13vw;
-    height: 13vw;
-  }
-
-  .ourmentors_card1_heading_text {
-    font-size: 3vw;
-  }
-
-  .ourmentors_card1_text {
-    font-size: 2vw;
-  }
 }
 
 @media screen and (max-width: 600px) {
-  .ourmentors_cards_sae {
-    width: 100%;
-    padding: 2.7vw;
-  }
 
   .social_media {
     gap: 2vw;
   }
+
   .achievments_cards_sae {
     gap: 6vw;
-  }
-
-  .achievments_card1_sae {
-    background-color: rgb(248, 248, 251);
-    width: 25vw;
-    padding: 10px;
-  }
-
-  .achievments_card1_sae img {
-    width: 10.7vw;
-    height: 10.7vw;
-    padding: 1vw;
-  }
-
-  .achievments_card1_text {
-    font-size: 1.8vw;
-    line-height: 2.2vw;
-  }
-
-  .row p {
-    display: none;
   }
 }
 
@@ -831,51 +223,15 @@
     height: fit-content;
   }
 
-  .achievments_card1_sae {
-    width: 50vw;
-  }
-
-  .achievments_card1_text {
-    font-size: 2.5vw;
-    line-height: 3vw;
-  }
-
-  .ourmentors_img {
-    width: 15vw;
-    height: 15vw;
-  }
-
   .achievments_cards_sae {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-left: 0vw;
   }
-
-  .ourmentors_card1_heading_text {
-    font-size: 5vw;
-    width: 65vw;
-  }
-
-  .ourmentors_card1_sae {
-    width: 90vw;
-    height: auto;
-    flex-direction: row;
-  }
-
-  .ourmentors_card1_text {
-    font-size: 3vw;
-    line-height: 3vw;
-  }
 }
 
 @media screen and (max-width: 500px) {
-  .sae_headings {
-    padding-top: 75px;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 24px;
-  }
 
   .sae_long_text {
     padding-top: 12px;
@@ -897,51 +253,12 @@
     width: 68vw;
   }
 
-  .right_wrapper_ourteams {
-    display: none;
-  }
-
-  .achievments_card1_sae {
-    width: 40vw;
-  }
-
   .achievments_cards_sae {
-padding-right: 6vw;
-  }
-
-  .achievments_card1_sae img {
-    width: 10.8vw;
-    height: 10.8vw;
-    padding: 1vw;
-  }
-
-  .achievments_card1_text {
-    font-weight: 500;
-    font-size: 1.9vw;
-    line-height: 2.2vw;
-  }
-
-  .ourmentors_card1_heading_text {
-    padding-top: 12px;
-  }
-
-  .ourmentors_sae {
-    height: auto;
-  }
-
-  .ourmentors_cards_sae {
-    width: 100%;
-    padding: 2.7vw;
+    padding-right: 6vw;
   }
 }
 
 @media screen and (max-width: 430px) {
-  .sae_headings {
-    padding-top: 75px;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 23px;
-  }
 
   .sae_long_text {
     padding-top: 12px;
@@ -962,28 +279,17 @@ padding-right: 6vw;
   .line {
     width: 68vw;
   }
-
-  .right_wrapper_ourteams {
-    display: none;
-  }
 }
 
-@media screen and (max-width: 350px) {
-  .row:nth-of-type(2) .card:nth-last-of-type(1),
-  .row:nth-of-type(2) .card:nth-last-of-type(2),
-  .row:nth-of-type(2) .card:nth-last-of-type(3) {
-    display: none;
-  }
-}
 
 @media screen and (min-width: 1250px) {
   .card_container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three columns */
-    grid-template-rows: repeat(
-      1,
-      50vw
-    ); /* Three rows with a height of 100px each */
+    grid-template-columns: repeat(3, 1fr);
+    /* Three columns */
+    grid-template-rows: repeat(1,
+        50vw);
+    /* Three rows with a height of 100px each */
     gap: 10px;
     padding-bottom: 3vw;
   }
@@ -992,10 +298,13 @@ padding-right: 6vw;
 @media screen and (min-width: 890px) and (max-width: 1250px) {
   .card_container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-columns: repeat(2, 1fr);
+    /* Two columns */
     /* grid-template-rows: repeat(3, 80vw); Three rows with a height of 100px each */
-    gap: 1px; /* Gap between grid items */
+    gap: 1px;
+    /* Gap between grid items */
   }
+
   .card4:nth-child(3) {
     display: none;
   }
@@ -1004,13 +313,15 @@ padding-right: 6vw;
 @media screen and (min-width: 800px) and (max-width: 890px) {
   .card_container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    grid-template-rows: repeat(
-      1,
-      65vw
-    ); /* Three rows with a height of 100px each */
-    gap: 10px; /* Gap between grid items */
+    grid-template-columns: repeat(2, 1fr);
+    /* Two columns */
+    grid-template-rows: repeat(1,
+        65vw);
+    /* Three rows with a height of 100px each */
+    gap: 10px;
+    /* Gap between grid items */
   }
+
   .card4:nth-child(3) {
     display: none;
   }
@@ -1027,6 +338,7 @@ padding-right: 6vw;
     margin-top: -8vw;
   }
 }
+
 @media screen and (min-width: 1950px) {
   .vmBtn {
     margin-top: -20vw;

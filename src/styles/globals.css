@@ -23,14 +23,9 @@ h4 {
   width: 8px;
 }
 
-*::-webkit-scrollbar-track {
-  background: #d4d4d4;
-}
-
 *::-webkit-scrollbar-thumb {
   background-color: #e25420;
   border-radius: 8px;
-  border: 0px outset #ffffff;
 }
 
 :root {

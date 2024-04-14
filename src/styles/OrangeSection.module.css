@@ -1,0 +1,79 @@
+.newBlogIdeas {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: #e86526;
+    width: 100%;
+    height: fit-content;
+}
+
+.bulb {
+    margin-top: -100px;
+    height: 300px;
+    width: 240px;
+}
+
+.sideContent {
+    margin-top: 25px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+.sideContent h1 {
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.sideContent h3 {
+    font-size: 1.5vw;
+    margin-left: 5px;
+}
+
+.email {
+    margin-top: 20px;
+    font-size: 1.2em;
+    background-color: black;
+    max-width: fit-content;
+    padding: 0px 20px;
+    border-radius: 30px;
+}
+
+.logo {
+    width: 40px;
+    margin-right: 15px;
+    padding: 10px 0px;
+}
+
+@media screen and (max-width: 800px) {
+    .bulb {
+        display: none;
+    }
+
+    .newBlogIdeas {
+        justify-content: center;
+    }
+
+    .sideContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .email {
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .sideContent h1 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .sideContent h3 {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 5px;
+    }
+}

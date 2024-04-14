@@ -134,6 +134,7 @@
   /* Adjust as needed */
   margin: 5vw auto;
   width: min-content;
+  margin-top: 0;
 }
 
 .helm2 {
@@ -237,5 +238,3 @@
     display: none;
   }
 }
-
-
