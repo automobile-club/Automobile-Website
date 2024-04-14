@@ -57,25 +57,25 @@ export default function About() {
         </div>
         <div className={styles.helm}>
           <MemberCard
-            imageSrc="/images/about/team/AmanSrivastava.jpg"
+            imageSrc="/images/about/team/AmanSrivastava.webp"
             memberName="Aman Srivastava"
             memberDesignation="Jt. Secretary"
-            memberInstagram={''}
-            memberLinkedIn={''}
+            memberInstagram="https://www.instagram.com/aman_sriv.25"
+            memberLinkedIn="https://www.linkedin.com/in/aman-srivastava-7a916b223/"
           />
           <MemberCard
-            imageSrc="/images/about/team/Shruti.jpg"
+            imageSrc="/images/about/team/Shruti.webp"
             memberName="Shruti Jha"
             memberDesignation="Secretary"
-            memberInstagram={''}
-            memberLinkedIn={''}
+            memberInstagram="https://www.instagram.com/__jhashruti/"
+            memberLinkedIn="https://in.linkedin.com/in/shruti-jha-13363b222"
           />
           <MemberCard
-            imageSrc="/images/about/team/Anshuman.jpeg"
+            imageSrc="/images/about/team/Anshuman.webp"
             memberName="Anshuman Chaurasia"
             memberDesignation="Jt. Secretary"
-            memberInstagram={''}
-            memberLinkedIn={''}
+            memberInstagram="https://www.instagram.com/anshhuman_chaurasia/"
+            memberLinkedIn="https://www.linkedin.com/in/anshuman-chaurasia"
           />
         </div>
         <div className={styles.helm2}>
@@ -90,15 +90,15 @@ export default function About() {
             imageSrc="/images/about/team/SaiyamJain.png"
             memberName="Saiyam Jain"
             memberDesignation="Web Team Head"
-            memberInstagram={''}
-            memberLinkedIn={''}
+            memberInstagram="https://www.instagram.com/saiyam_iitbhu"
+            memberLinkedIn="https://www.linkedin.com/in/sairev"
           />
           <MemberCard
             imageSrc="/images/about/team/PaltiSumasri.jpeg"
             memberName="Palti Sumasri"
             memberDesignation="Social Content Head"
-            memberInstagram={''}
-            memberLinkedIn={''}
+            memberInstagram="https://www.instagram.com/sumasri_palti"
+            memberLinkedIn="https://www.linkedin.com/in/sumasri-palti-6ba965230/"
           />
         </div>
       </div>
