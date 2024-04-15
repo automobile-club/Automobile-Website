@@ -59,12 +59,11 @@ const Footer: NextPage = () => {
             <h2 className={styles.heading1}>SAE</h2>
             <h2 className={styles.heading2}>Collegiate Club</h2>
           </div>
-          <p>TACK Ka full form Or pura tack ka address</p>
-          <p>IIT (BHU) Varanasi. India PIN: 221005</p>
+          <p>Technical Assistance Centre, Mechanical department, IIT (BHU) Varanasi, India PIN: 221005</p>
         </div>
         <div className={styles.social}>
           <h2>Socials</h2>
-          <div className={styles.socialItem}>
+          <div className={styles.socialItem1}>
             <img
               className={styles.instaicon}
               alt="insta logo"
@@ -115,13 +114,14 @@ const Footer: NextPage = () => {
               placeholder="Your email address"
             />
             <button type="submit">
-              <img src="/footer-images/submit_icon.svg" alt="Submit" />
+              <img src="/footer-images/submit_icon.svg" alt="Submit" className={styles.submitimg} />
             </button>
           </form>
         </div>
         {showScrollButton && (
           <div className={styles.scrollButton}>
             <img
+              className={styles.scrollImage}
               src="/footer-images/Vector.png"
               alt="Scroll to Top"
               onClick={scrollToTop}

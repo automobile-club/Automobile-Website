@@ -1,14 +1,14 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-family: var(--poppins-font) !important;
+  font-family: var(--font-poppins) !important;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: var(--outfit-font) !important;
+  font-family: var(--font-outfit) !important;
 }
 
 /* ===== Scrollbar CSS ===== */
@@ -23,14 +23,9 @@ h4 {
   width: 8px;
 }
 
-*::-webkit-scrollbar-track {
-  background: #d4d4d4;
-}
-
 *::-webkit-scrollbar-thumb {
   background-color: #e25420;
   border-radius: 8px;
-  border: 0px outset #ffffff;
 }
 
 :root {

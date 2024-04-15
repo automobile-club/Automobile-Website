@@ -1,0 +1,21 @@
+.heading {
+    padding: 5vw 11vw 1.5vw;
+}
+
+.heading_text {
+    font-size: calc(1.5rem + 1vw);
+    border-top: 5px solid transparent;
+    border-image: linear-gradient(to right, rgb(242, 84, 2) 4%, transparent 4%) 1;
+}
+@media screen and (max-width: 750px) {
+    .heading_text {
+        font-size: calc(1.5rem + 1.5vw);
+        border-image: linear-gradient(to right, rgb(242, 84, 2) 8%, transparent 8%) 1;
+    }
+}
+@media screen and (max-width: 500px) {
+    .heading_text {
+        font-size: calc(1.5rem + 2vw);
+        border-image: linear-gradient(to right, rgb(242, 84, 2) 10%, transparent 10%) 1;
+    }
+}

@@ -31,7 +31,7 @@
 }
 
 .links {
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
   font-style: normal;
   font-size: 18px;
   line-height: 20px;
@@ -42,21 +42,21 @@
 }
 
 .links::before {
-  transition: 350ms;
+  transition: width 0.3s ease; /* Add transition property */
   height: 2.5px;
   content: "";
   position: absolute;
-  background-color: #ffffff;
-}
-
-.navlinkltr::before {
-  width: 0%;
-  bottom: 10px;
+  background-color: #ffffff; /* Adjust line color */
+  bottom: -6px; /* Adjust distance from the text */
+  left: 0;
+  right: 0; /* Stretch the line to cover the link width */
+  width: 0; /* Initial width set to 0 */
 }
 
 .navlinkltr:hover::before {
-  width: 100%;
+  width: 100%; /* Increase width on hover to create the underline effect */
 }
+
 
 .navbarWhite .navlinkltr:hover::before {
   background-color: #000000;
@@ -83,7 +83,7 @@
 /* responsive */
 
 .linkshamburger {
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
   font-style: normal;
   font-size: 15px;
   padding-top: 4px;

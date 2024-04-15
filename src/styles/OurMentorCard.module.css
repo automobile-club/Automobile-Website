@@ -1,0 +1,143 @@
+/* OurMentorCard.module.css */
+
+.projcard_container {
+  display: flex;
+  justify-content: center; /* Center the cards horizontally */
+  align-items: center; /* Center the cards vertically */
+  flex-wrap: wrap; /* Allow cards to wrap to the next line on smaller screens */
+  
+}
+
+.projcard {
+  position: relative;
+  width: 100%; /* Set a fixed width for the card */
+  height: 300px; /* Allow the height to adjust based on content */
+  margin: 20px; /* Add margin around each card */
+  border-radius: 10px;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  font-size: 18px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, .66);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.projcard:hover {
+  box-shadow: 0 34px 32px -33px rgba(0, 0, 0, .18);
+  transform: translate(0px, -3px);
+}
+
+.projcard_innerbox {
+  display: flex;
+  flex-direction: row; /* Arrange inner elements vertically */
+  height: 100%; /* Expand innerbox to fill the card height */
+}
+
+.projcard_img {
+  width: 40%; /* Make image fill the container width */
+  height: auto; /* Allow image to adjust its height */
+  border-radius: 10px 10px 0 0; /* Apply border radius only to top corners */
+}
+
+.projcard_textbox {
+  align-items: center;
+  padding: 35px 10px 5px 10px; /* Add padding to innerbox */
+  display: flex;
+  flex-direction: column; /* Arrange inner elements vertically by default */
+}
+
+.projcard_title {
+  font-weight: 700;
+  color: #0d0925;
+  font-family: 'Voces', 'Open Sans', arial, sans-serif;
+  font-size: 27px;
+  margin-bottom: 10px; /* Add margin bottom to separate title and subtitle */
+}
+
+.projcard_subtitle {
+  font-size: 21px;
+  font-family: 'Voces', 'Open Sans', arial, sans-serif;
+  color: #888;
+  margin-bottom: 10px; /* Add margin bottom to separate subtitle and description */
+}
+
+.projcard_bar {
+  width: 50px;
+  height: 5px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: rgb(242, 84, 2);
+  transition: width 0.2s ease;
+}
+
+.projcard_description {
+  text-align: center;
+  font-size: 16px;
+  color: #424242;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 768px) {
+
+  .projcard {
+      width: 1150px; /* Adjust width for large screens */
+      flex-direction: column; /* Display image and description in a row */
+  }
+
+  .projcard_img {
+     /* Set image width to 50% of the card */
+      border-radius: 10px 0 0 10px; /* Apply border radius only to left corners */
+  }
+
+  .projcard_textbox {
+      padding: 20px 40px; /* Add padding to innerbox */
+  }
+}
+@media screen and (max-width: 728px) {
+
+  .projcard_container{
+    padding-inline: 13vw;
+  }
+
+  .projcard_innerbox {
+    
+    flex-direction: column; /* Display inner elements in a column */
+  }
+  .projcard{
+    height: auto; /* Allow the height to adjust based on content */
+    margin:0px;
+  }
+  .projcard_title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #0d0925;
+    text-align: center;
+  }
+  .projcard_subtitle{
+    font-size: 18px;
+    text-align: center;
+  }
+  .projcard_img {
+    width: 100%; /* Make image fill the container width */
+    border-radius: 10px 10px 0 0; /* Apply border radius only to top corners */
+  }
+
+  .projcard_textbox {
+    font-size: 2vw;
+    text-align: center;
+    width: 100%; /* Make text box fill the container width */
+    padding: 20px; /* Add padding to innerbox */
+    border-radius: 0 0 10px 10px; /* Apply border radius only to bottom corners */
+  }
+}
+
+@media  screen and (max-width: 500px){
+  
+  .projcard_container{
+    padding-inline: 8vw;
+  }
+
+}

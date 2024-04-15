@@ -4,6 +4,7 @@ import ReactPlayer from 'react-player/youtube'
 import MemberCard from './MemberCard'
 import AboutTeam from './AboutTeam'
 import HeroSection from '@/components/HeroSection'
+import Heading from '@/components/Heading'
 
 const title = 'About Us'
 const content =
@@ -26,7 +27,7 @@ export default function About() {
             Watch Our Intro Video<br></br>
             <button className={styles.youtube_btn}>
               Watch on &nbsp;
-              <img alt="youtube" src="/images/feYoutube2.png" />
+              <img alt="youtube" src="/images/social/youtube.png" />
             </button>
           </div>
         </div>
@@ -34,59 +35,69 @@ export default function About() {
       <div className="about_teams">
         <div className={styles.second_section}>
           <AboutTeam
-            aboutText="Team Trident, a distinguished division within the SAE Collegiate Club at IIT BHU, has a rich legacy of innovation and engineering prowess. Their journey epitomizes teamwork, dedication, and a relentless pursuit of perfection.
+            aboutText="Team Trident, has a rich legacy of innovation and engineering prowess.
           "
             heading="Team Trident"
-            img="/images/testimg.png"
-            img2="/images/testimg.png"
+            img="/images/about/teamTri1.png"
+            img2="/images/about/teamTri2.png"
           />
         </div>
         <div className={styles.third_section}>
           <AboutTeam
-            aboutText="The RC Car Team at IIT BHU, a subunit of the SAE Collegiate Club, has evolved from its roots in building remote-controlled cars to embracing the forefront of technological innovation – automation.
+            aboutText="The RC Car Team has evolved from its roots in building remote-controlled cars
           "
             heading="Team RC Car"
-            img="/images/testimg.png"
-            img2="/images/testimg.png"
+            img="/images/about/teamRC1.png"
+            img2="/images/about/teamRC2.png"
           />
         </div>
       </div>
       <div className={styles.fifth_section}>
-        <div className={styles.heading_box}>
-          <div className={styles.fifth_section_heading}>Our Team</div>
-        </div>
+        <Heading headingText="Our Team" />
         <div className={styles.helm}>
           <MemberCard
-            imageSrc="/images/AmanSrivastava.png"
+            imageSrc="/images/about/team/AmanSrivastava.webp"
             memberName="Aman Srivastava"
             memberDesignation="Jt. Secretary"
+            memberInstagram="https://www.instagram.com/aman_sriv.25"
+            memberLinkedIn="https://www.linkedin.com/in/aman-srivastava-7a916b223/"
           />
           <MemberCard
-            imageSrc="/images/Shruti.jpg"
+            imageSrc="/images/about/team/Shruti.webp"
             memberName="Shruti Jha"
             memberDesignation="Secretary"
+            memberInstagram="https://www.instagram.com/__jhashruti/"
+            memberLinkedIn="https://in.linkedin.com/in/shruti-jha-13363b222"
           />
           <MemberCard
-            imageSrc="/images/Anshuman.jpeg"
+            imageSrc="/images/about/team/Anshuman.webp"
             memberName="Anshuman Chaurasia"
             memberDesignation="Jt. Secretary"
+            memberInstagram="https://www.instagram.com/anshhuman_chaurasia/"
+            memberLinkedIn="https://www.linkedin.com/in/anshuman-chaurasia"
           />
         </div>
         <div className={styles.helm2}>
           <MemberCard
-            imageSrc="/images/NisthaJain.jpeg"
+            imageSrc="/images/about/team/NisthaJain.jpeg"
             memberName="Nistha Jain"
             memberDesignation="Design Head"
+            memberInstagram={''}
+            memberLinkedIn={''}
           />
           <MemberCard
-            imageSrc="/images/SaiyamJain.png"
+            imageSrc="/images/about/team/SaiyamJain.png"
             memberName="Saiyam Jain"
             memberDesignation="Web Team Head"
+            memberInstagram="https://www.instagram.com/saiyam_iitbhu"
+            memberLinkedIn="https://www.linkedin.com/in/sairev"
           />
           <MemberCard
-            imageSrc="/images/PaltiSumasri.jpeg"
+            imageSrc="/images/about/team/PaltiSumasri.jpeg"
             memberName="Palti Sumasri"
             memberDesignation="Social Content Head"
+            memberInstagram="https://www.instagram.com/sumasri_palti"
+            memberLinkedIn="https://www.linkedin.com/in/sumasri-palti-6ba965230/"
           />
         </div>
       </div>
