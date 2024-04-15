@@ -41,7 +41,6 @@ padding-bottom:15% ;
 }
 
 .achievements h1 {
-  font-family: "Outfit";
   font-style: normal;
   font-weight: 400;
   font-size: 45px;
@@ -58,7 +57,6 @@ padding-bottom:15% ;
 }
 
 .achievements h2 {
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -109,7 +107,7 @@ padding-bottom:15% ;
 }
 
 .teams h1 {
-  font-family: "Outfit";
+  /* font-family: "Outfit"; */
   font-style: normal;
   font-weight: 700;
   font-size: 45px;
@@ -120,7 +118,7 @@ padding-bottom:15% ;
 }
 
 .teams h2 {
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -315,13 +313,13 @@ padding-bottom: 5%;
   margin: none;
   left : 5%;
   font-size: 15.02;
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
 }
 .third_section h2 {
-  font-family: "Outfit";
+  /* font-family: "Outfit"; */
   font-style: normal;
   font-weight: 400;
-  font-size: 140%;
+  font-size: 200%;
   line-height: 100%;
   display: flex;
   justify-content: start;
@@ -345,7 +343,6 @@ padding-bottom: 5%;
   margin-top: -100px; 
   padding-top:2%;
 }
-
 
 
 @media screen and (max-width: 1451px) {
@@ -413,7 +410,7 @@ padding-bottom: 5%;
     margin: 3%;
     left : 10%;
     font-size: 15.02;
-    font-family: "Poppins";
+    /* font-family: "Poppins"; */
     padding-top: 3%;
     padding-bottom: 5%
   }
@@ -476,7 +473,7 @@ padding-bottom: 5%;
     height: auto;
   }
   .third_section h2 {
-    font-family: "Outfit";
+    /* font-family: "Outfit"; */
     font-style: normal;
     font-weight: 400;
     font-size: 250%;
@@ -494,7 +491,7 @@ padding-bottom: 5%;
     margin: 3%;
     left : 10%;
     font-size: 7.02;
-    font-family: "Poppins";
+    /* font-family: "Poppins"; */
     padding-top: 3%;
     padding-bottom:5%;
   }
@@ -551,4 +548,41 @@ padding-bottom: 5%;
     color: white;
   } 
   
+}
+@media screen and  (max-width:800px){
+  .third_section h2 {
+    font-size: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .bulb {
+    display: none;
+  }
+
+  .newBlogIdeas {
+    justify-content: center;
+  }
+
+  .sideContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .email {
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+
+  .sideContent h1 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .sideContent h3 {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 5px;
+  }
 }
