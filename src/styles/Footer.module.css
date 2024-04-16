@@ -52,14 +52,14 @@
   background-clip: text;
   color: transparent;
   font-weight: 700;
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 
 .heading2 {
   color: white;
   padding-left: 3%;
   font-weight: 600;
-  font-size: 3vw;
+  font-size: 2.5vw;
   white-space: nowrap;
 }
 
@@ -78,7 +78,7 @@
 .social h2 {
   color: white;
   font-weight: 600;
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 
 .socialContainer {
@@ -108,7 +108,7 @@
 }
 
 .submitcol h2 {
-  font-size: 3vw;
+  font-size: 2.5vw;
   color: white;
   font-weight: 600;
 }
