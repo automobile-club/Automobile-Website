@@ -36,7 +36,7 @@ function NavBar() {
       <Link href="/">
         <Image
           className={styles.caricon}
-          src={'/images/SAEVectorWhite.svg'}
+          src={'/images/navbar/SAEVectorWhite.svg'}
           alt="SAE"
           width={150}
           height={50}
@@ -45,7 +45,14 @@ function NavBar() {
 
       {isSmallScreen ? (
         <div className={styles.hamburger} onClick={handleDropdownClick}>
-          <img src={isMenuOpen ? '/close.svg' : '/menu.svg'} alt="menu" />
+          <img
+            src={
+              isMenuOpen
+                ? '/images/navbar/close.svg'
+                : '/images/navbar/menu.svg'
+            }
+            alt="menu"
+          />
         </div>
       ) : (
         <div className={styles.linkContainer}>
@@ -72,7 +79,6 @@ function NavBar() {
           </Nav.Link>
         </div>
       )}
-
       <motion.button
         whileHover={{
           scale: 1.1,
@@ -80,7 +86,7 @@ function NavBar() {
         }}
         className={styles.signInBtn}
       >
-        Trident
+        <Nav.Link href="/trident">Trident</Nav.Link>
       </motion.button>
 
       <AnimatePresence>
@@ -99,7 +105,7 @@ function NavBar() {
                   className={`${styles.links} ${styles.navlinkltr}`}
                 >
                   <Image
-                    src={'/images/SAEVectorWhite.svg'}
+                    src={'/images/navbar/SAEVectorWhite.svg'}
                     alt="SAE"
                     width={150}
                     height={50}
@@ -123,12 +129,6 @@ function NavBar() {
                 >
                   Events
                 </Nav.Link>
-                {/* <Nav.Link
-              href="/blog"
-              className={`${styles.links} ${styles.navlinkltr}`}
-            >
-              Blogs
-            </Nav.Link> */}
                 <Nav.Link
                   href="/projects"
                   className={`${styles.links} ${styles.navlinkltr}`}
@@ -142,7 +142,7 @@ function NavBar() {
                   }}
                   className={styles.signInBtnhamburger}
                 >
-                  Trident
+                  <Nav.Link href="/trident">Trident</Nav.Link>
                 </motion.button>
               </div>
             </div>

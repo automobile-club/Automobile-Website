@@ -3,6 +3,7 @@ import type { NextPage } from 'next'
 import styles from '@/styles/Footer.module.css'
 import Link from 'next/link'
 import { useState, useEffect, ChangeEvent, FormEvent } from 'react'
+import Image from 'next/image'
 
 const Footer: NextPage = () => {
   const [showScrollButton, setShowScrollButton] = useState(false)
@@ -42,66 +43,93 @@ const Footer: NextPage = () => {
   return (
     <div className={styles.outer}>
       <div className={styles.inner}>
-        <div className={styles.logo}>
+        <div className={styles.logoContainer}>
           <div className={styles.addlheading}>
             <h2 className={styles.headingl1}>SAE</h2>
             <h2 className={styles.headingl2}>Collegiate Club</h2>
           </div>
-          <img
+          <Image
+            width={100}
+            height={100}
             className={styles.building}
             alt="bhu building logo"
-            src="/footer-images/bhu_building.png"
+            src="/images/footer/bhuBuilding.svg"
           />
-          <img className={styles.sae} alt="sae logo" src="/footer-images/sae_logo.svg" />
+          <Image
+            width={100}
+            height={100}
+            className={styles.saeLogo}
+            alt="sae logo"
+            src="/images/footer/sae_logo.svg"
+          />
         </div>
         <div className={styles.address}>
           <div className={styles.addheading}>
             <h2 className={styles.heading1}>SAE</h2>
             <h2 className={styles.heading2}>Collegiate Club</h2>
           </div>
-          <p>Technical Assistance Centre, Mechanical department, IIT (BHU) Varanasi, India PIN: 221005</p>
+          <p>Technical Assistance Centre, Mechanical department</p>
+          <p>IIT (BHU) Varanasi, 221005, Uttar Pradesh, India</p>
         </div>
         <div className={styles.social}>
           <h2>Socials</h2>
-          <div className={styles.socialItem1}>
-            <img
-              className={styles.instaicon}
-              alt="insta logo"
-              src="/footer-images/instagram_icon.svg"
-            />
-            <Link href="https://www.instagram.com/saecollegiateclubiitbhu/">
-              Instagram{' '}
-            </Link>
-          </div>
-          <div className={styles.socialItem}>
-            <img
-              className={styles.facebookicon}
-              alt="fb logo"
-              src="/footer-images/facebook_icon.svg"
-            />
-            <Link href="https://www.facebook.com/SAEIITBHU/">Facebook </Link>
-          </div>
-          <div className={styles.socialItem}>
-            <img
-              className={styles.linkedinicon}
-              alt="linkedin logo"
-              src="/footer-images/linkedin_icon.svg"
-            />
-            <Link href="https://www.linkedin.com/company/sae-collegiate-club-iit-varanasi/">
-              {' '}
-              LinkedIn{' '}
-            </Link>
-          </div>
-          <div className={styles.socialItem}>
-            <img
-              className={styles.emailicon}
-              alt="mail logo"
-              src="/footer-images/emailicon.svg"
-            />
-            <Link href="mailto: saecollegiateclub.iitbhu@gmail.com">
-              {' '}
-              Email{' '}
-            </Link>
+          <div className={styles.socialContainer}>
+            <div>
+              <Link
+                href="https://www.instagram.com/saecollegiateclubiitbhu/"
+                className={styles.socialContainerChild}
+              >
+                <Image
+                  width={36}
+                  height={36}
+                  alt="insta logo"
+                  src="/images/social/instagram_hero.svg"
+                />
+                Instagram
+              </Link>
+            </div>
+            <div>
+              <Link
+                href="https://www.facebook.com/SAEIITBHU/"
+                className={styles.socialContainerChild}
+              >
+                <Image
+                  width={36}
+                  height={36}
+                  alt="fb logo"
+                  src="/images/social/facebook_hero.svg"
+                />
+                Facebook
+              </Link>
+            </div>
+            <div>
+              <Link
+                href="https://www.linkedin.com/company/sae-collegiate-club-iit-varanasi/"
+                className={styles.socialContainerChild}
+              >
+                <Image
+                  width={36}
+                  height={36}
+                  alt="linkedin logo"
+                  src="/images/social/linkedin_hero.svg"
+                />
+                LinkedIn
+              </Link>
+            </div>
+            <div>
+              <Link
+                href="mailto:saecollegiateclub.iitbhu@gmail.com"
+                className={styles.socialContainerChild}
+              >
+                <Image
+                  width={36}
+                  height={36}
+                  alt="mail logo"
+                  src="/images/social/mail_hero.svg"
+                />
+                Email
+              </Link>
+            </div>
           </div>
         </div>
         <div className={styles.submitcol}>
@@ -114,7 +142,11 @@ const Footer: NextPage = () => {
               placeholder="Your email address"
             />
             <button type="submit">
-              <img src="/footer-images/submit_icon.svg" alt="Submit" className={styles.submitimg} />
+              <img
+                src="/images/footer/submit_icon.svg"
+                alt="Submit"
+                className={styles.submitimg}
+              />
             </button>
           </form>
         </div>
@@ -122,7 +154,7 @@ const Footer: NextPage = () => {
           <div className={styles.scrollButton}>
             <img
               className={styles.scrollImage}
-              src="/footer-images/Vector.png"
+              src="/images/footer/Vector.png"
               alt="Scroll to Top"
               onClick={scrollToTop}
             />
@@ -131,31 +163,39 @@ const Footer: NextPage = () => {
         <div className={styles.nfoot}>
           <div className={styles.nsocial}>
             <a href="https://www.instagram.com/saecollegiateclubiitbhu/">
-              <img
+              <Image
+                width={45}
+                height={45}
                 className={styles.ninstaicon}
                 alt="insta logo"
-                src="/footer-images/instagram_icon.svg"
+                src="/images/social/instagram_hero.svg"
               />
             </a>
             <a href="https://www.facebook.com/SAEIITBHU/">
-              <img
+              <Image
+                width={45}
+                height={45}
                 className={styles.nfacebookicon}
                 alt="fb logo"
-                src="/footer-images/facebook_icon.svg"
+                src="/images/social/facebook_hero.svg"
               />
             </a>
             <a href="https://www.linkedin.com/company/sae-collegiate-club-iit-varanasi/">
-              <img
+              <Image
+                width={45}
+                height={45}
                 className={styles.nlinkedinicon}
                 alt="linkedin logo"
-                src="/footer-images/linkedin_icon.svg"
+                src="/images/social/linkedin_hero.svg"
               />
             </a>
-            <a href="mailto: saecollegiateclub.iitbhu@gmail.com">
-              <img
+            <a href="mailto:saecollegiateclub.iitbhu@gmail.com">
+              <Image
+                width={45}
+                height={45}
                 className={styles.nemailicon}
                 alt="mail logo"
-                src="/footer-images/emailicon.svg"
+                src="/images/social/mail_hero.svg"
               />
             </a>
           </div>
@@ -163,8 +203,14 @@ const Footer: NextPage = () => {
             <h2 className={styles.heading1}>SAE</h2>
             <h2 className={styles.heading2}>Collegiate Club</h2>
           </div>
-          <img className={styles.sae} alt="sae logo" src="/footer-images/sae_logo.svg" />
-          <div className={styles.niit}>IIT (BHU) Varanasi, India</div>
+          <Image
+            className={styles.smlSaeLogo}
+            width={250}
+            height={250}
+            alt="sae logo"
+            src="/images/footer/sae_logo.svg"
+          />
+          <h2 className={styles.niit}>IIT (BHU) Varanasi, India</h2>
         </div>
       </div>
     </div>

@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
-
 .navbarBlack {
   background-color: #1b1a1b;
   position: fixed;
@@ -31,7 +29,6 @@
 }
 
 .links {
-  /* font-family: "Poppins"; */
   font-style: normal;
   font-size: 18px;
   line-height: 20px;
@@ -42,19 +39,19 @@
 }
 
 .links::before {
-  transition: width 0.3s ease; /* Add transition property */
+  transition: width 0.3s ease;
   height: 2.5px;
   content: "";
   position: absolute;
-  background-color: #ffffff; /* Adjust line color */
-  bottom: -6px; /* Adjust distance from the text */
+  background-color: #ffffff;
+  bottom: 15px;
   left: 0;
-  right: 0; /* Stretch the line to cover the link width */
-  width: 0; /* Initial width set to 0 */
+  right: 0;
+  width: 0;
 }
 
 .navlinkltr:hover::before {
-  width: 100%; /* Increase width on hover to create the underline effect */
+  width: 100%;
 }
 
 
@@ -77,13 +74,9 @@
   border-radius: 20px;
   width: 100px;
   height: 36px;
-  /* padding-bottom: 4px; */
 }
 
-/* responsive */
-
 .linkshamburger {
-  /* font-family: "Poppins"; */
   font-style: normal;
   font-size: 15px;
   padding-top: 4px;
@@ -115,7 +108,6 @@
   color: rgb(0, 0, 0);
   border-radius: 20px;
   border: none;
-  /* margin-bottom: 300px; */
   width: 80px;
   height: 26px;
   text-align: center;
@@ -182,7 +174,6 @@
   }
 }
 
-/* full Screen Overlay */
 .fullScreenOverlay {
   position: fixed;
   top: 0;
